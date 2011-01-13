@@ -1,0 +1,14 @@
+TiPhone+OF Static Library
+v7
+r1
+cCheck dependencies
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone//libofxiPhone_macosx_Debug.a
+c00000000000000000000000000000000
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies316577473#316577473#0(66"[BEROR]error: There is no SDK with the name or path 'iphoneos4.1'1(4@58"error: There is no SDK with the name or path 'iphoneos4.1'316577473#18446744073709551615#0#0(1@0"0(0#1#0"4300911832#0"0#
+

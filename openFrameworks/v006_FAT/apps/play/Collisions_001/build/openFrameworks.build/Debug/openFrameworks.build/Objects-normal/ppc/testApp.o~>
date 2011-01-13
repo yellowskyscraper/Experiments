@@ -1,0 +1,4 @@
+/Users/adam/ORDINARY KIDS/PROJECTS/JIM/openFrameworks/006_FAT/apps/fuckingAround/Collisions_001/src/testApp.cpp: In member function 'virtual void testApp::setup()':
+/Users/adam/ORDINARY KIDS/PROJECTS/JIM/openFrameworks/006_FAT/apps/fuckingAround/Collisions_001/src/testApp.cpp:16: error: 'header' was not declared in this scope
+/Users/adam/ORDINARY KIDS/PROJECTS/JIM/openFrameworks/006_FAT/apps/fuckingAround/Collisions_001/src/testApp.cpp: In member function 'virtual void testApp::draw()':
+/Users/adam/ORDINARY KIDS/PROJECTS/JIM/openFrameworks/006_FAT/apps/fuckingAround/Collisions_001/src/testApp.cpp:41: error: 'header' was not declared in this scope
