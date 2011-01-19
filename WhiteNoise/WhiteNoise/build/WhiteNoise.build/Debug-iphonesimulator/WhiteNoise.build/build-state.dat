@@ -1,0 +1,256 @@
+TWhiteNoise
+v7
+r0
+t317084589.807653
+cCheck dependencies
+cProcessInfoPlistFile /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app/Info.plist WhiteNoise-Info.plist
+cCompileXIB /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/MainWindow.xib
+cCompileXIB /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/WhiteNoiseViewController.xib
+cProcessPCH /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/WhiteNoise_Prefix-bkdktogspccadcclcbcnujykqshm/WhiteNoise_Prefix.pch.gch WhiteNoise_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/Objects-normal/i386/main.o /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/Objects-normal/i386/WhiteNoiseAppDelegate.o /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/Classes/WhiteNoiseAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/Objects-normal/i386/WhiteNoiseViewController.o /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/Classes/WhiteNoiseViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app/WhiteNoise normal i386
+cGenerateDSYMFile /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app.dSYM /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app/WhiteNoise
+cTouch /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/Classes/WhiteNoiseAppDelegate.h
+c000000004D360BBE00000000000001F1
+t1295387582
+s497
+i<UIKit/UIKit.h>
+
+N/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/Classes/WhiteNoiseAppDelegate.m
+c000000004D360BBE0000000000000AA4
+t1295387582
+s2724
+i"WhiteNoiseAppDelegate.h"
+i"WhiteNoiseViewController.h"
+
+N/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/Classes/WhiteNoiseViewController.h
+c000000004D360BBE00000000000000F7
+t1295387582
+s247
+i<UIKit/UIKit.h>
+
+N/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/Classes/WhiteNoiseViewController.m
+c000000004D360BBE00000000000005CD
+t1295387582
+s1485
+i"WhiteNoiseViewController.h"
+
+N/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/MainWindow.xib
+c000000004D360BBE0000000000004E4D
+t1295387582
+s20045
+
+N/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/WhiteNoiseViewController.xib
+c000000004D360BBE0000000000001A51
+t1295387582
+s6737
+
+N/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/WhiteNoise_Prefix.pch
+c000000004D360BBE00000000000000BD
+t1295387582
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app
+t1295391789
+s238
+
+N/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app.dSYM
+t1295391789
+s102
+
+N/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app/Info.plist
+t1295391787
+s603
+
+N/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app/MainWindow.nib
+t1295391788
+s1129
+
+N/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app/PkgInfo
+t1295391787
+s8
+
+N/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app/WhiteNoise
+t1295391789
+s17336
+
+N/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app/WhiteNoiseViewController.nib
+t1295391788
+s795
+
+N/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/Objects-normal/i386/WhiteNoise.LinkFileList
+c000000004D361C2B00000000000001DE
+t1295391787
+s478
+
+N/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/Objects-normal/i386/WhiteNoiseAppDelegate.o
+t1295391789
+s51104
+
+N/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/Objects-normal/i386/WhiteNoiseViewController.o
+t1295391789
+s37600
+
+N/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/Objects-normal/i386/main.o
+t1295391789
+s6340
+
+N/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/main.m
+c000000004D360BBE000000000000016C
+t1295387582
+s364
+i<UIKit/UIKit.h>
+
+N/var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/WhiteNoise_Prefix-bkdktogspccadcclcbcnujykqshm/WhiteNoise_Prefix.pch.gch
+t1295391789
+s15453392
+
+NWhiteNoise-Info.plist
+c000000004D360BBE000000000000038D
+t1295387582
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies317084587#317084587#0(0"0(0#1#0"8247620834010738688#0"0#
+
+CCompileC build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/Objects-normal/i386/WhiteNoiseAppDelegate.o /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/Classes/WhiteNoiseAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317084589.366038
+e317084589.455242
+r1
+xCompileC
+xbuild/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/Objects-normal/i386/WhiteNoiseAppDelegate.o
+x/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/Classes/WhiteNoiseAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/Classes/WhiteNoiseAppDelegate.m317084589#317084589#0(0"0(0#0#89"/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/Classes/WhiteNoiseAppDelegate.m8604402336#2225"    cd /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/WhiteNoise-generated-files.hmap -I/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/WhiteNoise-own-target-headers.hmap -I/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/WhiteNoise-all-target-headers.hmap -iquote /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/WhiteNoise-project-headers.hmap -F/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator -I/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/include -I/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/DerivedSources -include /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/WhiteNoise_Prefix-bkdktogspccadcclcbcnujykqshm/WhiteNoise_Prefix.pch -c /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/Classes/WhiteNoiseAppDelegate.m -o /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/Objects-normal/i386/WhiteNoiseAppDelegate.o0#
+
+CCompileC build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/Objects-normal/i386/WhiteNoiseViewController.o /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/Classes/WhiteNoiseViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317084589.366665
+e317084589.451698
+r1
+xCompileC
+xbuild/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/Objects-normal/i386/WhiteNoiseViewController.o
+x/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/Classes/WhiteNoiseViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/Classes/WhiteNoiseViewController.m317084589#317084589#0(0"0(0#0#92"/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/Classes/WhiteNoiseViewController.m8600860608#2231"    cd /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/WhiteNoise-generated-files.hmap -I/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/WhiteNoise-own-target-headers.hmap -I/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/WhiteNoise-all-target-headers.hmap -iquote /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/WhiteNoise-project-headers.hmap -F/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator -I/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/include -I/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/DerivedSources -include /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/WhiteNoise_Prefix-bkdktogspccadcclcbcnujykqshm/WhiteNoise_Prefix.pch -c /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/Classes/WhiteNoiseViewController.m -o /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/Objects-normal/i386/WhiteNoiseViewController.o0#
+
+CCompileC build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/Objects-normal/i386/main.o /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317084589.365287
+e317084589.444037
+r1
+xCompileC
+xbuild/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/Objects-normal/i386/main.o
+x/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/main.m317084589#317084589#0(0"0(0#0#64"/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/main.m8602834048#2183"    cd /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/WhiteNoise-generated-files.hmap -I/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/WhiteNoise-own-target-headers.hmap -I/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/WhiteNoise-all-target-headers.hmap -iquote /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/WhiteNoise-project-headers.hmap -F/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator -I/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/include -I/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/DerivedSources -include /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/WhiteNoise_Prefix-bkdktogspccadcclcbcnujykqshm/WhiteNoise_Prefix.pch -c /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/main.m -o /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/MainWindow.xib
+s317084587.830939
+e317084588.306160
+r1
+xCompileXIB
+x/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib317084587#317084588#0(0"0(0#0#72"/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/MainWindow.xib8606329952#630"    cd /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app/MainWindow.nib /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/WhiteNoiseViewController.xib
+s317084587.832346
+e317084588.377664
+r1
+xCompileXIB
+x/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/WhiteNoiseViewController.xib
+lSLF07#2@39"CompileXIB WhiteNoiseViewController.xib317084587#317084588#0(0"0(0#0#86"/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/WhiteNoiseViewController.xib8606169376#658"    cd /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app/WhiteNoiseViewController.nib /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/WhiteNoiseViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app.dSYM /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app/WhiteNoise
+s317084589.727867
+e317084589.766193
+r1
+xGenerateDSYMFile
+x/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app.dSYM
+x/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app/WhiteNoise
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/WhiteNoise.app.dSYM build/Debug-iphonesimulator/WhiteNoise.app/WhiteNoise317084589#317084589#0(0"0(0#0#111"/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app/WhiteNoise8606940224#449"    cd /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app/WhiteNoise -o /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app.dSYM0#
+
+CLd /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app/WhiteNoise normal i386
+s317084589.455297
+e317084589.727790
+r1
+xLd
+x/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app/WhiteNoise
+xnormal
+xi386
+lSLF07#2@116"Link /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app/WhiteNoise317084589#317084589#0(0"0(0#0#0"8607855776#1010"    cd /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator -F/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator -filelist /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/Objects-normal/i386/WhiteNoise.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app/WhiteNoise0#
+
+CProcessInfoPlistFile /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app/Info.plist WhiteNoise-Info.plist
+s317084587.811879
+e317084587.830876
+r1
+xProcessInfoPlistFile
+x/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app/Info.plist
+xWhiteNoise-Info.plist
+lSLF07#2@29"Process WhiteNoise-Info.plist317084587#317084587#0(0"0(0#0#79"/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/WhiteNoise-Info.plist32370073300566096#545"    cd /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility WhiteNoise-Info.plist -genpkginfo /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app/Info.plist0#
+
+CProcessPCH /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/WhiteNoise_Prefix-bkdktogspccadcclcbcnujykqshm/WhiteNoise_Prefix.pch.gch WhiteNoise_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s317084588.377922
+e317084589.365128
+r1
+xProcessPCH
+x/var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/WhiteNoise_Prefix-bkdktogspccadcclcbcnujykqshm/WhiteNoise_Prefix.pch.gch
+xWhiteNoise_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile WhiteNoise_Prefix.pch317084588#317084589#0(0"0(0#0#79"/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/WhiteNoise_Prefix.pch8603505472#2053"    cd /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/WhiteNoise-generated-files.hmap -I/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/WhiteNoise-own-target-headers.hmap -I/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/WhiteNoise-all-target-headers.hmap -iquote /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/WhiteNoise-project-headers.hmap -F/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator -I/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/include -I/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/WhiteNoise.build/Debug-iphonesimulator/WhiteNoise.build/DerivedSources -c /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/WhiteNoise_Prefix.pch -o /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/WhiteNoise_Prefix-bkdktogspccadcclcbcnujykqshm/WhiteNoise_Prefix.pch.gch0#
+
+CTouch /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app
+s317084589.766260
+e317084589.807624
+r1
+xTouch
+x/Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app
+lSLF07#2@106"Touch /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app317084589#317084589#0(0"0(0#0#0"8606653472#319"    cd /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jhovell/Projects/Experiments/WhiteNoise/WhiteNoise/build/Debug-iphonesimulator/WhiteNoise.app0#
+
