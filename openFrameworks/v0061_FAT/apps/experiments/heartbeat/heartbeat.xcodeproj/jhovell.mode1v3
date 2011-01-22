@@ -266,16 +266,19 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>E4B69B4A0A3A1720003C02F2</string>
+								<string>E4B69E1C0A3A1BDC003C02F2</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>8</integer>
+									<integer>3</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {186, 445}}</string>
+							<string>{{0, 0}, {186, 623}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -287,14 +290,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {203, 463}}</string>
+						<string>{{0, 0}, {203, 641}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>262 308 788 504 0 0 1600 878 </string>
+						<string>262 130 1057 682 0 0 1600 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -310,7 +313,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MyNewFile14.java</string>
+								<string>Circle.cpp</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -318,7 +321,18 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MyNewFile14.java</string>
+										<string>Circle.cpp</string>
+										<key>_historyCapacity</key>
+										<integer>0</integer>
+										<key>bookmark</key>
+										<string>CF52169112EA588C001CECD4</string>
+										<key>history</key>
+										<array>
+											<string>CF52168912EA5843001CECD4</string>
+											<string>CF52168A12EA5843001CECD4</string>
+											<string>CF52168B12EA5843001CECD4</string>
+											<string>CF52168C12EA5843001CECD4</string>
+										</array>
 									</dict>
 									<key>SplitCount</key>
 									<string>1</string>
@@ -329,14 +343,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {580, 277}}</string>
+								<string>{{0, 0}, {849, 514}}</string>
 								<key>RubberWindowFrame</key>
-								<string>262 308 788 504 0 0 1600 878 </string>
+								<string>262 130 1057 682 0 0 1600 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>277pt</string>
+							<string>514pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -349,18 +363,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 282}, {580, 181}}</string>
+								<string>{{0, 519}, {849, 122}}</string>
 								<key>RubberWindowFrame</key>
-								<string>262 308 788 504 0 0 1600 878 </string>
+								<string>262 130 1057 682 0 0 1600 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>181pt</string>
+							<string>122pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>580pt</string>
+					<string>849pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -375,9 +389,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>CFCD4FBE12DE96E0008C3F7D</string>
+				<string>CF52168E12EA5843001CECD4</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>CFCD4FBF12DE96E0008C3F7D</string>
+				<string>CF52168F12EA5843001CECD4</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -515,15 +529,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>CFCD4FCB12DE96E0008C3F7D</string>
-		<string>CFCD4FCC12DE96E0008C3F7D</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>CFCD4FC112DE96E0008C3F7D</string>
 		<string>/Users/jhovell/Projects/Experiments/openFrameworks/v0061_FAT/apps/experiments/heartbeat/heartbeat.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>262 308 788 504 0 0 1600 878 </string>
+	<string>262 130 1057 682 0 0 1600 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -600,7 +610,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>CFCD4FC112DE96E0008C3F7D</string>
-				<string>CFCD4FC212DE96E0008C3F7D</string>
+				<string>CF52169012EA5843001CECD4</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

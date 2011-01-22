@@ -1,0 +1,207 @@
+TCherry
+v7
+r0
+t317333097.973240
+cCheck dependencies
+cProcessInfoPlistFile /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app/Info.plist Cherry-Info.plist
+cCompileXIB /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/MainWindow.xib
+cProcessPCH /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Cherry_Prefix-ccgfsuwnfycusbekfjptbloogrvn/Cherry_Prefix.pch.gch Cherry_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Cherry.build/Debug-iphonesimulator/Cherry.build/Objects-normal/i386/main.o /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Cherry.build/Debug-iphonesimulator/Cherry.build/Objects-normal/i386/CherryAppDelegate.o /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/Classes/CherryAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app/Cherry normal i386
+cGenerateDSYMFile /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app.dSYM /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app/Cherry
+cTouch /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/Cherry_Prefix.pch
+c000000004D39E62800000000000000B5
+t1295640104
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/Classes/CherryAppDelegate.h
+c000000004D39E6280000000000000144
+t1295640104
+s324
+i<UIKit/UIKit.h>
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/Classes/CherryAppDelegate.m
+c000000004D39E62800000000000009CA
+t1295640104
+s2506
+i"CherryAppDelegate.h"
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/MainWindow.xib
+c000000004D39E6280000000000002103
+t1295640104
+s8451
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Cherry.build/Debug-iphonesimulator/Cherry.build/Objects-normal/i386/Cherry.LinkFileList
+c000000004D39E6E8000000000000011B
+t1295640296
+s283
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Cherry.build/Debug-iphonesimulator/Cherry.build/Objects-normal/i386/CherryAppDelegate.o
+t1295640297
+s49280
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Cherry.build/Debug-iphonesimulator/Cherry.build/Objects-normal/i386/main.o
+t1295640297
+s6332
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app
+t1295640297
+s204
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app.dSYM
+t1295640297
+s102
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app/Cherry
+t1295640297
+s15648
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app/Info.plist
+t1295640296
+s587
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app/MainWindow.nib
+t1295640296
+s983
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app/PkgInfo
+t1295640296
+s8
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/main.m
+c000000004D39E6280000000000000168
+t1295640104
+s360
+i<UIKit/UIKit.h>
+
+N/var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Cherry_Prefix-ccgfsuwnfycusbekfjptbloogrvn/Cherry_Prefix.pch.gch
+t1295640297
+s15453392
+
+NCherry-Info.plist
+c000000004D39E628000000000000038D
+t1295640104
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies317333096#317333096#0(0"0(0#1#0"8247620834010738688#0"0#
+
+CCompileC build/Cherry.build/Debug-iphonesimulator/Cherry.build/Objects-normal/i386/CherryAppDelegate.o /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/Classes/CherryAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317333097.545721
+e317333097.619240
+r1
+xCompileC
+xbuild/Cherry.build/Debug-iphonesimulator/Cherry.build/Objects-normal/i386/CherryAppDelegate.o
+x/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/Classes/CherryAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/Classes/CherryAppDelegate.m317333097#317333097#0(0"0(0#0#81"/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/Classes/CherryAppDelegate.m8600054784#2093"    cd /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Cherry.build/Debug-iphonesimulator/Cherry.build/Cherry-generated-files.hmap -I/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Cherry.build/Debug-iphonesimulator/Cherry.build/Cherry-own-target-headers.hmap -I/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Cherry.build/Debug-iphonesimulator/Cherry.build/Cherry-all-target-headers.hmap -iquote /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Cherry.build/Debug-iphonesimulator/Cherry.build/Cherry-project-headers.hmap -F/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator -I/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/include -I/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Cherry.build/Debug-iphonesimulator/Cherry.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Cherry.build/Debug-iphonesimulator/Cherry.build/DerivedSources -include /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Cherry_Prefix-ccgfsuwnfycusbekfjptbloogrvn/Cherry_Prefix.pch -c /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/Classes/CherryAppDelegate.m -o /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Cherry.build/Debug-iphonesimulator/Cherry.build/Objects-normal/i386/CherryAppDelegate.o0#
+
+CCompileC build/Cherry.build/Debug-iphonesimulator/Cherry.build/Objects-normal/i386/main.o /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317333097.544970
+e317333097.578644
+r1
+xCompileC
+xbuild/Cherry.build/Debug-iphonesimulator/Cherry.build/Objects-normal/i386/main.o
+x/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/main.m317333097#317333097#0(0"0(0#0#60"/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/main.m8602993760#2059"    cd /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Cherry.build/Debug-iphonesimulator/Cherry.build/Cherry-generated-files.hmap -I/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Cherry.build/Debug-iphonesimulator/Cherry.build/Cherry-own-target-headers.hmap -I/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Cherry.build/Debug-iphonesimulator/Cherry.build/Cherry-all-target-headers.hmap -iquote /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Cherry.build/Debug-iphonesimulator/Cherry.build/Cherry-project-headers.hmap -F/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator -I/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/include -I/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Cherry.build/Debug-iphonesimulator/Cherry.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Cherry.build/Debug-iphonesimulator/Cherry.build/DerivedSources -include /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Cherry_Prefix-ccgfsuwnfycusbekfjptbloogrvn/Cherry_Prefix.pch -c /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/main.m -o /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Cherry.build/Debug-iphonesimulator/Cherry.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/MainWindow.xib
+s317333096.562790
+e317333096.802396
+r1
+xCompileXIB
+x/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib317333096#317333096#0(0"0(0#0#68"/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/MainWindow.xib8615054752#614"    cd /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app/MainWindow.nib /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app.dSYM /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app/Cherry
+s317333097.919369
+e317333097.951859
+r1
+xGenerateDSYMFile
+x/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app.dSYM
+x/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app/Cherry
+lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/Cherry.app.dSYM build/Debug-iphonesimulator/Cherry.app/Cherry317333097#317333097#0(0"0(0#0#99"/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app/Cherry8617268032#425"    cd /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app/Cherry -o /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app.dSYM0#
+
+CLd /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app/Cherry normal i386
+s317333097.619326
+e317333097.919290
+r1
+xLd
+x/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app/Cherry
+xnormal
+xi386
+lSLF07#2@104"Link /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app/Cherry317333097#317333097#0(0"0(0#0#0"8614097504#970"    cd /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator -F/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator -filelist /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Cherry.build/Debug-iphonesimulator/Cherry.build/Objects-normal/i386/Cherry.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app/Cherry0#
+
+CProcessInfoPlistFile /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app/Info.plist Cherry-Info.plist
+s317333096.506076
+e317333096.562731
+r1
+xProcessInfoPlistFile
+x/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app/Info.plist
+xCherry-Info.plist
+lSLF07#2@25"Process Cherry-Info.plist317333096#317333096#0(0"0(0#0#71"/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/Cherry-Info.plist30962560973865072#521"    cd /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Cherry-Info.plist -genpkginfo /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app/Info.plist0#
+
+CProcessPCH /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Cherry_Prefix-ccgfsuwnfycusbekfjptbloogrvn/Cherry_Prefix.pch.gch Cherry_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s317333096.802488
+e317333097.544890
+r1
+xProcessPCH
+x/var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Cherry_Prefix-ccgfsuwnfycusbekfjptbloogrvn/Cherry_Prefix.pch.gch
+xCherry_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile Cherry_Prefix.pch317333096#317333097#0(0"0(0#0#71"/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/Cherry_Prefix.pch8458738005978870784#1937"    cd /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Cherry.build/Debug-iphonesimulator/Cherry.build/Cherry-generated-files.hmap -I/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Cherry.build/Debug-iphonesimulator/Cherry.build/Cherry-own-target-headers.hmap -I/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Cherry.build/Debug-iphonesimulator/Cherry.build/Cherry-all-target-headers.hmap -iquote /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Cherry.build/Debug-iphonesimulator/Cherry.build/Cherry-project-headers.hmap -F/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator -I/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/include -I/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Cherry.build/Debug-iphonesimulator/Cherry.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Cherry.build/Debug-iphonesimulator/Cherry.build/DerivedSources -c /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/Cherry_Prefix.pch -o /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Cherry_Prefix-ccgfsuwnfycusbekfjptbloogrvn/Cherry_Prefix.pch.gch0#
+
+CTouch /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app
+s317333097.951915
+e317333097.973114
+r1
+xTouch
+x/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app
+lSLF07#2@98"Touch /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app317333097#317333097#0(0"0(0#0#0"8614989600#307"    cd /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/build/Debug-iphonesimulator/Cherry.app0#
+

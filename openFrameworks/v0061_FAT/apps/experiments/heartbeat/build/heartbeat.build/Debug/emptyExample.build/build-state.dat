@@ -18,8 +18,8 @@ cPBXCp bin/emptyExampleDebug.app/Contents/Resources/openFrameworks-Info.plist op
 cTouch /Users/jhovell/Projects/Experiments/openFrameworks/v0061_FAT/apps/experiments/heartbeat/bin//emptyExampleDebug.app
 
 N/Developer/SDKs/MacOSX10.5.sdk
-c000000004B7D589B00000000000000EE
-t1266505883
+c000000004C238B9B00000000000000EE
+t1277397915
 s238
 
 N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h
@@ -163,13 +163,13 @@ t1203411250
 s9690
 
 N/Developer/SDKs/MacOSX10.5.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
-c000000004AC3264000000000000010DD
-t1254303296
+c000000004A11EAF100000000000010DD
+t1242688241
 s4317
 
 N/Developer/SDKs/MacOSX10.5.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
-c000000004AC326400000000000003197
-t1254303296
+c000000004A11EAF10000000000003197
+t1242688241
 s12695
 
 N/System/Library/Frameworks/AGL.framework/AGL
@@ -2908,6 +2908,10 @@ t1265466914
 s4049
 i<windows.h>
 
+N/var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Carbon-abbglqeblwumllcnkjafzoklsvwq/Carbon.h.gch
+t2
+s0
+
 N/var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Carbon-fspbzrqplvgorfceuxwheshltsif/Carbon.h.gch
 t1294884696
 s54335856
@@ -3251,6 +3255,9 @@ CProcessInfoPlistFile /Users/james/Projects/openFrameworks/v0061_FAT/apps/experi
 r0
 
 CProcessInfoPlistFile /Users/jhovell/Projects/Experiments/openFrameworks/v0061_FAT/apps/experiments/heartbeat/bin//emptyExampleDebug.app/Contents/Info.plist openFrameworks-Info.plist
+r0
+
+CProcessPCH++ /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Carbon-abbglqeblwumllcnkjafzoklsvwq/Carbon.h.gch /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.gcc.4_2
 r0
 
 CProcessPCH++ /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Carbon-fspbzrqplvgorfceuxwheshltsif/Carbon.h.gch /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.gcc.4_2
