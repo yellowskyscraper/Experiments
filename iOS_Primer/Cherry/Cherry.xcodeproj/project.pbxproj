@@ -15,6 +15,10 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		CF52162712EA2276001CECD4 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF52162512EA2276001CECD4 /* MyViewController.m */; };
 		CF52162812EA2276001CECD4 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF52162612EA2276001CECD4 /* MyViewController.xib */; };
+		CF7F745A12FB98F700FD3189 /* Noise_Brown.caf in Resources */ = {isa = PBXBuildFile; fileRef = CF7F745812FB98F700FD3189 /* Noise_Brown.caf */; };
+		CF7F745B12FB98F700FD3189 /* Noise_White.caf in Resources */ = {isa = PBXBuildFile; fileRef = CF7F745912FB98F700FD3189 /* Noise_White.caf */; };
+		CF7F746312FB991600FD3189 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F746212FB991600FD3189 /* AVFoundation.framework */; };
+		CFE7ADDB12F2322D001958DC /* Noise_Brown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CFE7ADDA12F2322D001958DC /* Noise_Brown.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		CF52162412EA2276001CECD4 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
 		CF52162512EA2276001CECD4 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 		CF52162612EA2276001CECD4 /* MyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+		CF7F745812FB98F700FD3189 /* Noise_Brown.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Noise_Brown.caf; sourceTree = "<group>"; };
+		CF7F745912FB98F700FD3189 /* Noise_White.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Noise_White.caf; sourceTree = "<group>"; };
+		CF7F746212FB991600FD3189 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CFE7ADDA12F2322D001958DC /* Noise_Brown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Noise_Brown.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +49,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				CF7F746312FB991600FD3189 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +100,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CF7F745812FB98F700FD3189 /* Noise_Brown.caf */,
+				CF7F745912FB98F700FD3189 /* Noise_White.caf */,
+				CFE7ADDA12F2322D001958DC /* Noise_Brown.mp3 */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Cherry-Info.plist */,
 			);
@@ -100,6 +112,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CF7F746212FB991600FD3189 /* AVFoundation.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
@@ -158,6 +171,9 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				CF52162812EA2276001CECD4 /* MyViewController.xib in Resources */,
+				CFE7ADDB12F2322D001958DC /* Noise_Brown.mp3 in Resources */,
+				CF7F745A12FB98F700FD3189 /* Noise_Brown.caf in Resources */,
+				CF7F745B12FB98F700FD3189 /* Noise_White.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

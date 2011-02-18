@@ -1,7 +1,7 @@
 TopenFrameworks
 v7
 r0
-t316577493.270507
+t318894599.379208
 cCheck dependencies
 cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppGlutWindow.o /Users/jhovell/Projects/Experiments/openFrameworks/v0061_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppGlutWindow.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppRunner.o /Users/jhovell/Projects/Experiments/openFrameworks/v0061_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppRunner.cpp normal i386 c++ com.apple.compilers.gcc.4_2
@@ -4531,7 +4531,7 @@ i<string>
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies316577492#316577492#0(0"0(0#1#0"4300911832#0"0#
+lSLF07#2@18"Check dependencies318894597#318894599#0(0"0(0#1#0"8622593312#0"0#
 
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppGlutWindow.o /Users/james/Downloads/of_preRelease_v0061_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppGlutWindow.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s308871362.758557

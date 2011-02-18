@@ -1,0 +1,1771 @@
+TiPhone+OF Static Library
+v7
+r0
+t318894750.944778
+cCheck dependencies
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundPlayer.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneSoundPlayer.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxMultiTouch.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxMultiTouch/src/ofxMultiTouch.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKit.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneMapKit.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneExtras.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneExtras.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxAccelerometer.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxAccelerometer/src/ofxAccelerometer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofAppiPhoneWindow.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofAppiPhoneWindow.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneImagePicker.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundStream.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneSoundStream.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneKeyboard.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneKeyboard.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/EAGLView.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneCoreLocation.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneCoreLocation.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKitDelegate.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneMapKitDelegate.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAppDelegate.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAccelerometer.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAccelerometer.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/MSARootViewController.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/MSARootViewController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAlerts.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAlerts.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofAppRunner.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/app/ofAppRunner.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofTrueTypeFont.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTrueTypeFont.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofMath.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofMath.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofUtils.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofUtils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofGraphics.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofImage.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofTexture.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTexture.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofBitmapFont.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofBitmapFont.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ES1Renderer.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ES1Renderer.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ES2Renderer.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ES2Renderer.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cLibtool /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone//libofxiPhone_iphonesimulator_Debug.a normal i386
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h
+c00000000448600480000000000000556
+t1149632584
+s1366
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC1224600000000001EA9C0
+t1287725638
+s2009536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004CC1222F0000000000000A23
+t1287725615
+s2595
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004CC127E80000000000074190
+t1287727080
+s475536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004CC127DD00000000000001D0
+t1287727069
+s464
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004CC1294D00000000000002FE
+t1287727437
+s766
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004CC12977000000000017E7F0
+t1287727479
+s1566704
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004CC1226400000000000246A0
+t1287725668
+s149152
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004CC12308000000000000094F
+t1287725832
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004CC123080000000000000A61
+t1287725832
+s2657
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004CC123080000000000009369
+t1287725832
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004CC123080000000000003C4A
+t1287725832
+s15434
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/gl.h
+c000000004CC1230800000000000092AA
+t1287725832
+s37546
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/glext.h
+c000000004CC1230800000000000026AA
+t1287725832
+s9898
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004CC1230E0000000000019D40
+t1287725838
+s105792
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
+c000000004CB3FA080000000000001ADD
+t1286863368
+s6877
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/TargetConditionals.h
+c000000004CB3FA0800000000000031E9
+t1286863368
+s12777
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/errno.h
+c000000004CB3E48600000000000003EB
+t1286857862
+s1003
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/inttypes.h
+c000000004CB3E48600000000000027D1
+t1286857862
+s10193
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/mach-o/dyld.h
+c000000004AB98DF40000000000003D47
+t1253674484
+s15687
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/pthread.h
+c000000004CB3E48600000000000038F0
+t1286857862
+s14576
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/setjmp.h
+c000000004CB3E4860000000000000438
+t1286857862
+s1080
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/sys/select.h
+c000000004CBFACAC00000000000016A2
+t1287629996
+s5794
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/sys/sysctl.h
+c000000004CBFACAC0000000000007974
+t1287629996
+s31092
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/sys/time.h
+c000000004CBFACAC0000000000001E17
+t1287629996
+s7703
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/unistd.h
+c000000004CB3E486000000000000563E
+t1286857862
+s22078
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/wchar.h
+c000000004CB3E48600000000000025DA
+t1286857862
+s9690
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/float.h
+c000000004A1198340000000000001538
+t1242667060
+s5432
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxAccelerometer/src/ofxAccelerometer.h
+c000000004CE42E4C00000000000018EE
+t1290022476
+s6382
+i"ofTypes.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxMultiTouch/src/ofxMultiTouch.h
+c000000004CE42E4C0000000000000B9D
+t1290022476
+s2973
+i"ofMain.h"
+i"ofxMultiTouchListener.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxMultiTouch/src/ofxMultiTouchListener.h
+c000000004CE42E4C0000000000000BC9
+t1290022476
+s3017
+i"ofEvents.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxiPhone/ofxiPhone.h
+c000000004CE42E4E000000000000085A
+t1290022478
+s2138
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"ofxAccelerometer.h"
+i"ofxiPhoneAlerts.h"
+i"ofxMultiTouch.h"
+i"ofxiPhoneApp.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxiPhone/src/EAGLView.h
+c000000004CE42E4E000000000000094E
+t1290022478
+s2382
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+i"ESRenderer.h"
+i"ofxiPhone.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxiPhone/src/ES1Renderer.h
+c000000004CE42E4E0000000000000218
+t1290022478
+s536
+i"ESRenderer.h"
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxiPhone/src/ES2Renderer.h
+c000000004CE42E4E000000000000022E
+t1290022478
+s558
+i"ESRenderer.h"
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxiPhone/src/ESRenderer.h
+c000000004CE42E4E000000000000018E
+t1290022478
+s398
+i<QuartzCore/QuartzCore.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxiPhone/src/MSARootViewController.h
+c000000004CE42E4E0000000000000A4D
+t1290022478
+s2637
+i<UIKit/UIKit.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxiPhone/src/ofAppiPhoneWindow.h
+c000000004CE42E4E0000000000000CD5
+t1290022478
+s3285
+i"ofAppBaseWindow.h"
+i"glu.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxiPhone/src/ofxiPhoneAlerts.h
+c000000004CE42E4E0000000000000E48
+t1290022478
+s3656
+i"ofxiPhoneAlertsListener.h"
+i<list>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxiPhone/src/ofxiPhoneAlertsListener.h
+c000000004CE42E4E0000000000000862
+t1290022478
+s2146
+i"ofMain.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxiPhone/src/ofxiPhoneAppDelegate.h
+c000000004CE42E4E000000000000095F
+t1290022478
+s2399
+i<UIKit/UIKit.h>
+i"EAGLView.h"
+i"ofAppiPhoneWindow.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxiPhone/src/ofxiPhoneCoreLocation.h
+c000000004CE42E4E00000000000008A6
+t1290022478
+s2214
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i"ofMain.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxiPhone/src/ofxiPhoneImagePicker.h
+c000000004CE42E4E0000000000000C4D
+t1290022478
+s3149
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+i"ofMain.h"
+i<iostream>
+i<Availability.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxiPhone/src/ofxiPhoneKeyboard.h
+c000000004CE42E4E00000000000006A5
+t1290022478
+s1701
+i<UIKit/UIKit.h>
+i"ofMain.h"
+i"ofxiPhoneExtras.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxiPhone/src/ofxiPhoneMapKit.h
+c000000004CE42E4E000000000000162C
+t1290022478
+s5676
+i<Availability.h>
+i"ofMain.h"
+i<MapKit/MapKit.h>
+i"ofxiPhoneMapKitListener.h"
+i<list>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxiPhone/src/ofxiPhoneMapKitDelegate.h
+c000000004CE42E4E000000000000096B
+t1290022478
+s2411
+i<Availability.h>
+i<MapKit/MapKit.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxiPhone/src/ofxiPhoneMapKitListener.h
+c000000004CE42E4E0000000000000881
+t1290022478
+s2177
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/freetype/include/freetype2/freetype/config/ftheader.h
+c000000004CE42E500000000000005B39
+t1290022480
+s23353
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/freetype/include/freetype2/freetype/freetype.h
+c000000004CE42E500000000000032885
+t1290022480
+s206981
+i<ft2build.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/freetype/include/freetype2/freetype/ftglyph.h
+c000000004CE42E500000000000008DCF
+t1290022480
+s36303
+i<ft2build.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/freetype/include/freetype2/freetype/ftoutln.h
+c000000004CE42E500000000000007B3C
+t1290022480
+s31548
+i<ft2build.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/freetype/include/freetype2/freetype/fttrigon.h
+c000000004CE42E5000000000000020FB
+t1290022480
+s8443
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/app/ofAppBaseWindow.h
+c000000004CE42E500000000000000446
+t1290022480
+s1094
+i"ofTypes.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/app/ofAppGlutWindow.h
+c000000004CE42E50000000000000066B
+t1290022480
+s1643
+i"ofConstants.h"
+i"ofAppBaseWindow.h"
+i"glut.h"
+i<GLUT/glut.h>
+i<GL/glut.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/app/ofAppRunner.h
+c000000004CE42E50000000000000050D
+t1290022480
+s1293
+i"ofMain.h"
+i"ofBaseApp.h"
+i"ofAppBaseWindow.h"
+i"ofAppGlutWindow.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/app/ofBaseApp.h
+c000000004CE42E500000000000000376
+t1290022480
+s886
+i"ofTypes.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/events/ofEventUtils.h
+c000000004CE42E500000000000000AFA
+t1290022480
+s2810
+i"ofConstants.h"
+i"Poco/FIFOEvent.h"
+i"Poco/Delegate.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/graphics/ofBitmapFont.h
+c000000004CE42E500000000000000206
+t1290022480
+s518
+i"ofConstants.h"
+i"ofTexture.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/graphics/ofGraphics.h
+c000000004CE42E500000000000000D63
+t1290022480
+s3427
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/graphics/ofImage.h
+c000000004CE42E500000000000000D09
+t1290022480
+s3337
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGraphics.h"
+i"ofAppRunner.h"
+i"FreeImage.h"
+i"ofUtils.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/graphics/ofTexture.h
+c000000004CE42E500000000000000C4B
+t1290022480
+s3147
+i"ofConstants.h"
+i"ofGraphics.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/graphics/ofTrueTypeFont.h
+c000000004CE42E50000000000000087A
+t1290022480
+s2170
+i"ofConstants.h"
+i"ofGraphics.h"
+i"ofUtils.h"
+i"ofTypes.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/utils/ofConstants.h
+c000000004CE42E500000000000002ACC
+t1290022480
+s10956
+i<TargetConditionals.h>
+i<windows.h>
+i"GLee.h"
+i"glu.h"
+i<unistd.h>
+i"GLee.h"
+i<OpenGL/glu.h>
+i<ApplicationServices/ApplicationServices.h>
+i<unistd.h>
+i"GLee.h"
+i<GL/glu.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<cstdlib>
+i<cstdio>
+i<cstdarg>
+i<cmath>
+i<ctime>
+i<cstdlib>
+i<string>
+i<iostream>
+i<vector>
+i<cstring>
+i<sstream>
+i<iomanip>
+i<fstream>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/utils/ofMath.h
+c000000004CE42E500000000000000A66
+t1290022480
+s2662
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/utils/ofNoise.h
+c000000004CE42E500000000000004F24
+t1290022480
+s20260
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/utils/ofTypes.h
+c000000004CE42E500000000000001D5F
+t1290022480
+s7519
+i"ofConstants.h"
+i"ofUtils.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/utils/ofUtils.h
+c000000004CE42E5000000000000005A4
+t1290022480
+s1444
+i"ofConstants.h"
+i<shellapi.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxAccelerometer/src/ofxAccelerometer.cpp
+c000000004CE42E4C000000000000075A
+t1290022476
+s1882
+i"ofxAccelerometer.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxAccelerometer/src/ofxAccelerometer.h
+c000000004CE42E4C00000000000018EE
+t1290022476
+s6382
+i"ofTypes.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxMultiTouch/src/ofxMultiTouch.cpp
+c000000004CE42E4C0000000000000A06
+t1290022476
+s2566
+i"ofxMultiTouch.h"
+i"ofxiPhoneApp.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/ofxiPhoneExtras.h
+c000000004CE42E4E00000000000021C9
+t1290022478
+s8649
+i<UIKit/UIKit.h>
+i"ofMain.h"
+i"ofxiPhone.h"
+i"ofAppiPhoneWindow.h"
+i"ofxiPhoneAppDelegate.h"
+i"EAGLView.h"
+i"ofxiPhoneKeyboard.h"
+i"ofxiPhoneCoreLocation.h"
+i"ofxiPhoneImagePicker.h"
+i"ofxiPhoneMapKit.h"
+i<sys/sysctl.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.h
+c000000004CE42E4E000000000000094E
+t1290022478
+s2382
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+i"ESRenderer.h"
+i"ofxiPhone.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm
+c000000004CE42E4E0000000000001A5B
+t1290022478
+s6747
+i"ofMain.h"
+i"ofxiPhoneExtras.h"
+i"EAGLView.h"
+i"ES1Renderer.h"
+i"ES2Renderer.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ES1Renderer.mm
+c000000004CE42E4E0000000000000B54
+t1290022478
+s2900
+i"ES1Renderer.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ES2Renderer.mm
+c000000004CE42E4E0000000000001DDD
+t1290022478
+s7645
+i"ES2Renderer.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/MSARootViewController.mm
+c000000004CE42E4E0000000000001BC5
+t1290022478
+s7109
+i"MSARootViewController.h"
+i"ofxiPhone.h"
+i"ofxiPhoneExtras.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofAppiPhoneWindow.h
+c000000004CE42E4E0000000000000CD5
+t1290022478
+s3285
+i"ofAppBaseWindow.h"
+i"glu.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofAppiPhoneWindow.mm
+c000000004CE42E4E0000000000002840
+t1290022478
+s10304
+i"ofMain.h"
+i"ofAppiPhoneWindow.h"
+i"ofxiPhoneExtras.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAccelerometer.mm
+c000000004CE42E4E0000000000000D44
+t1290022478
+s3396
+i"ofxAccelerometer.h"
+i"ofMain.h"
+i<UIKit/UIKit.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAlerts.mm
+c000000004CE42E4E0000000000000718
+t1290022478
+s1816
+i"ofxiPhoneAlerts.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneApp.h
+c000000004CE42E4E000000000000046B
+t1290022478
+s1131
+i"ofMain.h"
+i"ofEvents.h"
+i"ofxiPhoneAlerts.h"
+i"ofxMultiTouch.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.h
+c000000004CE42E4E000000000000095F
+t1290022478
+s2399
+i<UIKit/UIKit.h>
+i"EAGLView.h"
+i"ofAppiPhoneWindow.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm
+c000000004CE42E4E00000000000023F7
+t1290022478
+s9207
+i"ofxiPhoneAppDelegate.h"
+i"ofMain.h"
+i"ofxiPhone.h"
+i"ofxiPhoneExtras.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneCoreLocation.h
+c000000004CE42E4E00000000000008A6
+t1290022478
+s2214
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i"ofMain.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneCoreLocation.mm
+c000000004CE42E4E0000000000002060
+t1290022478
+s8288
+i"ofxiPhoneCoreLocation.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneExtras.mm
+c000000004CE42E4E000000000000364D
+t1290022478
+s13901
+i"ofxiPhoneExtras.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.h
+c000000004CE42E4E0000000000000C4D
+t1290022478
+s3149
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+i"ofMain.h"
+i<iostream>
+i<Availability.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm
+c000000004CE42E4E000000000000376D
+t1290022478
+s14189
+i"ofxiPhoneImagePicker.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneKeyboard.h
+c000000004CE42E4E00000000000006A5
+t1290022478
+s1701
+i<UIKit/UIKit.h>
+i"ofMain.h"
+i"ofxiPhoneExtras.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneKeyboard.mm
+c000000004CE42E4E00000000000024DA
+t1290022478
+s9434
+i"ofxiPhoneKeyboard.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneMapKit.mm
+c000000004CE42E4E0000000000001F2A
+t1290022478
+s7978
+i<Availability.h>
+i"ofxiPhoneMapKit.h"
+i"ofxiPhoneExtras.h"
+i"ofxiPhoneMapKitDelegate.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneMapKitDelegate.mm
+c000000004CE42E4E0000000000000B87
+t1290022478
+s2951
+i<Availability.h>
+i"ofxiPhoneMapKitDelegate.h"
+i"ofxiPhoneMapKit.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneSoundPlayer.mm
+c000000004CE42E4E0000000000001045
+t1290022478
+s4165
+i"ofSoundPlayer.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneSoundStream.mm
+c000000004CE42E4E000000000000276F
+t1290022478
+s10095
+i"ofMain.h"
+i"ofSoundStream.h"
+i<UIKit/UIKit.h>
+i<AudioToolbox/AudioToolbox.h>
+i"ofxiPhone.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../FreeImage/include/FreeImage.h
+c000000004CE42E50000000000000CC1B
+t1290022480
+s52251
+i<wchar.h>
+i<inttypes.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../freetype/include/ft2build.h
+c000000004CE42E500000000000000F32
+t1290022480
+s3890
+i<freetype/config/ftheader.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../glu/include_iphone/glu.h
+c000000004CE42E500000000000001F99
+t1290022480
+s8089
+i<OpenGLES/ES1/gl.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/app/ofAppRunner.cpp
+c000000004CE42E500000000000001876
+t1290022480
+s6262
+i"ofAppRunner.h"
+i"ofAppiPhoneWindow.h"
+i"ofAppGlutWindow.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/app/ofAppRunner.h
+c000000004CE42E50000000000000050D
+t1290022480
+s1293
+i"ofMain.h"
+i"ofBaseApp.h"
+i"ofAppBaseWindow.h"
+i"ofAppGlutWindow.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/app/ofBaseApp.h
+c000000004CE42E500000000000000376
+t1290022480
+s886
+i"ofTypes.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/events/ofEvents.h
+c000000004CE42E50000000000000126C
+t1290022480
+s4716
+i"ofConstants.h"
+i"ofUtils.h"
+i"ofEventUtils.h"
+i"ofxEventUtils.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofBitmapFont.cpp
+c000000004CE42E500000000000009D17
+t1290022480
+s40215
+i"ofBitmapFont.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp
+c000000004CE42E5000000000000081A7
+t1290022480
+s33191
+i"ofGraphics.h"
+i"ofAppRunner.h"
+i"ofBitmapFont.h"
+i<OpenGL/glu.h>
+i"glu.h"
+i"GL/glu.h"
+i"glu.h"
+i<vector>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.h
+c000000004CE42E500000000000000D63
+t1290022480
+s3427
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofImage.cpp
+c000000004CE42E500000000000003F3D
+t1290022480
+s16189
+i"ofImage.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofImage.h
+c000000004CE42E500000000000000D09
+t1290022480
+s3337
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGraphics.h"
+i"ofAppRunner.h"
+i"FreeImage.h"
+i"ofUtils.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTexture.cpp
+c000000004CE42E50000000000000481C
+t1290022480
+s18460
+i"ofTexture.h"
+i"ofUtils.h"
+i"ofAppRunner.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTexture.h
+c000000004CE42E500000000000000C4B
+t1290022480
+s3147
+i"ofConstants.h"
+i"ofGraphics.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTrueTypeFont.cpp
+c000000004CE42E500000000000006D00
+t1290022480
+s27904
+i"ofTrueTypeFont.h"
+i<ft2build.h>
+i<freetype/freetype.h>
+i<freetype/ftglyph.h>
+i<freetype/ftoutln.h>
+i<freetype/fttrigon.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTrueTypeFont.h
+c000000004CE42E50000000000000087A
+t1290022480
+s2170
+i"ofConstants.h"
+i"ofGraphics.h"
+i"ofUtils.h"
+i"ofTypes.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofMain.h
+c000000004CE42E500000000000000347
+t1290022480
+s839
+i"ofConstants.h"
+i"ofMath.h"
+i"ofUtils.h"
+i"ofTypes.h"
+i"ofSerial.h"
+i"ofArduino.h"
+i"ofTexture.h"
+i"ofTrueTypeFont.h"
+i"ofGraphics.h"
+i"ofImage.h"
+i"ofBaseApp.h"
+i"ofAppRunner.h"
+i"ofSoundStream.h"
+i"ofSoundPlayer.h"
+i"ofVideoGrabber.h"
+i"ofVideoPlayer.h"
+i"ofEvents.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/sound/ofSoundPlayer.h
+c000000004CE42E5000000000000006C3
+t1290022480
+s1731
+i"ofConstants.h"
+i"fmod.h"
+i"fmod_errors.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/sound/ofSoundStream.h
+c000000004CE42E500000000000000254
+t1290022480
+s596
+i"ofConstants.h"
+i"ofBaseApp.h"
+i"ofEvents.h"
+i"ofMath.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofConstants.h
+c000000004CE42E500000000000002ACC
+t1290022480
+s10956
+i<TargetConditionals.h>
+i<windows.h>
+i"GLee.h"
+i"glu.h"
+i<unistd.h>
+i"GLee.h"
+i<OpenGL/glu.h>
+i<ApplicationServices/ApplicationServices.h>
+i<unistd.h>
+i"GLee.h"
+i<GL/glu.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<cstdlib>
+i<cstdio>
+i<cstdarg>
+i<cmath>
+i<ctime>
+i<cstdlib>
+i<string>
+i<iostream>
+i<vector>
+i<cstring>
+i<sstream>
+i<iomanip>
+i<fstream>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofMath.cpp
+c000000004CE42E500000000000002440
+t1290022480
+s9280
+i"ofMath.h"
+i"ofAppRunner.h"
+i"float.h"
+i<sys/time.h>
+i"ofNoise.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofMath.h
+c000000004CE42E500000000000000A66
+t1290022480
+s2662
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofTypes.h
+c000000004CE42E500000000000001D5F
+t1290022480
+s7519
+i"ofConstants.h"
+i"ofUtils.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofUtils.cpp
+c000000004CE42E500000000000002A00
+t1290022480
+s10752
+i"ofUtils.h"
+i"ofImage.h"
+i"sys/time.h"
+i<mmsystem.h>
+i<direct.h>
+i<mach-o/dyld.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofUtils.h
+c000000004CE42E5000000000000005A4
+t1290022480
+s1444
+i"ofConstants.h"
+i<shellapi.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone//libofxiPhone_iphonesimulator_Debug.a
+t1297201950
+s11440888
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/EAGLView.o
+t1297201947
+s612944
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ES1Renderer.o
+t1297201950
+s16152
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ES2Renderer.o
+t1297201950
+s23920
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/MSARootViewController.o
+t1297201949
+s492588
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofAppRunner.o
+t1297201950
+s1653600
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofAppiPhoneWindow.o
+t1297201948
+s686676
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofBitmapFont.o
+t1297201950
+s90352
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofGraphics.o
+t1297201950
+s502572
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofImage.o
+t1297201950
+s373316
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofMath.o
+t1297201949
+s378944
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofTexture.o
+t1297201950
+s358932
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofTrueTypeFont.o
+t1297201949
+s285512
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofUtils.o
+t1297201949
+s431736
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxAccelerometer.o
+t1297201934
+s55136
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxMultiTouch.o
+t1297201947
+s446116
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAccelerometer.o
+t1297201949
+s342436
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAlerts.o
+t1297201949
+s366336
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAppDelegate.o
+t1297201949
+s714628
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneCoreLocation.o
+t1297201948
+s364352
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneExtras.o
+t1297201947
+s508164
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneImagePicker.o
+t1297201948
+s409252
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneKeyboard.o
+t1297201947
+s520524
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKit.o
+t1297201947
+s529292
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKitDelegate.o
+t1297201948
+s379232
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundPlayer.o
+t1297201933
+s58520
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundStream.o
+t1297201948
+s445784
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhone_iphonesimulator_Debug.LinkFileList
+c000000004D51BB09000000000000171F
+t1297201929
+s5919
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/AbstractDelegate.h
+c000000004CE42E500000000000000B2E
+t1290022480
+s2862
+i"Poco/Foundation.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/AbstractEvent.h
+c000000004CE42E500000000000002C6A
+t1290022480
+s11370
+i"Poco/Foundation.h"
+i"Poco/SingletonHolder.h"
+i"Poco/SharedPtr.h"
+i"Poco/ActiveResult.h"
+i"Poco/ActiveMethod.h"
+i"Poco/Mutex.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/ActiveMethod.h
+c000000004CE42E500000000000001C64
+t1290022480
+s7268
+i"Poco/Foundation.h"
+i"Poco/ActiveResult.h"
+i"Poco/ActiveRunnable.h"
+i"Poco/ActiveStarter.h"
+i"Poco/AutoPtr.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/ActiveResult.h
+c000000004CE42E500000000000002E66
+t1290022480
+s11878
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+i"Poco/Event.h"
+i"Poco/RefCountedObject.h"
+i"Poco/Exception.h"
+i<algorithm>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/ActiveRunnable.h
+c000000004CE42E500000000000001785
+t1290022480
+s6021
+i"Poco/Foundation.h"
+i"Poco/ActiveResult.h"
+i"Poco/Runnable.h"
+i"Poco/RefCountedObject.h"
+i"Poco/AutoPtr.h"
+i"Poco/Exception.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/ActiveStarter.h
+c000000004CE42E500000000000000927
+t1290022480
+s2343
+i"Poco/Foundation.h"
+i"Poco/ThreadPool.h"
+i"Poco/ActiveRunnable.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/AutoPtr.h
+c000000004CE42E500000000000001E0C
+t1290022480
+s7692
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<algorithm>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Bugcheck.h
+c000000004CE42E5000000000000012FE
+t1290022480
+s4862
+i"Poco/Foundation.h"
+i<string>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/CompareFunctions.h
+c000000004CE42E5000000000000007EC
+t1290022480
+s2028
+i"Poco/Foundation.h"
+i<functional>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Config.h
+c000000004CE42E5000000000000008B5
+t1290022480
+s2229
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Delegate.h
+c000000004CE42E500000000000001802
+t1290022480
+s6146
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/FunctionDelegate.h"
+i"Poco/Expire.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Event.h
+c000000004CE42E500000000000000E21
+t1290022480
+s3617
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/Event_WIN32.h"
+i"Poco/Event_POSIX.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Event_POSIX.h
+c000000004CE42E500000000000000A91
+t1290022480
+s2705
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<pthread.h>
+i<errno.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Event_WIN32.h
+c000000004CE42E500000000000000947
+t1290022480
+s2375
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/UnWindows.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Exception.h
+c000000004CE42E5000000000000026AC
+t1290022480
+s9900
+i"Poco/Foundation.h"
+i<stdexcept>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Expire.h
+c000000004CE42E500000000000000CF1
+t1290022480
+s3313
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/Timestamp.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/FIFOEvent.h
+c000000004CE42E500000000000000AD4
+t1290022480
+s2772
+i"Poco/AbstractEvent.h"
+i"Poco/FIFOStrategy.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/CompareFunctions.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/FIFOStrategy.h
+c000000004CE42E5000000000000010F3
+t1290022480
+s4339
+i"Poco/NotificationStrategy.h"
+i<map>
+i<list>
+i<memory>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Foundation.h
+c000000004CE42E500000000000001023
+t1290022480
+s4131
+i"Poco/Config.h"
+i"Poco/Platform.h"
+i"Poco/Platform_WIN32.h"
+i"Poco/Platform_VMS.h"
+i"Poco/Platform_POSIX.h"
+i"Poco/Bugcheck.h"
+i"Poco/Types.h"
+i<string>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/FunctionDelegate.h
+c000000004CE42E5000000000000013CA
+t1290022480
+s5066
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Mutex.h
+c000000004CE42E520000000000001A61
+t1290022482
+s6753
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/ScopedLock.h"
+i"Poco/Mutex_WIN32.h"
+i"Poco/Mutex_POSIX.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Mutex_POSIX.h
+c000000004CE42E520000000000000AC3
+t1290022482
+s2755
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<pthread.h>
+i<errno.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Mutex_WIN32.h
+c000000004CE42E520000000000000A07
+t1290022482
+s2567
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/UnWindows.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/NotificationStrategy.h
+c000000004CE42E520000000000000A37
+t1290022482
+s2615
+i"Poco/Foundation.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Platform.h
+c000000004CE42E520000000000001A3A
+t1290022482
+s6714
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Platform_POSIX.h
+c000000004CE42E520000000000000843
+t1290022482
+s2115
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Platform_VMS.h
+c000000004CE42E520000000000000BAA
+t1290022482
+s2986
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Platform_WIN32.h
+c000000004CE42E520000000000000D4D
+t1290022482
+s3405
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/RefCountedObject.h
+c000000004CE42E520000000000000B10
+t1290022482
+s2832
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Runnable.h
+c000000004CE42E520000000000000861
+t1290022482
+s2145
+i"Poco/Foundation.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/ScopedLock.h
+c000000004CE42E5200000000000008EB
+t1290022482
+s2283
+i"Poco/Foundation.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/SharedPtr.h
+c000000004CE42E5200000000000021DE
+t1290022482
+s8670
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/Mutex.h"
+i<algorithm>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/SignalHandler.h
+c000000004CE42E5200000000000011EB
+t1290022482
+s4587
+i"Poco/Foundation.h"
+i<vector>
+i<setjmp.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/SingletonHolder.h
+c000000004CE42E520000000000000A64
+t1290022482
+s2660
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Thread.h
+c000000004CE42E520000000000001C3A
+t1290022482
+s7226
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+i"Poco/Thread_WIN32.h"
+i"Poco/Thread_POSIX.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/ThreadPool.h
+c000000004CE42E520000000000001849
+t1290022482
+s6217
+i"Poco/Foundation.h"
+i"Poco/Thread.h"
+i"Poco/Mutex.h"
+i<vector>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Thread_POSIX.h
+c000000004CE42E5200000000000012A8
+t1290022482
+s4776
+i"Poco/Foundation.h"
+i"Poco/Runnable.h"
+i"Poco/SignalHandler.h"
+i"Poco/Event.h"
+i"Poco/RefCountedObject.h"
+i"Poco/AutoPtr.h"
+i<pthread.h>
+i<sys/select.h>
+i<errno.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Thread_WIN32.h
+c000000004CE42E52000000000000106C
+t1290022482
+s4204
+i"Poco/Foundation.h"
+i"Poco/Runnable.h"
+i"Poco/UnWindows.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Timestamp.h
+c000000004CE42E5200000000000019A7
+t1290022482
+s6567
+i"Poco/Foundation.h"
+i<ctime>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Types.h
+c000000004CE42E520000000000001910
+t1290022482
+s6416
+i"Poco/Foundation.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/UnWindows.h
+c000000004CE42E520000000000000FD1
+t1290022482
+s4049
+i<windows.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318894729#318894729#0(0"0(0#1#0"8624721536#0"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/EAGLView.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s318894734.011206
+e318894747.893773
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/EAGLView.o
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@163"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm318894734#318894747#0(0"0(0#0#155"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm8613713696#2131"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhone_iphonesimulator_Debug.hmap" -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm -o "/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/EAGLView.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ES1Renderer.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ES1Renderer.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s318894749.937552
+e318894750.267433
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ES1Renderer.o
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ES1Renderer.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@166"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ES1Renderer.mm318894749#318894750#0(0"0(0#0#158"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ES1Renderer.mm8621892000#2137"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhone_iphonesimulator_Debug.hmap" -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ES1Renderer.mm -o "/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ES1Renderer.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ES2Renderer.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ES2Renderer.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s318894749.965534
+e318894750.310190
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ES2Renderer.o
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ES2Renderer.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@166"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ES2Renderer.mm318894749#318894750#0(0"0(0#0#158"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ES2Renderer.mm8616874368#2137"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhone_iphonesimulator_Debug.hmap" -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ES2Renderer.mm -o "/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ES2Renderer.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/MSARootViewController.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/MSARootViewController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s318894748.127459
+e318894749.560484
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/MSARootViewController.o
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/MSARootViewController.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@176"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/MSARootViewController.mm318894748#318894749#0(0"0(0#0#168"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/MSARootViewController.mm8621813088#2157"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhone_iphonesimulator_Debug.hmap" -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/MSARootViewController.mm -o "/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/MSARootViewController.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofAppRunner.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/app/ofAppRunner.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s318894748.554726
+e318894750.738404
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofAppRunner.o
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/app/ofAppRunner.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@162"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/app/ofAppRunner.cpp318894748#318894750#0(0"0(0#0#154"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/app/ofAppRunner.cpp8616907968#2079"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhone_iphonesimulator_Debug.hmap" -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/app/ofAppRunner.cpp -o "/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofAppRunner.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofAppiPhoneWindow.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofAppiPhoneWindow.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s318894729.883597
+e318894748.554589
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofAppiPhoneWindow.o
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofAppiPhoneWindow.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@172"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofAppiPhoneWindow.mm318894729#318894748#0(0"0(0#0#164"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofAppiPhoneWindow.mm8617194912#2149"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhone_iphonesimulator_Debug.hmap" -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofAppiPhoneWindow.mm -o "/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofAppiPhoneWindow.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofBitmapFont.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofBitmapFont.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s318894749.792919
+e318894750.340827
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofBitmapFont.o
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofBitmapFont.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@168"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofBitmapFont.cpp318894749#318894750#0(0"0(0#0#160"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofBitmapFont.cpp8624017088#2086"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhone_iphonesimulator_Debug.hmap" -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofBitmapFont.cpp -o "/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofBitmapFont.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofGraphics.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s318894749.051244
+e318894750.174012
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofGraphics.o
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp: In function 'void ofDrawBitmapString(std::string, float, float)':
+o/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp:676: warning: unused variable 'yOffset'
+lSLF07#2@166"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp318894749#318894750#0(425"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp: In function 'void ofDrawBitmapString(std::string, float, float)':/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp:676: warning: unused variable 'yOffset'1(22@25"Unused variable 'yOffset'318894749#226#199#0(6@158"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp311715280#676#0#676#0#19"unused variable '*'0(0#0#158"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp8624830880#2082"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhone_iphonesimulator_Debug.hmap" -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp -o "/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofGraphics.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofImage.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s318894749.434696
+e318894750.287014
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofImage.o
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofImage.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@163"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofImage.cpp318894749#318894750#0(0"0(0#0#155"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofImage.cpp8622214144#2076"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhone_iphonesimulator_Debug.hmap" -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofImage.cpp -o "/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofImage.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofMath.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofMath.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s318894748.981709
+e318894749.937418
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofMath.o
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofMath.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@159"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofMath.cpp318894748#318894749#0(0"0(0#0#151"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofMath.cpp8602894912#2071"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhone_iphonesimulator_Debug.hmap" -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofMath.cpp -o "/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofMath.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofTexture.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTexture.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s318894749.560603
+e318894750.376420
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofTexture.o
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTexture.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@165"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTexture.cpp318894749#318894750#0(0"0(0#0#157"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTexture.cpp8616689120#2080"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhone_iphonesimulator_Debug.hmap" -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTexture.cpp -o "/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofTexture.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofTrueTypeFont.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTrueTypeFont.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s318894748.641010
+e318894749.792775
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofTrueTypeFont.o
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTrueTypeFont.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@170"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTrueTypeFont.cpp318894748#318894749#0(0"0(0#0#162"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTrueTypeFont.cpp8616985696#2090"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhone_iphonesimulator_Debug.hmap" -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTrueTypeFont.cpp -o "/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofTrueTypeFont.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofUtils.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofUtils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s318894749.027425
+e318894749.965413
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofUtils.o
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofUtils.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@160"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofUtils.cpp318894749#318894749#0(0"0(0#0#152"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofUtils.cpp8625559744#2073"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhone_iphonesimulator_Debug.hmap" -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofUtils.cpp -o "/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofUtils.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxAccelerometer.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxAccelerometer/src/ofxAccelerometer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s318894729.882585
+e318894734.011064
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxAccelerometer.o
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxAccelerometer/src/ofxAccelerometer.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@179"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxAccelerometer/src/ofxAccelerometer.cpp318894729#318894734#0(0"0(0#0#171"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxAccelerometer/src/ofxAccelerometer.cpp8621677600#2101"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhone_iphonesimulator_Debug.hmap" -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxAccelerometer/src/ofxAccelerometer.cpp -o "/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxAccelerometer.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxMultiTouch.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxMultiTouch/src/ofxMultiTouch.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s318894729.880442
+e318894747.854212
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxMultiTouch.o
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxMultiTouch/src/ofxMultiTouch.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@173"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxMultiTouch/src/ofxMultiTouch.cpp318894729#318894747#0(0"0(0#0#165"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxMultiTouch/src/ofxMultiTouch.cpp8623037568#2092"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhone_iphonesimulator_Debug.hmap" -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxMultiTouch/src/ofxMultiTouch.cpp -o "/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxMultiTouch.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAccelerometer.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAccelerometer.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s318894747.893909
+e318894749.051103
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAccelerometer.o
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAccelerometer.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@177"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAccelerometer.mm318894747#318894749#0(0"0(0#0#169"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAccelerometer.mm8623377792#2159"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhone_iphonesimulator_Debug.hmap" -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAccelerometer.mm -o "/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAccelerometer.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAlerts.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAlerts.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s318894748.377603
+e318894749.310310
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAlerts.o
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAlerts.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@170"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAlerts.mm318894748#318894749#0(0"0(0#0#162"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAlerts.mm8624488192#2145"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhone_iphonesimulator_Debug.hmap" -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAlerts.mm -o "/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAlerts.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAppDelegate.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s318894747.855558
+e318894749.434561
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAppDelegate.o
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm: In function 'void -[ofxiPhoneAppDelegate applicationDidFinishLaunching:](ofxiPhoneAppDelegate*, objc_selector*, UIApplication*)':
+o/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm:114: warning: unused variable 'reqSysVer'
+o/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm:115: warning: unused variable 'currSysVer'
+o/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm: In function 'BOOL -[ofxiPhoneAppDelegate application:handleOpenURL:](ofxiPhoneAppDelegate*, objc_selector*, UIApplication*, NSURL*)':
+o/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm:280: warning: 'getCString:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:374)
+o/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm:284: warning: control reaches end of non-void function
+lSLF07#2@175"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm318894747#318894749#0(1624"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm: In function 'void -[ofxiPhoneAppDelegate applicationDidFinishLaunching:](ofxiPhoneAppDelegate*, objc_selector*, UIApplication*)':/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm:114: warning: unused variable 'reqSysVer'/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm:115: warning: unused variable 'currSysVer'/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm: In function 'BOOL -[ofxiPhoneAppDelegate application:handleOpenURL:](ofxiPhoneAppDelegate*, objc_selector*, UIApplication*, NSURL*)':/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm:280: warning: 'getCString:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:374)/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm:284: warning: control reaches end of non-void function4(22@27"Unused variable 'reqSysVer'318894748#299#210#0(6@167"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm311715278#114#0#114#0#19"unused variable '*'0(22@28"Unused variable 'currSysVer'318894748#509#211#0(6@167"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm311715278#115#0#115#0#19"unused variable '*'0(22@195"'getCString:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:374)318894748#1023#378#0(6@167"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm311715278#280#0#280#0#33"'*' is deprecated (declared at *)0(22@40"Control reaches end of non-void function318894749#1401#223#0(6@167"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm311715278#284#0#284#0#40"control reaches end of non-void function0(0#0#167"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm8623905952#2155"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhone_iphonesimulator_Debug.hmap" -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm -o "/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAppDelegate.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneCoreLocation.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneCoreLocation.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s318894747.631203
+e318894748.981579
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneCoreLocation.o
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneCoreLocation.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@176"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneCoreLocation.mm318894747#318894749#0(0"0(0#0#168"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneCoreLocation.mm8623998592#2157"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhone_iphonesimulator_Debug.hmap" -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneCoreLocation.mm -o "/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneCoreLocation.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneExtras.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneExtras.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s318894729.881745
+e318894747.631042
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneExtras.o
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneExtras.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@170"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneExtras.mm318894729#318894747#0(0"0(0#0#162"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneExtras.mm8621972224#2145"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhone_iphonesimulator_Debug.hmap" -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneExtras.mm -o "/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneExtras.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneImagePicker.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s318894729.884541
+e318894748.640534
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneImagePicker.o
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@175"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm318894729#318894748#0(0"0(0#0#167"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm8617005696#2155"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhone_iphonesimulator_Debug.hmap" -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm -o "/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneImagePicker.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneKeyboard.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneKeyboard.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s318894733.977259
+e318894747.855486
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneKeyboard.o
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneKeyboard.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@172"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneKeyboard.mm318894733#318894747#0(0"0(0#0#164"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneKeyboard.mm8621638208#2149"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhone_iphonesimulator_Debug.hmap" -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneKeyboard.mm -o "/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneKeyboard.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKit.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneMapKit.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s318894729.881093
+e318894748.127328
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKit.o
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneMapKit.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@170"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneMapKit.mm318894729#318894748#0(0"0(0#0#162"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneMapKit.mm8622273120#2145"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhone_iphonesimulator_Debug.hmap" -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneMapKit.mm -o "/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKit.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKitDelegate.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneMapKitDelegate.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s318894747.854339
+e318894749.027306
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKitDelegate.o
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneMapKitDelegate.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@178"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneMapKitDelegate.mm318894747#318894749#0(0"0(0#0#170"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneMapKitDelegate.mm8624402912#2161"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhone_iphonesimulator_Debug.hmap" -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneMapKitDelegate.mm -o "/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKitDelegate.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundPlayer.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneSoundPlayer.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s318894729.879715
+e318894733.977090
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundPlayer.o
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneSoundPlayer.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@175"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneSoundPlayer.mm318894729#318894733#0(0"0(0#0#167"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneSoundPlayer.mm8623536768#2155"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhone_iphonesimulator_Debug.hmap" -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneSoundPlayer.mm -o "/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundPlayer.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundStream.o" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneSoundStream.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s318894729.885745
+e318894748.377458
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundStream.o
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneSoundStream.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@175"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneSoundStream.mm318894729#318894748#0(0"0(0#0#167"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneSoundStream.mm8616643040#2155"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhone_iphonesimulator_Debug.hmap" -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneSoundStream.mm -o "/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundStream.o"0#
+
+CLibtool /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone//libofxiPhone_iphonesimulator_Debug.a normal i386
+s318894750.738480
+e318894750.944654
+r1
+xLibtool
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone//libofxiPhone_iphonesimulator_Debug.a
+xnormal
+xi386
+lSLF07#2@74"Libtool ../../lib/iphone//libofxiPhone_iphonesimulator_Debug.a normal i386318894750#318894750#0(0"0(0#0#0"8622584608#1241"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -filelist "/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhone_iphonesimulator_Debug.LinkFileList" -framework AudioToolbox -framework OpenGLES -framework UIKit -framework OpenAL -framework Foundation -framework CoreGraphics -framework CoreLocation -framework QuartzCore -framework MapKit -o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/project/iphone/../../lib/iphone//libofxiPhone_iphonesimulator_Debug.a0#
+

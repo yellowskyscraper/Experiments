@@ -1,0 +1,56 @@
+TToneGenerator
+v7
+r1
+cCheck dependencies
+
+N/Users/jhovell/Downloads/ToneGenerator/MainWindow.xib
+c000000004CBE27DB0000000000004E71
+t1287530459
+s20081
+
+N/Users/jhovell/Downloads/ToneGenerator/ToneGeneratorViewController.xib
+c000000004CBE8286000000000000688D
+t1287553670
+s26765
+
+N/Users/jhovell/Downloads/ToneGenerator/build/Debug/ToneGenerator.app
+t2
+s0
+
+N/Users/jhovell/Downloads/ToneGenerator/build/Debug/ToneGenerator.app/Contents/Info.plist
+t2
+s0
+
+N/Users/jhovell/Downloads/ToneGenerator/build/Debug/ToneGenerator.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/jhovell/Downloads/ToneGenerator/build/Debug/ToneGenerator.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Users/jhovell/Downloads/ToneGenerator/build/Debug/ToneGenerator.app/Contents/Resources/ToneGeneratorViewController.nib
+t2
+s0
+
+NToneGenerator-Info.plist
+c000000004CBE27DB000000000000038D
+t1287530459
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318814070#318814070#0(66"[BEROR]error: There is no SDK with the name or path 'iphoneos4.1'1(4@58"error: There is no SDK with the name or path 'iphoneos4.1'318814070#18446744073709551615#0#0(1@0"0(0#1#0"32651513917735028#0"0#
+
+CCompileXIB /Users/jhovell/Downloads/ToneGenerator/MainWindow.xib
+r0
+
+CCompileXIB /Users/jhovell/Downloads/ToneGenerator/ToneGeneratorViewController.xib
+r0
+
+CProcessInfoPlistFile /Users/jhovell/Downloads/ToneGenerator/build/Debug/ToneGenerator.app/Contents/Info.plist ToneGenerator-Info.plist
+r0
+
+CTouch /Users/jhovell/Downloads/ToneGenerator/build/Debug/ToneGenerator.app
+r0
+

@@ -2,16 +2,16 @@
 {
 	1D3623240D0F684500981E51 /* CherryAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1224, 618}}";
+			sepNavIntBoundsRect = "{{0, 0}, {548, 601}}";
 			sepNavSelRange = "{446, 0}";
 			sepNavVisRange = "{0, 453}";
 		};
 	};
 	1D3623250D0F684500981E51 /* CherryAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1965, 1235}}";
-			sepNavSelRange = "{895, 0}";
-			sepNavVisRange = "{777, 659}";
+			sepNavIntBoundsRect = "{{0, 0}, {1510, 910}}";
+			sepNavSelRange = "{196, 0}";
+			sepNavVisRange = "{0, 1911}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* Cherry */ = {
@@ -37,7 +37,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					1046,
+					1058,
 					20,
 					48,
 					43,
@@ -76,18 +76,18 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 317332904;
-			PBXWorkspaceStateSaveDate = 317332904;
+			PBXPerProjectTemplateStateSaveDate = 318979519;
+			PBXWorkspaceStateSaveDate = 318979519;
 		};
 		perUserProjectItems = {
-			CF52160F12EA1DCC001CECD4 /* PBXTextBookmark */ = CF52160F12EA1DCC001CECD4 /* PBXTextBookmark */;
-			CF52161012EA1DCC001CECD4 /* PBXTextBookmark */ = CF52161012EA1DCC001CECD4 /* PBXTextBookmark */;
 			CF52161112EA1DCC001CECD4 /* PlistBookmark */ = CF52161112EA1DCC001CECD4 /* PlistBookmark */;
-			CF52162B12EA3677001CECD4 /* PBXTextBookmark */ = CF52162B12EA3677001CECD4 /* PBXTextBookmark */;
-			CF52165212EA546E001CECD4 /* PBXTextBookmark */ = CF52165212EA546E001CECD4 /* PBXTextBookmark */;
-			CF5216A412EA5B51001CECD4 /* PBXTextBookmark */ = CF5216A412EA5B51001CECD4 /* PBXTextBookmark */;
-			CF5216A512EA5B51001CECD4 /* XCBuildMessageTextBookmark */ = CF5216A512EA5B51001CECD4 /* XCBuildMessageTextBookmark */;
-			CF5216A712EA5F8A001CECD4 /* PBXTextBookmark */ = CF5216A712EA5F8A001CECD4 /* PBXTextBookmark */;
+			CF77F3C113033FEA007C438F /* PBXTextBookmark */ = CF77F3C113033FEA007C438F /* PBXTextBookmark */;
+			CF7F749C12FB9E0500FD3189 /* PBXTextBookmark */ = CF7F749C12FB9E0500FD3189 /* PBXTextBookmark */;
+			CF7F74BF12FC785500FD3189 /* PBXTextBookmark */ = CF7F74BF12FC785500FD3189 /* PBXTextBookmark */;
+			CF7F74C012FC785500FD3189 /* PBXTextBookmark */ = CF7F74C012FC785500FD3189 /* PBXTextBookmark */;
+			CFB75C0D12F22D6800CBC13C /* PBXTextBookmark */ = CFB75C0D12F22D6800CBC13C /* PBXTextBookmark */;
+			CFB75C0E12F22D6800CBC13C /* PBXTextBookmark */ = CFB75C0E12F22D6800CBC13C /* PBXTextBookmark */;
+			CFFFF12A13031FE500C5C147 /* PBXTextBookmark */ = CFFFF12A13031FE500C5C147 /* PBXTextBookmark */;
 		};
 		sourceControlManager = CF52161A12EA1DCC001CECD4 /* Source Control */;
 		userBuildSettings = {
@@ -95,14 +95,14 @@
 	};
 	29B97316FDCFA39411CA2CEA /* main.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1224, 530}}";
-			sepNavSelRange = "{0, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1250, 601}}";
+			sepNavSelRange = "{279, 0}";
 			sepNavVisRange = "{0, 360}";
 		};
 	};
 	32CA4F630368D1EE00C91783 /* Cherry_Prefix.pch */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1224, 530}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1224, 601}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 181}";
 		};
@@ -135,26 +135,6 @@
 		sourceDirectories = (
 		);
 	};
-	CF52160F12EA1DCC001CECD4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 32CA4F630368D1EE00C91783 /* Cherry_Prefix.pch */;
-		name = "Cherry_Prefix.pch: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 181;
-		vrLoc = 0;
-	};
-	CF52161012EA1DCC001CECD4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
-		name = "main.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 360;
-		vrLoc = 0;
-	};
 	CF52161112EA1DCC001CECD4 /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 8D1107310486CEB800E47090 /* Cherry-Info.plist */;
@@ -164,7 +144,7 @@
 		);
 		name = "/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/Cherry-Info.plist";
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
 	CF52161A12EA1DCC001CECD4 /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -182,19 +162,29 @@
 	};
 	CF52162412EA2276001CECD4 /* MyViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1224, 618}}";
-			sepNavSelRange = "{219, 0}";
-			sepNavVisRange = "{0, 358}";
+			sepNavIntBoundsRect = "{{0, 0}, {1319, 591}}";
+			sepNavSelRange = "{400, 0}";
+			sepNavVisRange = "{0, 408}";
 		};
 	};
 	CF52162512EA2276001CECD4 /* MyViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1224, 884}}";
-			sepNavSelRange = "{1144, 0}";
-			sepNavVisRange = "{0, 1298}";
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 1105}}";
+			sepNavSelRange = "{2247, 0}";
+			sepNavVisRange = "{1194, 733}";
 		};
 	};
-	CF52162B12EA3677001CECD4 /* PBXTextBookmark */ = {
+	CF77F3C113033FEA007C438F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* CherryAppDelegate.m */;
+		name = "CherryAppDelegate.m: 11";
+		rLen = 0;
+		rLoc = 196;
+		rType = 0;
+		vrLen = 1911;
+		vrLoc = 0;
+	};
+	CF7F749C12FB9E0500FD3189 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1D3623240D0F684500981E51 /* CherryAppDelegate.h */;
 		name = "CherryAppDelegate.h: 20";
@@ -204,43 +194,54 @@
 		vrLen = 453;
 		vrLoc = 0;
 	};
-	CF52165212EA546E001CECD4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* CherryAppDelegate.m */;
-		name = "CherryAppDelegate.m: 15";
-		rLen = 0;
-		rLoc = 288;
-		rType = 0;
-		vrLen = 1513;
-		vrLoc = 0;
-	};
-	CF5216A412EA5B51001CECD4 /* PBXTextBookmark */ = {
+	CF7F74BF12FC785500FD3189 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = CF52162412EA2276001CECD4 /* MyViewController.h */;
-		name = "MyViewController.h: 13";
+		name = "MyViewController.h: 14";
 		rLen = 0;
-		rLoc = 219;
+		rLoc = 400;
 		rType = 0;
-		vrLen = 358;
+		vrLen = 408;
 		vrLoc = 0;
 	};
-	CF5216A512EA5B51001CECD4 /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "Request for member 'backgroundColor' in something not a structure or union";
-		fRef = CF52162512EA2276001CECD4 /* MyViewController.m */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 43;
-		rType = 1;
-	};
-	CF5216A712EA5F8A001CECD4 /* PBXTextBookmark */ = {
+	CF7F74C012FC785500FD3189 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = CF52162512EA2276001CECD4 /* MyViewController.m */;
-		name = "MyViewController.m: 44";
+		name = "MyViewController.m: 1";
 		rLen = 0;
-		rLoc = 1144;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 1298;
+		vrLen = 1302;
+		vrLoc = 0;
+	};
+	CFB75C0D12F22D6800CBC13C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* Cherry_Prefix.pch */;
+		name = "Cherry_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 181;
+		vrLoc = 0;
+	};
+	CFB75C0E12F22D6800CBC13C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 14";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 360;
+		vrLoc = 0;
+	};
+	CFFFF12A13031FE500C5C147 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* CherryAppDelegate.m */;
+		name = "CherryAppDelegate.m: 11";
+		rLen = 0;
+		rLoc = 196;
+		rType = 0;
+		vrLen = 1911;
 		vrLoc = 0;
 	};
 }

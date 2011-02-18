@@ -1,0 +1,461 @@
+TToneGenerator
+v7
+r0
+t318975905.136347
+cCheck dependencies
+cProcessInfoPlistFile /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/Info.plist ToneGenerator-Info.plist
+cCompileXIB /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/MainWindow.xib
+cCompileXIB /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/ToneGeneratorViewController.xib
+cProcessPCH /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ToneGenerator_Prefix-dvgcxghifdmqlpbgwwhsafjezrac/ToneGenerator_Prefix.pch.gch ToneGenerator_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/main.o /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/ToneGeneratorAppDelegate.o /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/Classes/ToneGeneratorAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/ToneGeneratorViewController.o /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/Classes/ToneGeneratorViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/ToneGenerator normal i386
+cGenerateDSYMFile /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app.dSYM /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/ToneGenerator
+cTouch /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC1224600000000001EA9C0
+t1287725638
+s2009536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004CC1222F0000000000000A23
+t1287725615
+s2595
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioUnit.framework/Headers/AudioUnit.h
+c000000004CC1222E000000000000041E
+t1287725614
+s1054
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/jhovell/Downloads/ToneGenerator/Classes/ToneGeneratorAppDelegate.h
+c000000004CBE8289000000000000035F
+t1287553673
+s863
+i<UIKit/UIKit.h>
+
+N/Users/jhovell/Downloads/ToneGenerator/Classes/ToneGeneratorAppDelegate.m
+c000000004CBE86690000000000000C05
+t1287554665
+s3077
+i"ToneGeneratorAppDelegate.h"
+i"ToneGeneratorViewController.h"
+
+N/Users/jhovell/Downloads/ToneGenerator/Classes/ToneGeneratorViewController.h
+c000000004CBE904B0000000000000462
+t1287557195
+s1122
+i<UIKit/UIKit.h>
+i<AudioUnit/AudioUnit.h>
+
+N/Users/jhovell/Downloads/ToneGenerator/Classes/ToneGeneratorViewController.m
+c000000004CBE905500000000000015F4
+t1287557205
+s5620
+i"ToneGeneratorViewController.h"
+i<AudioToolbox/AudioToolbox.h>
+
+N/Users/jhovell/Downloads/ToneGenerator/MainWindow.xib
+c000000004CBE27DB0000000000004E71
+t1287530459
+s20081
+
+N/Users/jhovell/Downloads/ToneGenerator/ToneGeneratorViewController.xib
+c000000004CBE8286000000000000688D
+t1287553670
+s26765
+
+N/Users/jhovell/Downloads/ToneGenerator/ToneGenerator_Prefix.pch
+c000000004CBE27DB00000000000000C3
+t1287530459
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app
+t1297121625
+s238
+
+N/Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app.dSYM
+t1297121625
+s102
+
+N/Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/Info.plist
+t1297121622
+s615
+
+N/Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/MainWindow.nib
+t1297121623
+s1135
+
+N/Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/PkgInfo
+t1297121622
+s8
+
+N/Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/ToneGenerator
+t1297121625
+s25128
+
+N/Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/ToneGeneratorViewController.nib
+t1297121623
+s2299
+
+N/Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/ToneGenerator.LinkFileList
+c000000004D50815600000000000001BD
+t1297121622
+s445
+
+N/Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/ToneGeneratorAppDelegate.o
+t1297121624
+s52160
+
+N/Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/ToneGeneratorViewController.o
+t1297121624
+s60436
+
+N/Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/main.o
+t1297121624
+s6304
+
+N/Users/jhovell/Downloads/ToneGenerator/main.m
+c000000004CBE27DB0000000000000171
+t1287530459
+s369
+i<UIKit/UIKit.h>
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/Classes/ToneGeneratorAppDelegate.h
+c000000004CBE8289000000000000035F
+t1287553673
+s863
+i<UIKit/UIKit.h>
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/Classes/ToneGeneratorAppDelegate.m
+c000000004CBE86690000000000000C05
+t1287554665
+s3077
+i"ToneGeneratorAppDelegate.h"
+i"ToneGeneratorViewController.h"
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/Classes/ToneGeneratorViewController.h
+c000000004D509A3D0000000000000462
+t1297127997
+s1122
+i<UIKit/UIKit.h>
+i<AudioUnit/AudioUnit.h>
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/Classes/ToneGeneratorViewController.m
+c000000004CBE905500000000000015F4
+t1287557205
+s5620
+i"ToneGeneratorViewController.h"
+i<AudioToolbox/AudioToolbox.h>
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/MainWindow.xib
+c000000004CBE27DB0000000000004E71
+t1287530459
+s20081
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/ToneGeneratorViewController.xib
+c000000004CBE8286000000000000688D
+t1287553670
+s26765
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/ToneGenerator_Prefix.pch
+c000000004CBE27DB00000000000000C3
+t1287530459
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app
+t1297283105
+s238
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app.dSYM
+t1297283105
+s102
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/Info.plist
+t1297121622
+s615
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/MainWindow.nib
+t1297121623
+s1135
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/PkgInfo
+t1297121622
+s8
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/ToneGenerator
+t1297283105
+s25260
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/ToneGeneratorViewController.nib
+t1297121623
+s2299
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/ToneGenerator.LinkFileList
+c000000004D5081CF00000000000001FF
+t1297121743
+s511
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/ToneGeneratorAppDelegate.o
+t1297283104
+s52204
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/ToneGeneratorViewController.o
+t1297283104
+s60500
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/main.o
+t1297121745
+s6348
+
+N/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/main.m
+c000000004CBE27DB0000000000000171
+t1287530459
+s369
+i<UIKit/UIKit.h>
+
+N/var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ToneGenerator_Prefix-dcyhffbhyqkyrbcgalhhvvegqqga/ToneGenerator_Prefix.pch.gch
+t1297121624
+s15453392
+
+N/var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ToneGenerator_Prefix-dvgcxghifdmqlpbgwwhsafjezrac/ToneGenerator_Prefix.pch.gch
+t1297121744
+s15453392
+
+NToneGenerator-Info.plist
+c000000004CBE27DB000000000000038D
+t1287530459
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318975903#318975903#0(0"0(0#1#0"8603708512#0"0#
+
+CCompileC build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/ToneGeneratorAppDelegate.o /Users/jhovell/Downloads/ToneGenerator/Classes/ToneGeneratorAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318814424.697749
+e318814424.930374
+r1
+xCompileC
+xbuild/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/ToneGeneratorAppDelegate.o
+x/Users/jhovell/Downloads/ToneGenerator/Classes/ToneGeneratorAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/jhovell/Downloads/ToneGenerator/Classes/ToneGeneratorAppDelegate.m318814424#318814424#0(0"0(0#0#73"/Users/jhovell/Downloads/ToneGenerator/Classes/ToneGeneratorAppDelegate.m8606247808#2082"    cd /Users/jhovell/Downloads/ToneGenerator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-generated-files.hmap -I/Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-own-target-headers.hmap -I/Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-all-target-headers.hmap -iquote /Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-project-headers.hmap -F/Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator -I/Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/include -I/Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/DerivedSources/i386 -I/Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/DerivedSources -include /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ToneGenerator_Prefix-dcyhffbhyqkyrbcgalhhvvegqqga/ToneGenerator_Prefix.pch -c /Users/jhovell/Downloads/ToneGenerator/Classes/ToneGeneratorAppDelegate.m -o /Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/ToneGeneratorAppDelegate.o0#
+
+CCompileC build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/ToneGeneratorAppDelegate.o /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/Classes/ToneGeneratorAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318975903.820889
+e318975904.759544
+r1
+xCompileC
+xbuild/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/ToneGeneratorAppDelegate.o
+x/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/Classes/ToneGeneratorAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/Classes/ToneGeneratorAppDelegate.m318975903#318975904#0(0"0(0#0#95"/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/Classes/ToneGeneratorAppDelegate.m8600647872#2324"    cd /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-generated-files.hmap -I/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-own-target-headers.hmap -I/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-all-target-headers.hmap -iquote /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-project-headers.hmap -F/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator -I/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/include -I/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/DerivedSources -include /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ToneGenerator_Prefix-dvgcxghifdmqlpbgwwhsafjezrac/ToneGenerator_Prefix.pch -c /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/Classes/ToneGeneratorAppDelegate.m -o /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/ToneGeneratorAppDelegate.o0#
+
+CCompileC build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/ToneGeneratorViewController.o /Users/jhovell/Downloads/ToneGenerator/Classes/ToneGeneratorViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318814424.698405
+e318814424.936255
+r1
+xCompileC
+xbuild/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/ToneGeneratorViewController.o
+x/Users/jhovell/Downloads/ToneGenerator/Classes/ToneGeneratorViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/jhovell/Downloads/ToneGenerator/Classes/ToneGeneratorViewController.m318814424#318814424#0(0"0(0#0#76"/Users/jhovell/Downloads/ToneGenerator/Classes/ToneGeneratorViewController.m8604407136#2088"    cd /Users/jhovell/Downloads/ToneGenerator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-generated-files.hmap -I/Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-own-target-headers.hmap -I/Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-all-target-headers.hmap -iquote /Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-project-headers.hmap -F/Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator -I/Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/include -I/Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/DerivedSources/i386 -I/Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/DerivedSources -include /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ToneGenerator_Prefix-dcyhffbhyqkyrbcgalhhvvegqqga/ToneGenerator_Prefix.pch -c /Users/jhovell/Downloads/ToneGenerator/Classes/ToneGeneratorViewController.m -o /Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/ToneGeneratorViewController.o0#
+
+CCompileC build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/ToneGeneratorViewController.o /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/Classes/ToneGeneratorViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318975903.821608
+e318975904.767958
+r1
+xCompileC
+xbuild/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/ToneGeneratorViewController.o
+x/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/Classes/ToneGeneratorViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@106"Compile /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/Classes/ToneGeneratorViewController.m318975903#318975904#0(0"0(0#0#98"/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/Classes/ToneGeneratorViewController.m8601206720#2330"    cd /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-generated-files.hmap -I/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-own-target-headers.hmap -I/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-all-target-headers.hmap -iquote /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-project-headers.hmap -F/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator -I/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/include -I/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/DerivedSources -include /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ToneGenerator_Prefix-dvgcxghifdmqlpbgwwhsafjezrac/ToneGenerator_Prefix.pch -c /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/Classes/ToneGeneratorViewController.m -o /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/ToneGeneratorViewController.o0#
+
+CCompileC build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/main.o /Users/jhovell/Downloads/ToneGenerator/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318814424.668589
+e318814424.915171
+r1
+xCompileC
+xbuild/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/main.o
+x/Users/jhovell/Downloads/ToneGenerator/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/jhovell/Downloads/ToneGenerator/main.m318814424#318814424#0(0"0(0#0#45"/Users/jhovell/Downloads/ToneGenerator/main.m8606841216#2034"    cd /Users/jhovell/Downloads/ToneGenerator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-generated-files.hmap -I/Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-own-target-headers.hmap -I/Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-all-target-headers.hmap -iquote /Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-project-headers.hmap -F/Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator -I/Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/include -I/Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/DerivedSources/i386 -I/Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/DerivedSources -include /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ToneGenerator_Prefix-dcyhffbhyqkyrbcgalhhvvegqqga/ToneGenerator_Prefix.pch -c /Users/jhovell/Downloads/ToneGenerator/main.m -o /Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/main.o0#
+
+CCompileC build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/main.o /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318814545.018920
+e318814545.185095
+r1
+xCompileC
+xbuild/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/main.o
+x/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/main.m318814545#318814545#0(0"0(0#0#67"/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/main.m8600863200#2276"    cd /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-generated-files.hmap -I/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-own-target-headers.hmap -I/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-all-target-headers.hmap -iquote /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-project-headers.hmap -F/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator -I/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/include -I/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/DerivedSources -include /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ToneGenerator_Prefix-dvgcxghifdmqlpbgwwhsafjezrac/ToneGenerator_Prefix.pch -c /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/main.m -o /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/jhovell/Downloads/ToneGenerator/MainWindow.xib
+s318814422.746234
+e318814423.810991
+r1
+xCompileXIB
+x/Users/jhovell/Downloads/ToneGenerator/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib318814422#318814423#0(0"0(0#0#53"/Users/jhovell/Downloads/ToneGenerator/MainWindow.xib8607366624#576"    cd /Users/jhovell/Downloads/ToneGenerator    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/MainWindow.nib /Users/jhovell/Downloads/ToneGenerator/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/jhovell/Downloads/ToneGenerator/ToneGeneratorViewController.xib
+s318814422.758194
+e318814423.834402
+r1
+xCompileXIB
+x/Users/jhovell/Downloads/ToneGenerator/ToneGeneratorViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@42"CompileXIB ToneGeneratorViewController.xib318814422#318814423#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#70"/Users/jhovell/Downloads/ToneGenerator/ToneGeneratorViewController.xib8607068576#610"    cd /Users/jhovell/Downloads/ToneGenerator    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/ToneGeneratorViewController.nib /Users/jhovell/Downloads/ToneGenerator/ToneGeneratorViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/MainWindow.xib
+r0
+
+CCompileXIB /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/ToneGeneratorViewController.xib
+r0
+
+CGenerateDSYMFile /Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app.dSYM /Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/ToneGenerator
+s318814425.251096
+e318814425.288912
+r1
+xGenerateDSYMFile
+x/Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app.dSYM
+x/Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/ToneGenerator
+lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/ToneGenerator.app.dSYM build/Debug-iphonesimulator/ToneGenerator.app/ToneGenerator318814425#318814425#0(0"0(0#0#98"/Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/ToneGenerator8606841472#401"    cd /Users/jhovell/Downloads/ToneGenerator    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/ToneGenerator -o /Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app.dSYM0#
+
+CGenerateDSYMFile /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app.dSYM /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/ToneGenerator
+s318975905.027250
+e318975905.127671
+r1
+xGenerateDSYMFile
+x/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app.dSYM
+x/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/ToneGenerator
+lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/ToneGenerator.app.dSYM build/Debug-iphonesimulator/ToneGenerator.app/ToneGenerator318975905#318975905#0(0"0(0#0#120"/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/ToneGenerator8605007680#467"    cd /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/ToneGenerator -o /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app.dSYM0#
+
+CLd /Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/ToneGenerator normal i386
+s318814424.936330
+e318814425.251015
+r1
+xLd
+x/Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/ToneGenerator
+xnormal
+xi386
+lSLF07#2@103"Link /Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/ToneGenerator318814424#318814425#0(0"0(0#0#0"8605894304#954"    cd /Users/jhovell/Downloads/ToneGenerator    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator -F/Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator -filelist /Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/ToneGenerator.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -o /Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/ToneGenerator0#
+
+CLd /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/ToneGenerator normal i386
+s318975904.768035
+e318975905.027168
+r1
+xLd
+x/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/ToneGenerator
+xnormal
+xi386
+lSLF07#2@125"Link /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/ToneGenerator318975904#318975905#0(0"0(0#0#0"8612103392#1064"    cd /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator -F/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator -filelist /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/Objects-normal/i386/ToneGenerator.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -o /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/ToneGenerator0#
+
+CProcessInfoPlistFile /Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/Info.plist ToneGenerator-Info.plist
+s318814422.686699
+e318814422.746165
+r1
+xProcessInfoPlistFile
+x/Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/Info.plist
+xToneGenerator-Info.plist
+lSLF07#2@32"Process ToneGenerator-Info.plist318814422#318814422#0(0"0(0#0#63"/Users/jhovell/Downloads/ToneGenerator/ToneGenerator-Info.plist27303536605069420#497"    cd /Users/jhovell/Downloads/ToneGenerator    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ToneGenerator-Info.plist -genpkginfo /Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app/Info.plist ToneGenerator-Info.plist
+r0
+
+CProcessPCH /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ToneGenerator_Prefix-dcyhffbhyqkyrbcgalhhvvegqqga/ToneGenerator_Prefix.pch.gch ToneGenerator_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s318814423.834515
+e318814424.668450
+r1
+xProcessPCH
+x/var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ToneGenerator_Prefix-dcyhffbhyqkyrbcgalhhvvegqqga/ToneGenerator_Prefix.pch.gch
+xToneGenerator_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile ToneGenerator_Prefix.pch318814423#318814424#0(0"0(0#0#63"/Users/jhovell/Downloads/ToneGenerator/ToneGenerator_Prefix.pch8604176096#1920"    cd /Users/jhovell/Downloads/ToneGenerator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-generated-files.hmap -I/Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-own-target-headers.hmap -I/Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-all-target-headers.hmap -iquote /Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-project-headers.hmap -F/Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator -I/Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/include -I/Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/DerivedSources/i386 -I/Users/jhovell/Downloads/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/DerivedSources -c /Users/jhovell/Downloads/ToneGenerator/ToneGenerator_Prefix.pch -o /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ToneGenerator_Prefix-dcyhffbhyqkyrbcgalhhvvegqqga/ToneGenerator_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ToneGenerator_Prefix-dvgcxghifdmqlpbgwwhsafjezrac/ToneGenerator_Prefix.pch.gch ToneGenerator_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s318814543.578967
+e318814545.018841
+r1
+xProcessPCH
+x/var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ToneGenerator_Prefix-dvgcxghifdmqlpbgwwhsafjezrac/ToneGenerator_Prefix.pch.gch
+xToneGenerator_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile ToneGenerator_Prefix.pch318814543#318814545#0(0"0(0#0#85"/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/ToneGenerator_Prefix.pch8598289440#2140"    cd /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-generated-files.hmap -I/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-own-target-headers.hmap -I/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-all-target-headers.hmap -iquote /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/ToneGenerator-project-headers.hmap -F/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator -I/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/include -I/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/ToneGenerator.build/Debug-iphonesimulator/ToneGenerator.build/DerivedSources -c /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/ToneGenerator_Prefix.pch -o /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ToneGenerator_Prefix-dvgcxghifdmqlpbgwwhsafjezrac/ToneGenerator_Prefix.pch.gch0#
+
+CTouch /Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app
+s318814425.288970
+e318814425.313277
+r1
+xTouch
+x/Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app
+lSLF07#2@90"Touch /Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app318814425#318814425#0(0"0(0#0#0"8606660192#284"    cd /Users/jhovell/Downloads/ToneGenerator    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jhovell/Downloads/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app0#
+
+CTouch /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app
+s318975905.127741
+e318975905.136322
+r1
+xTouch
+x/Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app
+lSLF07#2@112"Touch /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app318975905#318975905#0(0"0(0#0#0"8603189504#328"    cd /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jhovell/Projects/Experiments/iOS_Primer/ToneGenerator/build/Debug-iphonesimulator/ToneGenerator.app0#
+

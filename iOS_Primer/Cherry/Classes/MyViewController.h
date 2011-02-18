@@ -1,22 +1,16 @@
-//
-//  MyViewController.h
-//  Cherry
-//
-//  Created by James Hovell on 1/21/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
+#import	<AVFoundation/AVAudioPlayer.h>
 
-
-@interface MyViewController : UIViewController {
-	
-	UISwitch *whiteSwitch;
-
+@interface MyViewController : UIViewController <AVAudioPlayerDelegate> {	
+	IBOutlet UISegmentedControl *colorChooser;
+	AVAudioPlayer *player;
 }
 
-@property (nonatomic, retain) IBOutlet UISwitch *whiteSwitch;
+@property (nonatomic, retain) AVAudioPlayer	*player;
+@property (nonatomic, retain) IBOutlet UISegmentedControl *colorChooser;
 
-- (IBAction)changeBackground:(id)sender;
+- (IBAction)changeBackground;
+- (IBAction)play;
+- (IBAction)stop;
 
 @end

@@ -1,17 +1,20 @@
-//
-//  MyViewController.m
-//  Cherry
-//
-//  Created by James Hovell on 1/21/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
-
 #import "MyViewController.h"
 
 
-@implementation MyViewController
+@implementation MyViewController;
+@synthesize colorChooser, player;
 
-@synthesize whiteSwitch;
+
+- (IBAction)changeBackground {
+	if(colorChooser.selectedSegmentIndex == 0){
+		self.view.backgroundColor = [UIColor darkGrayColor];
+		[self stop];
+	} else if(colorChooser.selectedSegmentIndex == 1){
+		self.view.backgroundColor = [UIColor brownColor];
+		[self play];
+	}
+}
+
 
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 /*
@@ -24,12 +27,38 @@
 }
 */
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
+	self.view.backgroundColor = [UIColor darkGrayColor];
+	NSString *path = [[NSBundle mainBundle] pathForResource:@"Noise_Brown" ofType:@"caf"];
+	NSURL *file = [[NSURL alloc] initFileURLWithPath:path];
+	
+	AVAudioPlayer *p = [[AVAudioPlayer alloc] initWithContentsOfURL:file error:nil];
+	p.numberOfLoops = -1;
+	[file release];
+	
+	self.player = p;
+	[p release];
+	
+	[player prepareToPlay];
+	[player setDelegate:self];
+	
     [super viewDidLoad];
 }
-*/
+
+- (IBAction)play {
+	[self.player play];
+}
+
+- (IBAction)stop {
+	[self.player stop];
+}
+
+- (void) audioPlayerDidFinishPlaying: (AVAudioPlayer *) player successfully: (BOOL) completed {
+	//[self.player play];
+}
+
 
 /*
 // Override to allow orientations other than the default portrait orientation.
@@ -38,15 +67,6 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 */
-
-- (IBAction)changeBackground:(id)sender {
-	if (whiteSwitch.on) {
-		self.backgroundColor = [UIColor redColor];
-		//self.backgroundColor = [UIColor redColor];
-	} else {
-		//self.backgroundColor = [UIColor greenColor];
-	}
-}
 
 - (void)didReceiveMemoryWarning {
     // Releases the view if it doesn't have a superview.
@@ -61,11 +81,9 @@
     // e.g. self.myOutlet = nil;
 }
 
-
 - (void)dealloc {
-	[whiteSwitch release]; 
+	[colorChooser release]; 
     [super dealloc];
 }
-
 
 @end

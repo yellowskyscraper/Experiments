@@ -1,0 +1,175 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* ToneGeneratorAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1331, 608}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 863}";
+		};
+	};
+	1D3623250D0F684500981E51 /* ToneGeneratorAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1235}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1662}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* ToneGenerator */ = {
+		activeExec = 0;
+		executables = (
+			CF34824F1300B29C009AA99E /* ToneGenerator */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* ToneGeneratorViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1331, 628}}";
+			sepNavSelRange = "{564, 0}";
+			sepNavVisRange = "{0, 1122}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* ToneGeneratorViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1331, 2483}}";
+			sepNavSelRange = "{4957, 0}";
+			sepNavVisRange = "{4570, 1050}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecturePreference = armv7;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = CF34824F1300B29C009AA99E /* ToneGenerator */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* ToneGenerator */;
+		codeSenseManager = CF3482581300B2BB009AA99E /* Code sense */;
+		executables = (
+			CF34824F1300B29C009AA99E /* ToneGenerator */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1153,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 318979515;
+			PBXWorkspaceStateSaveDate = 318979515;
+		};
+		perUserProjectItems = {
+			CF34834013021801009AA99E /* PBXTextBookmark */ = CF34834013021801009AA99E /* PBXTextBookmark */;
+			CF34834113021801009AA99E /* PBXTextBookmark */ = CF34834113021801009AA99E /* PBXTextBookmark */;
+			CF77F3C213037859007C438F /* PBXTextBookmark */ = CF77F3C213037859007C438F /* PBXTextBookmark */;
+			CF77F3C313037859007C438F /* PBXTextBookmark */ = CF77F3C313037859007C438F /* PBXTextBookmark */;
+			CF77F3C413037859007C438F /* PBXTextBookmark */ = CF77F3C413037859007C438F /* PBXTextBookmark */;
+		};
+		sourceControlManager = CF3482571300B2BB009AA99E /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	CF34824F1300B29C009AA99E /* ToneGenerator */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ToneGenerator;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	CF3482571300B2BB009AA99E /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	CF3482581300B2BB009AA99E /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	CF34834013021801009AA99E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ToneGeneratorAppDelegate.m */;
+		name = "ToneGeneratorAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1662;
+		vrLoc = 0;
+	};
+	CF34834113021801009AA99E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ToneGeneratorAppDelegate.h */;
+		name = "ToneGeneratorAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 863;
+		vrLoc = 0;
+	};
+	CF77F3C213037859007C438F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ToneGeneratorViewController.h */;
+		name = "ToneGeneratorViewController.h: 16";
+		rLen = 0;
+		rLoc = 564;
+		rType = 0;
+		vrLen = 1122;
+		vrLoc = 0;
+	};
+	CF77F3C313037859007C438F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ToneGeneratorViewController.m */;
+		name = "ToneGeneratorViewController.m: 18";
+		rLen = 0;
+		rLoc = 608;
+		rType = 0;
+		vrLen = 1541;
+		vrLoc = 0;
+	};
+	CF77F3C413037859007C438F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ToneGeneratorViewController.m */;
+		name = "ToneGeneratorViewController.m: 155";
+		rLen = 0;
+		rLoc = 4957;
+		rType = 0;
+		vrLen = 1050;
+		vrLoc = 4570;
+	};
+}
