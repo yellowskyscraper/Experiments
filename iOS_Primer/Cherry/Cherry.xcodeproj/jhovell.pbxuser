@@ -9,9 +9,9 @@
 	};
 	1D3623250D0F684500981E51 /* CherryAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1510, 910}}";
-			sepNavSelRange = "{196, 0}";
-			sepNavVisRange = "{0, 1911}";
+			sepNavIntBoundsRect = "{{0, 0}, {1510, 923}}";
+			sepNavSelRange = "{383, 0}";
+			sepNavVisRange = "{0, 2349}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* Cherry */ = {
@@ -37,7 +37,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					1058,
+					1063,
 					20,
 					48,
 					43,
@@ -76,10 +76,11 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 318979519;
-			PBXWorkspaceStateSaveDate = 318979519;
+			PBXPerProjectTemplateStateSaveDate = 320352057;
+			PBXWorkspaceStateSaveDate = 320352057;
 		};
 		perUserProjectItems = {
+			CF4D7E1F131C3510008CFAA3 /* PBXTextBookmark */ = CF4D7E1F131C3510008CFAA3 /* PBXTextBookmark */;
 			CF52161112EA1DCC001CECD4 /* PlistBookmark */ = CF52161112EA1DCC001CECD4 /* PlistBookmark */;
 			CF77F3C113033FEA007C438F /* PBXTextBookmark */ = CF77F3C113033FEA007C438F /* PBXTextBookmark */;
 			CF7F749C12FB9E0500FD3189 /* PBXTextBookmark */ = CF7F749C12FB9E0500FD3189 /* PBXTextBookmark */;
@@ -87,7 +88,6 @@
 			CF7F74C012FC785500FD3189 /* PBXTextBookmark */ = CF7F74C012FC785500FD3189 /* PBXTextBookmark */;
 			CFB75C0D12F22D6800CBC13C /* PBXTextBookmark */ = CFB75C0D12F22D6800CBC13C /* PBXTextBookmark */;
 			CFB75C0E12F22D6800CBC13C /* PBXTextBookmark */ = CFB75C0E12F22D6800CBC13C /* PBXTextBookmark */;
-			CFFFF12A13031FE500C5C147 /* PBXTextBookmark */ = CFFFF12A13031FE500C5C147 /* PBXTextBookmark */;
 		};
 		sourceControlManager = CF52161A12EA1DCC001CECD4 /* Source Control */;
 		userBuildSettings = {
@@ -106,6 +106,16 @@
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 181}";
 		};
+	};
+	CF4D7E1F131C3510008CFAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* CherryAppDelegate.m */;
+		name = "CherryAppDelegate.m: 15";
+		rLen = 0;
+		rLoc = 383;
+		rType = 0;
+		vrLen = 2349;
+		vrLoc = 0;
 	};
 	CF52153512EA1DA8001CECD4 /* Cherry */ = {
 		isa = PBXExecutable;
@@ -232,16 +242,6 @@
 		rLoc = 279;
 		rType = 0;
 		vrLen = 360;
-		vrLoc = 0;
-	};
-	CFFFF12A13031FE500C5C147 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* CherryAppDelegate.m */;
-		name = "CherryAppDelegate.m: 11";
-		rLen = 0;
-		rLoc = 196;
-		rType = 0;
-		vrLen = 1911;
 		vrLoc = 0;
 	};
 }
