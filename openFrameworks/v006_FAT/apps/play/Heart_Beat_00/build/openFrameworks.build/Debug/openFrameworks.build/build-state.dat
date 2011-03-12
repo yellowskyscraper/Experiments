@@ -4,8 +4,8 @@ r1
 cCheck dependencies
 
 N/Developer/SDKs/MacOSX10.4u.sdk
-c000000004AC35DB000000000000000EE
-t1254317488
+c000000004A1199E200000000000000EE
+t1242667490
 s238
 
 N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h
@@ -14,8 +14,8 @@ t1177075651
 s1366
 
 N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
-c000000004AC35DB000000000000005BF
-t1254317488
+c000000004A1199E400000000000005BF
+t1242667492
 s1471
 
 N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/AudioHardware.h
@@ -24,8 +24,8 @@ t1190278975
 s168827
 
 N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h
-c000000004AC35DB000000000000003DC
-t1254317488
+c000000004A1199E300000000000003DC
+t1242667491
 s988
 
 N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/GLUT.framework/Headers/glut.h
@@ -104,8 +104,8 @@ t1178315354
 s5071
 
 N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/stdint.h
-c000000004B56947F0000000000001BE4
-t1263965311
+c000000004C2394B40000000000001BE4
+t1277400244
 s7140
 
 N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/stdio.h
@@ -4367,6 +4367,10 @@ N/var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/Shared
 t2
 s0
 
+N/var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Carbon-hfyqmfxiifmmwrbptogfbnhvsgdc/Carbon.h.gch
+t2
+s0
+
 N/var/folders/hE/hES09jXGEAeR5W30wlOnwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-ebdzpiysylzwqmbingyldofnopad/Carbon.h.gch
 t2
 s0
@@ -4382,7 +4386,7 @@ s631
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies316577456#316577456#0(190"[WARN]Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'openFrameworks-Info.plist'.GCC 4.2 is not compatible with the Mac OS X 10.4 SDK (file main.cpp)2(22@114"Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'openFrameworks-Info.plist'.316577456#18446744073709551615#0#0(1@0"0(4@68"GCC 4.2 is not compatible with the Mac OS X 10.4 SDK (file main.cpp)316577456#18446744073709551615#0#0(1@0"0(0#1#0"9007637348679712#0"0#
+lSLF07#2@18"Check dependencies321577825#321577825#0(190"[WARN]Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'openFrameworks-Info.plist'.GCC 4.2 is not compatible with the Mac OS X 10.4 SDK (file main.cpp)2(22@114"Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'openFrameworks-Info.plist'.321577825#18446744073709551615#0#0(1@0"0(4@68"GCC 4.2 is not compatible with the Mac OS X 10.4 SDK (file main.cpp)321577825#18446744073709551615#0#0(1@0"0(0#1#0"29836824280170608#0"0#
 
 CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/Circle.o /Users/james/Projects/openFrameworks/006_FAT/apps/play/Heart_Beat_00/src/Circle.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 r0
@@ -4673,6 +4677,9 @@ CProcessInfoPlistFile /Users/jhovell/Projects/Experiments/openFrameworks/v006_FA
 r0
 
 CProcessPCH++ /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Carbon-dyarjtywktmyccekuzlixpswpetv/Carbon.h.gch /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH++ /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Carbon-hfyqmfxiifmmwrbptogfbnhvsgdc/Carbon.h.gch /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.gcc.4_2
 r0
 
 CProcessPCH++ /var/folders/hE/hES09jXGEAeR5W30wlOnwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-ebdzpiysylzwqmbingyldofnopad/Carbon.h.gch /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.gcc.4_2

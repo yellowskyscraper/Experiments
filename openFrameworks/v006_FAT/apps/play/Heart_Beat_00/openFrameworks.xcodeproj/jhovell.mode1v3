@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -254,7 +252,7 @@
 						<dict>
 							<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
 							<array>
-								<real>186</real>
+								<real>303</real>
 							</array>
 							<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
 							<array>
@@ -271,11 +269,12 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>4</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {186, 445}}</string>
+							<string>{{0, 0}, {303, 760}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -287,19 +286,19 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {203, 463}}</string>
+						<string>{{0, 0}, {320, 778}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
-							<real>186</real>
+							<real>303</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>447 277 788 504 0 0 1600 878 </string>
+						<string>0 59 1600 819 0 0 1600 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
 					<key>Proportion</key>
-					<string>203pt</string>
+					<string>320pt</string>
 				</dict>
 				<dict>
 					<key>Dock</key>
@@ -310,7 +309,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MyNewFile14.java</string>
+								<string>main.cpp</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -318,7 +317,15 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MyNewFile14.java</string>
+										<string>main.cpp</string>
+										<key>_historyCapacity</key>
+										<integer>0</integer>
+										<key>bookmark</key>
+										<string>CF7CD266132AE3690037CA3B</string>
+										<key>history</key>
+										<array>
+											<string>CF7CD265132AE3690037CA3B</string>
+										</array>
 									</dict>
 									<key>SplitCount</key>
 									<string>1</string>
@@ -329,16 +336,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {580, 277}}</string>
+								<string>{{0, 0}, {1275, 665}}</string>
 								<key>RubberWindowFrame</key>
-								<string>447 277 788 504 0 0 1600 878 </string>
+								<string>0 59 1600 819 0 0 1600 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>277pt</string>
+							<string>665pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -349,18 +358,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 282}, {580, 181}}</string>
+								<string>{{0, 670}, {1275, 108}}</string>
 								<key>RubberWindowFrame</key>
-								<string>447 277 788 504 0 0 1600 878 </string>
+								<string>0 59 1600 819 0 0 1600 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>181pt</string>
+							<string>108pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>580pt</string>
+					<string>1275pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -375,9 +384,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>CFCD4F8D12DE96C0008C3F7D</string>
+				<string>CF7CD267132AE3690037CA3B</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>CFCD4F8E12DE96C0008C3F7D</string>
+				<string>CF7CD268132AE3690037CA3B</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -519,7 +528,7 @@
 		<string>/Users/jhovell/Projects/Experiments/openFrameworks/v006_FAT/apps/play/Heart_Beat_00/openFrameworks.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>447 277 788 504 0 0 1600 878 </string>
+	<string>0 59 1600 819 0 0 1600 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -598,7 +607,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>CFCD4F8B12DE96BF008C3F7D</string>
-				<string>CFCD4F8C12DE96BF008C3F7D</string>
+				<string>CF7CD264132AE3670037CA3B</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
