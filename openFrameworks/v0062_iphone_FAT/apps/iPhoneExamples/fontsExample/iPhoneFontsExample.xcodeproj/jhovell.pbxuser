@@ -20,9 +20,9 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					341,
+					627,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -37,12 +37,47 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 316577000;
-			PBXWorkspaceStateSaveDate = 316577000;
+			PBXPerProjectTemplateStateSaveDate = 322076295;
+			PBXWorkspaceStateSaveDate = 322076295;
+		};
+		perUserProjectItems = {
+			CFBA7A5A13327E6C002B520F /* PBXTextBookmark */ = CFBA7A5A13327E6C002B520F /* PBXTextBookmark */;
+			CFBA7A5C13327E6C002B520F /* PBXTextBookmark */ = CFBA7A5C13327E6C002B520F /* PBXTextBookmark */;
+			CFBA7ABC13328448002B520F /* PBXTextBookmark */ = CFBA7ABC13328448002B520F /* PBXTextBookmark */;
 		};
 		sourceControlManager = CFCD4F6312DE94EB008C3F7D /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	CFBA7A5A13327E6C002B520F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4D8936C11527B74007E1F53 /* testApp.h */;
+		name = "testApp.h: 22";
+		rLen = 0;
+		rLoc = 432;
+		rType = 0;
+		vrLen = 438;
+		vrLoc = 0;
+	};
+	CFBA7A5C13327E6C002B520F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4D8936D11527B74007E1F53 /* testApp.mm */;
+		name = "testApp.mm: 68";
+		rLen = 0;
+		rLoc = 2211;
+		rType = 0;
+		vrLen = 1417;
+		vrLoc = 1315;
+	};
+	CFBA7ABC13328448002B520F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4D8936D11527B74007E1F53 /* testApp.mm */;
+		name = "testApp.mm: 18";
+		rLen = 0;
+		rLoc = 509;
+		rType = 0;
+		vrLen = 1913;
+		vrLoc = 0;
 	};
 	CFCD4F5212DE94E8008C3F7D /* emptyExample */ = {
 		isa = PBXExecutable;
@@ -60,6 +95,7 @@
 		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -84,5 +120,19 @@
 	CFCD4F6412DE94EB008C3F7D /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	E4D8936C11527B74007E1F53 /* testApp.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {800, 632}}";
+			sepNavSelRange = "{432, 0}";
+			sepNavVisRange = "{0, 438}";
+		};
+	};
+	E4D8936D11527B74007E1F53 /* testApp.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1412, 1326}}";
+			sepNavSelRange = "{509, 0}";
+			sepNavVisRange = "{0, 1913}";
+		};
 	};
 }

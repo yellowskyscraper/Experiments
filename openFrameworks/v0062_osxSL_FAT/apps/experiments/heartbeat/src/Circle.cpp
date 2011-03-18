@@ -11,7 +11,7 @@
 
 Circle::Circle()
 {
-	color = 0x00ffff;
+	color = 0xffffff;
 	radius = 50;
 	angle = 0;
 	
@@ -21,7 +21,7 @@ Circle::Circle()
 	
 	refresh_period = ofGetElapsedTimef() + del; 
 	
-	location.set(100, 100, 0.0);
+	location.set(100, 200, 0.0);
 }
 //--------------------------------------------------------------
 void Circle::update()

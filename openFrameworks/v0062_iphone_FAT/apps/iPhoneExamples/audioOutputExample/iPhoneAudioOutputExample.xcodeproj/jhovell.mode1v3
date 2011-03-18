@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -308,6 +306,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -325,12 +325,12 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CF4D7DB4131834EA008CFAA3</string>
+										<string>CFBA7ACE1332855C002B520F</string>
 										<key>history</key>
 										<array>
 											<string>CF4D7DB2131834EA008CFAA3</string>
 											<string>CF4D7DB3131834EA008CFAA3</string>
-											<string>CFF8E3A712E6530C0009F6D1</string>
+											<string>CF4D7DB4131834EA008CFAA3</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -388,9 +388,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>CF4D7DA81318349A008CFAA3</string>
+				<string>CFBA7ACF1332855C002B520F</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>CF4D7DA91318349A008CFAA3</string>
+				<string>CFBA7AD01332855C002B520F</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -528,8 +528,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>CFF8E3A212E643870009F6D1</string>
 		<string>/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhoneExamples/audioOutputExample/iPhoneAudioOutputExample.xcodeproj</string>
 	</array>
@@ -611,7 +609,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>CFF8E3A212E643870009F6D1</string>
-				<string>CF4D7DAA1318349A008CFAA3</string>
+				<string>CFBA7AD11332855C002B520F</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

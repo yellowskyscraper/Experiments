@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -267,11 +265,15 @@
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
+								<string>29B97323FDCFA39411CA2CEA</string>
+								<string>CF7F746212FB991600FD3189</string>
+								<string>CF13A20B1333FC8000DE0287</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>5</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -307,12 +309,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CherryAppDelegate.m</string>
+								<string>MyViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -320,20 +324,21 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>CherryAppDelegate.m</string>
+										<string>MyViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CF4D7E1F131C3510008CFAA3</string>
+										<string>CF13A3761334101000DE0287</string>
 										<key>history</key>
 										<array>
 											<string>CF52161112EA1DCC001CECD4</string>
 											<string>CFB75C0D12F22D6800CBC13C</string>
 											<string>CFB75C0E12F22D6800CBC13C</string>
-											<string>CF7F749C12FB9E0500FD3189</string>
-											<string>CF7F74BF12FC785500FD3189</string>
-											<string>CF7F74C012FC785500FD3189</string>
-											<string>CF77F3C113033FEA007C438F</string>
+											<string>CF13A33613340D8000DE0287</string>
+											<string>CF13A33713340D8000DE0287</string>
+											<string>CF13A36413340EBE00DE0287</string>
+											<string>CF13A3731334101000DE0287</string>
+											<string>CF13A3751334101000DE0287</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -391,9 +396,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>CF4D7E20131C3510008CFAA3</string>
+				<string>CF13A33A13340D8000DE0287</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>CF4D7E21131C3510008CFAA3</string>
+				<string>CF13A33B13340D8000DE0287</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -531,6 +536,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>CF52161812EA1DCC001CECD4</string>
 		<string>/Users/jhovell/Projects/Experiments/iOS_Primer/Cherry/Cherry.xcodeproj</string>
@@ -557,7 +563,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>MyViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -574,6 +580,8 @@
 							<string>488pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -613,7 +621,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>CF52161812EA1DCC001CECD4</string>
-				<string>CF4D7E22131C3510008CFAA3</string>
+				<string>CF13A33C13340D8000DE0287</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -735,13 +743,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>CF4D7E23131C3510008CFAA3</string>
+				<string>CF13A35013340E0300DE0287</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>CF4D7E24131C3510008CFAA3</string>
-				<string>CF4D7E25131C3510008CFAA3</string>
-				<string>CF4D7E26131C3510008CFAA3</string>
-				<string>CF4D7E27131C3510008CFAA3</string>
-				<string>CF4D7E28131C3510008CFAA3</string>
+				<string>CF13A35113340E0300DE0287</string>
+				<string>CF13A35213340E0300DE0287</string>
+				<string>CF13A35313340E0300DE0287</string>
+				<string>CF13A35413340E0300DE0287</string>
+				<string>CF13A35513340E0300DE0287</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -903,7 +911,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>CFFFF129130312CB00C5C147</string>
+				<string>CF13A35613340E0300DE0287</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
