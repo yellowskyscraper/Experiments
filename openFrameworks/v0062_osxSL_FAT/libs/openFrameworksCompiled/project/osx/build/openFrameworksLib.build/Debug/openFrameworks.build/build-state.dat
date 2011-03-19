@@ -1,25 +1,25 @@
 TopenFrameworks
 v7
 r0
-t321581026.679288
+t321581979.662495
 cCheck dependencies
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppGlutWindow.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppGlutWindow.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppRunner.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppRunner.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofArduino.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofArduino.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSerial.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofSerial.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofBitmapFont.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofBitmapFont.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofGraphics.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofGraphics.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofImage.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTexture.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTexture.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTrueTypeFont.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTrueTypeFont.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundPlayer.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundPlayer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundStream.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofMath.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofMath.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofUtils.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofUtils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofQtUtils.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofQtUtils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoGrabber.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoGrabber.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoPlayer.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoPlayer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cLibtool /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx//openFrameworksDebug.a normal i386
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppGlutWindow.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppGlutWindow.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppRunner.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppRunner.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofArduino.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofArduino.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSerial.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofSerial.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofBitmapFont.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofBitmapFont.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofGraphics.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofGraphics.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofImage.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTexture.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTexture.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTrueTypeFont.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTrueTypeFont.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundPlayer.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundPlayer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundStream.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofMath.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofMath.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofUtils.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofUtils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofQtUtils.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofQtUtils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoGrabber.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoGrabber.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoPlayer.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoPlayer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLibtool /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx//openFrameworksDebug.a normal i386
 
 N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/float.h
 c000000004C238F150000000000001538
@@ -34,13 +34,13 @@ i<machine/ansi.h>
 i<sys/_types.h>
 
 N/System/Library/Frameworks/AGL.framework/AGL
-c000000004CB43A300000000000043820
-t1286879792
+c000000004BD2589F0000000000043820
+t1272076447
 s276512
 
 N/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
-c000000004CB43A020000000000022140
-t1286879746
+c000000004A12050E0000000000022140
+t1242694926
 s139584
 
 N/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h
@@ -54,8 +54,8 @@ t1284602191
 s5056288
 
 N/System/Library/Frameworks/Carbon.framework/Carbon
-c000000004CB43A03000000000000A5F0
-t1286879747
+c000000004C0FDD7E000000000000A5F0
+t1276108158
 s42480
 
 N/System/Library/Frameworks/CoreAudio.framework/CoreAudio
@@ -84,8 +84,8 @@ t1242689688
 s1024
 
 N/System/Library/Frameworks/GLUT.framework/GLUT
-c000000004CB43A4900000000001A2920
-t1286879817
+c000000004A12475500000000001A2920
+t1242711893
 s1714464
 
 N/System/Library/Frameworks/GLUT.framework/Headers/glut.h
@@ -104,8 +104,8 @@ t1272074271
 s16260
 
 N/System/Library/Frameworks/OpenGL.framework/OpenGL
-c000000004CD4F7840000000000043330
-t1289025412
+c000000004D22BC490000000000043330
+t1294122057
 s275248
 
 N/System/Library/Frameworks/QuickTime.framework/Headers/QuickTime.h
@@ -117,6 +117,1075 @@ N/System/Library/Frameworks/QuickTime.framework/QuickTime
 c000000004CC7AED00000000000783950
 t1288154832
 s7878992
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/fmodex/include/fmod.h
+c000000004D7A97100000000000028E68
+t1299879696
+s167528
+i"fmod_codec.h"
+i"fmod_dsp.h"
+i"fmod_memoryinfo.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/fmodex/include/fmod_codec.h
+c000000004D7A9710000000000000334A
+t1299879696
+s13130
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/fmodex/include/fmod_dsp.h
+c000000004D7A9710000000000000892F
+t1299879696
+s35119
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/fmodex/include/fmod_memoryinfo.h
+c000000004D7A97100000000000003C95
+t1299879696
+s15509
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/freetype/include/freetype2/freetype/config/ftheader.h
+c000000004D7A97100000000000005B39
+t1299879696
+s23353
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/freetype/include/freetype2/freetype/freetype.h
+c000000004D7A97100000000000032885
+t1299879696
+s206981
+i<ft2build.h>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/freetype/include/freetype2/freetype/ftglyph.h
+c000000004D7A97100000000000008DCF
+t1299879696
+s36303
+i<ft2build.h>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/freetype/include/freetype2/freetype/ftoutln.h
+c000000004D7A97100000000000007B3C
+t1299879696
+s31548
+i<ft2build.h>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/freetype/include/freetype2/freetype/fttrigon.h
+c000000004D7A971000000000000020FB
+t1299879696
+s8443
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/freetype/include/ft2build.h
+c000000004D7A97100000000000000F32
+t1299879696
+s3890
+i<freetype/config/ftheader.h>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworks/app/ofAppBaseWindow.h
+c000000004D7A97100000000000000446
+t1299879696
+s1094
+i"ofTypes.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworks/app/ofAppGlutWindow.h
+c000000004D7A9710000000000000066B
+t1299879696
+s1643
+i"ofConstants.h"
+i"ofAppBaseWindow.h"
+i"glut.h"
+i<GLUT/glut.h>
+i<GL/glut.h>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworks/app/ofAppRunner.h
+c000000004D7A9710000000000000050D
+t1299879696
+s1293
+i"ofMain.h"
+i"ofBaseApp.h"
+i"ofAppBaseWindow.h"
+i"ofAppGlutWindow.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworks/app/ofBaseApp.h
+c000000004D7A97100000000000000376
+t1299879696
+s886
+i"ofTypes.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworks/communication/ofArduino.h
+c000000004D7A97100000000000003D3C
+t1299879696
+s15676
+i<list>
+i<vector>
+i<string>
+i<iostream>
+i"ofEvents.h"
+i"ofSerial.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworks/communication/ofSerial.h
+c000000004D7A97100000000000000D2E
+t1299879696
+s3374
+i"ofConstants.h"
+i<termios.h>
+i<sys/ioctl.h>
+i<getopt.h>
+i<dirent.h>
+i<winbase.h>
+i<tchar.h>
+i<iostream>
+i<string.h>
+i<setupapi.h>
+i<regstr.h>
+i<winioctl.h>
+i<initguid.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<fcntl.h>
+i<errno.h>
+i<ctype.h>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworks/events/ofEventUtils.h
+c000000004D7A97100000000000000AFA
+t1299879696
+s2810
+i"ofConstants.h"
+i"Poco/FIFOEvent.h"
+i"Poco/Delegate.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworks/graphics/ofBitmapFont.h
+c000000004D7A97100000000000000206
+t1299879696
+s518
+i"ofConstants.h"
+i"ofTexture.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworks/graphics/ofGraphics.h
+c000000004D7A97100000000000000D63
+t1299879696
+s3427
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworks/graphics/ofImage.h
+c000000004D7A97100000000000000D09
+t1299879696
+s3337
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGraphics.h"
+i"ofAppRunner.h"
+i"FreeImage.h"
+i"ofUtils.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworks/graphics/ofTexture.h
+c000000004D7A97100000000000000C4B
+t1299879696
+s3147
+i"ofConstants.h"
+i"ofGraphics.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworks/graphics/ofTrueTypeFont.h
+c000000004D7A9710000000000000087A
+t1299879696
+s2170
+i"ofConstants.h"
+i"ofGraphics.h"
+i"ofUtils.h"
+i"ofTypes.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworks/sound/ofSoundPlayer.h
+c000000004D7A971000000000000006C3
+t1299879696
+s1731
+i"ofConstants.h"
+i"fmod.h"
+i"fmod_errors.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworks/sound/ofSoundStream.h
+c000000004D7A97100000000000000254
+t1299879696
+s596
+i"ofConstants.h"
+i"ofBaseApp.h"
+i"ofEvents.h"
+i"ofMath.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworks/utils/ofConstants.h
+c000000004D7A97100000000000002ACC
+t1299879696
+s10956
+i<TargetConditionals.h>
+i<windows.h>
+i"GLee.h"
+i"glu.h"
+i<unistd.h>
+i"GLee.h"
+i<OpenGL/glu.h>
+i<ApplicationServices/ApplicationServices.h>
+i<unistd.h>
+i"GLee.h"
+i<GL/glu.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<cstdlib>
+i<cstdio>
+i<cstdarg>
+i<cmath>
+i<ctime>
+i<cstdlib>
+i<string>
+i<iostream>
+i<vector>
+i<cstring>
+i<sstream>
+i<iomanip>
+i<fstream>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworks/utils/ofMath.h
+c000000004D7A97100000000000000A66
+t1299879696
+s2662
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworks/utils/ofNoise.h
+c000000004D7A97100000000000004F24
+t1299879696
+s20260
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworks/utils/ofTypes.h
+c000000004D7A97100000000000001D5F
+t1299879696
+s7519
+i"ofConstants.h"
+i"ofUtils.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworks/utils/ofUtils.h
+c000000004D7A971000000000000005A4
+t1299879696
+s1444
+i"ofConstants.h"
+i<shellapi.h>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworks/video/ofGstUtils.h
+c000000004D7A97100000000000000B55
+t1299879696
+s2901
+i<gst/gst.h>
+i<pthread.h>
+i"ofConstants.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworks/video/ofQtUtils.h
+c000000004D7A971000000000000006CF
+t1299879696
+s1743
+i"ofConstants.h"
+i"ofGraphics.h"
+i<QuickTime/QuickTime.h>
+i<CoreServices/CoreServices.h>
+i<ApplicationServices/ApplicationServices.h>
+i<QTML.h>
+i<FixMath.h>
+i<QuickTimeComponents.h>
+i<TextUtils.h>
+i<MediaHandlers.h>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworks/video/ofVideoGrabber.h
+c000000004D7A97100000000000000C9C
+t1299879696
+s3228
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGraphics.h"
+i"ofTypes.h"
+i"ofQtUtils.h"
+i"videoInput.h"
+i"ofUCUtils.h"
+i"ofGstUtils.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworks/video/ofVideoPlayer.h
+c000000004D7A97100000000000000C33
+t1299879696
+s3123
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGstUtils.h"
+i"ofQtUtils.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../FreeImage/include/FreeImage.h
+c000000004D7A970F000000000000CC1B
+t1299879695
+s52251
+i<wchar.h>
+i<inttypes.h>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../fmodex/include/fmod.h
+c000000004D7A97100000000000028E68
+t1299879696
+s167528
+i"fmod_codec.h"
+i"fmod_dsp.h"
+i"fmod_memoryinfo.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../fmodex/include/fmod_errors.h
+c000000004D7A97100000000000003408
+t1299879696
+s13320
+i"fmod.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../glee/include/GLee.h
+c000000004D7A97100000000000090A87
+t1299879696
+s592519
+i<windows.h>
+i<GL/gl.h>
+i<OpenGL/gl.h>
+i<GL/gl.h>
+i<GL/glx.h>
+i<stddef.h>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppGlutWindow.cpp
+c000000004D7A97100000000000004730
+t1299879696
+s18224
+i"ofAppGlutWindow.h"
+i"ofBaseApp.h"
+i"ofMain.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppRunner.cpp
+c000000004D7A97100000000000001876
+t1299879696
+s6262
+i"ofAppRunner.h"
+i"ofAppiPhoneWindow.h"
+i"ofAppGlutWindow.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppRunner.h
+c000000004D7A9710000000000000050D
+t1299879696
+s1293
+i"ofMain.h"
+i"ofBaseApp.h"
+i"ofAppBaseWindow.h"
+i"ofAppGlutWindow.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofArduino.cpp
+c000000004D7A97100000000000004269
+t1299879696
+s17001
+i"ofArduino.h"
+i"ofUtils.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofArduino.h
+c000000004D7A97100000000000003D3C
+t1299879696
+s15676
+i<list>
+i<vector>
+i<string>
+i<iostream>
+i"ofEvents.h"
+i"ofSerial.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofSerial.cpp
+c000000004D7A97100000000000004991
+t1299879696
+s18833
+i"ofSerial.h"
+i"ofMain.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofSerial.h
+c000000004D7A97100000000000000D2E
+t1299879696
+s3374
+i"ofConstants.h"
+i<termios.h>
+i<sys/ioctl.h>
+i<getopt.h>
+i<dirent.h>
+i<winbase.h>
+i<tchar.h>
+i<iostream>
+i<string.h>
+i<setupapi.h>
+i<regstr.h>
+i<winioctl.h>
+i<initguid.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<fcntl.h>
+i<errno.h>
+i<ctype.h>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/events/ofEvents.h
+c000000004D7A9710000000000000126C
+t1299879696
+s4716
+i"ofConstants.h"
+i"ofUtils.h"
+i"ofEventUtils.h"
+i"ofxEventUtils.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofBitmapFont.cpp
+c000000004D7A97100000000000009D17
+t1299879696
+s40215
+i"ofBitmapFont.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofGraphics.cpp
+c000000004D7A971000000000000081A7
+t1299879696
+s33191
+i"ofGraphics.h"
+i"ofAppRunner.h"
+i"ofBitmapFont.h"
+i<OpenGL/glu.h>
+i"glu.h"
+i"GL/glu.h"
+i"glu.h"
+i<vector>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofGraphics.h
+c000000004D7A97100000000000000D63
+t1299879696
+s3427
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofImage.cpp
+c000000004D7A97100000000000003F3D
+t1299879696
+s16189
+i"ofImage.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofImage.h
+c000000004D7A97100000000000000D09
+t1299879696
+s3337
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGraphics.h"
+i"ofAppRunner.h"
+i"FreeImage.h"
+i"ofUtils.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTexture.cpp
+c000000004D7A9710000000000000481C
+t1299879696
+s18460
+i"ofTexture.h"
+i"ofUtils.h"
+i"ofAppRunner.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTexture.h
+c000000004D7A97100000000000000C4B
+t1299879696
+s3147
+i"ofConstants.h"
+i"ofGraphics.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTrueTypeFont.cpp
+c000000004D7A97100000000000006D00
+t1299879696
+s27904
+i"ofTrueTypeFont.h"
+i<ft2build.h>
+i<freetype/freetype.h>
+i<freetype/ftglyph.h>
+i<freetype/ftoutln.h>
+i<freetype/fttrigon.h>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTrueTypeFont.h
+c000000004D7A9710000000000000087A
+t1299879696
+s2170
+i"ofConstants.h"
+i"ofGraphics.h"
+i"ofUtils.h"
+i"ofTypes.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/ofMain.h
+c000000004D7A97100000000000000347
+t1299879696
+s839
+i"ofConstants.h"
+i"ofMath.h"
+i"ofUtils.h"
+i"ofTypes.h"
+i"ofSerial.h"
+i"ofArduino.h"
+i"ofTexture.h"
+i"ofTrueTypeFont.h"
+i"ofGraphics.h"
+i"ofImage.h"
+i"ofBaseApp.h"
+i"ofAppRunner.h"
+i"ofSoundStream.h"
+i"ofSoundPlayer.h"
+i"ofVideoGrabber.h"
+i"ofVideoPlayer.h"
+i"ofEvents.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundPlayer.cpp
+c000000004D7A97100000000000002413
+t1299879696
+s9235
+i"ofSoundPlayer.h"
+i"ofUtils.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundPlayer.h
+c000000004D7A971000000000000006C3
+t1299879696
+s1731
+i"ofConstants.h"
+i"fmod.h"
+i"fmod_errors.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.cpp
+c000000004D7A9710000000000000143C
+t1299879696
+s5180
+i"ofSoundStream.h"
+i"RtAudio.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.h
+c000000004D7A97100000000000000254
+t1299879696
+s596
+i"ofConstants.h"
+i"ofBaseApp.h"
+i"ofEvents.h"
+i"ofMath.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofConstants.h
+c000000004D7A97100000000000002ACC
+t1299879696
+s10956
+i<TargetConditionals.h>
+i<windows.h>
+i"GLee.h"
+i"glu.h"
+i<unistd.h>
+i"GLee.h"
+i<OpenGL/glu.h>
+i<ApplicationServices/ApplicationServices.h>
+i<unistd.h>
+i"GLee.h"
+i<GL/glu.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<cstdlib>
+i<cstdio>
+i<cstdarg>
+i<cmath>
+i<ctime>
+i<cstdlib>
+i<string>
+i<iostream>
+i<vector>
+i<cstring>
+i<sstream>
+i<iomanip>
+i<fstream>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofMath.cpp
+c000000004D7A97100000000000002440
+t1299879696
+s9280
+i"ofMath.h"
+i"ofAppRunner.h"
+i"float.h"
+i<sys/time.h>
+i"ofNoise.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofMath.h
+c000000004D7A97100000000000000A66
+t1299879696
+s2662
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofTypes.h
+c000000004D7A97100000000000001D5F
+t1299879696
+s7519
+i"ofConstants.h"
+i"ofUtils.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofUtils.cpp
+c000000004D7A97100000000000002A00
+t1299879696
+s10752
+i"ofUtils.h"
+i"ofImage.h"
+i"sys/time.h"
+i<mmsystem.h>
+i<direct.h>
+i<mach-o/dyld.h>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofQtUtils.cpp
+c000000004D7A971000000000000024FB
+t1299879696
+s9467
+i"ofQtUtils.h"
+i"ofUtils.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoGrabber.cpp
+c000000004D7A97100000000000007E9C
+t1299879696
+s32412
+i"ofVideoGrabber.h"
+i"ofUtils.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoGrabber.h
+c000000004D7A97100000000000000C9C
+t1299879696
+s3228
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGraphics.h"
+i"ofTypes.h"
+i"ofQtUtils.h"
+i"videoInput.h"
+i"ofUCUtils.h"
+i"ofGstUtils.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoPlayer.cpp
+c000000004D7A97100000000000006CCD
+t1299879696
+s27853
+i"ofVideoPlayer.h"
+i"ofUtils.h"
+i<gst/video/video.h>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoPlayer.h
+c000000004D7A97100000000000000C33
+t1299879696
+s3123
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGstUtils.h"
+i"ofQtUtils.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../rtAudio/include/RtAudio.h
+c000000004D7A97120000000000009B55
+t1299879698
+s39765
+i<string>
+i<vector>
+i"RtError.h"
+i<windows.h>
+i<process.h>
+i<pthread.h>
+i<sys/time.h>
+i<sstream>
+i<CoreAudio/AudioHardware.h>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx//openFrameworksDebug.a
+t1299889179
+s6360696
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppGlutWindow.o
+t1299879697
+s762720
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppRunner.o
+t1299879697
+s951812
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofArduino.o
+t1299879697
+s978524
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofBitmapFont.o
+t1299879697
+s80328
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofGraphics.o
+t1299879697
+s454812
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofImage.o
+t1299879697
+s383240
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofMath.o
+t1299879697
+s388328
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofQtUtils.o
+t1299879697
+s61528
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSerial.o
+t1299879697
+s355280
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundPlayer.o
+t1299879697
+s73508
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundStream.o
+t1299889178
+s509120
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTexture.o
+t1299879697
+s361880
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTrueTypeFont.o
+t1299879697
+s216260
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofUtils.o
+t1299879697
+s431712
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoGrabber.o
+t1299879697
+s115224
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoPlayer.o
+t1299879697
+s115272
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/openFrameworksDebug.LinkFileList
+c000000004D7ABC150000000000000C3A
+t1299889173
+s3130
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/AbstractDelegate.h
+c000000004D7A97110000000000000B2E
+t1299879697
+s2862
+i"Poco/Foundation.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/AbstractEvent.h
+c000000004D7A97110000000000002C6A
+t1299879697
+s11370
+i"Poco/Foundation.h"
+i"Poco/SingletonHolder.h"
+i"Poco/SharedPtr.h"
+i"Poco/ActiveResult.h"
+i"Poco/ActiveMethod.h"
+i"Poco/Mutex.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/ActiveMethod.h
+c000000004D7A97110000000000001C64
+t1299879697
+s7268
+i"Poco/Foundation.h"
+i"Poco/ActiveResult.h"
+i"Poco/ActiveRunnable.h"
+i"Poco/ActiveStarter.h"
+i"Poco/AutoPtr.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/ActiveResult.h
+c000000004D7A97110000000000002E66
+t1299879697
+s11878
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+i"Poco/Event.h"
+i"Poco/RefCountedObject.h"
+i"Poco/Exception.h"
+i<algorithm>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/ActiveRunnable.h
+c000000004D7A97110000000000001785
+t1299879697
+s6021
+i"Poco/Foundation.h"
+i"Poco/ActiveResult.h"
+i"Poco/Runnable.h"
+i"Poco/RefCountedObject.h"
+i"Poco/AutoPtr.h"
+i"Poco/Exception.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/ActiveStarter.h
+c000000004D7A97110000000000000927
+t1299879697
+s2343
+i"Poco/Foundation.h"
+i"Poco/ThreadPool.h"
+i"Poco/ActiveRunnable.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/AutoPtr.h
+c000000004D7A97110000000000001E0C
+t1299879697
+s7692
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<algorithm>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/Bugcheck.h
+c000000004D7A971100000000000012FE
+t1299879697
+s4862
+i"Poco/Foundation.h"
+i<string>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/CompareFunctions.h
+c000000004D7A971100000000000007EC
+t1299879697
+s2028
+i"Poco/Foundation.h"
+i<functional>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/Config.h
+c000000004D7A971100000000000008B5
+t1299879697
+s2229
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/Delegate.h
+c000000004D7A97110000000000001802
+t1299879697
+s6146
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/FunctionDelegate.h"
+i"Poco/Expire.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/Event.h
+c000000004D7A97110000000000000E21
+t1299879697
+s3617
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/Event_WIN32.h"
+i"Poco/Event_POSIX.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/Event_POSIX.h
+c000000004D7A97110000000000000A91
+t1299879697
+s2705
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<pthread.h>
+i<errno.h>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/Event_WIN32.h
+c000000004D7A97110000000000000947
+t1299879697
+s2375
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/UnWindows.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/Exception.h
+c000000004D7A971100000000000026AC
+t1299879697
+s9900
+i"Poco/Foundation.h"
+i<stdexcept>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/Expire.h
+c000000004D7A97110000000000000CF1
+t1299879697
+s3313
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/Timestamp.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/FIFOEvent.h
+c000000004D7A97110000000000000AD4
+t1299879697
+s2772
+i"Poco/AbstractEvent.h"
+i"Poco/FIFOStrategy.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/CompareFunctions.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/FIFOStrategy.h
+c000000004D7A971100000000000010F3
+t1299879697
+s4339
+i"Poco/NotificationStrategy.h"
+i<map>
+i<list>
+i<memory>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/Foundation.h
+c000000004D7A97110000000000001023
+t1299879697
+s4131
+i"Poco/Config.h"
+i"Poco/Platform.h"
+i"Poco/Platform_WIN32.h"
+i"Poco/Platform_VMS.h"
+i"Poco/Platform_POSIX.h"
+i"Poco/Bugcheck.h"
+i"Poco/Types.h"
+i<string>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/FunctionDelegate.h
+c000000004D7A971100000000000013CA
+t1299879697
+s5066
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/Mutex.h
+c000000004D7A97110000000000001A61
+t1299879697
+s6753
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/ScopedLock.h"
+i"Poco/Mutex_WIN32.h"
+i"Poco/Mutex_POSIX.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/Mutex_POSIX.h
+c000000004D7A97110000000000000AC3
+t1299879697
+s2755
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<pthread.h>
+i<errno.h>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/Mutex_WIN32.h
+c000000004D7A97110000000000000A07
+t1299879697
+s2567
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/UnWindows.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/NotificationStrategy.h
+c000000004D7A97110000000000000A37
+t1299879697
+s2615
+i"Poco/Foundation.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/Platform.h
+c000000004D7A97110000000000001A3A
+t1299879697
+s6714
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/Platform_POSIX.h
+c000000004D7A97110000000000000843
+t1299879697
+s2115
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/Platform_VMS.h
+c000000004D7A97110000000000000BAA
+t1299879697
+s2986
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/Platform_WIN32.h
+c000000004D7A97110000000000000D4D
+t1299879697
+s3405
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/RefCountedObject.h
+c000000004D7A97110000000000000B10
+t1299879697
+s2832
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/Runnable.h
+c000000004D7A97110000000000000861
+t1299879697
+s2145
+i"Poco/Foundation.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/ScopedLock.h
+c000000004D7A971100000000000008EB
+t1299879697
+s2283
+i"Poco/Foundation.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/SharedPtr.h
+c000000004D7A971100000000000021DE
+t1299879697
+s8670
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/Mutex.h"
+i<algorithm>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/SignalHandler.h
+c000000004D7A971100000000000011EB
+t1299879697
+s4587
+i"Poco/Foundation.h"
+i<vector>
+i<setjmp.h>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/SingletonHolder.h
+c000000004D7A97110000000000000A64
+t1299879697
+s2660
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/Thread.h
+c000000004D7A97110000000000001C3A
+t1299879697
+s7226
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+i"Poco/Thread_WIN32.h"
+i"Poco/Thread_POSIX.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/ThreadPool.h
+c000000004D7A97110000000000001849
+t1299879697
+s6217
+i"Poco/Foundation.h"
+i"Poco/Thread.h"
+i"Poco/Mutex.h"
+i<vector>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/Thread_POSIX.h
+c000000004D7A971100000000000012A8
+t1299879697
+s4776
+i"Poco/Foundation.h"
+i"Poco/Runnable.h"
+i"Poco/SignalHandler.h"
+i"Poco/Event.h"
+i"Poco/RefCountedObject.h"
+i"Poco/AutoPtr.h"
+i<pthread.h>
+i<sys/select.h>
+i<errno.h>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/Thread_WIN32.h
+c000000004D7A9711000000000000106C
+t1299879697
+s4204
+i"Poco/Foundation.h"
+i"Poco/Runnable.h"
+i"Poco/UnWindows.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/Timestamp.h
+c000000004D7A971100000000000019A7
+t1299879697
+s6567
+i"Poco/Foundation.h"
+i<ctime>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/Types.h
+c000000004D7A97110000000000001910
+t1299879697
+s6416
+i"Poco/Foundation.h"
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/UnWindows.h
+c000000004D7A97110000000000000FD1
+t1299879697
+s4049
+i<windows.h>
+
+N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/rtAudio/include/RtError.h
+c000000004D7A97120000000000000846
+t1299879698
+s2118
+i<exception>
+i<iostream>
+i<string>
 
 N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/fmodex/include/fmod.h
 c000000004CE42E080000000000028E68
@@ -1311,7 +2380,10 @@ i<sys/_types.h>
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies321581026#321581026#0(0"0(0#1#0"8604288480#0"0#
+lSLF07#2@18"Check dependencies321581973#321581973#0(0"0(0#1#0"29836824280170608#0"0#
+
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppGlutWindow.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppGlutWindow.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppGlutWindow.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppGlutWindow.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s317858906.714123
@@ -1327,6 +2399,9 @@ xcom.apple.compilers.gcc.4_2
 oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
 lSLF07#2@162"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppGlutWindow.cpp317858906#317859051#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#154"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppGlutWindow.cpp8613088096#1678"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/openFrameworksDebug.hmap -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 -I../../../../libs/poco/include -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources -D__MACOSX_CORE__ -lpthread -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppGlutWindow.cpp -o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppGlutWindow.o0#
 
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppRunner.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppRunner.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppRunner.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppRunner.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s317858906.714855
 e317859050.467483
@@ -1340,6 +2415,9 @@ xc++
 xcom.apple.compilers.gcc.4_2
 oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
 lSLF07#2@158"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppRunner.cpp317858906#317859050#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#150"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppRunner.cpp8613100096#1670"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/openFrameworksDebug.hmap -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 -I../../../../libs/poco/include -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources -D__MACOSX_CORE__ -lpthread -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppRunner.cpp -o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppRunner.o0#
+
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofArduino.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofArduino.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofArduino.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofArduino.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s317858906.715518
@@ -1355,6 +2433,9 @@ xcom.apple.compilers.gcc.4_2
 oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
 lSLF07#2@166"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofArduino.cpp317858906#317858973#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#158"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofArduino.cpp8613114688#1676"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/openFrameworksDebug.hmap -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 -I../../../../libs/poco/include -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources -D__MACOSX_CORE__ -lpthread -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofArduino.cpp -o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofArduino.o0#
 
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofBitmapFont.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofBitmapFont.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofBitmapFont.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofBitmapFont.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s317858906.716864
 e317858914.584518
@@ -1368,6 +2449,9 @@ xc++
 xcom.apple.compilers.gcc.4_2
 oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
 lSLF07#2@164"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofBitmapFont.cpp317858906#317858914#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#156"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofBitmapFont.cpp8613142496#1677"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/openFrameworksDebug.hmap -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 -I../../../../libs/poco/include -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources -D__MACOSX_CORE__ -lpthread -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofBitmapFont.cpp -o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofBitmapFont.o0#
+
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofGraphics.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofGraphics.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofGraphics.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofGraphics.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s317858906.717548
@@ -1383,6 +2467,9 @@ xcom.apple.compilers.gcc.4_2
 oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
 lSLF07#2@162"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofGraphics.cpp317858906#317859049#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#154"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofGraphics.cpp8613157344#1673"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/openFrameworksDebug.hmap -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 -I../../../../libs/poco/include -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources -D__MACOSX_CORE__ -lpthread -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofGraphics.cpp -o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofGraphics.o0#
 
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofImage.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofImage.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s317858906.718397
 e317859036.375060
@@ -1396,6 +2483,9 @@ xc++
 xcom.apple.compilers.gcc.4_2
 oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
 lSLF07#2@159"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofImage.cpp317858906#317859036#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#151"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofImage.cpp8613174656#1667"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/openFrameworksDebug.hmap -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 -I../../../../libs/poco/include -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources -D__MACOSX_CORE__ -lpthread -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofImage.cpp -o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofImage.o0#
+
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofMath.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofMath.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofMath.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofMath.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s317859049.208746
@@ -1411,6 +2501,9 @@ xcom.apple.compilers.gcc.4_2
 oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
 lSLF07#2@155"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofMath.cpp317859049#317859056#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#147"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofMath.cpp8612589792#1662"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/openFrameworksDebug.hmap -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 -I../../../../libs/poco/include -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources -D__MACOSX_CORE__ -lpthread -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofMath.cpp -o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofMath.o0#
 
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofQtUtils.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofQtUtils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofQtUtils.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofQtUtils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s317859050.501476
 e317859055.915904
@@ -1424,6 +2517,9 @@ xc++
 xcom.apple.compilers.gcc.4_2
 oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
 lSLF07#2@158"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofQtUtils.cpp317859050#317859055#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#150"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofQtUtils.cpp8608185600#1668"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/openFrameworksDebug.hmap -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 -I../../../../libs/poco/include -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources -D__MACOSX_CORE__ -lpthread -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofQtUtils.cpp -o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofQtUtils.o0#
+
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSerial.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofSerial.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSerial.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofSerial.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s317858906.716187
@@ -1439,6 +2535,9 @@ xcom.apple.compilers.gcc.4_2
 oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
 lSLF07#2@165"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofSerial.cpp317858906#317859046#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#157"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofSerial.cpp8613129216#1674"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/openFrameworksDebug.hmap -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 -I../../../../libs/poco/include -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources -D__MACOSX_CORE__ -lpthread -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofSerial.cpp -o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSerial.o0#
 
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundPlayer.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundPlayer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundPlayer.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundPlayer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s317858973.437267
 e317858990.208169
@@ -1452,6 +2551,20 @@ xc++
 xcom.apple.compilers.gcc.4_2
 oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
 lSLF07#2@162"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundPlayer.cpp317858973#317858990#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#154"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundPlayer.cpp8612731264#1676"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/openFrameworksDebug.hmap -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 -I../../../../libs/poco/include -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources -D__MACOSX_CORE__ -lpthread -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundPlayer.cpp -o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundPlayer.o0#
+
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundStream.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s321581973.848798
+e321581978.431393
+r1
+xCompileC
+xbuild/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundStream.o
+x/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@160"Compile /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.cpp321581973#321581978#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#152"/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.cpp3419194681344878080#1660"    cd /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/openFrameworksDebug.hmap -F/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx -I/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 -I../../../../libs/poco/include -I/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources/i386 -I/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources -D__MACOSX_CORE__ -lpthread -c /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.cpp -o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundStream.o0#
 
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundStream.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s317858990.208314
@@ -1467,6 +2580,9 @@ xcom.apple.compilers.gcc.4_2
 oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
 lSLF07#2@162"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.cpp317858990#317859026#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#154"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.cpp8612813984#1676"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/openFrameworksDebug.hmap -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 -I../../../../libs/poco/include -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources -D__MACOSX_CORE__ -lpthread -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.cpp -o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundStream.o0#
 
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTexture.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTexture.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTexture.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTexture.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s317858906.719210
 e317859050.501377
@@ -1480,6 +2596,9 @@ xc++
 xcom.apple.compilers.gcc.4_2
 oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
 lSLF07#2@161"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTexture.cpp317858906#317859050#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#153"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTexture.cpp8613192992#1671"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/openFrameworksDebug.hmap -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 -I../../../../libs/poco/include -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources -D__MACOSX_CORE__ -lpthread -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTexture.cpp -o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTexture.o0#
+
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTrueTypeFont.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTrueTypeFont.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTrueTypeFont.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTrueTypeFont.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s317858914.584738
@@ -1495,6 +2614,9 @@ xcom.apple.compilers.gcc.4_2
 oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
 lSLF07#2@166"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTrueTypeFont.cpp317858914#317859047#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#158"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTrueTypeFont.cpp8612795680#1681"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/openFrameworksDebug.hmap -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 -I../../../../libs/poco/include -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources -D__MACOSX_CORE__ -lpthread -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTrueTypeFont.cpp -o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTrueTypeFont.o0#
 
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofUtils.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofUtils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofUtils.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofUtils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s317859050.467601
 e317859056.529069
@@ -1508,6 +2630,9 @@ xc++
 xcom.apple.compilers.gcc.4_2
 oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
 lSLF07#2@156"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofUtils.cpp317859050#317859056#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#148"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofUtils.cpp8610853408#1664"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/openFrameworksDebug.hmap -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 -I../../../../libs/poco/include -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources -D__MACOSX_CORE__ -lpthread -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofUtils.cpp -o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofUtils.o0#
+
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoGrabber.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoGrabber.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoGrabber.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoGrabber.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s317859051.518659
@@ -1523,6 +2648,9 @@ xcom.apple.compilers.gcc.4_2
 oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
 lSLF07#2@163"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoGrabber.cpp317859051#317859056#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#155"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoGrabber.cpp8609709888#1678"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/openFrameworksDebug.hmap -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 -I../../../../libs/poco/include -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources -D__MACOSX_CORE__ -lpthread -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoGrabber.cpp -o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoGrabber.o0#
 
+CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoPlayer.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoPlayer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoPlayer.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoPlayer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s317859055.916055
 e317859057.394195
@@ -1536,6 +2664,16 @@ xc++
 xcom.apple.compilers.gcc.4_2
 oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
 lSLF07#2@162"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoPlayer.cpp317859055#317859057#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#154"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoPlayer.cpp8612868000#1676"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/openFrameworksDebug.hmap -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 -I../../../../libs/poco/include -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/DerivedSources -D__MACOSX_CORE__ -lpthread -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoPlayer.cpp -o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoPlayer.o0#
+
+CLibtool /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx//openFrameworksDebug.a normal i386
+s321581978.431603
+e321581979.662429
+r1
+xLibtool
+x/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx//openFrameworksDebug.a
+xnormal
+xi386
+lSLF07#2@56"Libtool ../../lib/osx//openFrameworksDebug.a normal i386321581978#321581979#0(0"0(0#0#0"8606946464#872"    cd /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx    /Developer/usr/bin/libtool -static -arch_only i386 -L/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx -filelist /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/openFrameworksDebug.LinkFileList -framework AGL -framework ApplicationServices -framework AudioToolbox -framework Carbon -framework CoreAudio -framework CoreFoundation -framework CoreServices -framework GLUT -framework OpenGL -framework QuickTime -o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx//openFrameworksDebug.a0#
 
 CLibtool /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx//openFrameworksDebug.a normal i386
 s317859057.394389
