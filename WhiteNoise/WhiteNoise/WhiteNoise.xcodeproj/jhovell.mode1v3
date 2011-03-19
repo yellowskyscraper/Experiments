@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -274,7 +276,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
+									<integer>4</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -310,14 +312,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>WhiteNoiseAppDelegate.m</string>
+								<string>WhiteNoiseViewController.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,20 +325,20 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>WhiteNoiseAppDelegate.m</string>
+										<string>WhiteNoiseViewController.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CF52151712EA1CE0001CECD4</string>
+										<string>CFBA79A21331921D002B520F</string>
 										<key>history</key>
 										<array>
-											<string>CF939FEC12E91438004570BE</string>
-											<string>CF939FED12E91438004570BE</string>
-											<string>CF52150A12EA18BB001CECD4</string>
 											<string>CF52150B12EA18BB001CECD4</string>
 											<string>CF52150C12EA18BB001CECD4</string>
 											<string>CF52150D12EA18BB001CECD4</string>
-											<string>CF52150E12EA18BB001CECD4</string>
+											<string>CFBA7980133191B8002B520F</string>
+											<string>CFBA7981133191B8002B520F</string>
+											<string>CFBA7982133191B8002B520F</string>
+											<string>CF939FEC12E91438004570BE</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -396,9 +396,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>CF52150012EA166F001CECD4</string>
+				<string>CFBA7984133191B8002B520F</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>CF52150112EA166F001CECD4</string>
+				<string>CFBA7985133191B8002B520F</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -619,7 +619,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>CFF8E3B412E656C80009F6D1</string>
-				<string>CF52150212EA166F001CECD4</string>
+				<string>CFBA7986133191B8002B520F</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -663,8 +663,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {316, 198}}</string>
-											<string>{{316, 0}, {378, 198}}</string>
+											<string>{{0, 0}, {316, 201}}</string>
+											<string>{{316, 0}, {378, 201}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -679,8 +679,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {694, 198}}</string>
-											<string>{{0, 198}, {694, 183}}</string>
+											<string>{{0, 0}, {694, 201}}</string>
+											<string>{{0, 201}, {694, 180}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -713,7 +713,7 @@
 										<real>148</real>
 									</array>
 									<key>Frame</key>
-									<string>{{316, 0}, {378, 198}}</string>
+									<string>{{316, 0}, {378, 201}}</string>
 									<key>RubberWindowFrame</key>
 									<string>21 433 694 422 0 0 1600 878 </string>
 								</dict>
@@ -741,13 +741,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>CF52151012EA18BB001CECD4</string>
+				<string>CFBA7987133191B8002B520F</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>CF52151112EA18BB001CECD4</string>
-				<string>CF52151212EA18BB001CECD4</string>
-				<string>CF52151312EA18BB001CECD4</string>
-				<string>CF52151412EA18BB001CECD4</string>
-				<string>CF52151512EA18BB001CECD4</string>
+				<string>CFBA7988133191B8002B520F</string>
+				<string>CFBA7989133191B8002B520F</string>
+				<string>CFBA798A133191B8002B520F</string>
+				<string>CFBA798B133191B8002B520F</string>
+				<string>CFBA798C133191B8002B520F</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -909,7 +909,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>CF52151612EA18BB001CECD4</string>
+				<string>CFBA798D133191B8002B520F</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

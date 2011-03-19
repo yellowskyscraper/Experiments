@@ -29,7 +29,7 @@
 	};
 	28D7ACF70DDB3853001CB0EB /* ToneGeneratorViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1331, 2483}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1331, 2535}}";
 			sepNavSelRange = "{4957, 0}";
 			sepNavVisRange = "{4570, 1050}";
 		};
@@ -66,15 +66,15 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 318979515;
-			PBXWorkspaceStateSaveDate = 318979515;
+			PBXPerProjectTemplateStateSaveDate = 322015693;
+			PBXWorkspaceStateSaveDate = 322015693;
 		};
 		perUserProjectItems = {
 			CF34834013021801009AA99E /* PBXTextBookmark */ = CF34834013021801009AA99E /* PBXTextBookmark */;
 			CF34834113021801009AA99E /* PBXTextBookmark */ = CF34834113021801009AA99E /* PBXTextBookmark */;
 			CF77F3C213037859007C438F /* PBXTextBookmark */ = CF77F3C213037859007C438F /* PBXTextBookmark */;
-			CF77F3C313037859007C438F /* PBXTextBookmark */ = CF77F3C313037859007C438F /* PBXTextBookmark */;
 			CF77F3C413037859007C438F /* PBXTextBookmark */ = CF77F3C413037859007C438F /* PBXTextBookmark */;
+			CFBA79A11331920E002B520F /* PBXTextBookmark */ = CFBA79A11331920E002B520F /* PBXTextBookmark */;
 		};
 		sourceControlManager = CF3482571300B2BB009AA99E /* Source Control */;
 		userBuildSettings = {
@@ -152,17 +152,17 @@
 		vrLen = 1122;
 		vrLoc = 0;
 	};
-	CF77F3C313037859007C438F /* PBXTextBookmark */ = {
+	CF77F3C413037859007C438F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* ToneGeneratorViewController.m */;
-		name = "ToneGeneratorViewController.m: 18";
+		name = "ToneGeneratorViewController.m: 155";
 		rLen = 0;
-		rLoc = 608;
+		rLoc = 4957;
 		rType = 0;
-		vrLen = 1541;
-		vrLoc = 0;
+		vrLen = 1050;
+		vrLoc = 4570;
 	};
-	CF77F3C413037859007C438F /* PBXTextBookmark */ = {
+	CFBA79A11331920E002B520F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* ToneGeneratorViewController.m */;
 		name = "ToneGeneratorViewController.m: 155";

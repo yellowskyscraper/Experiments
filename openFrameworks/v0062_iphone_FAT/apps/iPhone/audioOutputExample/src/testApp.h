@@ -3,6 +3,7 @@
 #include "ofMain.h"
 #include "ofxiPhone.h"
 #include "ofxiPhoneExtras.h"
+#include "VRand.h"
 
 class testApp : public ofxiPhoneApp{
 	
@@ -16,16 +17,23 @@ class testApp : public ofxiPhoneApp{
 		void touchMoved(ofTouchEventArgs &touch);
 		void touchUp(ofTouchEventArgs &touch);
 		void touchDoubleTap(ofTouchEventArgs &touch);
-
+		
+		//------------------- External Noise Generator
+		VRand rand;
+		ofTrueTypeFont  titleCopy;
+		ofTrueTypeFont	bodyCopy;
+	
+		//------------------- Set Up
 		float 	pan;
 		int		sampleRate;
 		bool 	bNoise;
+		int 	iNoise;
 		float 	volume;
 
 		float 	* lAudio;
 		float   * rAudio;
 
-		//------------------- for the simple sine wave synthesis
+		//------------------- For Sine Wave Synthesis
 		float 	targetFrequency;
 		float 	phase;
 		float 	phaseAdder;
