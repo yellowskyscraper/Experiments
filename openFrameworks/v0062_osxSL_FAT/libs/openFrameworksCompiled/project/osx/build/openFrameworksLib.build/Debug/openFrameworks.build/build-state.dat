@@ -1,25 +1,29 @@
 TopenFrameworks
 v7
 r0
+<<<<<<< HEAD
 t322084610.758063
+=======
+t324602916.054674
+>>>>>>> 8c5ea344f3e492f5c40c8ca7f01b05e8297628be
 cCheck dependencies
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppGlutWindow.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppGlutWindow.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppRunner.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppRunner.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofArduino.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofArduino.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSerial.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofSerial.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofBitmapFont.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofBitmapFont.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofGraphics.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofGraphics.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofImage.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTexture.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTexture.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTrueTypeFont.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTrueTypeFont.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundPlayer.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundPlayer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundStream.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofMath.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofMath.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofUtils.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofUtils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofQtUtils.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofQtUtils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoGrabber.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoGrabber.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoPlayer.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoPlayer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cLibtool /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx//openFrameworksDebug.a normal i386
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppGlutWindow.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppGlutWindow.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppRunner.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppRunner.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofArduino.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofArduino.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSerial.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofSerial.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofBitmapFont.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofBitmapFont.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofGraphics.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofGraphics.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofImage.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTexture.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTexture.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTrueTypeFont.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTrueTypeFont.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundPlayer.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundPlayer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundStream.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofMath.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofMath.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofUtils.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofUtils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofQtUtils.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofQtUtils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoGrabber.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoGrabber.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoPlayer.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/video/ofVideoPlayer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLibtool /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx//openFrameworksDebug.a normal i386
 
 N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/float.h
 c000000004C238F150000000000001538
@@ -34,13 +38,13 @@ i<machine/ansi.h>
 i<sys/_types.h>
 
 N/System/Library/Frameworks/AGL.framework/AGL
-c000000004BD2589F0000000000043820
-t1272076447
+c000000004CB43A300000000000043820
+t1286879792
 s276512
 
 N/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
-c000000004A12050E0000000000022140
-t1242694926
+c000000004CB43A020000000000022140
+t1286879746
 s139584
 
 N/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h
@@ -49,13 +53,13 @@ t1242694924
 s1141
 
 N/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c000000004C91794F00000000004D2720
-t1284602191
-s5056288
+c000000004D77144E00000000005198C0
+t1299649614
+s5347520
 
 N/System/Library/Frameworks/Carbon.framework/Carbon
-c000000004C0FDD7E000000000000A5F0
-t1276108158
+c000000004CB43A03000000000000A5F0
+t1286879747
 s42480
 
 N/System/Library/Frameworks/CoreAudio.framework/CoreAudio
@@ -84,8 +88,8 @@ t1242689688
 s1024
 
 N/System/Library/Frameworks/GLUT.framework/GLUT
-c000000004A12475500000000001A2920
-t1242711893
+c000000004CB43A4900000000001A2920
+t1286879817
 s1714464
 
 N/System/Library/Frameworks/GLUT.framework/Headers/glut.h
@@ -104,8 +108,8 @@ t1272074271
 s16260
 
 N/System/Library/Frameworks/OpenGL.framework/OpenGL
-c000000004D22BC490000000000043330
-t1294122057
+c000000004D7713DA0000000000043330
+t1299649498
 s275248
 
 N/System/Library/Frameworks/QuickTime.framework/Headers/QuickTime.h
@@ -114,9 +118,9 @@ t1277412560
 s1625
 
 N/System/Library/Frameworks/QuickTime.framework/QuickTime
-c000000004CC7AED00000000000783950
-t1288154832
-s7878992
+c000000004D40EADD0000000000783960
+t1296100061
+s7879008
 
 N/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/fmodex/include/fmod.h
 c000000004D7A97100000000000028E68
@@ -1849,7 +1853,7 @@ i<sstream>
 i<CoreAudio/AudioHardware.h>
 
 N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx//openFrameworksDebug.a
-t1296166257
+t1302910116
 s6360696
 
 N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppGlutWindow.o
@@ -1893,7 +1897,7 @@ t1296166189
 s73508
 
 N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundStream.o
-t1296166225
+t1302909843
 s509120
 
 N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofTexture.o
@@ -1917,8 +1921,8 @@ t1296166257
 s115272
 
 N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/openFrameworksDebug.LinkFileList
-c000000004D41ECDA0000000000000C5A
-t1296166106
+c000000004DA8D4A30000000000000C5A
+t1302910115
 s3162
 
 N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/poco/include/Poco/AbstractDelegate.h
@@ -2380,7 +2384,11 @@ i<sys/_types.h>
 
 CCheck dependencies
 r0
+<<<<<<< HEAD
 lSLF07#2@18"Check dependencies321581973#321581973#0(0"0(0#1#0"29836824280170608#0"0#
+=======
+lSLF07#2@18"Check dependencies324602915#324602915#0(0"0(0#1#0"29836824280170608#0"0#
+>>>>>>> 8c5ea344f3e492f5c40c8ca7f01b05e8297628be
 
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppGlutWindow.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppGlutWindow.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 r0
@@ -2677,12 +2685,12 @@ xi386
 lSLF07#2@56"Libtool ../../lib/osx//openFrameworksDebug.a normal i386321581978#321581979#0(0"0(0#0#0"8606946464#872"    cd /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx    /Developer/usr/bin/libtool -static -arch_only i386 -L/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx -filelist /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/openFrameworksDebug.LinkFileList -framework AGL -framework ApplicationServices -framework AudioToolbox -framework Carbon -framework CoreAudio -framework CoreFoundation -framework CoreServices -framework GLUT -framework OpenGL -framework QuickTime -o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx//openFrameworksDebug.a0#
 
 CLibtool /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx//openFrameworksDebug.a normal i386
-s317859057.394389
-e317859057.658245
+s324602915.540393
+e324602916.054630
 r1
 xLibtool
 x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx//openFrameworksDebug.a
 xnormal
 xi386
-lSLF07#2@56"Libtool ../../lib/osx//openFrameworksDebug.a normal i386317859057#317859057#0(0"0(0#0#0"8612524928#880"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx    /Developer/usr/bin/libtool -static -arch_only i386 -L/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx -filelist /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/openFrameworksDebug.LinkFileList -framework AGL -framework ApplicationServices -framework AudioToolbox -framework Carbon -framework CoreAudio -framework CoreFoundation -framework CoreServices -framework GLUT -framework OpenGL -framework QuickTime -o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx//openFrameworksDebug.a0#
+lSLF07#2@56"Libtool ../../lib/osx//openFrameworksDebug.a normal i386324602915#324602916#0(0"0(0#0#0"31525674136043568#880"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx    /Developer/usr/bin/libtool -static -arch_only i386 -L/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx -filelist /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/openFrameworksDebug.LinkFileList -framework AGL -framework ApplicationServices -framework AudioToolbox -framework Carbon -framework CoreAudio -framework CoreFoundation -framework CoreServices -framework GLUT -framework OpenGL -framework QuickTime -o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../lib/osx//openFrameworksDebug.a0#
 

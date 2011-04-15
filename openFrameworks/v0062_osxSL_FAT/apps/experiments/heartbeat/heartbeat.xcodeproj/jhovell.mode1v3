@@ -325,14 +325,14 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CFBA7BD91332B167002B520F</string>
+										<string>CFE8A39813590D1A0015877F</string>
 										<key>history</key>
 										<array>
 											<string>CFBA7B5513329CFA002B520F</string>
 											<string>CFBA7B6213329D34002B520F</string>
 											<string>CFBA7B6313329D34002B520F</string>
 											<string>CFBA7B6C13329DE5002B520F</string>
-											<string>CFBA7B6D13329DE5002B520F</string>
+											<string>CFBA7BD91332B167002B520F</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -390,9 +390,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>CFBA7B3A13329C21002B520F</string>
+				<string>CFE8A39313590C1D0015877F</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>CFBA7B3B13329C21002B520F</string>
+				<string>CFE8A39413590C1D0015877F</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -530,12 +530,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>CFBA7B4513329C21002B520F</string>
-		<string>CFBA7B4613329C21002B520F</string>
+		<string>CFE8A3A013590D1A0015877F</string>
+		<string>CFE8A3A113590D1A0015877F</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>CFCD4FC112DE96E0008C3F7D</string>
-		<string>/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/apps/experiments/heartbeat/Heartbeat.xcodeproj</string>
+		<string>/Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/apps/experiments/heartbeat/heartbeat.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 59 1600 819 0 0 1600 878 </string>
@@ -559,7 +559,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>testApp.cpp</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -576,8 +576,6 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -617,7 +615,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>CFCD4FC112DE96E0008C3F7D</string>
-				<string>CFBA7B3C13329C21002B520F</string>
+				<string>CFE8A39513590C1D0015877F</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -661,8 +659,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {316, 198}}</string>
-											<string>{{316, 0}, {378, 198}}</string>
+											<string>{{0, 0}, {316, 201}}</string>
+											<string>{{316, 0}, {378, 201}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -677,8 +675,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {694, 198}}</string>
-											<string>{{0, 198}, {694, 183}}</string>
+											<string>{{0, 0}, {694, 201}}</string>
+											<string>{{0, 201}, {694, 180}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -711,7 +709,7 @@
 										<real>148</real>
 									</array>
 									<key>Frame</key>
-									<string>{{316, 0}, {378, 198}}</string>
+									<string>{{316, 0}, {378, 201}}</string>
 									<key>RubberWindowFrame</key>
 									<string>42 410 694 422 0 0 1600 878 </string>
 								</dict>
@@ -739,13 +737,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>CFBA7B3D13329C21002B520F</string>
+				<string>CFE8A39913590D1A0015877F</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>CFBA7B3E13329C21002B520F</string>
-				<string>CFBA7B3F13329C21002B520F</string>
-				<string>CFBA7B4013329C21002B520F</string>
-				<string>CFBA7B4113329C21002B520F</string>
-				<string>CFBA7B4213329C21002B520F</string>
+				<string>CFE8A39A13590D1A0015877F</string>
+				<string>CFE8A39B13590D1A0015877F</string>
+				<string>CFE8A39C13590D1A0015877F</string>
+				<string>CFE8A39D13590D1A0015877F</string>
+				<string>CFE8A39E13590D1A0015877F</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -907,7 +905,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>CFBA7B4313329C21002B520F</string>
+				<string>CFE8A39F13590D1A0015877F</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
