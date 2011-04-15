@@ -1,0 +1,71 @@
+TemptyExample
+v7
+r1
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhoneExamples/emptyExample/bin/data/Default.png
+c000000004CE42E50000000000000158E
+t1290022480
+s5518
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhoneExamples/emptyExample/bin/data/Icon.png
+c000000004CE42E500000000000000410
+t1290022480
+s1040
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhoneExamples/emptyExample/build/Debug/emptyExample.app
+t2
+s0
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhoneExamples/emptyExample/build/Debug/emptyExample.app/Contents/Info.plist
+t2
+s0
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhoneExamples/emptyExample/build/Debug/emptyExample.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhoneExamples/emptyExample/build/Debug/emptyExample.app/Contents/Resources/Default.png
+t2
+s0
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhoneExamples/emptyExample/build/Debug/emptyExample.app/Contents/Resources/Icon.png
+t2
+s0
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhoneExamples/emptyExample/build/Debug/emptyExample.app/Contents/Resources/ofxiphone-Info.plist
+t2
+s0
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhoneExamples/emptyExample/build/iPhoneEmptyExample.build/Debug/emptyExample.build/Script-9255DD331112741900D6945E.sh
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhoneExamples/emptyExample/ofxiphone-Info.plist
+c000000004CE42E500000000000000428
+t1290022480
+s1064
+
+Nofxiphone-Info.plist
+c000000004CE42E500000000000000428
+t1290022480
+s1064
+
+CCopyPlistFile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhoneExamples/emptyExample/build/Debug/emptyExample.app/Contents/Resources/ofxiphone-Info.plist ofxiphone-Info.plist
+r0
+
+CCpResource build/Debug/emptyExample.app/Contents/Resources/Default.png bin/data/Default.png
+r0
+
+CCpResource build/Debug/emptyExample.app/Contents/Resources/Icon.png bin/data/Icon.png
+r0
+
+CPhaseScriptExecution "Run Script" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhoneExamples/emptyExample/build/iPhoneEmptyExample.build/Debug/emptyExample.build/Script-9255DD331112741900D6945E.sh
+r0
+
+CProcessInfoPlistFile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhoneExamples/emptyExample/build/Debug/emptyExample.app/Contents/Info.plist ofxiphone-Info.plist
+r0
+
+CTouch /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhoneExamples/emptyExample/build/Debug/emptyExample.app
+r0
+

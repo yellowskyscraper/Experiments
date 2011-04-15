@@ -1,0 +1,1273 @@
+TemptyExample
+v7
+r0
+t322163202.277963
+cCheck dependencies
+cProcessInfoPlistFile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator/emptyExample.app/Info.plist ofxiphone-Info.plist
+cCpResource build/Debug-iphonesimulator/emptyExample.app/Default.png bin/data/Default.png
+cCpResource build/Debug-iphonesimulator/emptyExample.app/Icon.png bin/data/Icon.png
+cCopyPlistFile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator/emptyExample.app/ofxiphone-Info.plist ofxiphone-Info.plist
+cProcessPCH++ /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-bhkjtbyeoebfpkbdfykkkkpzbudi/iPhone_Prefix.pch.gch iPhone_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-bgdusryvdnncyyaguygupebohalt/iPhone_Prefix.pch.gch iPhone_Prefix.pch normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Noise.build/Debug-iphonesimulator/emptyExample.build/Objects-normal/i386/main.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/main.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/Noise.build/Debug-iphonesimulator/emptyExample.build/Objects-normal/i386/testApp.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/Noise.build/Debug-iphonesimulator/emptyExample.build/Objects-normal/i386/VRand.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/VRand.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cPhaseScriptExecution "Run Script" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/Script-9255DD331112741900D6945E.sh
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h
+c00000000448600480000000000000556
+t1149632584
+s1366
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC1224600000000001EA9C0
+t1287725638
+s2009536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004CC127E80000000000074190
+t1287727080
+s475536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004CC127DD00000000000001D0
+t1287727069
+s464
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h
+c000000004486036800000000000003A8
+t1149633384
+s936
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004CC1294D00000000000002FE
+t1287727437
+s766
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004CC1226400000000000246A0
+t1287725668
+s149152
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004CC12308000000000000094F
+t1287725832
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004CC123080000000000000A61
+t1287725832
+s2657
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004CC123080000000000009369
+t1287725832
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004CC123080000000000003C4A
+t1287725832
+s15434
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004CC1230E0000000000019D40
+t1287725838
+s105792
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuickTime.framework/Headers/QuickTime.h
+c000000004485F81C000000000000062F
+t1149630492
+s1583
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
+c000000004CB3FA080000000000001ADD
+t1286863368
+s6877
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/TargetConditionals.h
+c000000004CB3FA0800000000000031E9
+t1286863368
+s12777
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/ctype.h
+c000000004CB3E4860000000000002C18
+t1286857862
+s11288
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/dirent.h
+c000000004CB3E48600000000000016D3
+t1286857862
+s5843
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/errno.h
+c000000004CB3E48600000000000003EB
+t1286857862
+s1003
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/fcntl.h
+c000000004CB3E48600000000000003EA
+t1286857862
+s1002
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/getopt.h
+c000000004CB3E4860000000000000CBC
+t1286857862
+s3260
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/inttypes.h
+c000000004CB3E48600000000000027D1
+t1286857862
+s10193
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/pthread.h
+c000000004CB3E48600000000000038F0
+t1286857862
+s14576
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/setjmp.h
+c000000004CB3E4860000000000000438
+t1286857862
+s1080
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdio.h
+c000000004CB3E48600000000000040AC
+t1286857862
+s16556
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdlib.h
+c000000004CB3E4860000000000002DF5
+t1286857862
+s11765
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/string.h
+c000000004CB3E4860000000000001731
+t1286857862
+s5937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/sys/ioctl.h
+c000000004CBFACAB000000000000116C
+t1287629995
+s4460
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/sys/select.h
+c000000004CBFACAC00000000000016A2
+t1287629996
+s5794
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/sys/sysctl.h
+c000000004CBFACAC0000000000007974
+t1287629996
+s31092
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/termios.h
+c000000004CB3E48600000000000004D4
+t1286857862
+s1236
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/time.h
+c000000004CB3E486000000000000178E
+t1286857862
+s6030
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/unistd.h
+c000000004CB3E486000000000000563E
+t1286857862
+s22078
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/wchar.h
+c000000004CB3E48600000000000025DA
+t1286857862
+s9690
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxAccelerometer/src/ofxAccelerometer.h
+c000000004CE42E4C00000000000018EE
+t1290022476
+s6382
+i"ofTypes.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxMultitouch/src/ofxMultiTouch.h
+c000000004CE42E4C0000000000000B9D
+t1290022476
+s2973
+i"ofMain.h"
+i"ofxMultiTouchListener.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxMultitouch/src/ofxMultiTouchListener.h
+c000000004CE42E4C0000000000000BC9
+t1290022476
+s3017
+i"ofEvents.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxiPhone/ofxiPhone.h
+c000000004CE42E4E000000000000085A
+t1290022478
+s2138
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"ofxAccelerometer.h"
+i"ofxiPhoneAlerts.h"
+i"ofxMultiTouch.h"
+i"ofxiPhoneApp.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxiPhone/ofxiPhoneExtras.h
+c000000004CE42E4E00000000000021C9
+t1290022478
+s8649
+i<UIKit/UIKit.h>
+i"ofMain.h"
+i"ofxiPhone.h"
+i"ofAppiPhoneWindow.h"
+i"ofxiPhoneAppDelegate.h"
+i"EAGLView.h"
+i"ofxiPhoneKeyboard.h"
+i"ofxiPhoneCoreLocation.h"
+i"ofxiPhoneImagePicker.h"
+i"ofxiPhoneMapKit.h"
+i<sys/sysctl.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxiPhone/src/EAGLView.h
+c000000004CE42E4E000000000000094E
+t1290022478
+s2382
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+i"ESRenderer.h"
+i"ofxiPhone.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxiPhone/src/ESRenderer.h
+c000000004CE42E4E000000000000018E
+t1290022478
+s398
+i<QuartzCore/QuartzCore.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxiPhone/src/ofAppiPhoneWindow.h
+c000000004CE42E4E0000000000000CD5
+t1290022478
+s3285
+i"ofAppBaseWindow.h"
+i"glu.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxiPhone/src/ofxiPhoneAlerts.h
+c000000004CE42E4E0000000000000E48
+t1290022478
+s3656
+i"ofxiPhoneAlertsListener.h"
+i<list>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxiPhone/src/ofxiPhoneAlertsListener.h
+c000000004CE42E4E0000000000000862
+t1290022478
+s2146
+i"ofMain.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxiPhone/src/ofxiPhoneApp.h
+c000000004CE42E4E000000000000046B
+t1290022478
+s1131
+i"ofMain.h"
+i"ofEvents.h"
+i"ofxiPhoneAlerts.h"
+i"ofxMultiTouch.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxiPhone/src/ofxiPhoneAppDelegate.h
+c000000004CE42E4E000000000000095F
+t1290022478
+s2399
+i<UIKit/UIKit.h>
+i"EAGLView.h"
+i"ofAppiPhoneWindow.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxiPhone/src/ofxiPhoneCoreLocation.h
+c000000004CE42E4E00000000000008A6
+t1290022478
+s2214
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i"ofMain.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxiPhone/src/ofxiPhoneImagePicker.h
+c000000004CE42E4E0000000000000C4D
+t1290022478
+s3149
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+i"ofMain.h"
+i<iostream>
+i<Availability.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxiPhone/src/ofxiPhoneKeyboard.h
+c000000004CE42E4E00000000000006A5
+t1290022478
+s1701
+i<UIKit/UIKit.h>
+i"ofMain.h"
+i"ofxiPhoneExtras.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxiPhone/src/ofxiPhoneMapKit.h
+c000000004CE42E4E000000000000162C
+t1290022478
+s5676
+i<Availability.h>
+i"ofMain.h"
+i<MapKit/MapKit.h>
+i"ofxiPhoneMapKitListener.h"
+i<list>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/addons/ofxiPhone/src/ofxiPhoneMapKitListener.h
+c000000004CE42E4E0000000000000881
+t1290022478
+s2177
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/../../../libs/FreeImage/include/FreeImage.h
+c000000004CE42E50000000000000CC1B
+t1290022480
+s52251
+i<wchar.h>
+i<inttypes.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/../../../libs/FreeImage/lib/iphone/freeimage-iphone.a
+c000000004CE42E50000000000118DE10
+t1290022480
+s18406928
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/../../../libs/FreeImage/lib/osx/freeimage.a
+c000000004CE42E500000000000AA64B0
+t1290022480
+s11166896
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/../../../libs/freetype/lib/iphone/freetype-iphone.a
+c000000004CE42E5000000000004C2830
+t1290022480
+s4991024
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/../../../libs/freetype/lib/osx/freetype.a
+c000000004CE42E5000000000004D82C8
+t1290022480
+s5079752
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/../../../libs/glu/include_iphone/glu.h
+c000000004CE42E500000000000001F99
+t1290022480
+s8089
+i<OpenGLES/ES1/gl.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/../../../libs/glu/lib/iphone/glu-iphone.a
+c000000004CE42E50000000000004DA38
+t1290022480
+s318008
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/../../../libs/glu/lib/iphone/glu.a
+c000000004CE42E50000000000002C690
+t1290022480
+s181904
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/../../../libs/poco/lib/iphone/CppUnit.a
+c000000004CE42E52000000000002CAB0
+t1290022482
+s182960
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/../../../libs/poco/lib/iphone/PocoFoundation.a
+c000000004CE42E52000000000048B660
+t1290022482
+s4765280
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/../../../libs/poco/lib/iphone/PocoNet.a
+c000000004CE42E5200000000002CA010
+t1290022482
+s2924560
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/../../../libs/poco/lib/iphone/PocoUtil.a
+c000000004CE42E5200000000000DF440
+t1290022482
+s914496
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/../../../libs/poco/lib/iphone/PocoXML.a
+c000000004CE42E52000000000019C8D0
+t1290022482
+s1689808
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/../../../libs/poco/lib/osx/CppUnit.a
+c000000004CE42E52000000000003ABB0
+t1290022482
+s240560
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/../../../libs/poco/lib/osx/PocoFoundation.a
+c000000004CE42E5200000000005A62E8
+t1290022482
+s5923560
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/../../../libs/poco/lib/osx/PocoNet.a
+c000000004CE42E520000000000378278
+t1290022482
+s3637880
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/../../../libs/poco/lib/osx/PocoUtil.a
+c000000004CE42E5200000000000FFB80
+t1290022482
+s1047424
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/../../../libs/poco/lib/osx/PocoXML.a
+c000000004CE42E520000000000239BC0
+t1290022482
+s2333632
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/bin/data/Default.png
+c000000004CE42E50000000000000158E
+t1290022480
+s5518
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/bin/data/Icon.png
+c000000004CE42E500000000000000410
+t1290022480
+s1040
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator/emptyExample.app
+t1297201956
+s272
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator/emptyExample.app.dSYM
+t1297201956
+s102
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator/emptyExample.app/Default.png
+t1297201956
+s5518
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator/emptyExample.app/Icon.png
+t1297201956
+s1040
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator/emptyExample.app/Info.plist
+t1297201951
+s723
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator/emptyExample.app/PkgInfo
+t1297201951
+s8
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator/emptyExample.app/emptyExample
+t1297201955
+s4211476
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator/emptyExample.app/ofxiphone-Info.plist
+t1297201952
+s603
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/Objects-normal/i386/VRand.o
+t1300470401
+s7800
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/Objects-normal/i386/emptyExample.LinkFileList
+c000000004D839A800000000000000211
+t1300470400
+s529
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/Objects-normal/i386/testApp.o
+t2
+s0
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/Script-9255DD331112741900D6945E.sh
+c000000004D839A800000000000000042
+t1300470400
+s66
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/iPhone_Prefix.pch
+c000000004CE42E5000000000000000B5
+t1290022480
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/ofxiphone-Info.plist
+c000000004CE42E500000000000000428
+t1290022480
+s1064
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/VRand.cpp
+c000000004D81515E00000000000000A1
+t1300320606
+s161
+i"VRand.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/VRand.h
+c000000004D81515B0000000000000E76
+t1300320603
+s3702
+i<time.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/main.mm
+c000000004CE42E50000000000000009E
+t1290022480
+s158
+i"ofMain.h"
+i"testApp.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.h
+c000000004D839A7800000000000003BD
+t1300470392
+s957
+i"ofMain.h"
+i"ofxiPhone.h"
+i"ofxiPhoneExtras.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm
+c000000004D839A4E0000000000001753
+t1300470350
+s5971
+i"testApp.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/app/ofAppBaseWindow.h
+c000000004CE42E500000000000000446
+t1290022480
+s1094
+i"ofTypes.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/app/ofAppGlutWindow.h
+c000000004CE42E50000000000000066B
+t1290022480
+s1643
+i"ofConstants.h"
+i"ofAppBaseWindow.h"
+i"glut.h"
+i<GLUT/glut.h>
+i<GL/glut.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/app/ofAppRunner.h
+c000000004CE42E50000000000000050D
+t1290022480
+s1293
+i"ofMain.h"
+i"ofBaseApp.h"
+i"ofAppBaseWindow.h"
+i"ofAppGlutWindow.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/app/ofBaseApp.h
+c000000004CE42E500000000000000376
+t1290022480
+s886
+i"ofTypes.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/communication/ofArduino.h
+c000000004CE42E500000000000003D3C
+t1290022480
+s15676
+i<list>
+i<vector>
+i<string>
+i<iostream>
+i"ofEvents.h"
+i"ofSerial.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/communication/ofSerial.h
+c000000004CE42E500000000000000D2E
+t1290022480
+s3374
+i"ofConstants.h"
+i<termios.h>
+i<sys/ioctl.h>
+i<getopt.h>
+i<dirent.h>
+i<winbase.h>
+i<tchar.h>
+i<iostream>
+i<string.h>
+i<setupapi.h>
+i<regstr.h>
+i<winioctl.h>
+i<initguid.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<fcntl.h>
+i<errno.h>
+i<ctype.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/events/ofEventUtils.h
+c000000004CE42E500000000000000AFA
+t1290022480
+s2810
+i"ofConstants.h"
+i"Poco/FIFOEvent.h"
+i"Poco/Delegate.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/events/ofEvents.h
+c000000004CE42E50000000000000126C
+t1290022480
+s4716
+i"ofConstants.h"
+i"ofUtils.h"
+i"ofEventUtils.h"
+i"ofxEventUtils.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/graphics/ofGraphics.h
+c000000004CE42E500000000000000D63
+t1290022480
+s3427
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/graphics/ofImage.h
+c000000004CE42E500000000000000D09
+t1290022480
+s3337
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGraphics.h"
+i"ofAppRunner.h"
+i"FreeImage.h"
+i"ofUtils.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/graphics/ofTexture.h
+c000000004CE42E500000000000000C4B
+t1290022480
+s3147
+i"ofConstants.h"
+i"ofGraphics.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/graphics/ofTrueTypeFont.h
+c000000004CE42E50000000000000087A
+t1290022480
+s2170
+i"ofConstants.h"
+i"ofGraphics.h"
+i"ofUtils.h"
+i"ofTypes.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/ofMain.h
+c000000004CE42E500000000000000347
+t1290022480
+s839
+i"ofConstants.h"
+i"ofMath.h"
+i"ofUtils.h"
+i"ofTypes.h"
+i"ofSerial.h"
+i"ofArduino.h"
+i"ofTexture.h"
+i"ofTrueTypeFont.h"
+i"ofGraphics.h"
+i"ofImage.h"
+i"ofBaseApp.h"
+i"ofAppRunner.h"
+i"ofSoundStream.h"
+i"ofSoundPlayer.h"
+i"ofVideoGrabber.h"
+i"ofVideoPlayer.h"
+i"ofEvents.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/sound/ofSoundPlayer.h
+c000000004CE42E5000000000000006C3
+t1290022480
+s1731
+i"ofConstants.h"
+i"fmod.h"
+i"fmod_errors.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/sound/ofSoundStream.h
+c000000004CE42E500000000000000254
+t1290022480
+s596
+i"ofConstants.h"
+i"ofBaseApp.h"
+i"ofEvents.h"
+i"ofMath.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/utils/ofConstants.h
+c000000004CE42E500000000000002ACC
+t1290022480
+s10956
+i<TargetConditionals.h>
+i<windows.h>
+i"GLee.h"
+i"glu.h"
+i<unistd.h>
+i"GLee.h"
+i<OpenGL/glu.h>
+i<ApplicationServices/ApplicationServices.h>
+i<unistd.h>
+i"GLee.h"
+i<GL/glu.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<cstdlib>
+i<cstdio>
+i<cstdarg>
+i<cmath>
+i<ctime>
+i<cstdlib>
+i<string>
+i<iostream>
+i<vector>
+i<cstring>
+i<sstream>
+i<iomanip>
+i<fstream>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/utils/ofMath.h
+c000000004CE42E500000000000000A66
+t1290022480
+s2662
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/utils/ofTypes.h
+c000000004CE42E500000000000001D5F
+t1290022480
+s7519
+i"ofConstants.h"
+i"ofUtils.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/utils/ofUtils.h
+c000000004CE42E5000000000000005A4
+t1290022480
+s1444
+i"ofConstants.h"
+i<shellapi.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/video/ofGstUtils.h
+c000000004CE42E500000000000000B55
+t1290022480
+s2901
+i<gst/gst.h>
+i<pthread.h>
+i"ofConstants.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/video/ofQtUtils.h
+c000000004CE42E5000000000000006CF
+t1290022480
+s1743
+i"ofConstants.h"
+i"ofGraphics.h"
+i<QuickTime/QuickTime.h>
+i<CoreServices/CoreServices.h>
+i<ApplicationServices/ApplicationServices.h>
+i<QTML.h>
+i<FixMath.h>
+i<QuickTimeComponents.h>
+i<TextUtils.h>
+i<MediaHandlers.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/video/ofVideoGrabber.h
+c000000004CE42E500000000000000C9C
+t1290022480
+s3228
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGraphics.h"
+i"ofTypes.h"
+i"ofQtUtils.h"
+i"videoInput.h"
+i"ofUCUtils.h"
+i"ofGstUtils.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworks/video/ofVideoPlayer.h
+c000000004CE42E500000000000000C33
+t1290022480
+s3123
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGstUtils.h"
+i"ofQtUtils.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/openFrameworksCompiled/lib/iphone/libofxiPhone_iphonesimulator_Debug.a
+c000000004D51BB1E0000000000AE92F8
+t1297201950
+s11440888
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/AbstractDelegate.h
+c000000004CE42E500000000000000B2E
+t1290022480
+s2862
+i"Poco/Foundation.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/AbstractEvent.h
+c000000004CE42E500000000000002C6A
+t1290022480
+s11370
+i"Poco/Foundation.h"
+i"Poco/SingletonHolder.h"
+i"Poco/SharedPtr.h"
+i"Poco/ActiveResult.h"
+i"Poco/ActiveMethod.h"
+i"Poco/Mutex.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/ActiveMethod.h
+c000000004CE42E500000000000001C64
+t1290022480
+s7268
+i"Poco/Foundation.h"
+i"Poco/ActiveResult.h"
+i"Poco/ActiveRunnable.h"
+i"Poco/ActiveStarter.h"
+i"Poco/AutoPtr.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/ActiveResult.h
+c000000004CE42E500000000000002E66
+t1290022480
+s11878
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+i"Poco/Event.h"
+i"Poco/RefCountedObject.h"
+i"Poco/Exception.h"
+i<algorithm>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/ActiveRunnable.h
+c000000004CE42E500000000000001785
+t1290022480
+s6021
+i"Poco/Foundation.h"
+i"Poco/ActiveResult.h"
+i"Poco/Runnable.h"
+i"Poco/RefCountedObject.h"
+i"Poco/AutoPtr.h"
+i"Poco/Exception.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/ActiveStarter.h
+c000000004CE42E500000000000000927
+t1290022480
+s2343
+i"Poco/Foundation.h"
+i"Poco/ThreadPool.h"
+i"Poco/ActiveRunnable.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/AutoPtr.h
+c000000004CE42E500000000000001E0C
+t1290022480
+s7692
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<algorithm>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Bugcheck.h
+c000000004CE42E5000000000000012FE
+t1290022480
+s4862
+i"Poco/Foundation.h"
+i<string>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/CompareFunctions.h
+c000000004CE42E5000000000000007EC
+t1290022480
+s2028
+i"Poco/Foundation.h"
+i<functional>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Config.h
+c000000004CE42E5000000000000008B5
+t1290022480
+s2229
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Delegate.h
+c000000004CE42E500000000000001802
+t1290022480
+s6146
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/FunctionDelegate.h"
+i"Poco/Expire.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Event.h
+c000000004CE42E500000000000000E21
+t1290022480
+s3617
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/Event_WIN32.h"
+i"Poco/Event_POSIX.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Event_POSIX.h
+c000000004CE42E500000000000000A91
+t1290022480
+s2705
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<pthread.h>
+i<errno.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Event_WIN32.h
+c000000004CE42E500000000000000947
+t1290022480
+s2375
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/UnWindows.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Exception.h
+c000000004CE42E5000000000000026AC
+t1290022480
+s9900
+i"Poco/Foundation.h"
+i<stdexcept>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Expire.h
+c000000004CE42E500000000000000CF1
+t1290022480
+s3313
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/Timestamp.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/FIFOEvent.h
+c000000004CE42E500000000000000AD4
+t1290022480
+s2772
+i"Poco/AbstractEvent.h"
+i"Poco/FIFOStrategy.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/CompareFunctions.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/FIFOStrategy.h
+c000000004CE42E5000000000000010F3
+t1290022480
+s4339
+i"Poco/NotificationStrategy.h"
+i<map>
+i<list>
+i<memory>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Foundation.h
+c000000004CE42E500000000000001023
+t1290022480
+s4131
+i"Poco/Config.h"
+i"Poco/Platform.h"
+i"Poco/Platform_WIN32.h"
+i"Poco/Platform_VMS.h"
+i"Poco/Platform_POSIX.h"
+i"Poco/Bugcheck.h"
+i"Poco/Types.h"
+i<string>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/FunctionDelegate.h
+c000000004CE42E5000000000000013CA
+t1290022480
+s5066
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Mutex.h
+c000000004CE42E520000000000001A61
+t1290022482
+s6753
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/ScopedLock.h"
+i"Poco/Mutex_WIN32.h"
+i"Poco/Mutex_POSIX.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Mutex_POSIX.h
+c000000004CE42E520000000000000AC3
+t1290022482
+s2755
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<pthread.h>
+i<errno.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Mutex_WIN32.h
+c000000004CE42E520000000000000A07
+t1290022482
+s2567
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/UnWindows.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/NotificationStrategy.h
+c000000004CE42E520000000000000A37
+t1290022482
+s2615
+i"Poco/Foundation.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Platform.h
+c000000004CE42E520000000000001A3A
+t1290022482
+s6714
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Platform_POSIX.h
+c000000004CE42E520000000000000843
+t1290022482
+s2115
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Platform_VMS.h
+c000000004CE42E520000000000000BAA
+t1290022482
+s2986
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Platform_WIN32.h
+c000000004CE42E520000000000000D4D
+t1290022482
+s3405
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/RefCountedObject.h
+c000000004CE42E520000000000000B10
+t1290022482
+s2832
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Runnable.h
+c000000004CE42E520000000000000861
+t1290022482
+s2145
+i"Poco/Foundation.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/ScopedLock.h
+c000000004CE42E5200000000000008EB
+t1290022482
+s2283
+i"Poco/Foundation.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/SharedPtr.h
+c000000004CE42E5200000000000021DE
+t1290022482
+s8670
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/Mutex.h"
+i<algorithm>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/SignalHandler.h
+c000000004CE42E5200000000000011EB
+t1290022482
+s4587
+i"Poco/Foundation.h"
+i<vector>
+i<setjmp.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/SingletonHolder.h
+c000000004CE42E520000000000000A64
+t1290022482
+s2660
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Thread.h
+c000000004CE42E520000000000001C3A
+t1290022482
+s7226
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+i"Poco/Thread_WIN32.h"
+i"Poco/Thread_POSIX.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/ThreadPool.h
+c000000004CE42E520000000000001849
+t1290022482
+s6217
+i"Poco/Foundation.h"
+i"Poco/Thread.h"
+i"Poco/Mutex.h"
+i<vector>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Thread_POSIX.h
+c000000004CE42E5200000000000012A8
+t1290022482
+s4776
+i"Poco/Foundation.h"
+i"Poco/Runnable.h"
+i"Poco/SignalHandler.h"
+i"Poco/Event.h"
+i"Poco/RefCountedObject.h"
+i"Poco/AutoPtr.h"
+i<pthread.h>
+i<sys/select.h>
+i<errno.h>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Thread_WIN32.h
+c000000004CE42E52000000000000106C
+t1290022482
+s4204
+i"Poco/Foundation.h"
+i"Poco/Runnable.h"
+i"Poco/UnWindows.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Timestamp.h
+c000000004CE42E5200000000000019A7
+t1290022482
+s6567
+i"Poco/Foundation.h"
+i<ctime>
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/Types.h
+c000000004CE42E520000000000001910
+t1290022482
+s6416
+i"Poco/Foundation.h"
+
+N/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/libs/poco/include/Poco/UnWindows.h
+c000000004CE42E520000000000000FD1
+t1290022482
+s4049
+i<windows.h>
+
+N/var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-bgdusryvdnncyyaguygupebohalt/iPhone_Prefix.pch.gch
+t1300470400
+s2515312
+
+N/var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-bhkjtbyeoebfpkbdfykkkkpzbudi/iPhone_Prefix.pch.gch
+t1300470401
+s16510032
+
+Nofxiphone-Info.plist
+c000000004CE42E500000000000000428
+t1290022480
+s1064
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies322163200#322163200#0(116"[WARN]Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'ofxiphone-Info.plist'.1(22@109"Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'ofxiphone-Info.plist'.322163200#18446744073709551615#0#0(1@0"0(0#1#0"8615818400#0"0#
+
+CCompileC build/Noise.build/Debug-iphonesimulator/emptyExample.build/Objects-normal/i386/VRand.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/VRand.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s322163201.355921
+e322163201.460820
+r1
+xCompileC
+xbuild/Noise.build/Debug-iphonesimulator/emptyExample.build/Objects-normal/i386/VRand.o
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/VRand.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@110"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/VRand.cpp322163201#322163201#0(0"0(0#0#102"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/VRand.cpp8616365664#3367"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility-inlines-hidden -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 -iquote /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/emptyExample-generated-files.hmap -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/emptyExample-own-target-headers.hmap -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/emptyExample-all-target-headers.hmap -iquote /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/emptyExample-project-headers.hmap -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator/include -I../../../libs/poco/include -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../addons/ofxMultitouch -I../../../addons/ofxMultitouch/src -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype -I../../../libs/freetype/include -I../../../libs/freetype/lib -I../../../libs/freetype/include/freetype2 -I../../../libs/freetype/lib/iphone -I../../../libs/freetype/lib/osx -I../../../libs/freetype/include/freetype2/freetype -I../../../libs/freetype/include/freetype2/freetype/config -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/DerivedSources -include /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-bgdusryvdnncyyaguygupebohalt/iPhone_Prefix.pch -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/VRand.cpp -o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/Objects-normal/i386/VRand.o0#
+
+CCompileC build/Noise.build/Debug-iphonesimulator/emptyExample.build/Objects-normal/i386/main.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/main.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s322163201.354367
+e322163202.171350
+r0
+xCompileC
+xbuild/Noise.build/Debug-iphonesimulator/emptyExample.build/Objects-normal/i386/main.o
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/main.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/main.mm:2:
+o/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.h:28: error: 'VRand' does not name a type
+lSLF07#2@108"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/main.mm322163201#322163202#0(269"In file included from /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/main.mm:2:/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.h:28: error: 'VRand' does not name a type1(4@28"'VRand' does not name a type322163202#126#143#2(7@122"In file included from /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/main.mm322163202#18446744073709551615#0#0(6@100"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/main.mm311715280#2#0#2#0#0"0(13@134"'VRand' does not name a type in /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.h322163202#18446744073709551615#0#0(6@102"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.h322163192#28#0#28#0#0"0(6@102"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.h322163192#28#0#28#0#24"'*' does not name a type0(0#0#100"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/main.mm8617249024#3432"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility-inlines-hidden -Wno-protocol -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 -iquote /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/emptyExample-generated-files.hmap -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/emptyExample-own-target-headers.hmap -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/emptyExample-all-target-headers.hmap -iquote /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/emptyExample-project-headers.hmap -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator/include -I../../../libs/poco/include -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../addons/ofxMultitouch -I../../../addons/ofxMultitouch/src -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype -I../../../libs/freetype/include -I../../../libs/freetype/lib -I../../../libs/freetype/include/freetype2 -I../../../libs/freetype/lib/iphone -I../../../libs/freetype/lib/osx -I../../../libs/freetype/include/freetype2/freetype -I../../../libs/freetype/include/freetype2/freetype/config -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/DerivedSources -include /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-bhkjtbyeoebfpkbdfykkkkpzbudi/iPhone_Prefix.pch -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/main.mm -o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/Objects-normal/i386/main.o1#
+
+CCompileC build/Noise.build/Debug-iphonesimulator/emptyExample.build/Objects-normal/i386/testApp.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s322163201.355216
+e322163202.174892
+r0
+xCompileC
+xbuild/Noise.build/Debug-iphonesimulator/emptyExample.build/Objects-normal/i386/testApp.o
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm:1:
+o/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.h:28: error: 'VRand' does not name a type
+o/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm: In member function 'virtual void testApp::setup()':
+o/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm:4: error: 'r' was not declared in this scope
+o/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm:7: error: expected `;' before 'ofRegisterTouchEvents'
+o/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm:13: error: request for member 'seed' in 'rand', which is of non-class type 'int ()()'
+o/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm: In member function 'virtual void testApp::audioRequested(float*, int, int)':
+o/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm:125: error: request for member 'white' in 'rand', which is of non-class type 'int ()()'
+o/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm:132: error: request for member 'pink' in 'rand', which is of non-class type 'int ()()'
+o/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm:139: error: request for member 'brown' in 'rand', which is of non-class type 'int ()()'
+lSLF07#2@111"Compile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm322163201#322163202#0(1683"In file included from /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm:1:/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.h:28: error: 'VRand' does not name a type/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm: In member function 'virtual void testApp::setup()':/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm:4: error: 'r' was not declared in this scope/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm:7: error: expected `;' before 'ofRegisterTouchEvents'/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm:13: error: request for member 'seed' in 'rand', which is of non-class type 'int ()()'/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm: In member function 'virtual void testApp::audioRequested(float*, int, int)':/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm:125: error: request for member 'white' in 'rand', which is of non-class type 'int ()()'/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm:132: error: request for member 'pink' in 'rand', which is of non-class type 'int ()()'/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm:139: error: request for member 'brown' in 'rand', which is of non-class type 'int ()()'7(4@28"'VRand' does not name a type322163202#129#143#2(7@125"In file included from /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm322163202#18446744073709551615#0#0(6@103"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm322163150#1#0#1#0#0"0(13@134"'VRand' does not name a type in /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.h322163202#18446744073709551615#0#0(6@102"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.h322163192#28#0#28#0#0"0(6@102"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.h322163192#28#0#28#0#24"'*' does not name a type0(4@34"'r' was not declared in this scope322163202#429#149#0(6@103"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm322163150#4#0#4#0#34"'*' was not declared in this scope0(4@43"Expected `;' before 'ofRegisterTouchEvents'322163202#578#158#0(6@103"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm322163150#7#0#7#0#19"expected * before *0(4@74"Request for member 'seed' in 'rand', which is of non-class type 'int ()()'322163202#736#190#0(6@103"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm322163150#13#0#13#0#0"0(4@75"Request for member 'white' in 'rand', which is of non-class type 'int ()()'322163202#1108#192#0(6@103"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm322163150#125#0#125#0#0"0(4@74"Request for member 'pink' in 'rand', which is of non-class type 'int ()()'322163202#1300#191#0(6@103"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm322163150#132#0#132#0#0"0(4@75"Request for member 'brown' in 'rand', which is of non-class type 'int ()()'322163202#1491#192#0(6@103"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm322163150#139#0#139#0#0"0(0#0#103"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm8616687136#3438"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility-inlines-hidden -Wno-protocol -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 -iquote /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/emptyExample-generated-files.hmap -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/emptyExample-own-target-headers.hmap -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/emptyExample-all-target-headers.hmap -iquote /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/emptyExample-project-headers.hmap -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator/include -I../../../libs/poco/include -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../addons/ofxMultitouch -I../../../addons/ofxMultitouch/src -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype -I../../../libs/freetype/include -I../../../libs/freetype/lib -I../../../libs/freetype/include/freetype2 -I../../../libs/freetype/lib/iphone -I../../../libs/freetype/lib/osx -I../../../libs/freetype/include/freetype2/freetype -I../../../libs/freetype/include/freetype2/freetype/config -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/DerivedSources -include /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-bhkjtbyeoebfpkbdfykkkkpzbudi/iPhone_Prefix.pch -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/src/testApp.mm -o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/Objects-normal/i386/testApp.o1#
+
+CCopyPlistFile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator/emptyExample.app/ofxiphone-Info.plist ofxiphone-Info.plist
+r0
+
+CCpResource build/Debug-iphonesimulator/emptyExample.app/Default.png bin/data/Default.png
+r0
+
+CCpResource build/Debug-iphonesimulator/emptyExample.app/Icon.png bin/data/Icon.png
+r0
+
+CGenerateDSYMFile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator/emptyExample.app.dSYM /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator/emptyExample.app/emptyExample
+r0
+
+CLd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator/emptyExample.app/emptyExample normal i386
+r0
+
+CPhaseScriptExecution "Run Script" /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/Script-9255DD331112741900D6945E.sh
+s322163202.174955
+e322163202.277913
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/Script-9255DD331112741900D6945E.sh
+lSLF07#2@36"Run custom shell script 'Run Script'322163202#322163202#0(0"0(0#0#0"8618079136#21285"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER jhovell    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build    setenv BUILD_ROOT /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator    setenv CACHE_ROOT /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502    setenv CCHROOT /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator/emptyExample.app    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/CompositeSDKs    setenv COMPRESS_PNG_FILES NO    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH emptyExample.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH emptyExample.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/Noise.dst    setenv DWARF_DSYM_FILE_NAME emptyExample.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn .git CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH emptyExample.app/Executables    setenv EXECUTABLE_FOLDER_PATH emptyExample.app    setenv EXECUTABLE_NAME emptyExample    setenv EXECUTABLE_PATH emptyExample.app/emptyExample    setenv FILE_LIST /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH emptyExample.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME emptyExample.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER iPhone_Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS NO    setenv GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO NO    setenv GCC_WARN_ABOUT_POINTER_SIGNEDNESS NO    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL NO    setenv GCC_WARN_PROTOTYPE_CONVERSION NO    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator/include\" ../../../libs/poco/include ../../../addons/ofxAccelerometer/** ../../../addons/ofxMultitouch/** ../../../addons/ofxiPhone/** ../../../libs/openFrameworks/** ../../../libs/freetype/**"    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE ofxiphone-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH emptyExample.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH emptyExample.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/Noise.dst/Users/jhovell/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER jhovell    setenv INSTALL_PATH /Users/jhovell/Applications    setenv INSTALL_ROOT /tmp/Noise.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH emptyExample.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/emptyExample-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator\"  \"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/../../../libs/freetype/lib\" \"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/../../../libs/freeimage/lib\" \"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/../../../libs/FreeImage/lib/iphone\" \"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/../../../libs/FreeImage/lib/osx\" \"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/../../../libs/freetype/lib/iphone\" \"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/../../../libs/freetype/lib/osx\" \"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/../../../libs/glu/lib/iphone\" \"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/../../../libs/poco/lib/osx\" \"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/../../../libs/poco/lib/iphone\" \"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/../../../libs/freetype/lib/osx\""    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/Objects-normal/i386/emptyExample.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH emptyExample.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv MAC_OS_X_VERSION_ACTUAL 1066    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0606    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/Objects-normal    setenv OBJROOT /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS -ObjC    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH emptyExample.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS "c++ objective-c++"    setenv PKGINFO_FILE_PATH /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/PkgInfo    setenv PKGINFO_PATH emptyExample.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PRODUCT_BUILD_VERSION 8C134    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 40200    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH emptyExample.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH emptyExample.app/PrivateHeaders    setenv PRODUCT_NAME emptyExample    setenv PRODUCT_SETTINGS_PATH /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/ofxiphone-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT Noise    setenv PROJECT_DERIVED_FILE_DIR /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/DerivedSources    setenv PROJECT_DIR /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00    setenv PROJECT_FILE_PATH /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/Noise.xcodeproj    setenv PROJECT_NAME Noise    setenv PROJECT_TEMP_DIR /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build    setenv PUBLIC_HEADERS_FOLDER_PATH emptyExample.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH emptyExample.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk    setenv SDK_NAME iphonesimulator4.2    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH emptyExample.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH emptyExample.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00    setenv SRCROOT /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SYMBOL_REPOSITORY_DIR /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/SymbolRepositories    setenv SYMROOT /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1    setenv TARGETNAME emptyExample    setenv TARGET_BUILD_DIR /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator    setenv TARGET_NAME emptyExample    setenv TARGET_TEMP_DIR /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build    setenv TEMP_DIR /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build    setenv TEMP_FILES_DIR /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build    setenv TEMP_FILE_DIR /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build    setenv TEMP_ROOT /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build    setenv UID 502    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH emptyExample.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER jhovell    setenv USER_APPS_DIR /Users/jhovell/Applications    setenv USER_LIBRARY_DIR /Users/jhovell/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH emptyExample.app/version.plist    setenv VERSION_INFO_BUILDER jhovell    setenv VERSION_INFO_FILE emptyExample_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:emptyExample  PROJECT:Noise-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME emptyExample.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 10M2423    setenv XCODE_VERSION_ACTUAL 0325    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    setenv _REAL_SDKROOT iphoneos    /bin/sh -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/Script-9255DD331112741900D6945E.sh0#
+
+CProcessInfoPlistFile /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator/emptyExample.app/Info.plist ofxiphone-Info.plist
+r0
+
+CProcessPCH++ /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-bgdusryvdnncyyaguygupebohalt/iPhone_Prefix.pch.gch iPhone_Prefix.pch normal i386 c++ com.apple.compilers.gcc.4_2
+s322163200.591971
+e322163200.761753
+r1
+xProcessPCH++
+x/var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-bgdusryvdnncyyaguygupebohalt/iPhone_Prefix.pch.gch
+xiPhone_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile iPhone_Prefix.pch322163200#322163200#0(0"0(0#0#106"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/iPhone_Prefix.pch8611500320#3197"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility-inlines-hidden -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 -iquote /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/emptyExample-generated-files.hmap -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/emptyExample-own-target-headers.hmap -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/emptyExample-all-target-headers.hmap -iquote /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/emptyExample-project-headers.hmap -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator/include -I../../../libs/poco/include -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../addons/ofxMultitouch -I../../../addons/ofxMultitouch/src -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype -I../../../libs/freetype/include -I../../../libs/freetype/lib -I../../../libs/freetype/include/freetype2 -I../../../libs/freetype/lib/iphone -I../../../libs/freetype/lib/osx -I../../../libs/freetype/include/freetype2/freetype -I../../../libs/freetype/include/freetype2/freetype/config -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/DerivedSources -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/iPhone_Prefix.pch -o /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-bgdusryvdnncyyaguygupebohalt/iPhone_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-bhkjtbyeoebfpkbdfykkkkpzbudi/iPhone_Prefix.pch.gch iPhone_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s322163200.591202
+e322163201.354287
+r1
+xProcessPCH++
+x/var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-bhkjtbyeoebfpkbdfykkkkpzbudi/iPhone_Prefix.pch.gch
+xiPhone_Prefix.pch
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile iPhone_Prefix.pch322163200#322163201#0(0"0(0#0#106"/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/iPhone_Prefix.pch8611130048#3265"    cd /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility-inlines-hidden -Wno-protocol -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30100 -iquote /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/emptyExample-generated-files.hmap -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/emptyExample-own-target-headers.hmap -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/emptyExample-all-target-headers.hmap -iquote /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/emptyExample-project-headers.hmap -F/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator/include -I../../../libs/poco/include -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../addons/ofxMultitouch -I../../../addons/ofxMultitouch/src -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype -I../../../libs/freetype/include -I../../../libs/freetype/lib -I../../../libs/freetype/include/freetype2 -I../../../libs/freetype/lib/iphone -I../../../libs/freetype/lib/osx -I../../../libs/freetype/include/freetype2/freetype -I../../../libs/freetype/include/freetype2/freetype/config -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/DerivedSources/i386 -I/Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Noise.build/Debug-iphonesimulator/emptyExample.build/DerivedSources -c /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/iPhone_Prefix.pch -o /var/folders/7V/7VDb8N80Hc4Y-OTt+-ieWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-bhkjtbyeoebfpkbdfykkkkpzbudi/iPhone_Prefix.pch.gch0#
+
+CTouch /Users/jhovell/Projects/Experiments/openFrameworks/v0062_iphone_FAT/apps/iPhone/Noise_00/build/Debug-iphonesimulator/emptyExample.app
+r0
+

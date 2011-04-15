@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>Default.png</key>
+		<data>
+		D2SR0aN9MV+H4o8+3pZHD2XXn04=
+		</data>
+		<key>Georgia Bold Italic.ttf</key>
+		<data>
+		MXuPmTLD1P4phksSuGCFM6D4qPE=
+		</data>
+		<key>Georgia Bold.ttf</key>
+		<data>
+		jqudfShRNlszcvsGOwt80FxbxLI=
+		</data>
+		<key>Georgia Italic.ttf</key>
+		<data>
+		Cq6cRyGF354n11nZSPDPl1X6BM4=
+		</data>
+		<key>Georgia.ttf</key>
+		<data>
+		giJtYL+TsyxkGCsylKghnhKmemM=
+		</data>
+		<key>Icon.png</key>
+		<data>
+		bR6M8za7Jb7rswSzUzciWe47s/Q=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		2/p4OgP+jgG3sNu3xfe02Ktnx7s=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>.*</key>
+		<true/>
+		<key>Info.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>ResourceRules.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>100</real>
+		</dict>
+	</dict>
+</dict>
+</plist>
