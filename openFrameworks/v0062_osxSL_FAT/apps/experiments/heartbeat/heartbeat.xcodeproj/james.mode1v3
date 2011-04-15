@@ -325,14 +325,14 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>1A7B6B3C132AF3CB0043AFD2</string>
+										<string>1AE6F4FA13590D6400F67604</string>
 										<key>history</key>
 										<array>
 											<string>1A15C10012DA674900762145</string>
 											<string>1A15C10212DA674900762145</string>
 											<string>1A7B6B39132AF3CB0043AFD2</string>
 											<string>1A7B6B3A132AF3CB0043AFD2</string>
-											<string>1A7B6B3B132AF3CB0043AFD2</string>
+											<string>1A7B6B3C132AF3CB0043AFD2</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -390,9 +390,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>1A7B6B3D132AF3CB0043AFD2</string>
+				<string>1AE6F4FB13590D6400F67604</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>1A7B6B3E132AF3CB0043AFD2</string>
+				<string>1AE6F4FC13590D6400F67604</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -530,10 +530,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1A7B6B47132AF3CB0043AFD2</string>
-		<string>1A7B6B48132AF3CB0043AFD2</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>1ABE46F5126900D8008D4884</string>
 		<string>/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/apps/experiments/heartbeat/heartbeat.xcodeproj</string>
 	</array>
@@ -615,7 +611,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1ABE46F5126900D8008D4884</string>
-				<string>1A7B6B3F132AF3CB0043AFD2</string>
+				<string>1AE6F4FD13590D6400F67604</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

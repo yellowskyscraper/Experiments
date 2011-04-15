@@ -1,11 +1,7 @@
 TopenFrameworks
 v7
 r0
-<<<<<<< HEAD
-t321581979.662495
-=======
 t322084610.758063
->>>>>>> bcfc235d307961cbd106ae10b98f82eaa0db1a02
 cCheck dependencies
 cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppGlutWindow.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppGlutWindow.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 cCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppRunner.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppRunner.cpp normal i386 c++ com.apple.compilers.gcc.4_2
@@ -2384,14 +2380,11 @@ i<sys/_types.h>
 
 CCheck dependencies
 r0
-<<<<<<< HEAD
 lSLF07#2@18"Check dependencies321581973#321581973#0(0"0(0#1#0"29836824280170608#0"0#
 
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppGlutWindow.o /Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppGlutWindow.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 r0
-=======
 lSLF07#2@18"Check dependencies322084610#322084610#0(0"0(0#1#0"8618522112#0"0#
->>>>>>> bcfc235d307961cbd106ae10b98f82eaa0db1a02
 
 CCompileC build/openFrameworksLib.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppGlutWindow.o /Users/jhovell/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppGlutWindow.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s317858906.714123
