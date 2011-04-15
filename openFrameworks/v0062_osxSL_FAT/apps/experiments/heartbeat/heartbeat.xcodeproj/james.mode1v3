@@ -325,14 +325,14 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>1AE6F4FA13590D6400F67604</string>
+										<string>1ABC1E4B1359108200778480</string>
 										<key>history</key>
 										<array>
 											<string>1A15C10012DA674900762145</string>
 											<string>1A15C10212DA674900762145</string>
 											<string>1A7B6B39132AF3CB0043AFD2</string>
 											<string>1A7B6B3A132AF3CB0043AFD2</string>
-											<string>1A7B6B3C132AF3CB0043AFD2</string>
+											<string>1AE6F4FA13590D6400F67604</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -390,9 +390,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>1AE6F4FB13590D6400F67604</string>
+				<string>1ABC1E4C1359108200778480</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>1AE6F4FC13590D6400F67604</string>
+				<string>1ABC1E4D1359108200778480</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -530,6 +530,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1ABC1E561359108200778480</string>
+		<string>1ABC1E571359108200778480</string>
+		<string>1ABC1E581359108200778480</string>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>1ABE46F5126900D8008D4884</string>
 		<string>/Users/james/Projects/Experiments/openFrameworks/v0062_osxSL_FAT/apps/experiments/heartbeat/heartbeat.xcodeproj</string>
 	</array>
@@ -611,7 +616,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1ABE46F5126900D8008D4884</string>
-				<string>1AE6F4FD13590D6400F67604</string>
+				<string>1ABC1E4E1359108200778480</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -733,13 +738,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>1A7B6B40132AF3CB0043AFD2</string>
+				<string>1ABC1E4F1359108200778480</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>1A7B6B41132AF3CB0043AFD2</string>
-				<string>1A7B6B42132AF3CB0043AFD2</string>
-				<string>1A7B6B43132AF3CB0043AFD2</string>
-				<string>1A7B6B44132AF3CB0043AFD2</string>
-				<string>1A7B6B45132AF3CB0043AFD2</string>
+				<string>1ABC1E501359108200778480</string>
+				<string>1ABC1E511359108200778480</string>
+				<string>1ABC1E521359108200778480</string>
+				<string>1ABC1E531359108200778480</string>
+				<string>1ABC1E541359108200778480</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -901,7 +906,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>1A7B6B46132AF3CB0043AFD2</string>
+				<string>1ABC1E551359108200778480</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
