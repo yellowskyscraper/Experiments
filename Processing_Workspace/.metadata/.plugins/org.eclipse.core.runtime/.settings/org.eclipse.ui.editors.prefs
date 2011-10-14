@@ -1,0 +1,10 @@
+#Wed Sep 28 15:23:15 PDT 2011
+AbstractTextEditor.Color.Background.SystemDefault=false
+AbstractTextEditor.Color.Foreground.SystemDefault=false
+lineNumberRuler=true
+AbstractTextEditor.Color.Foreground=127,127,127
+currentLineColor=0,0,0
+lineNumberColor=76,76,76
+AbstractTextEditor.Color.Background=25,25,25
+eclipse.preferences.version=1
+overviewRuler_migration=migrated_3.1
