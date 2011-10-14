@@ -40,17 +40,7 @@
 		vrLen = 1180;
 		vrLoc = 162;
 	};
-	1A7B6B3C132AF3CB0043AFD2 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
-		name = "testApp.cpp: 31";
-		rLen = 0;
-		rLoc = 634;
-		rType = 0;
-		vrLen = 634;
-		vrLoc = 0;
-	};
-	1ABC1E4B1359108200778480 /* PBXTextBookmark */ = {
+	1ABC1E59135911CC00778480 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 30";
@@ -166,13 +156,12 @@
 			PBXWorkspaceStateSaveDate = 324604020;
 		};
 		perUserProjectItems = {
-			1A15C10012DA674900762145 = 1A15C10012DA674900762145 /* PBXTextBookmark */;
-			1A15C10212DA674900762145 = 1A15C10212DA674900762145 /* PBXTextBookmark */;
-			1A7B6B39132AF3CB0043AFD2 = 1A7B6B39132AF3CB0043AFD2 /* PBXTextBookmark */;
-			1A7B6B3A132AF3CB0043AFD2 = 1A7B6B3A132AF3CB0043AFD2 /* PBXTextBookmark */;
-			1A7B6B3C132AF3CB0043AFD2 = 1A7B6B3C132AF3CB0043AFD2 /* PBXTextBookmark */;
-			1ABC1E4B1359108200778480 /* PBXTextBookmark */ = 1ABC1E4B1359108200778480 /* PBXTextBookmark */;
-			1AE6F4FA13590D6400F67604 = 1AE6F4FA13590D6400F67604 /* PBXTextBookmark */;
+			1A15C10012DA674900762145 /* PBXTextBookmark */ = 1A15C10012DA674900762145 /* PBXTextBookmark */;
+			1A15C10212DA674900762145 /* PBXTextBookmark */ = 1A15C10212DA674900762145 /* PBXTextBookmark */;
+			1A7B6B39132AF3CB0043AFD2 /* PBXTextBookmark */ = 1A7B6B39132AF3CB0043AFD2 /* PBXTextBookmark */;
+			1A7B6B3A132AF3CB0043AFD2 /* PBXTextBookmark */ = 1A7B6B3A132AF3CB0043AFD2 /* PBXTextBookmark */;
+			1ABC1E59135911CC00778480 /* PBXTextBookmark */ = 1ABC1E59135911CC00778480 /* PBXTextBookmark */;
+			1AE6F4FA13590D6400F67604 /* PBXTextBookmark */ = 1AE6F4FA13590D6400F67604 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 1ABE4701126900D8008D4884 /* Source Control */;
 		userBuildSettings = {
@@ -193,7 +182,7 @@
 	};
 	E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1371, 868}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1371, 891}}";
 			sepNavSelRange = "{634, 0}";
 			sepNavVisRange = "{0, 634}";
 		};
