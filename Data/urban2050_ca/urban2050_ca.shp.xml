@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Landis</origin>
+				<pubdate>9/1/2002</pubdate>
+				<title Sync="TRUE">urban2050_ca</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<ftname Sync="TRUE">urban2050_ca</ftname><onlink Sync="TRUE">\\FAIROAKS\D$\mclay\ceres_gis\nccp_hcp\urban2050_ca.shp</onlink></citeinfo>
+		</citation>
+		<descript>
+			<abstract>50 year Projected Urban Growth scenarios.  Base year is 2000.  Projected year in this dataset is 2020.</abstract>
+			<purpose>By 2020, most forecasters agree, California will be home to between 43 and 46 million residents-up from 35 million today. Beyond 2020 the size of California's population is less certain. Depending on the composition of the population, and future fertility and migration rates, California's 2050 population could be as little as 50 million or as much as 70 million. One hundred years from now, if present trends continue, California could conceivably have as many as 90 million residents.
+Where these future residents will live and work is unclear. For most of the 20th Century, two-thirds of Californians have lived south of the Tehachapi Mountains and west of the San Jacinto Mountains-in that part of the state commonly referred to as Southern California. Yet most of coastal Southern California is already highly urbanized, and there is relatively little vacant land available for new development. More recently, slow-growth policies in Northern California and declining developable land supplies in Southern California are squeezing ever more of the state's population growth into the San Joaquin Valley. 
+How future Californians will occupy the landscape is also unclear. Over the last fifty years, the state's population has grown increasingly urban. Today, nearly 95 percent of Californians live in metropolitan areas, mostly at densities less than ten persons per acre. Recent growth patterns have strongly favored locations near freeways, most of which where built in the 1950s and 1960s. With few new freeways on the planning horizon, how will California's future growth organize itself in space? By national standards, California's large urban areas are already reasonably dense, and economic theory suggests that densities should increase further as California's urban regions continue to grow. In practice, densities have been rising in some urban counties, but falling in others.
+These are important issues as California plans its long-term future. Will California have enough land of the appropriate types and in the right locations to accommodate its projected population growth? Will future population growth consume ever-greater amounts of irreplaceable resource lands and habitat? Will jobs continue decentralizing, pushing out the boundaries of metropolitan areas? Will development densities be sufficient to support mass transit, or will future Californians be stuck in perpetual gridlock? Will urban and resort and recreational growth in the Sierra Nevada and Trinity Mountain regions lead to the over-fragmentation of precious natural habitat? How much water will be needed by California's future industries, farms, and residents, and where will that water be stored? Where should future highway, transit, and high-speed rail facilities and rights-of-way be located? Most of all, how much will all this growth cost, both economically, and in terms of changes in California's quality of life? 
+Clearly, the more precise our current understanding of how and where California is likely to grow, the sooner and more inexpensively appropriate lands can be acquired for purposes of conservation, recreation, and future facility siting. Similarly, the more clearly future urbanization patterns can be anticipated, the greater our collective ability to undertake sound city, metropolitan, rural, and bioregional planning. 
+Consider two scenarios for the year 2100. In the first, California's population would grow to 80 million persons and would occupy the landscape at an average density of eight persons per acre, the current statewide urban average. Under this scenario, and assuming that 10% percent of California's future population growth would occur through infill-that is, on existing urban land-California's expanding urban population would consume an additional 5.06 million acres of currently undeveloped land. As an alternative, assume the share of infill development were increased to 30%, and that new population were accommodated at a density of about 12 persons per acre-which is the current average density of the City of Los Angeles. Under this second scenario, California's urban population would consume an additional 2.6 million acres of currently undeveloped land. While both scenarios accommodate the same amount of population growth and generate large increments of additional urban development-indeed, some might say even the second scenario allows far too much growth and development-the second scenario is far kinder to California's unique natural landscape. 
+This report presents the results of a series of baseline population and urban growth projections for California's 38 urban counties through the year 2100. Presented in map and table form, these projections are based on extrapolations of current population trends and recent urban development trends. The next section, titled Approach, outlines the methodology and data used to develop the various projections. The following section, Baseline Scenario, reviews the projections themselves. A final section, entitled Baseline Impacts, quantitatively assesses the impacts of the baseline projections on wetland, hillside, farmland and habitat loss.</purpose>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>9/1/2002</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>In work</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-123.557869</westbc>
+				<eastbc Sync="TRUE">-114.023453</eastbc>
+				<northbc Sync="TRUE">39.496325</northbc>
+				<southbc Sync="TRUE">32.437212</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">-305920.203518</leftbc><rightbc Sync="TRUE">514328.385667</rightbc><bottombc Sync="TRUE">-604526.126259</bottombc><topbc Sync="TRUE">164497.836547</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>California Environmental Resource Evaluation System (CERES)</themekt>
+				<themekey>urban growth</themekey>
+			</theme>
+			<place>
+				<placekey>California</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>The State of California and the Resources Agency make no representations or warranties regarding the accuracy of data or maps. The user will not seek to hold the State or the Agency liable under any circumstances for any damages with respect to any claim by the user or any third party on account of or arising from the use of data or maps. The user will cite the Resource Agency and/or the appropriate Department within the Agency as the original source of the data, but will clearly denote cases where the original data have been updated, modified, or in any way altered from the original condition. There are no restrictions on distribution of the data by users. However, users are encouraged to refer others to the California Digital Conservation Atlas, the California Spatial Information Library or the California Environmental Information Catalog, in case updated data become available.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>1416 9th Street, Suite 1311</address>
+					<city>Sacramento</city>
+					<state>CA</state>
+					<postal>95814</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>(916) 653-1369</cntvoice>
+				<cntemail>casil@gis.ca.gov</cntemail>
+				<hours>8-5</hours>
+				<cntorgp><cntorg>California Resources Agency, Legacy Project</cntorg></cntorgp></cntinfo>
+		</ptcontac>
+		<browse>
+			<browset>JPEG</browset>
+		</browse>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.780</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<proccont>
+					<cntinfo>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>1416 9th Street, Suite 1311</address>
+							<city>Sacramento</city>
+							<state>CA</state>
+							<postal>95814</postal>
+							<country>US</country>
+						</cntaddr>
+						<cntvoice>(916) 653-1369</cntvoice>
+						<cntemail>casil@gis.ca.gov</cntemail>
+						<hours>8-5</hours>
+						<cntorgp><cntorg>California Resouces Agency, Legacy Project</cntorg></cntorgp></cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>D:\metadata.xml</srcused>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">C:\DOCUME~1\MILIND~1.RES\LOCALS~1\Temp\xml28B.tmp</srcused>
+				<time Sync="TRUE">09303300</time>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\DOCUME~1\MILIND~1.RES\LOCALS~1\Temp\xml28C.tmp</srcused><date Sync="TRUE">20030930</date><time Sync="TRUE">09334100</time></procstep><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\Projects\GreatPlaces\Metadata\urban2050_ca.shp.xml</srcused><date Sync="TRUE">20050315</date><time Sync="TRUE">10141500</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">Server=morpheus; Service=5151; Database=SDE; User=sde; Version=sde.DEFAULT</srcused><date Sync="TRUE">20050523</date><time Sync="TRUE">16072700</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">Server=morpheus; Service=5151; Database=greatplaces; User=sde; Version=sde.DEFAULT</srcused><date Sync="TRUE">20050531</date><time Sync="TRUE">16053400</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\FAIROAKS\D$\mclay\ceres_gis\update_0505_2.mdb</srcused><date Sync="TRUE">20060822</date><time Sync="TRUE">13371600</time></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="urban2050_ca">
+				<sdtstype Sync="TRUE">G-polygon</sdtstype>
+				<ptvctcnt Sync="TRUE">10278</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="urban2050_ca"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">10278</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.002048</absres>
+						<ordres Sync="TRUE">0.002048</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">meters</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Albers Conical Equal Area</mapprojn><albers><stdparll Sync="TRUE">34.000000</stdparll><stdparll Sync="TRUE">40.500000</stdparll><longcm Sync="TRUE">-120.000000</longcm><latprjo Sync="TRUE">0.000000</latprjo><feast Sync="TRUE">0.000000</feast><fnorth Sync="TRUE">-4000000.000000</fnorth></albers></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_California_Teale_Albers</projcsn></cordsysn></horizsys>
+		<vertdef><altsys><altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc><altres Sync="TRUE">1.000000</altres></altsys></vertdef></spref>
+	<eainfo>
+		<detailed Name="urban2050_ca">
+			<attr><attrlabl Sync="TRUE">Shape_Area</attrlabl><attalias Sync="TRUE">Shape_Area</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv></attr><attr>
+				<attrlabl Sync="TRUE">GRIDCODE</attrlabl>
+				<attalias Sync="TRUE">GRIDCODE</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">10</attwidth></attr>
+			<enttyp>
+				<enttypl Sync="TRUE">urban2050_ca</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">10278</enttypc></enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">ID</attrlabl>
+				<attalias Sync="TRUE">ID</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">OBJECTID</attrlabl><attalias Sync="TRUE">OBJECTID</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">Shape_Leng</attrlabl><attalias Sync="TRUE">Shape_Leng</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr></detailed>
+		<overview></overview>
+	</eainfo>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>0.269</transize>
+					<dssize Sync="TRUE">2.690</dssize></digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20060828</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>California Resources Agency, Legacy Project</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>1416 9th Street, Suite 1311</address>
+					<city>Sacramento</city>
+					<state>CA</state>
+					<postal>95814</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>(916) 653-1369</cntvoice>
+				<cntemail>casil@gis.ca.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20060822</CreaDate><CreaTime>13371600</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20060828</SyncDate><SyncTime>13092900</SyncTime><ModDate>20060828</ModDate><ModTime>13092900</ModTime><MetaID>{9888072D-D898-45BC-BE24-22EDBE5E74B7}</MetaID></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.780</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">urban2050_ca</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">-305920.203518</westBL><eastBL Sync="TRUE">514328.385667</eastBL><northBL Sync="TRUE">164497.836547</northBL><southBL Sync="TRUE">-604526.126259</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-123.557869</westBL><eastBL Sync="TRUE">-114.023453</eastBL><northBL Sync="TRUE">39.496325</northBL><southBL Sync="TRUE">32.437212</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\FAIROAKS\D$\mclay\ceres_gis\nccp_hcp\urban2050_ca.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">2.690</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">NAD_1983_California_Teale_Albers</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="urban2050_ca"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">10278</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20060828</mdDateSt></metadata>

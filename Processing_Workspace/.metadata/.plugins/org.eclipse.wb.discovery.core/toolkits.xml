@@ -120,12 +120,15 @@
             <feature id="com.google.gdt.eclipse.suite.e36.feature"/>
             <feature id="com.google.gwt.eclipse.sdkbundle.e36.feature" optional="true"/>
             <feature id="com.google.appengine.eclipse.sdkbundle.e36.feature" optional="true"/>
+<<<<<<< HEAD
             <feature id="org.eclipse.wb.core.feature" optional="true"/>
             <feature id="org.eclipse.wb.core.xml.feature" optional="true"/>
             <feature id="org.eclipse.wb.css.feature" optional="true"/>
             <feature id="com.google.gdt.eclipse.designer.hosted.feature" optional="true"/>
             <feature id="com.google.gdt.eclipse.designer.editor.feature" optional="true"/>
             <feature id="com.google.gdt.eclipse.designer.gpe.feature" optional="true"/>
+=======
+>>>>>>> 7ba8f9d09eee3a19dc58a0e3489074869cea55c8
 		</updateSite>
 		
 		<updateSite version="[3.7,3.8)" url="http://dl.google.com/eclipse/plugin/3.7"
@@ -133,12 +136,15 @@
             <feature id="com.google.gdt.eclipse.suite.e37.feature"/>
             <feature id="com.google.gwt.eclipse.sdkbundle.e37.feature" optional="true"/>
             <feature id="com.google.appengine.eclipse.sdkbundle.e37.feature" optional="true"/>
+<<<<<<< HEAD
             <feature id="org.eclipse.wb.core.feature" optional="true"/>
             <feature id="org.eclipse.wb.core.xml.feature" optional="true"/>
             <feature id="org.eclipse.wb.css.feature" optional="true"/>
             <feature id="com.google.gdt.eclipse.designer.hosted.feature" optional="true"/>
             <feature id="com.google.gdt.eclipse.designer.editor.feature" optional="true"/>
             <feature id="com.google.gdt.eclipse.designer.gpe.feature" optional="true"/>
+=======
+>>>>>>> 7ba8f9d09eee3a19dc58a0e3489074869cea55c8
 		</updateSite>
 	</toolkit>
 

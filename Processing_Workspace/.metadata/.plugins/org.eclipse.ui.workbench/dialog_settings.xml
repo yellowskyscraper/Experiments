@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+<<<<<<< HEAD
 	<section name="FileSystemImportWizard">
 		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
 		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
@@ -24,5 +25,12 @@
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
 		</list>
+=======
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="156" key="DIALOG_Y_ORIGIN"/>
+		<item value="531" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="ImportExportAction">
+>>>>>>> 7ba8f9d09eee3a19dc58a0e3489074869cea55c8
 	</section>
 </section>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Fri Sep 30 13:09:27 PDT 2011
 semanticHighlighting.localVariableDeclaration.color=153,153,153
 java_keyword_bold=false
@@ -138,3 +139,19 @@ semanticHighlighting.staticField.italic=false
 sp_cleanup.add_missing_methods=false
 semanticHighlighting.autoboxing.enabled=true
 semanticHighlighting.staticMethodInvocation.color=171,86,0
+=======
+#Fri Oct 14 12:01:19 PDT 2011
+useQuickDiffPrefPage=true
+proposalOrderMigrated=true
+tabWidthPropagated=true
+content_assist_proposals_background=255,255,255
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+useAnnotationsPrefPage=true
+org.eclipse.jface.textfont=1|Monaco|11.0|0|COCOA|1|;
+org.eclipse.jdt.ui.editor.tab.width=
+org.eclipse.jdt.ui.formatterprofiles.version=12
+spelling_locale_initialized=true
+eclipse.preferences.version=1
+content_assist_proposals_foreground=0,0,0
+fontPropagated=true
+>>>>>>> 7ba8f9d09eee3a19dc58a0e3489074869cea55c8

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Wed Sep 28 15:11:48 PDT 2011
 ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.ui.workbenchMisc\tTorg.eclipse.jdt.ui.presentation
 PLUGINS_NOT_ACTIVATED_ON_STARTUP=org.eclipse.m2e.discovery;
@@ -7,3 +8,9 @@ editors=<?xml version\="1.0" encoding\="UTF-8"?>\n<editors>\n<descriptor class\=
 org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\n<org.eclipse.ui.commands/>
 ENABLED_DECORATORS=org.eclipse.m2e.core.mavenVersionDecorator\:false,org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator\:true,org.eclipse.jdt.ui.override.decorator\:true,org.eclipse.jdt.ui.interface.decorator\:false,org.eclipse.jdt.ui.buildpath.decorator\:true,org.eclipse.m2e.core.maven2decorator\:true,org.eclipse.mylyn.context.ui.decorator.interest\:true,org.eclipse.mylyn.tasks.ui.decorators.task\:true,org.eclipse.mylyn.team.ui.changeset.decorator\:true,org.eclipse.team.cvs.ui.decorator\:true,org.eclipse.ui.LinkedResourceDecorator\:true,org.eclipse.ui.VirtualResourceDecorator\:true,org.eclipse.ui.ContentTypeDecorator\:true,org.eclipse.ui.ResourceFilterDecorator\:false,proclipsing.core.ProcessingProjectDecorator\:true,
 ColorsAndFontsPreferencePage.selectedElement=Corg.eclipse.jdt.ui.ColoredLabels.match_highlight
+=======
+#Fri Oct 14 12:00:20 PDT 2011
+PLUGINS_NOT_ACTIVATED_ON_STARTUP=org.eclipse.m2e.discovery;
+eclipse.preferences.version=1
+ENABLED_DECORATORS=org.eclipse.m2e.core.mavenVersionDecorator\:false,org.eclipse.jdt.ui.override.decorator\:true,org.eclipse.jdt.ui.interface.decorator\:false,org.eclipse.jdt.ui.buildpath.decorator\:true,org.eclipse.m2e.core.maven2decorator\:true,org.eclipse.mylyn.context.ui.decorator.interest\:true,org.eclipse.mylyn.tasks.ui.decorators.task\:true,org.eclipse.mylyn.team.ui.changeset.decorator\:true,org.eclipse.team.cvs.ui.decorator\:true,org.eclipse.ui.LinkedResourceDecorator\:true,org.eclipse.ui.VirtualResourceDecorator\:true,org.eclipse.ui.ContentTypeDecorator\:true,org.eclipse.ui.ResourceFilterDecorator\:false,proclipsing.core.ProcessingProjectDecorator\:true,
+>>>>>>> 7ba8f9d09eee3a19dc58a0e3489074869cea55c8

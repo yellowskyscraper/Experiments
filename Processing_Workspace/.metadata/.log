@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 !SESSION 2011-09-28 14:24:38.701 -----------------------------------------------
 eclipse.buildId=M20110909-1335
 java.version=1.6.0_26
@@ -91,4 +92,25 @@ Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Us
 Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/jhovell/.eclipse_keyring -showlocation
 
 !ENTRY org.eclipse.core.net 1 0 2011-10-14 11:58:24.990
+=======
+!SESSION 2011-10-14 11:58:48.193 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_22
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/james/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -data /Users/james/Projects/Experiments/Processing_Workspace -product org.eclipse.epp.package.java.product -keyring /Users/james/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2011-10-14 11:58:57.928
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2011-10-14 12:01:20.763 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_22
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/james/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data /Users/james/Projects/Experiments/Processing_Workspace -product org.eclipse.epp.package.java.product -keyring /Users/james/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2011-10-14 12:01:26.285
+>>>>>>> 7ba8f9d09eee3a19dc58a0e3489074869cea55c8
 !MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences

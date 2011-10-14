@@ -1,0 +1,2027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns:casil="http://gis.ca.gov/" xml:lang="en" casil:resource="http://gis.ca.gov/catalog/BrowseRecord.epl?id=292">
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<pubdate>August 2006</pubdate>
+				<title Sync="TRUE">geonamea_ppl_2006</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink>http://geonames.usgs.gov/domestic/download_data.htm</onlink>
+				<ftname Sync="TRUE">geonamea_ppl_2006</ftname>
+				<origin>USGS</origin></citeinfo>
+		</citation>
+		<descript>
+			<abstract>The 'GEONAMES- populated places (ppl)' layer is a subset of the larger "GEONAMES" layer.   This layer contain names of places or areas "with clustered or scattered buildings and a permanent human population (city, settlement, town, village)" in California.</abstract>
+			<purpose>Dataset extracted from 'gnis' and queried on major populated citites for use in the Digital Atlas.</purpose>
+			<supplinf>This layer is useful for furnishing landmarks on plots. It can also serve as a base data layer. The features help to orient the viewer and give a sense of scale to the plot. </supplinf>
+			<langdata Sync="TRUE">en</langdata>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>July 19, 2006</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-124.459544</westbc>
+				<eastbc Sync="TRUE">-113.515762</eastbc>
+				<northbc Sync="TRUE">42.042936</northbc>
+				<southbc Sync="TRUE">32.444251</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc Sync="TRUE">-370246.011589</leftbc>
+				<rightbc Sync="TRUE">538785.996884</rightbc>
+				<topbc Sync="TRUE">447188.674783</topbc>
+				<bottombc Sync="TRUE">-602301.258659</bottombc>
+			</lboundng>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekey>City boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+			</theme>
+			<place>
+				<placekey>California</placekey>
+			</place>
+		</keywords>
+		<accconst>No Restrictions</accconst>
+		<useconst>No Redistribution</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>California Resources Agency, Legacy Project</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>1416 9th Street, Suite 1311</address>
+					<city>Sacramento</city>
+					<state>Ca</state>
+					<postal>95814</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(916) 653-1369</cntvoice>
+				<cntemail>casil@gis.ca.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.780</native>
+		<crossref>
+			<citeinfo>
+				<origin>USGS</origin>
+				<pubdate>July 19, 2006</pubdate>
+				<onlink>http://geonames.usgs.gov/domestic/download_data.htm</onlink>
+			</citeinfo>
+		</crossref>
+		<natvform Sync="TRUE">Shapefile</natvform>
+	</idinfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">C:\DOCUME~1\MILIND~1.RES\LOCALS~1\Temp\xml19.tmp</srcused>
+				<date Sync="TRUE">20031001</date>
+				<time Sync="TRUE">16385500</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">C:\Projects\GreatPlaces\Metadata\geonamea.shp.xml</srcused>
+				<date Sync="TRUE">20050315</date>
+				<time Sync="TRUE">09503500</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Dataset copied.</procdesc>
+				<srcused Sync="TRUE">Server=morpheus; Service=5151; Database=SDE; User=sde; Version=sde.DEFAULT</srcused>
+				<date Sync="TRUE">20050523</date>
+				<time Sync="TRUE">15413200</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Dataset copied.</procdesc>
+				<srcused Sync="TRUE">Server=morpheus; Service=5151; Database=greatplaces; User=sde; Version=sde.DEFAULT</srcused>
+				<date Sync="TRUE">20050531</date>
+				<time Sync="TRUE">15442900</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Dataset copied.</procdesc>
+				<srcused Sync="TRUE">\\FAIROAKS\D$\mclay\ceres_gis\update_0505_1.mdb</srcused>
+				<date Sync="TRUE">20060822</date>
+				<time Sync="TRUE">12212500</time>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\DOCUME~1\Mui.Lay\LOCALS~1\Temp\xml166.tmp</srcused><date Sync="TRUE">20060913</date><time Sync="TRUE">14344600</time></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="geonamea_ppl_2006">
+				<sdtstype Sync="TRUE">Entity point</sdtstype>
+				<ptvctcnt Sync="TRUE">6904</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm Name="label">
+				<sdtstype></sdtstype>
+				<ptvctcnt></ptvctcnt>
+			</sdtsterm>
+			<sdtsterm Name="polygon">
+				<sdtstype></sdtstype>
+				<ptvctcnt></ptvctcnt>
+			</sdtsterm>
+			<sdtsterm Name="tic">
+				<sdtstype></sdtstype>
+				<ptvctcnt></ptvctcnt>
+			</sdtsterm>
+			<sdtsterm Name="annotation">
+				<sdtstype></sdtstype>
+				<ptvctcnt></ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="geonamea_ppl_2006">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+				<spindex Sync="TRUE">TRUE</spindex>
+				<efeageom Sync="TRUE">Point</efeageom>
+				<efeacnt Sync="TRUE">6904</efeacnt>
+			</esriterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.002048</absres>
+						<ordres Sync="TRUE">0.002048</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">meters</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Albers Conical Equal Area</mapprojn><albers><stdparll Sync="TRUE">34.000000</stdparll><stdparll Sync="TRUE">40.500000</stdparll><longcm Sync="TRUE">-120.000000</longcm><latprjo Sync="TRUE">0.000000</latprjo><feast Sync="TRUE">0.000000</feast><fnorth Sync="TRUE">-4000000.000000</fnorth></albers></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+				<projcsn Sync="TRUE">NAD_1983_California_Teale_Albers</projcsn>
+			</cordsysn>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altres Sync="TRUE">1.000000</altres>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="geonamea_ppl_2006">
+			<attr>
+				<attrlabl Sync="TRUE">FID</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">FID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">4</attwidth>
+			</attr>
+			<enttyp><enttypl Sync="TRUE">geonamea_ppl_2006</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">6904</enttypc></enttyp><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Feature_ID</attrlabl><attalias Sync="TRUE">Feature_ID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr><attr><attrlabl Sync="TRUE">Feature_Na</attrlabl><attalias Sync="TRUE">Feature_Na</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr><attr><attrlabl Sync="TRUE">Class</attrlabl><attalias Sync="TRUE">Class</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr><attr><attrlabl Sync="TRUE">ST_alpha</attrlabl><attalias Sync="TRUE">ST_alpha</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr><attr><attrlabl Sync="TRUE">ST_num</attrlabl><attalias Sync="TRUE">ST_num</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr><attr><attrlabl Sync="TRUE">County</attrlabl><attalias Sync="TRUE">County</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr><attr><attrlabl Sync="TRUE">County_num</attrlabl><attalias Sync="TRUE">County_num</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr><attr><attrlabl Sync="TRUE">Primary_la</attrlabl><attalias Sync="TRUE">Primary_la</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr><attr><attrlabl Sync="TRUE">Primary_lo</attrlabl><attalias Sync="TRUE">Primary_lo</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr><attr><attrlabl Sync="TRUE">Primary__1</attrlabl><attalias Sync="TRUE">Primary__1</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">Primary__2</attrlabl><attalias Sync="TRUE">Primary__2</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">Source_lat</attrlabl><attalias Sync="TRUE">Source_lat</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr><attr><attrlabl Sync="TRUE">Source_lon</attrlabl><attalias Sync="TRUE">Source_lon</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr><attr><attrlabl Sync="TRUE">Source_l_1</attrlabl><attalias Sync="TRUE">Source_l_1</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr><attr><attrlabl Sync="TRUE">Source_l_2</attrlabl><attalias Sync="TRUE">Source_l_2</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr><attr><attrlabl Sync="TRUE">Elev_Meter</attrlabl><attalias Sync="TRUE">Elev_Meter</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr><attr><attrlabl Sync="TRUE">Map_Name</attrlabl><attalias Sync="TRUE">Map_Name</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr></detailed>
+		<detailed>
+			<enttyp>
+				<enttypl Sync="TRUE">geonamea_ppl</enttypl>
+				<enttypc Sync="TRUE">946</enttypc>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias>
+				<attrtype Sync="TRUE">Number</attrtype>
+				<attwidth Sync="TRUE">9</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PERIMETER</attrlabl>
+				<atnumdec Sync="TRUE">11</atnumdec>
+				<attalias Sync="TRUE">PERIMETER</attalias>
+				<attrtype Sync="TRUE">Float</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">GEONAMEA_</attrlabl>
+				<attalias Sync="TRUE">GEONAMEA_</attalias>
+				<attrtype Sync="TRUE">Number</attrtype>
+				<attwidth Sync="TRUE">9</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">GEONAMEA_I</attrlabl>
+				<attalias Sync="TRUE">GEONAMEA_I</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LATDD</attrlabl>
+				<attalias Sync="TRUE">LATDD</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LONDD</attrlabl>
+				<attalias Sync="TRUE">LONDD</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NAME</attrlabl>
+				<attalias Sync="TRUE">NAME</attalias>
+				<attrtype Sync="TRUE">Number</attrtype>
+				<attwidth Sync="TRUE">9</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">TYPE</attrlabl>
+				<attalias Sync="TRUE">TYPE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">COUNTY</attrlabl>
+				<attalias Sync="TRUE">COUNTY</attalias>
+				<attrtype Sync="TRUE">Number</attrtype>
+				<attwidth Sync="TRUE">9</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LINESRCCOO</attrlabl>
+				<attalias Sync="TRUE">LINESRCCOO</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ELEVATION</attrlabl>
+				<attalias Sync="TRUE">ELEVATION</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">OBJECTID</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">OBJECTID</attalias>
+				<attrtype Sync="TRUE">Number</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl Sync="TRUE">AREA_</attrlabl>
+				<attalias Sync="TRUE">AREA_</attalias>
+				<attrtype Sync="TRUE">Number</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atnumdec Sync="TRUE">11</atnumdec></attr>
+		</detailed>
+		<overview>
+			<eaover>
+Identifier - geonamea.pat
+Data Dictionary
+
+DATABASE FIELDS:
+
+INPUT    OUTPUT   DATA  DECI
+FIELD NAME    WIDTH    WIDTH    TYPE  MALS          DESCRIPTION
+----- ----    -----    -----    ----  ----  ----------------------------------------
+AREA			4		 12		  F		3
+PERIMETER		4		 12		  F		3
+GEONAMEA#		4		  5		  B		0	ARC-INFO use
+GEONAMEA-ID		4		  5		  B		0	ARC-INFO use
+LATDD			8		 16		  F		6	The Y coordinate of the location in decimal degrees NAD27
+LONDD			8		 17		  F		6	The X coordinate of the location in decimal degrees NAD27
+NAME		   50		 50		  C		0	The name of the geographic feature.
+TYPE			9		  9		  C		0	The feature type as classified by USGS.
+COUNTY		   15		 15		  C		0	County name
+LINESRCCOO	   16		 16		  C		0	GNIS-supplied source coordinates of linear features
+ELEVATION		6		  6		  C		0	Elevation of the feature in feet
+CELLNAME	   25		 25		  C		0	Name of the USGS quad map from which the data were taken
+</eaover>
+			<eadetcit>
+UNIQUE VALUES:
+
+LATDD          DESCRIPTION
+----------           ----------------------------------------
+Numeric value from 32.583888999999999 to 41.967500000000001 
+
+LONDD          DESCRIPTION
+----------           ----------------------------------------
+Numeric value from -124.26277800000000 to -114.57305599999999 
+
+NAME          DESCRIPTION
+----------           ----------------------------------------
+Acton 
+Adelanto 
+Agoura Hills 
+Alameda 
+Alamo 
+Albany 
+Alhambra 
+Aliso Viejo 
+Almanor 
+Alpaugh 
+Alpine 
+Alta Sierra 
+Altadena 
+Alturas 
+Alum Rock 
+Amador City 
+American Canyon 
+Amesti 
+Anaheim 
+Anderson 
+Angwin 
+Antioch 
+Apple Valley 
+Aptos 
+Arbuckle 
+Arcadia 
+Arcata 
+Armona 
+Arnold 
+Aromas 
+Arroyo Grande 
+Artesia 
+Arvin 
+Ashland 
+Atascadero 
+Atherton 
+Atwater 
+Auberry 
+Auburn 
+Avalon 
+Avenal 
+Avery 
+Avocado Heights 
+Azusa 
+Bakersfield 
+Baldwin Park 
+Banning 
+Barstow 
+Bay Point 
+Bayview 
+Bear Valley 
+Beaumont 
+Beckwourth 
+Belden 
+Bell 
+Bell Gardens 
+Bellflower 
+Belmont 
+Belvedere 
+Ben Lomond 
+Benicia 
+Berkeley 
+Bethel Island 
+Beverly Hills 
+Big Bear City 
+Big Bear Lake 
+Big Bend 
+Big Pine 
+Biggs 
+Biola 
+Bishop 
+Blairsden 
+Bloomington 
+Blythe 
+Bodega Bay 
+Bodfish 
+Bolinas 
+Bombay Beach 
+Bonita 
+Bonsall 
+Bootjack 
+Boron 
+Boronda 
+Borrego Springs 
+Bostonia 
+Boulder Creek 
+Bowles 
+Boyes Hot Springs 
+Bradbury 
+Bradley 
+Brawley 
+Brea 
+Brentwood 
+Brisbane 
+Broadmoor 
+Buellton 
+Buena Park 
+Buena Vista 
+Burbank 
+Burlingame 
+Burney 
+Buttonwillow 
+Byron 
+Bystrom 
+Cabazon 
+Calabasas 
+Calexico 
+California City 
+Calimesa 
+Calipatria 
+Calistoga 
+Camarillo 
+Cambria 
+Cambrian Park 
+Cameron Park 
+Campbell 
+Cantua Creek 
+Canyon Lake 
+Canyondam 
+Capitola 
+Caribou 
+Carlsbad 
+Carmel-by-the-Sea 
+Carmichael 
+Carpinteria 
+Carrick 
+Carson 
+Cartago 
+Caruthers 
+Castro Valley 
+Castroville 
+Cathedral City 
+Cayucos 
+Ceres 
+Cerritos 
+Charter Oak 
+Cherry Valley 
+Chester 
+Chico 
+China Lake Acres 
+Chinese Camp 
+Chino 
+Chino Hills 
+Chowchilla 
+Chualar 
+Chula Vista 
+Citrus Heights 
+Claremont 
+Clayton 
+Clearlake 
+Clearlake Oaks 
+Clio 
+Cloverdale 
+Clovis 
+Clyde 
+Coachella 
+Coalinga 
+Colfax 
+Colma 
+Colton 
+Columbia 
+Colusa 
+Commerce 
+Compton 
+Concord 
+Copperopolis 
+Corcoran 
+Corning 
+Corona 
+Coronado 
+Corralitos 
+Corte Madera 
+Costa Mesa 
+Cotati 
+Cottonwood 
+Covelo 
+Covina 
+Crescent City 
+Crescent Mills 
+Crest 
+Crestline 
+Crockett 
+Cromberg 
+Cudahy 
+Culver City 
+Cupertino 
+Cutler 
+Cutten 
+Cypress 
+Daly City 
+Dana Point 
+Danville 
+Darwin 
+Davis 
+Deer Park 
+Del Mar 
+Del Rey 
+Del Rey Oaks 
+Del Rio 
+Delano 
+Delhi 
+Delleker 
+Denair 
+Derby Acres 
+Desert Hot Springs 
+Desert Shores 
+Desert View Highlands 
+Diablo 
+Diamond Bar 
+Diamond Springs 
+Dillon Beach 
+Dinuba 
+Discovery Bay 
+Dixon 
+Dollar Point 
+Dorris 
+Dos Palos 
+Downey 
+Duarte 
+Dublin 
+Ducor 
+Dunsmuir 
+Durham 
+Dustin Acres 
+Earlimart 
+East Blythe 
+East Los Angeles 
+East Oakdale 
+East Orosi 
+East Palo Alto 
+East Pasadena 
+East Quincy 
+East Shore 
+East Sonora 
+Easton 
+El Cajon 
+El Centro 
+El Cerrito 
+El Granada 
+El Monte 
+El Rio 
+El Segundo 
+El Sobrante 
+El Verano 
+Elk Grove 
+Elkhorn 
+Elmira 
+Emeryville 
+Empire 
+Encinitas 
+Escalon 
+Escondido 
+Esparto 
+Etna 
+Eureka 
+Exeter 
+Fair Oaks 
+Fairbanks Ranch 
+Fairfax 
+Fairfield 
+Fall River Mills 
+Fallbrook 
+Farmersville 
+Farmington 
+Fellows 
+Ferndale 
+Fillmore 
+Firebaugh 
+Florin 
+Folsom 
+Fontana 
+Foothill Ranch 
+Ford City 
+Forest Meadows 
+Foresthill 
+Forestville 
+Fort Bragg 
+Fort Jones 
+Fortuna 
+Foster City 
+Fountain Valley 
+Fowler 
+Frazier Park 
+Freedom 
+Fremont 
+French Camp 
+French Gulch 
+Fresno 
+Friant 
+Fruitdale 
+Fullerton 
+Furnace Creek 
+Galt 
+Garden Grove 
+Gardena 
+Gazelle 
+Georgetown 
+Gilroy 
+Glen Avon 
+Glen Ellen 
+Glendale 
+Glendora 
+Gold River 
+Goleta 
+Gonzales 
+Goshen 
+Graeagle 
+Grand Terrace 
+Granite Bay 
+Grass Valley 
+Graton 
+Grayson 
+Green Valley 
+Greenfield 
+Greenhorn 
+Greenview 
+Greenville 
+Gridley 
+Grover Beach 
+Guadalupe 
+Guerneville 
+Gustine 
+Hacienda Heights 
+Half Moon Bay 
+Hamilton Branch 
+Hamilton City 
+Hanford 
+Harbison Canyon 
+Hawaiian Gardens 
+Hawthorne 
+Hayfork 
+Hayward 
+Healdsburg 
+Heber 
+Hemet 
+Hercules 
+Hermosa Beach 
+Hesperia 
+Hickman 
+Hidden Hills 
+Hidden Valley Lake 
+Highgrove 
+Highland 
+Hillsborough 
+Hollister 
+Holtville 
+Home Gardens 
+Homeland 
+Hornbrook 
+Hughson 
+Huntington Beach 
+Huntington Park 
+Huron 
+Hydesville 
+Imperial 
+Imperial Beach 
+Independence 
+Indian Falls 
+Indian Wells 
+Indio 
+Industry 
+Inglewood 
+Inverness 
+Inyokern 
+Ione 
+Iron Horse 
+Irvine 
+Irwindale 
+Isla Vista 
+Isleton 
+Ivanhoe 
+Jackson 
+Jamestown 
+Jamul 
+Johannesburg 
+Johnsville 
+Joshua Tree 
+Julian 
+Keeler 
+Keene 
+Kelseyville 
+Kennedy 
+Kensington 
+Kentfield 
+Kerman 
+Kernville 
+Kettleman City 
+Keyes 
+King City 
+Kings Beach 
+Kingsburg 
+Klamath 
+Knightsen 
+La Canada Flintridge 
+La Habra 
+La Habra Heights 
+La Mesa 
+La Mirada 
+La Palma 
+La Porte 
+La Presa 
+La Puente 
+La Quinta 
+La Verne 
+Lafayette 
+Laguna 
+Laguna Beach 
+Laguna Hills 
+Laguna Niguel 
+Laguna Woods 
+Lake Arrowhead 
+Lake Davis 
+Lake Elsinore 
+Lake Forest 
+Lake Isabella 
+Lake Los Angeles 
+Lake San Marcos 
+Lake Wildwood 
+Lake of the Pines 
+Lake of the Woods 
+Lakeland Village 
+Lakeport 
+Lakeside 
+Lakeview 
+Lakewood 
+Lamont 
+Lanare 
+Lancaster 
+Larkspur 
+Las Flores 
+Las Lomas 
+Lathrop 
+Laton 
+Lawndale 
+Laytonville 
+Le Grand 
+Lebec 
+Lemon Grove 
+Lemoore 
+Lennox 
+Lenwood 
+Lewiston 
+Lincoln 
+Lincoln Village 
+Linda 
+Linden 
+Lindsay 
+Littlerock 
+Live Oak 
+Livermore 
+Livingston 
+Lockeford 
+Lodi 
+Loma Linda 
+Loma Rica 
+Lomita 
+Lompoc 
+London 
+Lone Pine 
+Long Beach 
+Loomis 
+Los Alamitos 
+Los Alamos 
+Los Altos 
+Los Altos Hills 
+Los Angeles 
+Los Banos 
+Los Gatos 
+Los Molinos 
+Lost Hills 
+Lower Lake 
+Loyalton 
+Lucerne 
+Lynwood 
+Macdoel 
+Madera 
+Magalia 
+Malibu 
+Mammoth Lakes 
+Manhattan Beach 
+Manteca 
+Manton 
+Maricopa 
+Marina 
+Marina del Rey 
+Mariposa 
+Martinez 
+Marysville 
+Maywood 
+McArthur 
+McCloud 
+McFarland 
+McKinleyville 
+McKittrick 
+Meadow Valley 
+Meadow Vista 
+Mecca 
+Meiners Oaks 
+Mendocino 
+Mendota 
+Menlo Park 
+Mentone 
+Merced 
+Mi-Wuk Village 
+Middletown 
+Mill Valley 
+Millbrae 
+Millville 
+Milpitas 
+Mineral 
+Mira Loma 
+Mira Monte 
+Mission Canyon 
+Mission Hills 
+Mission Viejo 
+Modesto 
+Mohawk Vista 
+Mojave 
+Mokelumne Hill 
+Mono Vista 
+Monrovia 
+Montague 
+Montara 
+Montclair 
+Monte Rio 
+Monte Sereno 
+Montebello 
+Montecito 
+Monterey 
+Monterey Park 
+Montgomery Creek 
+Moorpark 
+Moraga 
+Moreno Valley 
+Morgan Hill 
+Morongo Valley 
+Morro Bay 
+Moss Beach 
+Moss Landing 
+Mount Hebron 
+Mount Shasta 
+Mountain Mesa 
+Mountain Ranch 
+Mountain View 
+Muir Beach 
+Murphys 
+Murrieta 
+Murrieta Hot Springs 
+Muscoy 
+Napa 
+National City 
+Needles 
+Nevada City 
+Newark 
+Newman 
+Newport Beach 
+Nice 
+Niland 
+Nipomo 
+Norco 
+North Edwards 
+North Highlands 
+Norwalk 
+Novato 
+Nuevo 
+Oak Park 
+Oak View 
+Oakdale 
+Oakhurst 
+Oakland 
+Oakley 
+Oceano 
+Oceanside 
+Ocotillo 
+Oildale 
+Ojai 
+Olancha 
+Olivehurst 
+Ontario 
+Onyx 
+Opal Cliffs 
+Orange 
+Orange Cove 
+Orangevale 
+Orcutt 
+Orinda 
+Orland 
+Orosi 
+Oroville 
+Oxnard 
+Pacheco 
+Pacific Grove 
+Pacifica 
+Pajaro 
+Palermo 
+Palm Desert 
+Palm Springs 
+Palmdale 
+Palo Alto 
+Palo Cedro 
+Palo Verde 
+Palos Verdes Estates 
+Paradise 
+Paramount 
+Parlier 
+Pasadena 
+Patterson 
+Paxton 
+Pearsonville 
+Pedley 
+Perris 
+Petaluma 
+Pico Rivera 
+Piedmont 
+Pine Mountain Club 
+Pine Valley 
+Pinole 
+Piru 
+Pismo Beach 
+Pittsburg 
+Pixley 
+Placentia 
+Placerville 
+Planada 
+Pleasant Hill 
+Pleasanton 
+Plymouth 
+Point Arena 
+Point Reyes Station 
+Pollock Pines 
+Pomona 
+Port Costa 
+Port Hueneme 
+Porterville 
+Portola 
+Portola Hills 
+Portola Valley 
+Poway 
+Prattville 
+Prunedale 
+Quail Valley 
+Quartz Hill 
+Quincy 
+Rail Road Flat 
+Rainbow 
+Raisin City 
+Ramona 
+Rancho Calaveras 
+Rancho Cordova 
+Rancho Cucamonga 
+Rancho Mirage 
+Rancho Murieta 
+Rancho Palos Verdes 
+Rancho Santa Fe 
+Randsburg 
+Red Bluff 
+Redding 
+Redlands 
+Redondo Beach 
+Redway 
+Redwood City 
+Reedley 
+Rialto 
+Richgrove 
+Richmond 
+Ridgecrest 
+Ridgemark 
+Rio Dell 
+Rio Linda 
+Rio Vista 
+Ripon 
+Riverbank 
+Riverdale 
+Riverdale Park 
+Riverside 
+Rocklin 
+Rodeo 
+Rohnert Park 
+Rolling Hills 
+Rolling Hills Estates 
+Rollingwood 
+Romoland 
+Rosamond 
+Roseland 
+Rosemead 
+Rosemont 
+Roseville 
+Ross 
+Rossmoor 
+Round Mountain 
+Round Valley 
+Rowland Heights 
+Rubidoux 
+Running Springs 
+Sacramento 
+Salida 
+Salinas 
+Salton City 
+Salton Sea Beach 
+San Andreas 
+San Anselmo 
+San Antonio Heights 
+San Ardo 
+San Bernardino 
+San Bruno 
+San Carlos 
+San Clemente 
+San Diego 
+San Dimas 
+San Fernando 
+San Francisco 
+San Gabriel 
+San Geronimo 
+San Jacinto 
+San Joaquin 
+San Joaquin Hills 
+San Jose 
+San Juan Bautista 
+San Juan Capistrano 
+San Leandro 
+San Lorenzo 
+San Lucas 
+San Luis Obispo 
+San Marcos 
+San Marino 
+San Martin 
+San Mateo 
+San Miguel 
+San Pablo 
+San Rafael 
+San Ramon 
+Sand City 
+Sanger 
+Santa Ana 
+Santa Barbara 
+Santa Clara 
+Santa Clarita 
+Santa Cruz 
+Santa Fe Springs 
+Santa Maria 
+Santa Monica 
+Santa Paula 
+Santa Rosa 
+Santa Venetia 
+Santa Ynez 
+Santee 
+Saratoga 
+Sausalito 
+Scotts Valley 
+Seal Beach 
+Seaside 
+Sebastopol 
+Sedco Hills 
+Seeley 
+Selma 
+Seven Trees 
+Shackelford 
+Shafter 
+Shandon 
+Shasta Lake 
+Shaver Lake 
+Shingletown 
+Shoshone 
+Sierra Madre 
+Signal Hill 
+Simi Valley 
+Solana Beach 
+Soledad 
+Solvang 
+Sonoma 
+Sonora 
+Soquel 
+Soulsbyville 
+South Dos Palos 
+South El Monte 
+South Gate 
+South Lake Tahoe 
+South Oroville 
+South Pasadena 
+South San Francisco 
+South San Gabriel 
+South Taft 
+South Whittier 
+Spring Garden 
+Spring Valley 
+Springville 
+Squaw Valley 
+Squirrel Mountain Valley 
+Stallion Springs 
+Stanton 
+Stinson Beach 
+Stockton 
+Storrie 
+Stratford 
+Strathmore 
+Suisun City 
+Summerland 
+Sun City 
+Sunnyslope 
+Sunol 
+Susanville 
+Sutter 
+Sutter Creek 
+Taft 
+Taft Heights 
+Tahoe Vista 
+Talmage 
+Tara Hills 
+Taylorsville 
+Tecopa 
+Tehachapi 
+Tehama 
+Temecula 
+Temelec 
+Temple City 
+Templeton 
+Tennant 
+Terra Bella 
+Thermalito 
+Thousand Oaks 
+Thousand Palms 
+Three Rivers 
+Tiburon 
+Tierra Buena 
+Tipton 
+Tobin 
+Tomales 
+Toro Canyon 
+Torrance 
+Tracy 
+Tranquillity 
+Traver 
+Trinidad 
+Truckee 
+Tulare 
+Tulelake 
+Tupman 
+Turlock 
+Tustin 
+Twain 
+Twain Harte 
+Twentynine Palms 
+Twin Lakes 
+Ukiah 
+Union City 
+Upland 
+Upper Lake 
+Vacaville 
+Val Verde 
+Valinda 
+Valle Vista 
+Vallecito 
+Vallejo 
+Valley Acres 
+Valley Center 
+Valley Ranch 
+Valley Springs 
+Vernon 
+Victorville 
+Villa Park 
+Vine Hill 
+Visalia 
+Vista 
+Waldon 
+Wallace 
+Walnut 
+Walnut Creek 
+Walnut Grove 
+Walnut Park 
+Wasco 
+Waterford 
+Watsonville 
+Weaverville 
+Weed 
+Weldon 
+West Covina 
+West Hollywood 
+West Point 
+West Sacramento 
+Westlake Village 
+Westley 
+Westminster 
+Westmorland 
+Westwood 
+Wheatland 
+Whitehawk 
+Whittier 
+Wildomar 
+Williams 
+Willits 
+Willow Creek 
+Willows 
+Wilton 
+Winchester 
+Windsor 
+Winter Gardens 
+Winterhaven 
+Winters 
+Winton 
+Wofford Heights 
+Woodacre 
+Woodcrest 
+Woodlake 
+Woodland 
+Woodside 
+Woodville 
+Wrightwood 
+Yorba Linda 
+Yountville 
+Yreka 
+Yuba City 
+Yucaipa 
+Yucca Valley 
+
+TYPE          DESCRIPTION
+----------           ----------------------------------------
+ppl 
+
+COUNTY          DESCRIPTION
+----------           ----------------------------------------
+Alameda 
+Alpine 
+Amador 
+Butte 
+Calaveras 
+Colusa 
+Contra Costa 
+Del Norte 
+El Dorado 
+Fresno 
+Glenn 
+Humboldt 
+Imperial 
+Inyo 
+Kern 
+Kings 
+Lake 
+Lassen 
+Los Angeles 
+Madera 
+Marin 
+Mariposa 
+Mendocino 
+Merced 
+Modoc 
+Mono 
+Monterey 
+Napa 
+Nevada 
+Orange 
+Placer 
+Plumas 
+Riverside 
+Sacramento 
+San Benito 
+San Bernardino 
+San Diego 
+San Francisco 
+San Joaquin 
+San Luis Obispo 
+San Mateo 
+Santa Barbara 
+Santa Clara 
+Santa Cruz 
+Shasta 
+Sierra 
+Siskiyou 
+Solano 
+Sonoma 
+Stanislaus 
+Sutter 
+Tehama 
+Trinity 
+Tulare 
+Tuolumne 
+Ventura 
+Yolo 
+Yuba 
+
+LINESRCCOO          DESCRIPTION
+----------           ----------------------------------------
+
+
+ELEVATION          DESCRIPTION
+----------           ----------------------------------------
+Numeric value from '     2' to '  7920' 
+
+CELLNAME          DESCRIPTION
+----------           ----------------------------------------
+Acton 
+Adelanto 
+Ahwahnee 
+Almanor 
+Alpaugh 
+Alpine 
+Alturas 
+Amador City 
+Anaheim 
+Antioch North 
+Apple Valley North 
+Arbuckle 
+Arcata North 
+Arcata South 
+Arvin 
+Atascadero 
+Atwater 
+Auberry 
+Auburn 
+Avenal 
+Azusa 
+Baldwin Park 
+Barstow 
+Beaumont 
+Benicia 
+Beverly Hills 
+Big Bear City 
+Big Bear Lake 
+Big Bend 
+Big Pine 
+Biggs 
+Biola 
+Bishop 
+Blairsden 
+Blythe 
+Bodega Head 
+Bolinas 
+Bonsall 
+Bradley 
+Brawley 
+Brentwood 
+Briones Valley 
+Brush Lake 
+Burbank 
+Burney 
+Burrel 
+Buttonwillow 
+Byron Hot Springs 
+Cabazon 
+Calabasas 
+Calaveritas 
+Calexico 
+California City North 
+Calistoga 
+Camarillo 
+Cambria 
+Camp Meeker 
+Cantua Creek 
+Canyondam 
+Carbondale 
+Caribou 
+Carmichael 
+Carpinteria 
+Caruthers 
+Castle Rock Ridge 
+Cathedral City 
+Cayucos 
+Ceres 
+Chester 
+Chico 
+Chinese Camp 
+Cholame 
+Chowchilla 
+Chualar 
+Citrus Heights 
+City of Mount Shasta 
+Clark Lake 
+Clayton 
+Clearlake Highlands 
+Clearlake Oaks 
+Clio 
+Cloverdale 
+Clovis 
+Coalinga 
+Colfax 
+Columbia 
+Colusa 
+Copperopolis 
+Corcoran 
+Corning 
+Corona North 
+Corona South 
+Cotati 
+Cottonwood 
+Covelo East 
+Coyote Wells 
+Crescent City 
+Crescent Mills 
+Cressey 
+Cupertino 
+Cuttings Wharf 
+Dana Point 
+Darwin 
+Davis 
+Del Mar 
+Del Mar OE W 
+Delano East 
+Denair 
+Descanso 
+Desert Hot Springs 
+Diablo 
+Dixon 
+Dorrington 
+Dorris 
+Dos Palos 
+Dublin 
+Ducor 
+Duncans Mills 
+Dunsmuir 
+El Cajon 
+El Centro 
+El Monte 
+El Toro 
+Elk Grove 
+Elmira 
+Encinitas 
+Escalon 
+Escondido 
+Esparto 
+Etna 
+Eureka 
+Exeter 
+Fairfield South 
+Fall River Mills 
+Fallbrook 
+Farmington 
+Fellows 
+Felton 
+Ferndale 
+Fillmore 
+Firebaugh 
+Florin 
+Folsom 
+Folsom SE 
+Fontana 
+Foresthill 
+Fort Bragg 
+Fort Jones 
+Fortuna 
+Frazier Mountain 
+French Gulch 
+Fresno South 
+Friant 
+Frink 
+Furnace Creek 
+Galt 
+Garberville 
+Gazelle 
+Georgetown 
+Gerber 
+Gilroy 
+Glen Ellen 
+Glendora 
+Goleta 
+Gonzales 
+Gosford 
+Goshen 
+Grass Valley 
+Greenfield 
+Greenview 
+Greenville 
+Gridley 
+Guadalupe 
+Guasti 
+Guerneville 
+Gustine 
+Half Moon Bay 
+Hamilton City 
+Hanford 
+Harrison Mountain 
+Hayfork 
+Hayward 
+Healdsburg 
+Heber 
+Hemet 
+Hesperia 
+Hollister 
+Hollywood 
+Holtville West 
+Honker Bay 
+Hornbrook 
+Hotlum 
+Huron 
+Hydesville 
+Imperial Beach 
+Independence 
+Indio 
+Inglewood 
+Inverness 
+Inyokern 
+Ione 
+Isleton 
+Ivanhoe 
+Jackson 
+Jamul Mountains 
+Jersey Island 
+Johannesburg 
+Johnsville 
+Joshua Tree North 
+Julian 
+Kaweah 
+Keeler 
+Keene 
+Keller Peak 
+Kelseyville 
+Kerman 
+Kernville 
+Kettleman City 
+Kings Beach 
+La Habra 
+La Jolla 
+La Mesa 
+La Porte 
+La Quinta 
+Laguna Beach 
+Lake Combie 
+Lake Elsinore 
+Lake Isabella North 
+Lake Isabella South 
+Lakeport 
+Lakeview 
+Lamont 
+Lancaster West 
+Las Trampas Ridge 
+Lathrop 
+Laton 
+Laytonville 
+Le Grand 
+Lebec 
+Lemoore 
+Leuhman Ridge 
+Lewiston 
+Lincoln 
+Linden 
+Lindsay 
+Littlerock 
+Livermore 
+Lockeford 
+Lodi North 
+Lodi South 
+Loma Rica 
+Lompoc 
+Lone Pine 
+Long Beach 
+Los Alamitos 
+Los Alamos 
+Los Angeles 
+Los Banos 
+Los Gatos 
+Los Molinos 
+Lost Hills 
+Lovejoy Buttes 
+Lower Lake 
+Loyalton 
+Lucerne 
+MacDoel 
+Madera 
+Malaga 
+Malibu Beach 
+Manteca 
+Manton 
+Mare Island 
+Maricopa 
+Marina 
+Mariposa 
+Matilija 
+McCloud 
+McFarland 
+Meadow Valley 
+Mecca 
+Mendocino 
+Merced 
+Middletown 
+Milpitas 
+Mineral 
+Mojave 
+Mokelumne Hill 
+Montague 
+Montara Mountain 
+Montara Mountain OE W 
+Monterey 
+Montgomery Creek 
+Moorpark 
+Morgan Hill 
+Morongo Valley 
+Morro Bay South 
+Moss Landing 
+Mount Baldy 
+Mount George 
+Mount Ingalls 
+Mount San Antonio 
+Mount Wilson 
+Mountain View 
+Murphys 
+Murrieta 
+Napa 
+National City 
+Needles 
+Nevada City 
+Newark 
+Newhall 
+Newman 
+Newport Beach 
+Niland 
+Niles 
+Nipomo 
+Norden 
+North Edwards 
+Novato 
+Oakdale 
+Oakland East 
+Oakland West 
+Oasis 
+Oceano 
+Oceanside 
+Oildale 
+Ojai 
+Olancha 
+Old Mammoth 
+Olivehurst 
+Ontario 
+Onyx 
+Orange 
+Orange Cove South 
+Orcutt 
+Orland 
+Oroville 
+Oxnard 
+Palermo 
+Palm Springs 
+Palmdale 
+Palo Alto 
+Palo Cedro 
+Palo Verde 
+Paradise East 
+Pasadena 
+Paso Robles 
+Patterson 
+Pearsonville 
+Perris 
+Petaluma 
+Piru 
+Pismo Beach 
+Pixley 
+Placerville 
+Planada 
+Point Arena 
+Point Bonita 
+Point Dume 
+Point Loma 
+Pollock Pines 
+Porterville 
+Portola 
+Poway 
+Prado Dam 
+Project City 
+Prunedale 
+Quincy 
+Rail Road Flat 
+Raisin 
+Ramona 
+Rancho Mirage 
+Rancho Santa Fe 
+Red Bluff East 
+Redding 
+Redlands 
+Redondo Beach 
+Reedley 
+Requa 
+Richgrove 
+Richmond 
+Ridgecrest South 
+Rio Linda 
+Rio Vista 
+Ritter Ridge 
+Riverbank 
+Riverdale 
+Riverside East 
+Riverside West 
+Rocklin 
+Romoland 
+Rosamond 
+Roseville 
+Rough And Ready 
+Rovana 
+Sacramento East 
+Sacramento West 
+Saint Helena 
+Salida 
+Salinas 
+San Andreas 
+San Ardo 
+San Bernardino North 
+San Bernardino South 
+San Clemente 
+San Dimas 
+San Fernando 
+San Francisco North 
+San Francisco South 
+San Geronimo 
+San Jacinto 
+San Joaquin 
+San Jose East 
+San Jose West 
+San Juan Bautista 
+San Juan Capistrano 
+San Leandro 
+San Lucas 
+San Luis Obispo 
+San Luis Rey 
+San Marcos 
+San Mateo 
+San Miguel 
+San Rafael 
+Sanger 
+Santa Barbara 
+Santa Catalina East 
+Santa Cruz 
+Santa Maria 
+Santa Paula 
+Santa Rosa 
+Santa Ynez 
+Sawmill Mountain 
+Scotia 
+Seal Beach 
+Seaside 
+Sebastopol 
+Seeley 
+Selma 
+Shaver Lake 
+Shingle Springs 
+Shingletown 
+Shoshone 
+Simi Valley West 
+Soledad 
+Solvang 
+Sonoma 
+Sonora 
+Soquel 
+South Gate 
+South Lake Tahoe 
+Spring Garden 
+Springville 
+Standard 
+Stanislaus 
+Stockton West 
+Storrie 
+Stratford 
+Sunnymead 
+Susanville 
+Sutter 
+Sutter Buttes 
+Taft 
+Tamarack 
+Taylorsville 
+Tecopa 
+Tehachapi North 
+Tejon Ranch 
+Temecula 
+Templeton 
+Tennant 
+Thompson Canyon 
+Thousand Oaks 
+Tipton 
+Tomales 
+Torrance 
+Tracy 
+Tranquillity 
+Traver 
+Tres Pinos 
+Trinidad 
+Truckee 
+Truckhaven 
+Tucker Mountain 
+Tulare 
+Tulelake 
+Tupman 
+Turlock 
+Tustin 
+Twain 
+Twain Harte 
+Twentynine Palms 
+Ukiah 
+Upper Lake 
+Val Verde 
+Valley Center 
+Valley Ford 
+Valley Springs 
+Venice 
+Victorville 
+Vine Hill 
+Visalia 
+Wallace 
+Walnut Creek 
+Wasco 
+Waterford 
+Watsonville East 
+Watsonville West 
+Weaverville 
+Weed 
+Weldon 
+West Elk Hills 
+West Point 
+Westley 
+Westmorland East 
+Westwood West 
+Wheatland 
+Whittier 
+Wildomar 
+Williams 
+Willits 
+Willow Creek 
+Willows 
+Winchester 
+Winters 
+Winton 
+Woodlake 
+Woodland 
+Woodside 
+Woodville 
+Woodward Island 
+Yorba Linda 
+Yountville 
+Yreka 
+Yuba City 
+Yucaipa 
+Yucca Valley South 
+Yuma West 
+
+Data Dictionary created:  03-08-28.14:20:06.Thu
+</eadetcit>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>California Resources Agency, Legacy Project</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>1416 9th Street, Suite 1311</address>
+					<city>Sacramento</city>
+					<state>Ca </state>
+					<postal>95814</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(916) 653-1369</cntvoice>
+				<cntemail>casil@gis.ca.gov</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>ARCE</formname>
+					<transize>56.579</transize>
+					<dssize Sync="TRUE">0.184</dssize>
+				</digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://gis.ca.gov/download.epl?catalog=casil&amp;data_title=Geographic Names&amp;name=geonamea</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20061002</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>California Resources Agency, Legacy Project</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>1416 9th Street, Suite 1311</address>
+					<city>Sacramento</city>
+					<state>Ca </state>
+					<postal>95814</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(916) 653-1369</cntvoice>
+				<cntemail>casil@gis.ca.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://geonames.usgs.gov/domestic/download_data.htm</onlink>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta>
+		<metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.780</envirDesc>
+		<dataLang>
+			<languageCode Sync="TRUE" value="en"></languageCode>
+		</dataLang>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">-124.459544</westBL>
+			<eastBL Sync="TRUE">-113.515762</eastBL>
+			<northBL Sync="TRUE">42.042936</northBL>
+			<southBL Sync="TRUE">32.444251</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+		<idCitation>
+			<resTitle Sync="TRUE">geonamea_ppl_2006</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005"></PresFormCd>
+			</presForm>
+		</idCitation>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">-370246.011589</westBL>
+					<northBL Sync="TRUE">447188.674783</northBL>
+					<southBL Sync="TRUE">-602301.258659</southBL>
+					<eastBL Sync="TRUE">538785.996884</eastBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+	</dataIdInfo>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<orDesc Sync="TRUE">002</orDesc>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+					<linkage Sync="TRUE">file://\\FAIROAKS\D$\mclay\ceres_gis\DA_shapefiles\geonamea_ppl_2006.shp</linkage>
+				</onLineSrc>
+				<transSize Sync="TRUE">0.184</transSize>
+			</distorTran>
+			<distorFormat>
+				<formatName Sync="TRUE">Shapefile</formatName>
+			</distorFormat>
+		</distributor>
+	</distInfo>
+	<Esri>
+		<CreaDate>20060913</CreaDate>
+		<ModDate>20061002</ModDate>
+		<ModTime>15254200</ModTime>
+		<SyncDate>20061002</SyncDate>
+		<SyncOnce>FALSE</SyncOnce>
+		<SyncTime>15254200</SyncTime>
+		<CreaTime>14344600</CreaTime>
+		<MetaID>{E7BE9C96-D3B6-42E8-B244-F8D9C697039A}</MetaID></Esri>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004"></CharSetCd>
+	</mdChar>
+	<mdDateSt Sync="TRUE">20061002</mdDateSt>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005"></ScopeCd>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<mdLang>
+		<languageCode Sync="TRUE" value="en"></languageCode>
+	</mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode Sync="TRUE">NAD_1983_California_Teale_Albers</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd Sync="TRUE" value="001"></TopoLevCd>
+			</topLvl>
+			<geometObjs Name="geonamea_ppl_2006"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="004"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">6904</geoObjCnt></geometObjs></VectSpatRep>
+	</spatRepInfo>
+	<ptcontac>
+		<cntinfo>
+			<cntorgp>
+				<cntorg>California Environmental Resources Evaluation System (CERES)</cntorg>
+				<cntper>Ray McDowell</cntper>
+			</cntorgp>
+			<cntaddr>
+				<addrtype>mailing</addrtype>
+				<address>California Environmental Resources Evaluation System (CERES)</address>
+				<city></city>
+				<state></state>
+				<postal></postal>
+			</cntaddr>
+			<cntvoice>(916) 654-9990</cntvoice>
+			<cntemail>ray@ceres.ca.gov</cntemail>
+		</cntinfo>
+	</ptcontac>
+</metadata>

@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 #Fri Sep 30 13:09:25 PDT 2011
 eclipse.preferences.version=1
 tipsAndTricks=true
 platformState=1317245079529
+=======
+#Fri Oct 14 12:03:12 PDT 2011
+eclipse.preferences.version=1
+tipsAndTricks=true
+platformState=1313104179143
+>>>>>>> 7ba8f9d09eee3a19dc58a0e3489074869cea55c8
 EXIT_PROMPT_ON_CLOSE_LAST_WINDOW=false
 quickStart=false
 PROBLEMS_FILTERS_MIGRATE=true
