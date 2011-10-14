@@ -852,7 +852,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PREBINDING = NO;
 				PRODUCT_NAME = "ofxiPhone_${PLATFORM_NAME}_Debug";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -868,7 +868,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PREBINDING = NO;
 				PRODUCT_NAME = "ofxiPhone_${PLATFORM_NAME}_Release";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -941,7 +941,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PREBINDING = NO;
 				PRODUCT_NAME = "ofxiPhone_${PLATFORM_NAME}_ReleaseArmv7";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				ZERO_LINK = NO;
 			};
 			name = ReleaseArmv7;
