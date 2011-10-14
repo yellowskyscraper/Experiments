@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config root='site/'>
+	<colorways>
+		<color id='100' name='White' hex='0x990000'/>
+		<color id='106' name='Hot Red' hex='0xFF3300'/>
+		<color id='640' name='Hot Red' hex='0xFF3300'/>
+		<color id='066' name='Hot Red' hex='0xFF3300'/>
+		<color id='600' name='Hot Red' hex='0xFF3300'/>
+		<color id='06' name='Hot Red/Grey Heather' hex='0xFF3300'/>			
+		<color id='010' name='Black' hex='0x000000'/>
+		<color id='01' name='Black/Grey Heather' hex='0x000000'/>
+		<color id='011' name='Black' hex='0x000000'/>
+		<color id='010a' name='Black 10' hex='0x000000'/>
+		<color id='011a' name='Black 24' hex='0x000000'/>
+		<color id='010c' name='Black liner' hex='0x000000'/>
+		<color id='016' name='Grey Heather' hex='0x444444'/>
+		<color id='050' name='Grey Heather' hex='0x444444'/>
+		<color id='063' name='Grey Heather' hex='0x444444'/>
+		<color id='063a' name='Dark Grey Heather' hex='0x666666'/>
+		<color id='021' name='Dark Grey' hex='0x666666'/>
+		<color id='064' name='Obsidian' hex='0x003366'/>
+		<color id='400' name='Obsidian' hex='0x003366'/>
+		<color id='451' name='Obsidian' hex='0x003366'/>				
+		<color id='492' name='Hyperblue' hex='0x0033FF'/>	
+		<color id='710' name='Volt' hex='0xCCFF00'/>
+		<color id='103' name='volt' hex='0xCCFF00'/>
+		<color id='300a' name='Lucky Green' hex='0x00CC33'/>
+		<color id='063b' name='Lucky Green' hex='0x00CC33'/>
+		<color id='300' name='Radiant Emerald' hex='0x00CCCC'/>
+		<color id='330' name='Radiant Emerald' hex='0x00CCCC'/>
+		<color id='211' name='Mahogany' hex='0x660033'/>
+		<color id='060' name='Anthracite' hex='0x666699'/>
+		<color id='061' name='Anthracite' hex='0x666699'/>
+		<color id='250' name='Olive' hex='0x666633'/>
+		<color id='330a' name='Olive' hex='0x666633'/>
+		<color id='318' name='Classic Olive' hex='0xCCCC66'/>
+		<color id='318c' name='Classic Olive liner' hex='0xCCCC66'/>					
+	</colorways>		
+		
+	<xml>						
+		<file><![CDATA[xml/nsw/about.xml]]></file>				
+		<file><![CDATA[xml/nsw/collection-mens.xml]]></file>											
+		<file><![CDATA[xml/nsw/collection-womens.xml]]></file>					
+		<file><![CDATA[xml/nsw/doorlist.xml]]></file>				
+		<file><![CDATA[xml/nsw/key-styles.xml]]></file>		
+		<file><![CDATA[xml/nsw/splash.xml]]></file>	
+		<file><![CDATA[xml/nsw/glossary.xml]]></file>
+		<file><![CDATA[xml/nsw/sound-fx.xml]]></file>																				
+	</xml>	
+		
+</config>

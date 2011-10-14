@@ -1,0 +1,40 @@
+	
+package nike.events {
+
+	import flash.events.Event;
+	
+    public class AppEvent extends Event {
+
+ //- APPLICATION SPECIFIC EVENTS ----------------------------------------------------------------------
+
+		public static const XML_READY 				: String = 'AllXMLFilesLoaded';			
+
+		private var _evt_type 			:String;
+		private var _evt_data 			:Object;
+		     
+	    public function AppEvent( $type:String, $data:Object = null )
+	    {
+			_evt_type = $type;
+			_evt_data = $data;
+			super($type, true, true);
+	    }
+	    
+		public function get data():Object 
+		{
+			return _evt_data;
+		}
+
+		public override function get type():String
+		{
+			return _evt_type;
+		}	    
+
+    }
+
+}
+
+
+
+
+
+

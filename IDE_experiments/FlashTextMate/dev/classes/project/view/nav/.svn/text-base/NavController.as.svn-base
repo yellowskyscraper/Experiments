@@ -1,0 +1,86 @@
+package nike.view.nav {
+
+	import flash.display.Sprite;
+	import flash.events.MouseEvent;	
+	import nike.model.Model;
+	import nike.events.GlobalNavEvent;
+	import nike.utils.BitmapSnapshot;
+	import gs.TweenMax;
+	import gs.easing.*;
+//	import flash.filters.GlowFilter;
+	
+/*
+	Class to show and hide the global nav 
+*/
+
+	public class NavController extends Sprite {
+		
+		private static var _home		:NavHomeButton;
+		private static var _gnav		:GlobalNav;
+		private static var _snapshot	:BitmapSnapshot;
+ 
+		public function NavController()
+		{
+			_home = new NavHomeButton();
+			_home.x = 8;
+			_home.mainMenu_txt.text = Model.glossary['global-nav']['main-menu'].toUpperCase();
+			_home.mainMenu_txt.visible = false;
+			addChild(_home);
+			
+			_gnav = new GlobalNav();
+			_gnav.y = 60;
+			_gnav.visible = false;
+			_gnav.addEventListener(MouseEvent.ROLL_OUT, hideGlobalNav);
+			_gnav.addEventListener(GlobalNavEvent.NAV_SELECTION, hideGlobalNav);
+			addChild(_gnav);	
+		}
+		
+		public function activate():void
+		{
+		// called when the user first enters the site //	
+			if (_home.buttonMode) return;
+			_home.buttonMode = true;
+			_home.mainMenu_txt.visible = true;
+			_home.addEventListener(MouseEvent.ROLL_OVER, showGlobalNav);					
+			_home.addEventListener(MouseEvent.CLICK, displayHomeScreen);				
+		}
+		
+ //- SHOW / HIDE GLOBAL NAV ----------------------------------------------------------------------		
+		
+		private function showGlobalNav(evt:MouseEvent):void
+		{
+			_gnav.visible = true;
+			_gnav.hideEmailSignupForm();
+			TweenMax.to(_gnav, .3, {alpha:1});
+			dispatchEvent(new GlobalNavEvent(GlobalNavEvent.NAV_VISIBLE, true));
+		}
+		
+		private function hideGlobalNav(evt:*):void
+		{
+			if (_snapshot) _snapshot.destroy();
+			
+			_snapshot = new BitmapSnapshot(_gnav);
+			_snapshot.x = -_snapshot.width;
+			_snapshot.y = _gnav.y;
+			_snapshot.alpha = .6;
+			_snapshot.flicker();
+			addChild(_snapshot);
+					
+			TweenMax.to(_snapshot, .4, {glowFilter:{color:0xFFFFCD, alpha:.3, blurX:30, blurY:2}, x:'-3', onComplete:_snapshot.destroy});			
+
+			_gnav.visible = false;
+			dispatchEvent(new GlobalNavEvent(GlobalNavEvent.NAV_VISIBLE, false));	
+		}		
+		
+		private function displayHomeScreen(evt:MouseEvent):void
+		{
+			hideGlobalNav(evt);
+			dispatchEvent(new GlobalNavEvent(GlobalNavEvent.RETURN_TO_HOME));
+		}
+
+		
+									
+	}
+
+}
+

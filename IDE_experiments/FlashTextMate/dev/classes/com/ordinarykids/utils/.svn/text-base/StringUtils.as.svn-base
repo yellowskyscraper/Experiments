@@ -1,0 +1,16 @@
+package com.ordinarykids.utils {
+
+	public class StringUtils {
+
+		public static function formatToURL($str:String):String
+		{
+
+		// remove ' / ', ' ', and line breaks //  				
+			var p:RegExp = / \/ | /g;
+			return $str.toLowerCase().replace(p, '-').replace(/<br>/g, '');
+		}
+	
+	}
+
+}
+

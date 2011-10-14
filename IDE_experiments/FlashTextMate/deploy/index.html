@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>~ PROJECT INDEX ~</title>
+<script type="text/javascript" src="site/scripts/swfobject.js"></script>
+<script type="text/javascript" src="site/scripts/swfaddress.js"></script>
+<script type="text/javascript" src="site/scripts/swfforcesize.js"></script>
+<link rel="stylesheet" type="text/css" href="site/scripts/layout.css" /> 
+<!-- <link rel="shortcut icon" href="site/scripts/favicon.ico" > -->
+</head>
+
+<body onLoad="window.document.project.focus()">  
+	<div id="fullscreen">	
+		THIS EXPERIENCE REQUIRES FLASH PLAYER 9.0.115.0 OR HIGHER.<br>
+		PLEASE ENSURE JAVASCRIPT IS ENABLED AND YOUR <a href='http://www.adobe.com/go/getflashplayer'>FLASH PLUGIN IS UP TO DATE.</a>
+	</div>
+	<script type="text/javascript">
+		// <![CDATA[                                                         
+		var so = new SWFObject("site/application.swf", "application", "100%", "100%", "9.0.115.0", "#000000");   		
+			so.useExpressInstall('scripts/expressinstall.swf');
+			so.addParam('menu', 'false');
+			so.addParam('scale', 'noscale');
+			so.addParam('salign', 'lt');     
+			so.addVariable('configurl', 'site/xml/config.xml');
+			
+		if(so.write('fullscreen')) {
+			var forcesize = new SWFForceSize(so, 1024, 768);
+		}  
+	</script>	
+</body>
+</html>

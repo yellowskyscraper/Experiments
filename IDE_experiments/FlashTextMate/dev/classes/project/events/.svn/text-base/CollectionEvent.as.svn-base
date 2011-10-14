@@ -1,0 +1,45 @@
+	
+package nike.events {
+
+	import flash.events.Event;
+	
+    public class CollectionEvent extends Event {
+
+ //- APPLICATION SPECIFIC EVENTS ----------------------------------------------------------------------
+
+		public static const GENDER_LOADED 				: String = 'GenderCollectionLoaded';
+		public static const CATEGORY_LOADED 			: String = 'CategoryImagesLoaded';	
+		public static const IMAGE_LOADED 				: String = 'DefaultImageLoaded';	
+		
+		public static const DETAIL_SELECTION			: String = 'ProductDetailSelection';
+		public static const COLORWAY_SELECTION 			: String = 'ColorwaySelection';
+	
+		private var _evt_type 			:String;
+		private var _evt_data 			:Object;
+		     
+	    public function CollectionEvent( $type:String, $data:Object = null )
+	    {
+			_evt_type = $type;
+			_evt_data = $data;
+			super($type, true, true);
+	    }
+	    
+		public function get data():Object 
+		{
+			return _evt_data;
+		}
+
+		public override function get type():String
+		{
+			return _evt_type;
+		}	    
+
+    }
+
+}
+
+
+
+
+
+

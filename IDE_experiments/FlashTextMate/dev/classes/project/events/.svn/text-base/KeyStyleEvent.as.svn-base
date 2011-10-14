@@ -1,0 +1,50 @@
+	
+package nike.events {
+
+	import flash.events.Event
+	
+    public class KeyStyleEvent extends Event {
+
+ //- APPLICATION SPECIFIC EVENTS ----------------------------------------------------------------------
+	
+		public static const ENTER_SITE 				: String = 'EnterSite';	
+		public static const VIDEO_VIEW 				: String = 'SwitchToVideoView';	
+		public static const PRODUCT_VIEW 			: String = 'ProductDescriptionView';				
+		public static const TECHNICAL_VIEW			: String = 'ProductTechDetailsView';	
+		public static const SHOW_TECH_POINT 		: String = 'DisplayKeyStyleTechPoint';		
+		public static const MAIN_IMAGE_LOADED 		: String = 'MainImageLoaded';	
+		public static const BLUECHIP_UPDATE 		: String = 'BlueChipPositionUpdate';
+		
+		public static const VIDEO_TIMECODE 			: String = 'VideoTimecode';	
+		public static const VIDEO_LOAD_PROGRESS 	: String = 'VideoLoadProgress';					
+		public static const VIDEO_LOAD_COMPLETE 	: String = 'VideoLoadComplete';					
+	
+		private var _evt_type 			:String;
+		private var _evt_data 			:Object;
+		     
+	    public function KeyStyleEvent( $type:String, $data:Object = null )
+	    {
+			_evt_type = $type;
+			_evt_data = $data;
+			super($type, true, true);
+	    }
+	    
+		public function get data():Object 
+		{
+			return _evt_data;
+		}
+
+		public override function get type():String
+		{
+			return _evt_type;
+		}	    
+
+    }
+
+}
+
+
+
+
+
+

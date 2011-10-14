@@ -1,0 +1,56 @@
+package nike.view.nav {
+
+	import nike.model.Model;
+	import flash.display.Sprite;
+	import flash.text.TextFieldAutoSize;
+	import flash.events.MouseEvent;
+
+	public class EmailSignUpForm extends Sprite {
+
+		private static var _glossary	:XMLList;
+
+		public function EmailSignUpForm()
+		{
+			_glossary = Model.glossary['global-nav'].email;
+			
+			signup.autoSize = TextFieldAutoSize.RIGHT;
+			signup.text = _glossary.signup;
+			checkBox.x = signup.x - 5;
+			submit_btn.submit_txt.text = _glossary.submit.toUpperCase();
+			
+			name_txt.tabIndex = 1;
+			name_txt.autoSize = TextFieldAutoSize.RIGHT;
+			email_txt.tabIndex = 2;
+			email_txt.autoSize = TextFieldAutoSize.RIGHT;
+			location_txt.tabIndex = 3;
+			location_txt.autoSize = TextFieldAutoSize.RIGHT;
+			submit_btn.buttonMode = true;
+			submit_btn.mouseChildren = false;
+			submit_btn.addEventListener(MouseEvent.CLICK, validateEmailForm);
+		}
+		
+		public function activate():void
+		{
+			reset();
+			stage.focus = name_txt;
+			stage.stageFocusRect = false;
+		}
+		
+		private function validateEmailForm(e:MouseEvent):void
+		{
+			// to-do
+			reset();
+		}
+		
+		private function reset():void
+		{
+			stage.focus = name_txt;
+			name_txt.text = _glossary.name;
+			email_txt.text = _glossary.email;
+			location_txt.text = _glossary.location;
+		}
+	
+	}
+
+}
+

@@ -1,0 +1,129 @@
+
+package nike.model {
+
+	import flash.events.EventDispatcher;
+	import nike.events.AppEvent;
+	import com.ordinarykids.utils.StringUtils;
+	import com.ordinarykids.net.XMLBatchLoader;
+	import com.ordinarykids.events.BatchLoadEvent;
+		
+/*
+	Class responsible for loading the initial xml documents
+	that contain the foundation data structures for the site
+*/		
+		
+	public class Model extends EventDispatcher
+	{
+		
+		private static var _colorways	:XMLList;
+		private static var _about		:XML; 			
+		private static var _mens		:XML;
+		private static var _womens		:XML; 	
+		private static var _doorlist	:XML;
+		private static var _keystyles	:XML;
+		private static var _splash		:XML;
+		private static var _glossary	:XML;
+		private static var _sounds		:XML;
+		private static var _XMLLoader	:XMLBatchLoader;
+		
+		private static var _start:Date;
+		
+		public function Model ($files:XMLList)
+		{		
+			trace("Requesting Site XML"); _start = new Date();
+			
+		// load the list of xml files specified in config.xml //	
+			_XMLLoader = new XMLBatchLoader($files);
+			_XMLLoader.addEventListener(BatchLoadEvent.BATCH_COMPLETE, onXMLBatchComplete);
+		}
+		
+		public static function set colorways($ways:XMLList):void
+		{
+			_colorways = $ways;
+		}
+		
+ //- PUBLIC STATIC GETTERS ----------------------------------------------------------------------		
+		
+		public static function get colorways():XMLList
+		{
+			return _colorways;
+		}
+		
+		
+		public static function get about():XML
+		{
+			return _about;
+		}	
+		
+		public static function get mens():XML
+		{
+			return _mens;
+		}
+		
+		public static function get womens():XML
+		{
+			return _womens;
+		}
+		
+		public static function get doorList():XML
+		{
+			return _doorlist;
+		}	
+
+		public static function get keyStyles():XML
+		{
+			return _keystyles;
+		}
+				
+		public static function get splash():XML
+		{
+			return _splash;
+		}								
+		
+		public static function get glossary():XML
+		{
+			return _glossary;
+		}
+		
+		public static function get sounds():XML
+		{
+			return _sounds;
+		}
+		
+ //- PUBLIC METHODS ----------------------------------------------------------------------		
+		
+		public static function getDefaultKeyStyle():String
+		{
+			return _keystyles.@defaultStyle;
+		}
+		
+		public static function getXMLFromStringName($list:XMLList, $name:String):XML
+		{
+			for (var i:int = 0; i < $list.length(); i++) if($list[i].title==$name) return $list[i];
+		// if we don't find a match against string names in the xml 
+		// try matching against a deeplink url formatted string 	
+			for (var k:int = 0; k < $list.length(); k++) if(StringUtils.formatToURL($list[k].title)==$name) break;
+			return $list[k];
+		}
+		
+ //- PARSE XML FILES IN VALUE OBJECTS ----------------------------------------------------------------------		
+		
+		private function onXMLBatchComplete(evt:BatchLoadEvent):void
+		{
+			trace("Site XML Took", (new Date().time-_start.time)/1000, 'Seconds To Load');
+			
+			var xml:Array = evt.data as Array;
+			_about 		= xml[0];
+			_mens 		= xml[1];
+			_womens 	= xml[2];			
+			_doorlist 	= xml[3];
+			_keystyles	= xml[4];
+			_splash 	= xml[5];
+			_glossary 	= xml[6];
+			_sounds 	= xml[7];
+			dispatchEvent(new AppEvent(AppEvent.XML_READY));
+		}
+	
+	}
+
+}

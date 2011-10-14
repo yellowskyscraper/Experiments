@@ -1,0 +1,113 @@
+package nike.utils {
+		
+	import flash.media.Sound;
+	import flash.media.SoundChannel;
+	import flash.media.SoundTransform;
+	import flash.net.URLRequest;	
+	import flash.utils.Timer;
+	import flash.events.Event;
+	import flash.events.TimerEvent;
+	
+	import nike.model.Model;
+
+	public class SoundManager {
+		
+		public static var ROOT_PATH:String = '';
+
+		private static var _path				:String;
+		private static var _model				:XML;
+		
+	// button fx //	
+		private static var _bkgds				:Array = [];	
+		private static var _globalNav			:Array = [];
+		
+		private static var _bkgd				:Sound;
+		private static var _timer				:Timer;
+		private static var _channel				:SoundChannel;
+		private static var _autoStartNextSound	:Boolean = false;
+		
+		public function SoundManager()
+		{
+			_model = Model.sounds;
+			_path = _model.@path;
+			_channel = new SoundChannel();
+			
+			loadSounds(Model.sounds.bkgds.sfx, _bkgds);
+			loadSounds(Model.sounds['global-nav'].sfx, _globalNav);			
+			
+		// fade out mechanism //	
+			_timer = new Timer(50);
+			_timer.addEventListener(TimerEvent.TIMER, adjustSoundVolume);		
+		}
+		
+		public static function playAmbientBackground():void
+		{
+		// play a random ambient bkgd	
+			var i = Math.floor(Math.random()*_bkgds.length);
+			setAmbientBkgd(_bkgds[i]);
+		}
+		
+		public static function playNavSoundEffect():void
+		{
+		// play a random button effect	
+			var i = Math.floor(Math.random()*_globalNav.length);
+			_globalNav[i].play();
+		}
+		
+		private static function setAmbientBkgd($bkgd:Sound):void
+		{
+			_bkgd = $bkgd; 
+			if (_channel.soundTransform.volume == 1) {
+				_timer.start();
+				_autoStartNextSound = true;
+			}	else{
+				startPlayingNextSound();
+			}
+		}
+		
+		public static function killActiveSound():void
+		{
+			_channel.stop();	
+		}
+	
+ //- COMMENT ----------------------------------------------------------------------	
+		
+		private function loadSounds($list:XMLList, $a:Array):void
+		{
+			for (var i:int = 0; i < $list.length(); i++)
+			{
+				$a.push(new Sound(new URLRequest(ROOT_PATH+_path+$list[i].@file)));
+			}
+		}
+		
+		private static function adjustSoundVolume(e:TimerEvent):void
+		{
+		// volume fade the currently playing sound 	
+			var t:SoundTransform = _channel.soundTransform;
+			if (t.volume > 0){
+				t.volume-=.05;
+				_channel.soundTransform = t;
+			}	else{
+				_timer.stop();
+				if (_autoStartNextSound) startPlayingNextSound();
+			}
+		}
+		
+		private static function startPlayingNextSound():void
+		{		
+			_channel.stop();
+			_channel.soundTransform.volume = 1;
+			_channel = _bkgd.play();
+			_channel.addEventListener(Event.SOUND_COMPLETE, onSoundComplete);
+			_autoStartNextSound = false;
+		}		
+		
+		private static function onSoundComplete(e:Event):void
+		{
+			playAmbientBackground();
+		}
+	
+	}
+
+}
+

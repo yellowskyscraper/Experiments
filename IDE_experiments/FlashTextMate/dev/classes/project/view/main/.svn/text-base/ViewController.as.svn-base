@@ -1,0 +1,123 @@
+package nike.view.main {
+
+	import flash.display.Sprite;
+	
+	import nike.model.Model;
+	import nike.events.KeyStyleEvent;
+	import nike.events.GlobalNavEvent;
+	import nike.utils.SoundManager;
+	import nike.view.main.NSWController;
+	import nike.view.main.about.AboutController;
+	import nike.view.main.doorlist.DoorListController;
+	import nike.view.main.keystyles.KeyStyleController;
+	import nike.view.main.collection.CollectionController;
+	import com.ordinarykids.utils.StringUtils;
+	
+/*
+	Controller to maintain and transition between the four main controllers
+*/
+
+	public class ViewController extends Sprite {
+
+		private static var _about		:AboutController;
+		private static var _doorlist	:DoorListController;
+		private static var _keystyle	:KeyStyleController;
+		private static var _collection	:CollectionController;
+		private static var _controller	:NSWController;
+
+		public function ViewController() { 
+			_about 		= new AboutController();
+			_doorlist 	= new DoorListController();
+			_collection = new CollectionController();				
+			_keystyle 	= new KeyStyleController();				
+		}
+		
+		public function toggleNavVisibility(e:GlobalNavEvent):void
+		{
+			_controller.displayController(!e.data);
+		}	
+		
+		public function displayHomeState():void
+		{
+			_keystyle.showSplashScreen();
+			_controller = _keystyle;
+			transitionView(_keystyle);
+		}
+		
+		public function displayKeyStylePreview(e:GlobalNavEvent):void
+		{
+		// add the keystyle viewer if we deeplinked into the site //	
+			if (!_keystyle.stage) addChild(_keystyle);
+			
+		// push preview to the top //	         
+			if (e.data.visible == true){
+				setChildIndex(_keystyle, this.numChildren - 1);
+			}	else{
+		// push controller back on top //		
+				setChildIndex(_controller, this.numChildren - 1);
+			}
+			
+			_keystyle.showKeyStylePreview(e.data);			
+		}
+		
+		public function setSelection($path:Array):void
+		{
+		// delay instantiation until the section is first requested //	
+			switch($path[0]){
+				case 'about'		:
+					_controller = _about;				
+					SoundManager.playAmbientBackground();		break;
+					
+				case 'doorlist'		:	
+					_controller = _doorlist;						
+					SoundManager.playAmbientBackground();		break;
+					
+				case 'collection'	:						
+					_controller = _collection;			
+					SoundManager.playAmbientBackground();	break;
+					
+				default :	
+		// protect against invalid urls //		
+					if (!checkForValidKeyStyleName($path[0])) return;
+		// first element in array is the name of a keystyle //									
+					_controller = _keystyle;			break;
+			}
+			
+			transitionView(_controller);
+			
+			if (_controller != _keystyle) {
+				_keystyle.pauseVideo();
+		// unlock the global navigation //		
+				dispatchEvent(new KeyStyleEvent(KeyStyleEvent.ENTER_SITE));
+			}
+			if (_controller == _keystyle) _keystyle.setSelection($path);	
+			if (_controller == _collection) _collection.setSelection($path);
+		}	
+		
+		private function transitionView($view:NSWController):void
+		{
+		// saturation tween //	
+			addChild($view);
+			$view.displayController(true);
+		}
+		
+		private function checkForValidKeyStyleName($str:String):Boolean
+		{
+			var keys:XMLList = Model.keyStyles.style;
+			for (var i:int = 0; i < keys.length(); i++) {
+				var t1 = StringUtils.formatToURL($str);
+				var t2 = StringUtils.formatToURL(keys[i].title);
+			// if the deeplink is the name of a keystyle //	
+			// and it has a video node defined ... return true
+				if (t1 == t2 && keys[i].hasOwnProperty('video')) return true;
+			}			
+			trace('***invalid selection, returning default keystyle');
+		// resolve invalid urls back to the default keystyle //	
+			dispatchEvent(new GlobalNavEvent(GlobalNavEvent.NAV_SELECTION, [Model.getDefaultKeyStyle()]));
+			return false;
+		}
+	
+	}
+
+}
+

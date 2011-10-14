@@ -1,0 +1,51 @@
+package nike.view.main {
+
+	import flash.events.Event;
+	import flash.display.Sprite;
+
+	public class NSWController extends Sprite {
+
+		private var _controller:*;
+		private static var _minX:uint = 30;
+		private static var _maxX:uint = 100;
+
+		public function NSWController() {}
+		
+		protected function set controller($controller):void
+		{
+			_controller = $controller;
+			_controller.y = 113; // 181 for ok site //
+			_controller.addEventListener(Event.ADDED_TO_STAGE, onAddedToStage);				
+		}
+		
+	// show / hide controller when home btn is rolled over //	
+		public function displayController($b:Boolean):void
+		{
+			_controller.visible = $b;
+		}
+		
+ //- HANDLE STAGE RESIZING ----------------------------------------------------------------------				
+		
+		private function onAddedToStage(e:Event):void
+		{
+			onStageResize(e);
+			_controller.stage.addEventListener(Event.RESIZE, onStageResize);	
+		}
+		
+		private function onStageResize(e:Event):void
+		{
+			var w = stage.stageWidth;		
+			/*_controller.x = w - 120; return;*/
+						
+			if (w <= 910){
+				_controller.x = w - _minX;
+			}	else{
+		// offset from right edge of screen a gradually increaing amount //		
+				_controller.x = w - (_maxX*(w/2000));
+			}
+		}				
+	
+	}
+
+}
+

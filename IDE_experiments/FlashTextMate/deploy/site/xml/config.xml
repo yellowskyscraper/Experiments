@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config root=''>
+		
+	<xml>						
+		<file><![CDATA[xml/project/about.xml]]></file>																							
+	</xml>
+		
+</config>

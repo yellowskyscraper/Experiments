@@ -1,0 +1,53 @@
+package nike.utils
+{
+	
+	import flash.geom.Matrix;
+	import flash.display.Bitmap;
+	import flash.display.BitmapData;
+	import flash.display.DisplayObject;
+	import flash.utils.Timer;
+	import flash.events.TimerEvent;
+	import flash.filters.GlowFilter;
+
+	public class BitmapSnapshot extends Bitmap
+	{
+		
+		private static var _glow	:GlowFilter = new GlowFilter(0xFFFFCD, 1, 8, 2);
+		private var _flicker		:Timer;
+		private var _delay			:Number;
+	
+		public function BitmapSnapshot($do:DisplayObject) {
+			var bmd:BitmapData = new BitmapData($do.width, $do.height, true, 0xFF0000);
+				bmd.draw($do, new Matrix(1, 0, 0, 1, $do.width, 0));
+			super(bmd);						
+//			this.filters = [_glow];
+//			this.alpha = .2;
+		}		
+		
+		public function flicker():void
+		{
+			_delay = (Math.random()*50);
+			_flicker = new Timer(_delay);
+			_flicker.addEventListener(TimerEvent.TIMER, toggleVisibility);
+			_flicker.start();
+		}
+		
+		public function destroy():void
+		{
+			_flicker.stop();
+			this.visible = false;
+			this.bitmapData.dispose();
+		}
+		
+		private function toggleVisibility(e:TimerEvent):void
+		{
+			this.alpha = (Math.random()*.8) + 0;
+//			this.visible = !this.visible;
+			var n = (this.visible) ? (Math.random()*500) : 10;
+			_flicker.delay = n;
+		}
+	
+	}
+
+}
+

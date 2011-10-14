@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/nike_nsw/!svn/ver/65/nsw/dev/classes/com/ordinarykids/media/controllers
+END
+MediaController.as
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/nike_nsw/!svn/ver/65/nsw/dev/classes/com/ordinarykids/media/controllers/MediaController.as
+END
+AudioController.as
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/nike_nsw/!svn/ver/1/nsw/dev/classes/com/ordinarykids/media/controllers/AudioController.as
+END
+VideoController.as
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/nike_nsw/!svn/ver/65/nsw/dev/classes/com/ordinarykids/media/controllers/VideoController.as
+END
+IMediaController.as
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/nike_nsw/!svn/ver/1/nsw/dev/classes/com/ordinarykids/media/controllers/IMediaController.as
+END

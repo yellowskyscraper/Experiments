@@ -1,0 +1,150 @@
+package nike.view.nav {
+
+	import flash.display.Sprite;
+	import flash.text.TextField;
+	import flash.events.MouseEvent;	
+	
+	import nike.model.Model;
+	import nike.events.GlobalNavEvent;
+	import nike.view.text.*;
+	import nike.utils.SoundManager;
+
+	public class GlobalNav extends Sprite {
+		
+		private static var _model		:XML
+		
+		private static var _about		:LargeTextField;
+		private static var _collection	:LargeTextField;
+		private static var _drop		:SmallTextField;
+		private static var _doorlist	:LargeTextField;
+		private static var _email		:LargeTextField;
+		private static var _video		:LargeTextField;
+		
+		private static var _keystyles	:Sprite;
+		private static var _signup		:EmailSignUpForm;
+		
+		public function GlobalNav()
+		{			
+			_model = Model.keyStyles;
+			
+			var gv:XMLList = Model.glossary['global-nav'];
+		
+			_about = new LargeTextField(gv['about']);
+			_about.interactive = true;
+			
+			_collection = new LargeTextField(gv['season-preview']);
+			_collection.interactive = true;
+			
+			_drop = new SmallTextField(gv['monthly-drop']);
+			
+			_doorlist = new LargeTextField(gv['doorlist']);
+			_doorlist.interactive = true;
+			
+			/*_email = new LargeTextField(gv['submit-email']);
+			_email.interactive = true;*/
+			
+			/*_video = new LargeTextField(gv['play-video']);
+			_video.interactive = true;*/
+			
+			_keystyles 	= new Sprite();	// just a container //
+			
+			attachKeyStyleButtons();
+			
+			_about.y = 0;
+			_collection.y = 50;
+			_keystyles.y = 138;
+		// monthly drop -20px above first keystyle //	
+			_drop.y = _keystyles.y - 14;
+			
+			_doorlist.y = 470;
+			
+//			_email.y = _doorlist.y + _doorlist.height + 7;
+//			_video.y = _email.y + _email.height + 7;
+			
+			addChild(_about);
+			addChild(_collection);
+			addChild(_drop);
+			addChild(_keystyles);
+			addChild(_doorlist);
+//			addChild(_email);
+//			addChild(_video);			
+			
+		//	attachEmailSignUpForm();
+			floodFillNavBackground();
+			
+			this.addEventListener(MouseEvent.CLICK, onKeyStyleMenuClick);
+		}
+		
+		
+ //- COMMENT ----------------------------------------------------------------------			
+		
+		private function attachKeyStyleButtons():void
+		{
+			for (var i:int = 0; i < 6; i++)
+			{
+				var ki:KeyStyleNavItem = new KeyStyleNavItem();
+					ki.y = (52) * i;
+					ki.data = _model.style[i];			
+			// disable selection if this item doesn't have a video yet //	
+					ki.locked = !Model.keyStyles.style[i].hasOwnProperty('video');					
+				_keystyles.addChild(ki);
+			}
+			_keystyles.graphics.beginFill(0xFF0000);
+		}
+		
+		private function floodFillNavBackground():void
+		{
+			this.graphics.clear();
+			this.graphics.beginFill(0xFF0000, 0);
+			this.graphics.drawRect(-this.width, 0, this.width, this.height);
+			this.graphics.endFill();
+		}
+		
+ //- EMAIL SIGNUP FORM ----------------------------------------------------------------------		
+				
+		/*private function attachEmailSignUpForm():void
+		{
+			_signup = new EmailSignUpForm();
+			_signup.visible = false;
+			_signup.y = _email.y;
+			addChild(_signup);	
+			_email.addEventListener(MouseEvent.CLICK, showEmailSignupForm);						
+		}	*/
+		
+		/*private function showEmailSignupForm(e:MouseEvent):void
+		{
+			_email.visible = false;
+			_signup.visible = true;
+			_signup.activate();
+	//		_video.y = _signup.y + _signup.height + 3;
+		}*/
+		
+	// called from the NavController //	
+		public function hideEmailSignupForm():void
+		{
+	//		_email.visible = true;
+	//		_signup.visible = false;		
+	//		_video.y = _email.y + 7;	
+		}		
+		
+		private function onKeyStyleMenuClick(evt:MouseEvent):void
+		{
+			var targ:String;
+			switch(evt.target){
+				case _about			: targ = 'about';		break;
+				case _collection	: targ = 'collection';	break;
+				case _doorlist		: targ = 'doorlist';	break;
+	//			case _video			: targ = '';			break;
+			}
+			if (evt.target is KeyStyleNavItem && evt.target.locked==false) targ = evt.target.name;
+			
+			SoundManager.playNavSoundEffect();
+			
+		// dispatch a change event only if a valid child element was clicked //	
+			if (targ) dispatchEvent(new GlobalNavEvent(GlobalNavEvent.NAV_SELECTION, [targ]));
+		}
+
+	}
+
+}
+

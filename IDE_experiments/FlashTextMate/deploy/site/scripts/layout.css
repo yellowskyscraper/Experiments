@@ -1,0 +1,45 @@
+html {
+	height: 100%;
+	overflow: auto;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+    overflow-y: auto; 
+	background-color: #0D0D0D;  
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#CCCCCC;   
+}
+
+#fullscreen {
+	position: absolute;
+	margin: auto;    
+	top: 0px; left: 0px;
+	vertical-align : middle;
+	height: 100%;
+	width:  100%;
+}
+
+#standard {
+	position: relative;
+	margin: auto;    
+	top: 0px; left: 0px;
+	vertical-align : middle;
+	height: 800px;
+	width:  910px;
+}
+
+a:link { 
+    color:#FFFFCC;
+}	
+a:visited { 
+    color: #CCCCCC;
+}
+a:hover { 
+    color: #FFFFCC;
+    text-decoration: none;
+}
+    

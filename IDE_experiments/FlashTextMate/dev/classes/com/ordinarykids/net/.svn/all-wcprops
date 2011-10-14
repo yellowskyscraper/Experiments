@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/nike_nsw/!svn/ver/25/nsw/dev/classes/com/ordinarykids/net
+END
+RemotingCall.as
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/nike_nsw/!svn/ver/1/nsw/dev/classes/com/ordinarykids/net/RemotingCall.as
+END
+DisplayObjectRequest.as
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/nike_nsw/!svn/ver/3/nsw/dev/classes/com/ordinarykids/net/DisplayObjectRequest.as
+END
+BatchLoader.as
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/nike_nsw/!svn/ver/25/nsw/dev/classes/com/ordinarykids/net/BatchLoader.as
+END
+HTTPRequest.as
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/nike_nsw/!svn/ver/3/nsw/dev/classes/com/ordinarykids/net/HTTPRequest.as
+END
+XMLBatchLoader.as
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/nike_nsw/!svn/ver/3/nsw/dev/classes/com/ordinarykids/net/XMLBatchLoader.as
+END
+XMLRequest.as
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/nike_nsw/!svn/ver/3/nsw/dev/classes/com/ordinarykids/net/XMLRequest.as
+END

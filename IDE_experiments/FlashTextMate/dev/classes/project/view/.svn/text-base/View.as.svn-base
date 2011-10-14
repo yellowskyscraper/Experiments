@@ -1,0 +1,111 @@
+package nike.view {
+
+	import flash.events.Event;
+	import flash.display.Sprite;	
+	import nike.model.Model;		
+	import nike.events.*;
+	import nike.view.nav.NavController;
+	import nike.view.main.ViewController;
+	import nike.utils.SoundManager;
+	import nike.utils.DeepLinkController;
+
+	public class View extends Sprite {
+
+		private static var _nav 	:NavController;
+		private static var _view 	:ViewController;
+		private static var _deep	:DeepLinkController;
+		private static var _sound	:SoundManager;
+		
+		private static var _minX:uint = 30;		// min nav xpos
+		private static var _maxX:uint = 100;	// max nav xpos		
+		private static var _navYpos	:int = 53;   // 121 for ok site //; 
+		
+		public function View()
+		{						
+			_sound = new SoundManager();
+			
+			_view = new ViewController();		
+			addChild(_view);
+		
+			_nav = new NavController();
+			_nav.y = _navYpos;
+			addChild(_nav);			
+		
+			_deep = new DeepLinkController();
+			_deep.addEventListener(Event.CHANGE, onAddressBarChange);		
+			
+			addEventListener(Event.ADDED_TO_STAGE, onAddedToStage);	
+			addEventListener(KeyStyleEvent.ENTER_SITE, activateGlobalNav);	
+			addEventListener(GlobalNavEvent.NAV_VISIBLE, _view.toggleNavVisibility);					
+			addEventListener(GlobalNavEvent.NAV_SELECTION, onGlobalNavSelection);
+			addEventListener(GlobalNavEvent.RETURN_TO_HOME, onHomeBtnSelection);
+			addEventListener(GlobalNavEvent.NEW_DEEP_LINK, updateGlobalDeepLink);
+			addEventListener(GlobalNavEvent.KEYSTYLE_ROLLOVER, _view.displayKeyStylePreview);				
+		}
+	
+		private function activateGlobalNav(e:KeyStyleEvent):void
+		{
+			_nav.activate();
+		}
+		
+ //- SITE NAVIGATION EVENTS ----------------------------------------------------------------------		
+		
+		private function onGlobalNavSelection(e:GlobalNavEvent):void
+		{
+			_deep.setSelection(e.data as Array);
+			_view.setSelection(e.data as Array);
+		}	
+		
+		private function updateGlobalDeepLink(e:GlobalNavEvent):void
+		{
+			_deep.setSelection(e.data as Array);			
+		}
+			
+		private function onAddressBarChange(e:Event):void
+		{
+			trace('onAddressBarChange called');
+	// set home state to default keystyle as specified in key-styles xml //	
+			if (_deep.path[0]==0) _deep.setSelection([Model.getDefaultKeyStyle()]);
+			_view.setSelection(_deep.path);
+		}
+		
+		private function onHomeBtnSelection(e:GlobalNavEvent):void
+		{
+//			_view.setSelection([0]);
+			_view.displayHomeState();
+		}
+		
+ //- HANDLE STAGE RESIZING  ----------------------------------------------------------------------		
+		
+		private function onAddedToStage(evt:Event):void
+		{		
+		// code around firefox bug on the mac //	 
+			addEventListener(Event.ENTER_FRAME, checkForStageWidth);
+		}
+		
+		private function checkForStageWidth(evt:Event):void
+		{
+			if (stage.stageWidth!=0){
+				onStageResize(evt);
+				stage.addEventListener(Event.RESIZE, onStageResize);				
+				removeEventListener(Event.ENTER_FRAME, checkForStageWidth);			
+			}
+		}
+		
+		private function onStageResize(e:Event):void
+		{
+			var w:uint = stage.stageWidth;
+			/*_nav.x = w - 120; return;*/
+
+		// reposition global nav //	
+			if (w <= 910){
+				_nav.x = w - _minX;					
+			}	else{
+				_nav.x = w - (_maxX*(w/2000));
+			}				
+		}		
+	
+	}
+
+}
+

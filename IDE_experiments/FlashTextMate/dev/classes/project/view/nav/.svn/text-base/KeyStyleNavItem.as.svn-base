@@ -1,0 +1,137 @@
+package nike.view.nav {
+
+	import flash.utils.Timer;
+	import flash.events.Event;
+	import flash.events.TimerEvent;
+	import flash.display.Sprite;
+	import flash.text.TextFieldAutoSize;
+	import flash.events.MouseEvent;
+	import nike.events.GlobalNavEvent;
+	import nike.view.text.LargeTextField;
+	import com.ordinarykids.utils.Countdown;
+
+	public class KeyStyleNavItem extends Sprite {
+		
+		private var _data		:XML
+		private var _text		:LargeTextField;
+		private var _name		:String;			// product name //
+		private var _date		:String;			// eg. 8.1
+		private var _dropText	:String;			// release countdown string //
+		private var _locked		:Boolean = false;	// prevents selection if not yet available //
+		
+		private var _timer		:Timer;
+		private var _countdown	:Countdown;
+		private var _active	:Boolean = false;
+
+		public function KeyStyleNavItem()
+		{	
+			this.buttonMode = true;
+	//		this.mouseChildren = false;
+			this.addEventListener(Event.ADDED_TO_STAGE, registerMouseListeners);
+		}
+		
+		override public function get name():String
+		{
+			return _name;
+		}		
+
+		public function set locked($b:Boolean):void
+		{
+			_locked = $b;
+		}
+		
+		public function get locked():Boolean
+		{
+			return _locked;
+		}
+		
+		public function set data($data:XML):void
+		{
+			_data = $data;
+			_name = _data.title;			
+			calcDropDate();
+		}
+		
+ //- COMMENT ----------------------------------------------------------------------		
+		
+		private function calcDropDate():void
+		{
+			var dd:String = _data.dropdate;
+			var y = '20'+dd.substr(6, 2);
+			var m = dd.substr(0, 2);
+			var d = dd.substr(3, 2);
+			
+			_date = uint(m)+'.'+uint(d);
+			_dropText = _date+' RELEASE /';
+			_countdown = new Countdown(new Date(y, m-1, d));
+			
+			_text = new LargeTextField(_date);
+			_text.buttonMode = true;
+			addChild(_text);			
+			
+			_timer = new Timer(1000);
+			_timer.addEventListener(TimerEvent.TIMER, refreshCountdown);						
+		}
+		
+		
+ //- MOUSE EVENTS ----------------------------------------------------------------------		
+		
+		private function registerMouseListeners(e:Event):void
+		{	
+			this.addEventListener(MouseEvent.MOUSE_DOWN, onKeyStyleMouseDown);
+			this.addEventListener(MouseEvent.ROLL_OUT, onKeyStyleRollOut);
+			this.addEventListener(MouseEvent.ROLL_OVER, onKeyStyleRollOver);			
+		}
+		
+		private function onKeyStyleRollOver(evt:MouseEvent):void
+		{
+			_active = true;
+			_text.text = _name.toUpperCase();				
+			dispatchEvent(new GlobalNavEvent(GlobalNavEvent.KEYSTYLE_ROLLOVER, {target:_name, visible:true}));			
+		}
+		
+		private function onKeyStyleRollOut(evt:MouseEvent):void
+		{
+			_active = false;
+			_text.text = _date;				
+			dispatchEvent(new GlobalNavEvent(GlobalNavEvent.KEYSTYLE_ROLLOVER, {target:_name, visible:false}));			
+		}
+		
+		private function onKeyStyleMouseDown(evt:MouseEvent):void
+		{
+			if (_countdown.expired){
+				// release 7.1
+				_text.text = _dropText;
+			}	else{
+				// release 7.1  + countdown
+				_timer.start();		
+				refreshCountdown();	
+			}
+			stage.addEventListener(MouseEvent.MOUSE_UP, onStageMouseUp);					
+		}
+		
+		private function onStageMouseUp(evt:MouseEvent):void
+		{
+			if (!_active){
+				_text.text = _date;
+			}	else{
+				_text.text = _name.toUpperCase();
+			}
+			_timer.stop();
+			stage.removeEventListener(MouseEvent.MOUSE_UP, onStageMouseUp);					
+		}	
+		
+		private function refreshCountdown(e:TimerEvent = null):void
+		{
+			var d = _countdown.days;
+			var h = _countdown.hours;
+			var m = _countdown.minutes;
+			var s = _countdown.seconds;
+			_text.text = _dropText +' –'+ d + 'D ' + h + ':' + m + ':' + s;		
+		}
+
+	
+	}
+
+}
+

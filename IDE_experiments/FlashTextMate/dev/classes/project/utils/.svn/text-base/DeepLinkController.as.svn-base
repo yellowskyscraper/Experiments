@@ -1,0 +1,60 @@
+package nike.utils {
+	
+	import com.asual.swfaddress.*;
+	import flash.events.Event;
+	import flash.events.EventDispatcher;		
+	import com.ordinarykids.utils.StringUtils;
+	import flash.external.ExternalInterface;
+		
+	public class DeepLinkController extends EventDispatcher
+	{
+			
+		private static var _home		:String;			// default site name to display in title bar //
+		private static var _path		:String;			// address bar value //
+				
+		public function DeepLinkController()
+		{
+			_home = SWFAddress.getTitle();
+		    SWFAddress.addEventListener(SWFAddressEvent.CHANGE, handleSWFAddressChange);
+		}
+		
+ //- PUBLIC SETTERS ----------------------------------------------------------------------		
+		
+		public function setSelection($path:Array):void
+		{
+			/*trace('-----------------------------');			
+			trace(this, '$path = '+$path);*/
+			var str:String = $path.join('/');	
+			_path = StringUtils.formatToURL(str);
+			/*trace('setting deep link path to : '+_path);*/
+		// format address and title bar //	
+			SWFAddress.setValue(_path);			
+		//	SWFAddress.setTitle(_home+' • '+toTitleCase(str));	
+		
+		// call out to external interface for page tracking //
+			var track:String = '>products>nsw_collection>'+$path.join('>');	
+			ExternalInterface.call("tracking.track", track);
+			ExternalInterface.call("tracking.trackClick", track);
+		}	
+			
+		public function get path():Array
+		{
+			return SWFAddress.getValue().substr(1).split('/');
+		}
+
+		
+ //- SWF ADDRESS ----------------------------------------------------------------------		
+		
+	// this is always called immediately when the page loads // 	
+        private function handleSWFAddressChange(e:SWFAddressEvent):void
+        {
+		// tell main app the address bar has changed //
+			if (SWFAddress.getValue().substr(1) != _path) dispatchEvent(new Event(Event.CHANGE));						
+        }
+		
+	}
+	
+}
+
+
+
