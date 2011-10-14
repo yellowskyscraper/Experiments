@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/138/trunk/unfolding/examples/de/fhpotsdam/unfolding/examples/marker
+END
+NeighborMarker.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/125/trunk/unfolding/examples/de/fhpotsdam/unfolding/examples/marker/NeighborMarker.java
+END
+ConnectionMarker.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/125/trunk/unfolding/examples/de/fhpotsdam/unfolding/examples/marker/ConnectionMarker.java
+END
+NeighborMarkersApp.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/125/trunk/unfolding/examples/de/fhpotsdam/unfolding/examples/marker/NeighborMarkersApp.java
+END
+InfoMarkerOnMultipleMapApp.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/118/trunk/unfolding/examples/de/fhpotsdam/unfolding/examples/marker/InfoMarkerOnMultipleMapApp.java
+END
+PlaceMarker.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/138/trunk/unfolding/examples/de/fhpotsdam/unfolding/examples/marker/PlaceMarker.java
+END
+LabeledMarker.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/116/trunk/unfolding/examples/de/fhpotsdam/unfolding/examples/marker/LabeledMarker.java
+END
+SimpleMarkerApp.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/138/trunk/unfolding/examples/de/fhpotsdam/unfolding/examples/marker/SimpleMarkerApp.java
+END
+MarkerManagerApp.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/138/trunk/unfolding/examples/de/fhpotsdam/unfolding/examples/marker/MarkerManagerApp.java
+END
+InfoMarkerApp.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/118/trunk/unfolding/examples/de/fhpotsdam/unfolding/examples/marker/InfoMarkerApp.java
+END
+ZoomDependentMarkerApp.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/115/trunk/unfolding/examples/de/fhpotsdam/unfolding/examples/marker/ZoomDependentMarkerApp.java
+END

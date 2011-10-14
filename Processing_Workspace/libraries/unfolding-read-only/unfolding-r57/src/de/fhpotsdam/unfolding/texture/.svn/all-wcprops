@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/75/trunk/unfolding-r57/src/de/fhpotsdam/unfolding/texture
+END
+Distorter.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/75/trunk/unfolding-r57/src/de/fhpotsdam/unfolding/texture/Distorter.java
+END
+ScaleInterpolationDistorter.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/75/trunk/unfolding-r57/src/de/fhpotsdam/unfolding/texture/ScaleInterpolationDistorter.java
+END
+TextureDistorter.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/75/trunk/unfolding-r57/src/de/fhpotsdam/unfolding/texture/TextureDistorter.java
+END
+LinearInterpolationDistorter.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/75/trunk/unfolding-r57/src/de/fhpotsdam/unfolding/texture/LinearInterpolationDistorter.java
+END

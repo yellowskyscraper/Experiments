@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/142/trunk/unfolding/resources
+END
+stylesheet.css
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/142/trunk/unfolding/resources/stylesheet.css
+END
+ChangeLog.txt
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/142/trunk/unfolding/resources/ChangeLog.txt
+END
+install_instructions.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/142/trunk/unfolding/resources/install_instructions.txt
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/142/trunk/unfolding/resources/build.properties
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/142/trunk/unfolding/resources/build.xml
+END

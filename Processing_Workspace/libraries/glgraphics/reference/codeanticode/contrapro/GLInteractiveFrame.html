@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//gnu.org///DTD XHTML 1.1 plus Target 1.0//EN" "../../resources/xhtml11-target10.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head><title>GLInteractiveFrame (Javadocs: glgraphics)</title><script src="../../resources/gjdoc.js" type="text/javascript"><!-- this comment required for konqueror 3.2.2 --></script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="generator" content="GNU Gjdoc Standard Doclet"/><meta name="keywords" content="codeanticode.contrapro.GLInteractiveFrame class"/><meta name="keywords" content="clone()"/><meta name="keywords" content="getMouseGrabberPool()"/><meta name="keywords" content="checkIfGrabsMouse()"/><meta name="keywords" content="grabsMouse()"/><meta name="keywords" content="setGrabsMouse()"/><meta name="keywords" content="isInMouseGrabberPool()"/><meta name="keywords" content="addInMouseGrabberPool()"/><meta name="keywords" content="removeFromMouseGrabberPool()"/><meta name="keywords" content="clearMouseGrabberPool()"/><meta name="keywords" content="setRotationSensitivity()"/><meta name="keywords" content="setTranslationSensitivity()"/><meta name="keywords" content="setSpinningSensitivity()"/><meta name="keywords" content="setWheelSensitivity()"/><meta name="keywords" content="rotationSensitivity()"/><meta name="keywords" content="translationSensitivity()"/><meta name="keywords" content="spinningSensitivity()"/><meta name="keywords" content="isSpinning()"/><meta name="keywords" content="spinningQuaternion()"/><meta name="keywords" content="setSpinningQuaternion()"/><meta name="keywords" content="stopSpinning()"/><meta name="keywords" content="startSpinning()"/><meta name="keywords" content="mousePressEvent()"/><meta name="keywords" content="mouseMoveEvent()"/><meta name="keywords" content="mouseReleaseEvent()"/><meta name="keywords" content="mouseDoubleClickEvent()"/><meta name="keywords" content="mouseWheelEvent()"/><meta name="keywords" content="mouseGrabberPool()"/><link rel="stylesheet" type="text/css" href="../../resources/user.css" title="User-specified"/></head><body class="content class" onload="if(parent.contentPageLoaded)parent.contentPageLoaded(document.title)"><table class="navbar div top"><tr><td class="navbar div top"><div class="navbar div top"><span class="navbar item enabled"><a href="../../overview-summary.html">Overview</a></span> <span class="navbar item enabled"><a href="package-summary.html">Package</a></span> <span class="navbar item enabled"><a href="tree.html">Tree</a></span> <span class="navbar item enabled"><a href="../../alphaindex.html">Index</a></span> <span class="navbar item enabled"><a href="../../deprecated.html">Deprecated</a></span> <span class="navbar item enabled"><a href="../../about.html">About</a></span></div></td></tr><tr><td class="navi"><a href="../../codeanticode/contrapro/GLInteractiveCameraFrame.html">Prev Class</a> | <a href="../../codeanticode/contrapro/GLLocalConstraint.html">Next Class</a></td><td class="navi"><a href="../../index.html" title="Show in a frameset" target="_top">Frames</a> | <a href="GLInteractiveFrame.html" title="Show without frames" target="_top">No Frames</a> </td></tr><tr><td class="navi">Summary: Nested | Field | <a href="#summary-methods">Method</a> | <a href="#summary-constructors">Constr</a></td><td class="navi">Detail: Nested | Field | <a href="#detail-methods">Method</a> | <a href="#detail-constructors">Constr</a></td></tr></table><div class="class title outer"><h3 class="class title-package">codeanticode.contrapro</h3><h1 class="class title-class">Class GLInteractiveFrame</h1></div><div class="class inheritance-tree"><ul class="inheritance 0"><li class="inheritance 0"><code>GLFrame</code></li><li><ul class="inheritance 1"><li class="inheritance 1"><code>codeanticode.contrapro.GLInteractiveFrame</code></li><li></li></ul></li></ul></div><dl class="class knownimplementing"><dt class="header"><b>Implemented Interfaces:</b></dt><dd class="item">Cloneable, GLMouseGrabber</dd></dl><hr/><div class="class synopsis outer"><div class="class synopsis declaration"><code>public class <b class="class synopsis name">GLInteractiveFrame</b></code></div><div class="class synopsis superclass"><code>extends GLFrame</code></div><div class="class synopsis implements"><code>implements GLMouseGrabber, Cloneable</code></div></div><hr/><div class="class description"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>Author:</b></dt><dd class="tag item">nakednous
+
+A GLInteractiveFrame is a GLFrame that can be rotated and translated
+using the mouse.
+
+<p>
+
+It converts the mouse motion into a translation and an orientation
+updates. A GLInteractiveFrame is used to move an object in the scene.
+Combined with object selection, its GLMouseGrabber properties and a
+dynamic update of the scene, the GLInteractiveFrame introduces a
+great reactivity in your applications.</dd></dl></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><a name="summary-constructors" id="summary-constructors"/><dl class="table container"><dd><table class="class summary" border="1" width="100%"><tr class="table header"><td colspan="2"><h2 class="table header">Constructor Summary</h2></td></tr><tr><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#GLInteractiveFrame()">GLInteractiveFrame</a>()</code></dt><dd class="description"> Default constructor.</dd></dl></td></tr></table></dd></dl><a name="summary-methods" id="summary-methods"/><dl class="table container"><dd><table class="class summary" border="1" width="100%"><tr class="table header"><td colspan="2"><h2 class="table header">Method Summary</h2></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#addInMouseGrabberPool()">addInMouseGrabberPool</a>()</code></dt><dd class="description"> Adds the GLMouseGrabber in the <a href="../../codeanticode/contrapro/GLInteractiveFrame.html#mouseGrabberPool()"><code>mouseGrabberPool()</code></a>.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#checkIfGrabsMouse(int,int,GLCamera)">checkIfGrabsMouse</a>(int&nbsp;x, int&nbsp;y, GLCamera&nbsp;camera)</code></dt><dd class="description"> Implementation of the GLMouseGrabber main method.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#clearMouseGrabberPool()">clearMouseGrabberPool</a>()</code></dt><dd class="description"> Clears the <a href="../../codeanticode/contrapro/GLInteractiveFrame.html#mouseGrabberPool()"><code>mouseGrabberPool()</code></a>.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> GLInteractiveFrame</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#clone()">clone</a>()</code></dt><dd class="description"> Implementation of the clone method.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> List<GLMouseGrabber></code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#getMouseGrabberPool()">getMouseGrabberPool</a>()</code></dt><dd class="description"> See <a href="../../codeanticode/contrapro/GLMouseGrabber.html#getMouseGrabberPool()"><code>GLMouseGrabber.getMouseGrabberPool()</code></a>.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> boolean</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#grabsMouse()">grabsMouse</a>()</code></dt><dd class="description"> Returns <code>true</code> when the GLMouseGrabber grabs the GLGraphics's mouse events.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> boolean</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#isInMouseGrabberPool()">isInMouseGrabberPool</a>()</code></dt><dd class="description"> Returns <code>true</code> if the GLMouseGrabber is currently in the
+<a href="../../codeanticode/contrapro/GLInteractiveFrame.html#mouseGrabberPool()"><code>mouseGrabberPool()</code></a> list.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> boolean</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#isSpinning()">isSpinning</a>()</code></dt><dd class="description"> Returns <code>true</code> when the GLInteractiveFrame is spinning.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#mouseDoubleClickEvent(MouseEvent,GLCamera)">mouseDoubleClickEvent</a>(MouseEvent&nbsp;event, GLCamera&nbsp;camera)</code></dt><dd class="description"> Overloading of
+<a href="../../codeanticode/contrapro/GLMouseGrabber.html#mouseDoubleClickEvent(MouseEvent,GLCamera)"><code>GLMouseGrabber.mouseDoubleClickEvent(MouseEvent,GLCamera)</code></a>.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis">static List<GLMouseGrabber></code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#mouseGrabberPool()">mouseGrabberPool</a>()</code></dt><dd class="description"> Static version of <a href="../../codeanticode/contrapro/GLInteractiveFrame.html#getMouseGrabberPool()"><code>getMouseGrabberPool()</code></a>.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#mouseMoveEvent(MouseEvent,GLCamera)">mouseMoveEvent</a>(MouseEvent&nbsp;event, GLCamera&nbsp;camera)</code></dt><dd class="description"> Modifies the GLInteractiveFrame according to the mouse motion.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#mousePressEvent(MouseEvent,GLCamera)">mousePressEvent</a>(MouseEvent&nbsp;event, GLCamera&nbsp;camera)</code></dt><dd class="description"> Initiates the GLInteractiveFrame mouse manipulation.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#mouseReleaseEvent(MouseEvent,GLCamera)">mouseReleaseEvent</a>(MouseEvent&nbsp;event, GLCamera&nbsp;camera)</code></dt><dd class="description"> Stops the GLInteractiveFrame mouse manipulation.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#mouseWheelEvent(MouseWheelEvent,GLCamera)">mouseWheelEvent</a>(MouseWheelEvent&nbsp;event, GLCamera&nbsp;camera)</code></dt><dd class="description"> Overloading of
+<a href="../../codeanticode/contrapro/GLMouseGrabber.html#mouseWheelEvent(MouseWheelEvent,GLCamera)"><code>GLMouseGrabber.mouseWheelEvent(MouseWheelEvent,GLCamera)</code></a>.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#removeFromMouseGrabberPool()">removeFromMouseGrabberPool</a>()</code></dt><dd class="description"> Removes the GLMouseGrabber from the <a href="../../codeanticode/contrapro/GLInteractiveFrame.html#mouseGrabberPool()"><code>mouseGrabberPool()</code></a>.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#rotationSensitivity()">rotationSensitivity</a>()</code></dt><dd class="description"> Returns the influence of a mouse displacement on the GLInteractiveFrame
+ rotation.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setGrabsMouse(boolean)">setGrabsMouse</a>(boolean&nbsp;grabs)</code></dt><dd class="description"> Sets the <a href="../../codeanticode/contrapro/GLInteractiveFrame.html#grabsMouse()"><code>grabsMouse()</code></a> flag.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setRotationSensitivity(float)">setRotationSensitivity</a>(float&nbsp;sensitivity)</code></dt><dd class="description"> Defines the rotationSensitivity().</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setSpinningQuaternion(GLQuaternion)">setSpinningQuaternion</a>(GLQuaternion&nbsp;spinningQuaternion)</code></dt><dd class="description"> Defines the spinningQuaternion().</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setSpinningSensitivity(float)">setSpinningSensitivity</a>(float&nbsp;sensitivity)</code></dt><dd class="description"> Defines the spinningSensitivity(), in pixels per milliseconds.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setTranslationSensitivity(float)">setTranslationSensitivity</a>(float&nbsp;sensitivity)</code></dt><dd class="description"> Defines the translationSensitivity().</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setWheelSensitivity(float)">setWheelSensitivity</a>(float&nbsp;sensitivity)</code></dt><dd class="description"> Defines the wheelSensitivity().</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> GLQuaternion</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#spinningQuaternion()">spinningQuaternion</a>()</code></dt><dd class="description"> Returns the incremental rotation that is applied by spin() to the
+ GLInteractiveFrame orientation when it isSpinning().</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#spinningSensitivity()">spinningSensitivity</a>()</code></dt><dd class="description"> Returns the minimum mouse speed required (at button release) to make the
+ GLInteractiveFrame spin().</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#startSpinning(int)">startSpinning</a>(int&nbsp;updateInterval)</code></dt><dd class="description"> Starts the spinning of the GLInteractiveFrame.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#stopSpinning()">stopSpinning</a>()</code></dt><dd class="description"> Stops the spinning motion started using startSpinning().</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#translationSensitivity()">translationSensitivity</a>()</code></dt><dd class="description"> Returns the influence of a mouse displacement on the GLInteractiveFrame
+ translation.</dd></dl></td></tr></table></dd></dl><a name="detail-constructors" id="detail-constructors"/><h2 class="section header">Constructor Details</h2><div class="section"><a name="GLInteractiveFrame()" id="GLInteractiveFrame()"/><div class="member detail outer"><h3 class="member detail name">GLInteractiveFrame</h3><pre class="member detail synopsis">public GLInteractiveFrame()</pre><blockquote class="member detail name"><div class="member detail description"> Default constructor.
+ 
+ <p/>
+ 
+ The translation is set to (0,0,0), with an identity rotation (0,0,0,1)
+ (see GLFrame constructor for details). The different sensitivities are
+ set to their default values (see rotationSensitivity(),
+ translationSensitivity(), spinningSensitivity() and wheelSensitivity()).
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div></div><a name="detail-methods" id="detail-methods"/><h2 class="section header">Method Details</h2><div class="section"><a name="addInMouseGrabberPool()" id="addInMouseGrabberPool()"/><div class="member detail outer"><h3 class="member detail name">addInMouseGrabberPool</h3><pre class="member detail synopsis">public void addInMouseGrabberPool()</pre><blockquote class="member detail name"><div class="member detail description"> Adds the GLMouseGrabber in the <a href="../../codeanticode/contrapro/GLInteractiveFrame.html#mouseGrabberPool()"><code>mouseGrabberPool()</code></a>.
+ 
+ <p/>
+ 
+ All created GLMouseGrabber are automatically added in the
+<a href="../../codeanticode/contrapro/GLInteractiveFrame.html#mouseGrabberPool()"><code>mouseGrabberPool()</code></a> by the constructor. Trying to add a
+  GLMouseGrabber that already <a href="../../codeanticode/contrapro/GLInteractiveFrame.html#isInMouseGrabberPool()"><code>isInMouseGrabberPool()</code></a> has no effect.
+ 
+ <p/>
+ 
+ Use <a href="../../codeanticode/contrapro/GLInteractiveFrame.html#removeFromMouseGrabberPool()"><code>removeFromMouseGrabberPool()</code></a> to remove the GLMouseGrabber
+ from the list, so that it is no longer tested with
+<a href="../../codeanticode/contrapro/GLInteractiveFrame.html#checkIfGrabsMouse(int,int,GLCamera)"><code>checkIfGrabsMouse(int,int,GLCamera)</code></a> by the GLGraphics, and hence
+  can no longer grab mouse focus. Use <a href="../../codeanticode/contrapro/GLInteractiveFrame.html#isInMouseGrabberPool()"><code>isInMouseGrabberPool()</code></a> to know
+ the current state of the GLMouseGrabber.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="checkIfGrabsMouse(int,int,GLCamera)" id="checkIfGrabsMouse(int,int,GLCamera)"/><div class="member detail outer"><h3 class="member detail name">checkIfGrabsMouse</h3><pre class="member detail synopsis">public void checkIfGrabsMouse(int x,
+                              int y,
+                              GLCamera camera)</pre><blockquote class="member detail name"><div class="member detail description"> Implementation of the GLMouseGrabber main method.
+ 
+ <p/>
+ 
+ The GLInteractiveFrame <a href="../../codeanticode/contrapro/GLInteractiveFrame.html#grabsMouse()"><code>grabsMouse()</code></a> when the mouse is within a
+ 10 pixels region around its
+<a href="../../codeanticode/contrapro/GLCamera.html#projectedCoordinatesOf(PVector)"><code>GLCamera.projectedCoordinatesOf(PVector)</code></a>
+  position().
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="clearMouseGrabberPool()" id="clearMouseGrabberPool()"/><div class="member detail outer"><h3 class="member detail name">clearMouseGrabberPool</h3><pre class="member detail synopsis">public void clearMouseGrabberPool()</pre><blockquote class="member detail name"><div class="member detail description"> Clears the <a href="../../codeanticode/contrapro/GLInteractiveFrame.html#mouseGrabberPool()"><code>mouseGrabberPool()</code></a>.
+ 
+ <p/>
+ 
+ Use this method only if it is faster to clear the <a href="../../codeanticode/contrapro/GLInteractiveFrame.html#mouseGrabberPool()"><code>mouseGrabberPool()</code></a>
+ and then to add back a few GLMouseGrabbers than to remove each one independently.
+ Use GLGraphics.setMouseTracking(false) instead if you want to disable mouse grabbing.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="clone()" id="clone()"/><div class="member detail outer"><h3 class="member detail name">clone</h3><pre class="member detail synopsis">public GLInteractiveFrame clone()</pre><blockquote class="member detail name"><div class="member detail description"> Implementation of the clone method.
+ 
+ <p/>
+ 
+ Calls <a href="../../codeanticode/contrapro/GLFrame.html#clone()"><code>GLFrame.clone()</code></a> and makes a deep
+ copy of the remaining object attributes except for
+<a href="../../codeanticode/contrapro/GLInteractiveFrame.html#prevConstraint"><code>prevConstraint</code></a> (which is shallow copied).
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLFrame.html#clone()"><code>GLFrame.clone()</code></a></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="getMouseGrabberPool()" id="getMouseGrabberPool()"/><div class="member detail outer"><h3 class="member detail name">getMouseGrabberPool</h3><pre class="member detail synopsis">public List<GLMouseGrabber> getMouseGrabberPool()</pre><blockquote class="member detail name"><div class="member detail description"> See <a href="../../codeanticode/contrapro/GLMouseGrabber.html#getMouseGrabberPool()"><code>GLMouseGrabber.getMouseGrabberPool()</code></a>.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="grabsMouse()" id="grabsMouse()"/><div class="member detail outer"><h3 class="member detail name">grabsMouse</h3><pre class="member detail synopsis">public boolean grabsMouse()</pre><blockquote class="member detail name"><div class="member detail description"> Returns <code>true</code> when the GLMouseGrabber grabs the GLGraphics's mouse events.
+ 
+ <p/>
+ 
+ This flag is set with <a href="../../codeanticode/contrapro/GLInteractiveFrame.html#setGrabsMouse(boolean)"><code>setGrabsMouse(boolean)</code></a> by the
+<a href="../../codeanticode/contrapro/GLInteractiveFrame.html#checkIfGrabsMouse(int,int,GLCamera)"><code>checkIfGrabsMouse(int,int,GLCamera)</code></a> method.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="isInMouseGrabberPool()" id="isInMouseGrabberPool()"/><div class="member detail outer"><h3 class="member detail name">isInMouseGrabberPool</h3><pre class="member detail synopsis">public boolean isInMouseGrabberPool()</pre><blockquote class="member detail name"><div class="member detail description"> Returns <code>true</code> if the GLMouseGrabber is currently in the
+<a href="../../codeanticode/contrapro/GLInteractiveFrame.html#mouseGrabberPool()"><code>mouseGrabberPool()</code></a> list.
+  
+ <p/>
+ 
+ Default value is <code>true</code>. When set to <code>false</code> using
+<a href="../../codeanticode/contrapro/GLInteractiveFrame.html#removeFromMouseGrabberPool()"><code>removeFromMouseGrabberPool()</code></a>, the GLGraphics no longer
+<a href="../../codeanticode/contrapro/GLInteractiveFrame.html#checkIfGrabsMouse(int,int,GLCamera)"><code>checkIfGrabsMouse(int,int,GLCamera)</code></a> on this GLMouseGrabber.
+   Use <a href="../../codeanticode/contrapro/GLInteractiveFrame.html#addInMouseGrabberPool()"><code>addInMouseGrabberPool()</code></a> to insert it back.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="isSpinning()" id="isSpinning()"/><div class="member detail outer"><h3 class="member detail name">isSpinning</h3><pre class="member detail synopsis">public final boolean isSpinning()</pre><blockquote class="member detail name"><div class="member detail description"> Returns <code>true</code> when the GLInteractiveFrame is spinning.
+ 
+ <p/>
+ 
+ During spinning, spin() rotates the GLInteractiveFrame by its
+ spinningQuaternion() at a frequency defined when the GLInteractive
+ startSpinning().
+ 
+ <p/>
+ 
+ Use startSpinning() and stopSpinning() to change this state. Default
+ value is <code>false</code>.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="mouseDoubleClickEvent(MouseEvent,GLCamera)" id="mouseDoubleClickEvent(MouseEvent,GLCamera)"/><div class="member detail outer"><h3 class="member detail name">mouseDoubleClickEvent</h3><pre class="member detail synopsis">public void mouseDoubleClickEvent(MouseEvent event,
+                                  GLCamera camera)</pre><blockquote class="member detail name"><div class="member detail description"> Overloading of
+<a href="../../codeanticode/contrapro/GLMouseGrabber.html#mouseDoubleClickEvent(MouseEvent,GLCamera)"><code>GLMouseGrabber.mouseDoubleClickEvent(MouseEvent,GLCamera)</code></a>.
+  
+ <p/>
+ 
+ Left button double click aligns the GLInteractiveFrame with the <code>camera</code> axis
+ (see <code>alignWithFrame(GLFrame)</code>). Right button projects the GLInteractiveFrame
+ on the <code>camera</code> view direction.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="mouseGrabberPool()" id="mouseGrabberPool()"/><div class="member detail outer"><h3 class="member detail name">mouseGrabberPool</h3><pre class="member detail synopsis">public static List<GLMouseGrabber> mouseGrabberPool()</pre><blockquote class="member detail name"><div class="member detail description"> Static version of <a href="../../codeanticode/contrapro/GLInteractiveFrame.html#getMouseGrabberPool()"><code>getMouseGrabberPool()</code></a>. 
+</div><div class="member detail return list"><dl><dt class="member detail return header"><b>Returns:</b></dt><dd class="member detail return item"></dd></dl></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="mouseMoveEvent(MouseEvent,GLCamera)" id="mouseMoveEvent(MouseEvent,GLCamera)"/><div class="member detail outer"><h3 class="member detail name">mouseMoveEvent</h3><pre class="member detail synopsis">public void mouseMoveEvent(MouseEvent event,
+                           GLCamera camera)</pre><blockquote class="member detail name"><div class="member detail description"> Modifies the GLInteractiveFrame according to the mouse motion.
+ 
+ <p/> 
+ 
+ Actual behavior depends on mouse bindings.
+ 
+ <p/>
+ 
+ The <code>camera</code> is used to fit the mouse motion with the display parameters.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLCamera.html#screenWidth()"><code>GLCamera.screenWidth()</code></a>, <a href="../../codeanticode/contrapro/GLCamera.html#screenHeight()"><code>GLCamera.screenHeight()</code></a>, <a href="../../codeanticode/contrapro/GLCamera.html#fieldOfView()"><code>GLCamera.fieldOfView()</code></a></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="mousePressEvent(MouseEvent,GLCamera)" id="mousePressEvent(MouseEvent,GLCamera)"/><div class="member detail outer"><h3 class="member detail name">mousePressEvent</h3><pre class="member detail synopsis">public void mousePressEvent(MouseEvent event,
+                            GLCamera camera)</pre><blockquote class="member detail name"><div class="member detail description"> Initiates the GLInteractiveFrame mouse manipulation.
+ 
+ Overloading of
+<a href="../../codeanticode/contrapro/GLMouseGrabber.html#mousePressEvent(MouseEvent,GLCamera)"><code>GLMouseGrabber.mousePressEvent(MouseEvent,GLCamera)</code></a>.
+  
+ The mouse behavior depends on which button is pressed.
+ TODO: complete doc!
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLInteractiveFrame.html#mouseMoveEvent(MouseEvent,GLCamera)"><code>mouseMoveEvent(MouseEvent,GLCamera)</code></a>, <a href="../../codeanticode/contrapro/GLInteractiveFrame.html#mouseReleaseEvent(MouseEvent,GLCamera)"><code>mouseReleaseEvent(MouseEvent,GLCamera)</code></a></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="mouseReleaseEvent(MouseEvent,GLCamera)" id="mouseReleaseEvent(MouseEvent,GLCamera)"/><div class="member detail outer"><h3 class="member detail name">mouseReleaseEvent</h3><pre class="member detail synopsis">public void mouseReleaseEvent(MouseEvent event,
+                              GLCamera camera)</pre><blockquote class="member detail name"><div class="member detail description"> Stops the GLInteractiveFrame mouse manipulation.
+ 
+ <p/>
+ 
+ Overloading of
+<a href="../../codeanticode/contrapro/GLMouseGrabber.html#mouseReleaseEvent(MouseEvent,GLCamera)"><code>GLMouseGrabber.mouseReleaseEvent(MouseEvent,GLCamera)</code></a>.
+  
+ <p/>
+ 
+ If the action was ROTATE MouseAction, a continuous spinning is possible if the speed
+ of the mouse cursor is larger than <a href="../../codeanticode/contrapro/GLInteractiveFrame.html#spinningSensitivity()"><code>spinningSensitivity()</code></a> when the button is
+ released. Press the rotate button again to stop spinning.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLInteractiveFrame.html#startSpinning(int)"><code>startSpinning(int)</code></a>, <a href="../../codeanticode/contrapro/GLInteractiveFrame.html#isSpinning()"><code>isSpinning()</code></a></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="mouseWheelEvent(MouseWheelEvent,GLCamera)" id="mouseWheelEvent(MouseWheelEvent,GLCamera)"/><div class="member detail outer"><h3 class="member detail name">mouseWheelEvent</h3><pre class="member detail synopsis">public void mouseWheelEvent(MouseWheelEvent event,
+                            GLCamera camera)</pre><blockquote class="member detail name"><div class="member detail description"> Overloading of
+<a href="../../codeanticode/contrapro/GLMouseGrabber.html#mouseWheelEvent(MouseWheelEvent,GLCamera)"><code>GLMouseGrabber.mouseWheelEvent(MouseWheelEvent,GLCamera)</code></a>.
+  
+ <p/>
+ 
+ Using the wheel is equivalent to a ZOOM MouseAction.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLInteractiveFrame.html#setWheelSensitivity(float)"><code>setWheelSensitivity(float)</code></a></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="removeFromMouseGrabberPool()" id="removeFromMouseGrabberPool()"/><div class="member detail outer"><h3 class="member detail name">removeFromMouseGrabberPool</h3><pre class="member detail synopsis">public void removeFromMouseGrabberPool()</pre><blockquote class="member detail name"><div class="member detail description"> Removes the GLMouseGrabber from the <a href="../../codeanticode/contrapro/GLInteractiveFrame.html#mouseGrabberPool()"><code>mouseGrabberPool()</code></a>.
+ 
+ <p/>
+ 
+ See <a href="../../codeanticode/contrapro/GLInteractiveFrame.html#addInMouseGrabberPool()"><code>addInMouseGrabberPool()</code></a> for details. Removing a GLMouseGrabber
+ that is not in <a href="../../codeanticode/contrapro/GLInteractiveFrame.html#mouseGrabberPool()"><code>mouseGrabberPool()</code></a> has no effect.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="rotationSensitivity()" id="rotationSensitivity()"/><div class="member detail outer"><h3 class="member detail name">rotationSensitivity</h3><pre class="member detail synopsis">public final float rotationSensitivity()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the influence of a mouse displacement on the GLInteractiveFrame
+ rotation.
+ 
+ <p/>
+ 
+ Default value is 1.0. With an identical mouse displacement, a higher
+ value will generate a larger rotation (and inversely for lower values). A
+ 0.0 value will forbid GLInteractiveFrame mouse rotation (see also
+ constraint()).
+ 
+ See also setRotationSensitivity(), translationSensitivity(),
+ spinningSensitivity() and wheelSensitivity().
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setGrabsMouse(boolean)" id="setGrabsMouse(boolean)"/><div class="member detail outer"><h3 class="member detail name">setGrabsMouse</h3><pre class="member detail synopsis">public void setGrabsMouse(boolean grabs)</pre><blockquote class="member detail name"><div class="member detail description"> Sets the <a href="../../codeanticode/contrapro/GLInteractiveFrame.html#grabsMouse()"><code>grabsMouse()</code></a> flag. Normally used by
+<a href="../../codeanticode/contrapro/GLInteractiveFrame.html#checkIfGrabsMouse(int,int,GLCamera)"><code>checkIfGrabsMouse(int,int,GLCamera)</code></a>.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setRotationSensitivity(float)" id="setRotationSensitivity(float)"/><div class="member detail outer"><h3 class="member detail name">setRotationSensitivity</h3><pre class="member detail synopsis">public final void setRotationSensitivity(float sensitivity)</pre><blockquote class="member detail name"><div class="member detail description"> Defines the rotationSensitivity(). //pend
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setSpinningQuaternion(GLQuaternion)" id="setSpinningQuaternion(GLQuaternion)"/><div class="member detail outer"><h3 class="member detail name">setSpinningQuaternion</h3><pre class="member detail synopsis">public final void setSpinningQuaternion(GLQuaternion spinningQuaternion)</pre><blockquote class="member detail name"><div class="member detail description"> Defines the spinningQuaternion(). Its axis is defined in the
+ GLInteractiveFrame coordinate system.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setSpinningSensitivity(float)" id="setSpinningSensitivity(float)"/><div class="member detail outer"><h3 class="member detail name">setSpinningSensitivity</h3><pre class="member detail synopsis">public final void setSpinningSensitivity(float sensitivity)</pre><blockquote class="member detail name"><div class="member detail description"> Defines the spinningSensitivity(), in pixels per milliseconds. //pend
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setTranslationSensitivity(float)" id="setTranslationSensitivity(float)"/><div class="member detail outer"><h3 class="member detail name">setTranslationSensitivity</h3><pre class="member detail synopsis">public final void setTranslationSensitivity(float sensitivity)</pre><blockquote class="member detail name"><div class="member detail description"> Defines the translationSensitivity(). //pend
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setWheelSensitivity(float)" id="setWheelSensitivity(float)"/><div class="member detail outer"><h3 class="member detail name">setWheelSensitivity</h3><pre class="member detail synopsis">public final void setWheelSensitivity(float sensitivity)</pre><blockquote class="member detail name"><div class="member detail description"> Defines the wheelSensitivity(). //pend
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="spinningQuaternion()" id="spinningQuaternion()"/><div class="member detail outer"><h3 class="member detail name">spinningQuaternion</h3><pre class="member detail synopsis">public final GLQuaternion spinningQuaternion()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the incremental rotation that is applied by spin() to the
+ GLInteractiveFrame orientation when it isSpinning().
+ 
+ <p/>
+ 
+ Default value is a null rotation (identity GLQuaternion). Use
+ setSpinningQuaternion() to change this value.
+ 
+ <p/>
+ 
+ The spinningQuaternion() axis is defined in the GLInteractiveFrame
+ coordinate system. You can use GLFrame.transformOfFrom() to convert this
+ axis from an other Frame coordinate system.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="spinningSensitivity()" id="spinningSensitivity()"/><div class="member detail outer"><h3 class="member detail name">spinningSensitivity</h3><pre class="member detail synopsis">public final float spinningSensitivity()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the minimum mouse speed required (at button release) to make the
+ GLInteractiveFrame spin().
+ 
+ <p/>
+ 
+ See spin(), spinningQuaternion() and startSpinning() for details.
+ 
+ <p/>
+ 
+ Mouse speed is expressed in pixels per milliseconds. Default value is 0.3
+ (300 pixels per second). Use setSpinningSensitivity() to tune this value.
+ A higher value will make spinning more difficult (a value of 100.0
+ forbids spinning in practice).
+ 
+ See also setSpinningSensitivity(), translationSensitivity(),
+ rotationSensitivity() and wheelSensitivity().
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="startSpinning(int)" id="startSpinning(int)"/><div class="member detail outer"><h3 class="member detail name">startSpinning</h3><pre class="member detail synopsis">public void startSpinning(int updateInterval)</pre><blockquote class="member detail name"><div class="member detail description"> Starts the spinning of the GLInteractiveFrame.
+ 
+ <p/>
+ 
+ This method starts a timer that will call <code>spin()</code> every <code>updateInterval</code> milliseconds. The GLInteractiveFrame
+<a href="../../codeanticode/contrapro/GLInteractiveFrame.html#isSpinning()"><code>isSpinning()</code></a> until you call <a href="../../codeanticode/contrapro/GLInteractiveFrame.html#stopSpinning()"><code>stopSpinning()</code></a>.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="stopSpinning()" id="stopSpinning()"/><div class="member detail outer"><h3 class="member detail name">stopSpinning</h3><pre class="member detail synopsis">public final void stopSpinning()</pre><blockquote class="member detail name"><div class="member detail description"> Stops the spinning motion started using startSpinning(). isSpinning()
+ will return <code>false</code> after this call.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="translationSensitivity()" id="translationSensitivity()"/><div class="member detail outer"><h3 class="member detail name">translationSensitivity</h3><pre class="member detail synopsis">public final float translationSensitivity()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the influence of a mouse displacement on the GLInteractiveFrame
+ translation.
+ 
+ <p/>
+ 
+ Default value is 1.0. You should not have to modify this value, since
+ with 1.0 the GLInteractiveFrame precisely stays under the mouse cursor.
+ 
+ <p/>
+ 
+ With an identical mouse displacement, a higher value will generate a
+ larger translation (and inversely for lower values). A 0.0 value will
+ forbid GLInteractiveFrame mouse translation (see also constraint()).
+ 
+ <p/>
+ 
+ <b>Note:</b> When the GLInteractiveFrame is used to move a <i>Camera</i>
+ (see the GLInteractiveCameraFrame class documentation), after zooming on
+ a small region of your scene, the camera may translate too fast. For a
+ camera, it is the GLCamera.revolveAroundPoint() that exactly matches the
+ mouse displacement. Hence, instead of changing the
+ translationSensitivity(), solve the problem by (temporarily) setting the
+ GLCamera.revolveAroundPoint() to a point on the zoomed region).
+ 
+ See also setTranslationSensitivity(), rotationSensitivity(),
+ spinningSensitivity() and wheelSensitivity().
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div></div><p class="navbar bottom spacer"> </p><table class="navbar div bottom"><tr><td><div class="navbar div top"><span class="navbar item enabled"><a href="../../overview-summary.html">Overview</a></span> <span class="navbar item enabled"><a href="package-summary.html">Package</a></span> <span class="navbar item enabled"><a href="tree.html">Tree</a></span> <span class="navbar item enabled"><a href="../../alphaindex.html">Index</a></span> <span class="navbar item enabled"><a href="../../deprecated.html">Deprecated</a></span> <span class="navbar item enabled"><a href="../../about.html">About</a></span></div></td></tr></table><hr/>processing library glgraphics by Andres Colubri. (c) 2008</body></html>

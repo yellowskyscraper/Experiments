@@ -1,0 +1,37 @@
+$Source: /cvs/distapps/openmap/INSTALL.win32,v $
+$RCSfile: INSTALL.win32,v $
+$Revision: 1.1.2.2 $
+$Date: 2009/03/03 21:05:23 $
+$Author: dietrick $
+
+Installation under Windows
+==========================
+
+Quickstart
+==========
+
+Check the prerequisites section of the INSTALL file, then come back
+here.
+
+We have supplied pre-built JAR (Java ARchive) files of OpenMap, but
+you will still need to edit the `openmap.bat' file in the bin/
+subdirectory to get OpenMap to run.
+
+	* Load the openmap.bat file in your favorite editor.
+
+	* Change the path to the Java VM to match your
+	  local configuration.
+
+	* Change the path to OpenMap to match your configuration.
+
+	* Run the batch file.
+
+Compilation
+===========
+
+You may want to build OpenMap from the source code yourself.  OpenMap includes
+build files for Ant, the Java-based build tool from Apache, available at
+http://ant.apache.org
+
+We also suggest that you use Eclipse (http://eclipse.org) or 
+NetBeans (http://netbeans.org) to compile OpenMap.

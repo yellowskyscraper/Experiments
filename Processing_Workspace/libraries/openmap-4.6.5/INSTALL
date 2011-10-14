@@ -1,0 +1,51 @@
+-*- Mode: text-mode -*-
+$Source: /cvs/distapps/openmap/INSTALL,v $
+$RCSfile: INSTALL,v $
+$Revision: 1.16.2.2 $
+$Date: 2009/03/03 21:05:23 $
+$Author: dietrick $
+
+Prerequisites
+=============
+
+   You need to have a Java 1.4.2 compiler and VM to build and run the
+   OpenMap software.  You will also need the Apache Ant Java-based
+   build tool if you'd like to build OpenMap from scratch. If you 
+   would like the complete Ant package, you may download it from:
+	
+	http://jakarta.apache.org/ant/
+ 
+   NOTE: From OpenMap 4.5 onwards, OpenMap requires Java 1.4 to build and run.
+   If you need to use JDK 1.1, download OpenMap 3.7, the last 
+   JDK 1.1-compatible release.  This release is available at the OpenMap
+   web site, http://www.openmap.org
+
+Installation
+============
+
+   With Ant, the basic installation of OpenMap has become much easier.
+   
+   If you would like to build OpenMap, you only need to set your 
+   OPENMAP_HOME and JAVA_HOME environment variables to point to your
+   OpenMap directory and location of your Java installation, and run 
+   "make".  This will work through the different OpenMap directories, 
+   compile OpenMap classes with Ant, and store the resulting jar file 
+   in the lib/ directory of your OpenMap directory.
+
+   To run OpenMap, whether you have compiled your own jar files or used
+   the precompiled jars that came withe distribution, you need only cd
+   to the bin/ directory in your OpenMap directory and run the "openmap"
+   script.
+
+   The above directions cover use of OpenMap on Unix-based systems, such
+   as Linux, Solaris, and Mac OS X.  For Windows-based systems, you'll
+   want to read the README.win32 file, found in the same directory as
+   this INSTALL file.
+
+Documentation
+=============
+   
+   OpenMap is shipped with the API documentation pre-built.  If you'd like
+   to rebuild it, you can do it from the top-level OpenMap directory with
+   "ant docs".
+

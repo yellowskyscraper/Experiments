@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//gnu.org///DTD XHTML 1.1 plus Target 1.0//EN" "../../resources/xhtml11-target10.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head><title>GLFrame (Javadocs: glgraphics)</title><script src="../../resources/gjdoc.js" type="text/javascript"><!-- this comment required for konqueror 3.2.2 --></script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="generator" content="GNU Gjdoc Standard Doclet"/><meta name="keywords" content="codeanticode.contrapro.GLFrame class"/><meta name="keywords" content="copy()"/><meta name="keywords" content="clone()"/><meta name="keywords" content="translation()"/><meta name="keywords" content="rotation()"/><meta name="keywords" content="referenceFrame()"/><meta name="keywords" content="constraint()"/><meta name="keywords" content="setTranslation()"/><meta name="keywords" content="setTranslationWithConstraint()"/><meta name="keywords" content="setRotation()"/><meta name="keywords" content="setRotationWithConstraint()"/><meta name="keywords" content="setReferenceFrame()"/><meta name="keywords" content="setConstraint()"/><meta name="keywords" content="settingAsReferenceFrameWillCreateALoop()"/><meta name="keywords" content="orientation()"/><meta name="keywords" content="setPosition()"/><meta name="keywords" content="setPositionWithConstraint()"/><meta name="keywords" content="setOrientation()"/><meta name="keywords" content="setOrientationWithConstraint()"/><meta name="keywords" content="position()"/><meta name="keywords" content="translate()"/><meta name="keywords" content="translateModifyingArgument()"/><meta name="keywords" content="rotate()"/><meta name="keywords" content="rotateModifyingArgument()"/><meta name="keywords" content="rotateAroundPoint()"/><meta name="keywords" content="rotateAroundPointModifyingArgument()"/><meta name="keywords" content="alignWithFrame()"/><meta name="keywords" content="projectOnLine()"/><meta name="keywords" content="coordinatesOf()"/><meta name="keywords" content="inverseCoordinatesOf()"/><meta name="keywords" content="localCoordinatesOf()"/><meta name="keywords" content="localInverseCoordinatesOf()"/><meta name="keywords" content="coordinatesOfFrom()"/><meta name="keywords" content="coordinatesOfIn()"/><meta name="keywords" content="transformOf()"/><meta name="keywords" content="inverseTransformOf()"/><meta name="keywords" content="localTransformOf()"/><meta name="keywords" content="localInverseTransformOf()"/><meta name="keywords" content="transformOfFrom()"/><meta name="keywords" content="transformOfIn()"/><meta name="keywords" content="matrix()"/><meta name="keywords" content="array()"/><meta name="keywords" content="worldMatrix()"/><meta name="keywords" content="worldArray()"/><meta name="keywords" content="fromMatrix()"/><meta name="keywords" content="fromArray()"/><meta name="keywords" content="inverse()"/><meta name="keywords" content="worldInverse()"/><link rel="stylesheet" type="text/css" href="../../resources/user.css" title="User-specified"/></head><body class="content class" onload="if(parent.contentPageLoaded)parent.contentPageLoaded(document.title)"><table class="navbar div top"><tr><td class="navbar div top"><div class="navbar div top"><span class="navbar item enabled"><a href="../../overview-summary.html">Overview</a></span> <span class="navbar item enabled"><a href="package-summary.html">Package</a></span> <span class="navbar item enabled"><a href="tree.html">Tree</a></span> <span class="navbar item enabled"><a href="../../alphaindex.html">Index</a></span> <span class="navbar item enabled"><a href="../../deprecated.html">Deprecated</a></span> <span class="navbar item enabled"><a href="../../about.html">About</a></span></div></td></tr><tr><td class="navi"><a href="../../codeanticode/contrapro/GLConstraint.html">Prev Class</a> | <a href="../../codeanticode/contrapro/GLInteractiveCameraFrame.html">Next Class</a></td><td class="navi"><a href="../../index.html" title="Show in a frameset" target="_top">Frames</a> | <a href="GLFrame.html" title="Show without frames" target="_top">No Frames</a> </td></tr><tr><td class="navi">Summary: Nested | Field | <a href="#summary-methods">Method</a> | <a href="#summary-constructors">Constr</a></td><td class="navi">Detail: Nested | Field | <a href="#detail-methods">Method</a> | <a href="#detail-constructors">Constr</a></td></tr></table><div class="class title outer"><h3 class="class title-package">codeanticode.contrapro</h3><h1 class="class title-class">Class GLFrame</h1></div><div class="class inheritance-tree"><ul class="inheritance 0"><li class="inheritance 0"><code>java.lang.Object</code></li><li><ul class="inheritance 1"><li class="inheritance 1"><code>codeanticode.contrapro.GLFrame</code></li><li></li></ul></li></ul></div><dl class="class knownimplementing"><dt class="header"><b>Implemented Interfaces:</b></dt><dd class="item">Cloneable</dd></dl><hr/><div class="class synopsis outer"><div class="class synopsis declaration"><code>public class <b class="class synopsis name">GLFrame</b></code></div><div class="class synopsis superclass"><code>extends java.lang.Object</code></div><div class="class synopsis implements"><code>implements Cloneable</code></div></div><hr/><div class="class description"> A GLFrame is a 3D coordinate system, represented by a <a href="../../codeanticode/contrapro/GLFrame.html#position()"><code>position()</code></a> and an
+<a href="../../codeanticode/contrapro/GLFrame.html#orientation()"><code>orientation()</code></a>. The order of these transformations is important:
+  the GLFrame is first translated and then rotated around the new translated origin.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><a name="summary-constructors" id="summary-constructors"/><dl class="table container"><dd><table class="class summary" border="1" width="100%"><tr class="table header"><td colspan="2"><h2 class="table header">Constructor Summary</h2></td></tr><tr><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#GLFrame()">GLFrame</a>()</code></dt><dd class="description"> Creates a default GLFrame.</dd></dl></td></tr><tr><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#GLFrame(PVector,GLQuaternion)">GLFrame</a>(PVector&nbsp;p, GLQuaternion&nbsp;r)</code></dt><dd class="description"> Creates a GLFrame with a <a href="../../codeanticode/contrapro/GLFrame.html#position()"><code>position()</code></a> and an <a href="../../codeanticode/contrapro/GLFrame.html#orientation()"><code>orientation()</code></a>.</dd></dl></td></tr></table></dd></dl><a name="summary-methods" id="summary-methods"/><dl class="table container"><dd><table class="class summary" border="1" width="100%"><tr class="table header"><td colspan="2"><h2 class="table header">Method Summary</h2></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#alignWithFrame(GLFrame)">alignWithFrame</a>(GLFrame&nbsp;frame)</code></dt><dd class="description"> Convenience function that simply calls <code>alignWithFrame(frame, false, 0.85f)</code>
+</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#alignWithFrame(GLFrame,boolean)">alignWithFrame</a>(GLFrame&nbsp;frame, boolean&nbsp;move)</code></dt><dd class="description"> Convenience function that simply calls <code>alignWithFrame(frame, move, 0.85f)</code>
+</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#alignWithFrame(GLFrame,boolean,float)">alignWithFrame</a>(GLFrame&nbsp;frame, boolean&nbsp;move, float&nbsp;threshold)</code></dt><dd class="description"> Aligns the GLFrame with <code>frame</code>, so that two of their axis are parallel.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#alignWithFrame(GLFrame,float)">alignWithFrame</a>(GLFrame&nbsp;frame, float&nbsp;threshold)</code></dt><dd class="description"> Convenience function that simply calls <code>alignWithFrame(frame, false, threshold)</code>
+</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float[]</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#array()">array</a>()</code></dt><dd class="description"> float[] version of <a href="../../codeanticode/contrapro/GLFrame.html#matrix()"><code>matrix()</code></a>.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> GLFrame</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#clone()">clone</a>()</code></dt><dd class="description"> Implementation of the clone method.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> GLConstraint</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#constraint()">constraint</a>()</code></dt><dd class="description"> Returns the current constraint applied to the GLFrame.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> PVector</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#coordinatesOf(PVector)">coordinatesOf</a>(PVector&nbsp;src)</code></dt><dd class="description"> Returns the GLFrame coordinates of a point <code>src</code> defined in the world
+ coordinate system (converts from world to Frame).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> PVector</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#coordinatesOfFrom(PVector,GLFrame)">coordinatesOfFrom</a>(PVector&nbsp;src, GLFrame&nbsp;from)</code></dt><dd class="description"> Returns the GLFrame coordinates of the point whose position in the <code>from</code>
+ coordinate system is <code>src</code> (converts from <code>from</code> to GLFrame).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> PVector</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#coordinatesOfIn(PVector,GLFrame)">coordinatesOfIn</a>(PVector&nbsp;src, GLFrame&nbsp;in)</code></dt><dd class="description"> Returns the <code>in</code> coordinates of the point whose position in the GLFrame
+ coordinate system is <code>src</code> (converts from GLFrame to <code>in</code>).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> GLFrame</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#copy()">copy</a>()</code></dt><dd class="description"> Calls <code>GLFrame(GLFrame)</code> (which is private) and returns a copy
+ of <code>this</code> object.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#fromArray(float[])">fromArray</a>(float[]&nbsp;m)</code></dt><dd class="description"> Sets the GLFrame from an OpenGL matrix representation (rotation
+ in the upper left 3x3 matrix and translation on the last line).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#fromMatrix(float[][])">fromMatrix</a>(float[][]&nbsp;m)</code></dt><dd class="description"> This is an overloaded method provided for convenience.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> GLFrame</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#inverse()">inverse</a>()</code></dt><dd class="description"> Returns a GLFrame representing the inverse of the GLFrame space transformation.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> PVector</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#inverseCoordinatesOf(PVector)">inverseCoordinatesOf</a>(PVector&nbsp;src)</code></dt><dd class="description"> Returns the world coordinates of the point whose position in the GLFrame
+ coordinate system is <code>src</code> (converts from Frame to world).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> PVector</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#inverseTransformOf(PVector)">inverseTransformOf</a>(PVector&nbsp;src)</code></dt><dd class="description"> Returns the world transform of the vector whose coordinates in the GLFrame
+ coordinate system is <code>src</code> (converts vectors from Frame to world).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> PVector</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#localCoordinatesOf(PVector)">localCoordinatesOf</a>(PVector&nbsp;src)</code></dt><dd class="description"> Returns the GLFrame coordinates of a point <code>src</code> defined in the
+<a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a> coordinate system (converts from referenceFrame()
+  to Frame).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> PVector</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#localInverseCoordinatesOf(PVector)">localInverseCoordinatesOf</a>(PVector&nbsp;src)</code></dt><dd class="description"> Returns the <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a> coordinates of a point <code>src</code> defined
+ in the GLFrame coordinate system (converts from Frame to <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a>).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> PVector</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#localInverseTransformOf(PVector)">localInverseTransformOf</a>(PVector&nbsp;src)</code></dt><dd class="description"> Returns the <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a> transform of a vector <code>src</code>
+ defined in the GLFrame coordinate system (converts vectors from GLFrame
+ to <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a>).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> PVector</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#localTransformOf(PVector)">localTransformOf</a>(PVector&nbsp;src)</code></dt><dd class="description"> Returns the GLFrame transform of a vector <code>src</code> defined in the
+<a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a> coordinate system (converts vectors from
+<a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a> to GLFrame).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float[][]</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#matrix()">matrix</a>()</code></dt><dd class="description"> Returns the 4x4 OpenGL transformation matrix represented by the GLFrame.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> GLQuaternion</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#orientation()">orientation</a>()</code></dt><dd class="description"> Returns the orientation of the GLFrame, defined in the world coordinate system.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> PVector</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#position()">position</a>()</code></dt><dd class="description"> Returns the position of the GLFrame, defined in the world coordinate system.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#projectOnLine(PVector,PVector)">projectOnLine</a>(PVector&nbsp;origin, PVector&nbsp;direction)</code></dt><dd class="description"> Translates the GLFrame so that its <a href="../../codeanticode/contrapro/GLFrame.html#position()"><code>position()</code></a> lies on the line
+ defined by <code>origin</code> and <code>direction</code> (defined in the world
+ coordinate system).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> GLFrame</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#referenceFrame()">referenceFrame</a>()</code></dt><dd class="description"> Returns the reference GLFrame, in which coordinates system the GLFrame is defined.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#rotate(GLQuaternion)">rotate</a>(GLQuaternion&nbsp;q)</code></dt><dd class="description"> Rotates the GLFrame by <code>q</code> (defined in the GLFrame coordinate system): R = R*q.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#rotate(float,float,float,float)">rotate</a>(float&nbsp;x, float&nbsp;y, float&nbsp;z, float&nbsp;w)</code></dt><dd class="description"> Same as <a href="../../codeanticode/contrapro/GLFrame.html#rotate(GLQuaternion)"><code>rotate(GLQuaternion)</code></a> but with <code>float</code> GLQuaternion parameters.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#rotateAroundPoint(GLQuaternion,PVector)">rotateAroundPoint</a>(GLQuaternion&nbsp;rotation, PVector&nbsp;point)</code></dt><dd class="description"> Makes the GLFrame <a href="../../codeanticode/contrapro/GLFrame.html#rotate(GLQuaternion)"><code>rotate(GLQuaternion)</code></a> by <code>rotation</code> around <code>point</code>.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#rotateAroundPointModifyingArgument(GLQuaternion,PVector)">rotateAroundPointModifyingArgument</a>(GLQuaternion&nbsp;rotation, PVector&nbsp;point)</code></dt><dd class="description"> Same as <a href="../../codeanticode/contrapro/GLFrame.html#rotateAroundPoint(GLQuaternion,PVector)"><code>rotateAroundPoint(GLQuaternion,PVector)</code></a> but if there's a
+<a href="../../codeanticode/contrapro/GLFrame.html#constraint()"><code>constraint()</code></a> <code>rotation</code> is modified to satisfy it.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#rotateModifyingArgument(GLQuaternion)">rotateModifyingArgument</a>(GLQuaternion&nbsp;q)</code></dt><dd class="description"> Same as <a href="../../codeanticode/contrapro/GLFrame.html#rotate(GLQuaternion)"><code>rotate(GLQuaternion)</code></a> but if there's a <a href="../../codeanticode/contrapro/GLFrame.html#constraint()"><code>constraint()</code></a> 
+<code>q</code> is modified to satisfy it.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> GLQuaternion</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#rotation()">rotation</a>()</code></dt><dd class="description"> Returns the GLFrame rotation, defined with respect
+ to the <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a> (i.e, the current
+ GLQuaternion orientation).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setConstraint(GLConstraint)">setConstraint</a>(GLConstraint&nbsp;c)</code></dt></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setOrientation(GLQuaternion)">setOrientation</a>(GLQuaternion&nbsp;q)</code></dt><dd class="description"> Sets the <a href="../../codeanticode/contrapro/GLFrame.html#orientation()"><code>orientation()</code></a> of the GLFrame, defined in the world coordinate system.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setOrientation(float,float,float,float)">setOrientation</a>(float&nbsp;x, float&nbsp;y, float&nbsp;z, float&nbsp;w)</code></dt><dd class="description"> Same as <a href="../../codeanticode/contrapro/GLFrame.html#setOrientation(GLQuaternion)"><code>setOrientation(GLQuaternion)</code></a>, but with <code>float</code> parameters.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setOrientationWithConstraint(GLQuaternion)">setOrientationWithConstraint</a>(GLQuaternion&nbsp;orientation)</code></dt><dd class="description"> Same as <a href="../../codeanticode/contrapro/GLFrame.html#setOrientation(GLQuaternion)"><code>setOrientation(GLQuaternion)</code></a>, but if there's a
+<a href="../../codeanticode/contrapro/GLFrame.html#constraint()"><code>constraint()</code></a> it is satisfied (without modifying
+<code>orientation</code>).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setPosition(PVector)">setPosition</a>(PVector&nbsp;p)</code></dt><dd class="description"> Sets the <a href="../../codeanticode/contrapro/GLFrame.html#position()"><code>position()</code></a> of the GLFrame, defined in the world coordinate system.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setPosition(float,float,float)">setPosition</a>(float&nbsp;x, float&nbsp;y, float&nbsp;z)</code></dt><dd class="description"> Same as <a href="../../codeanticode/contrapro/GLFrame.html#setPosition(float,float,float)"><code>setPosition(float,float,float)</code></a>, but with <code>float</code> parameters.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setPositionWithConstraint(PVector)">setPositionWithConstraint</a>(PVector&nbsp;position)</code></dt><dd class="description"> Same as <a href="../../codeanticode/contrapro/GLFrame.html#setPosition(PVector)"><code>setPosition(PVector)</code></a>, but if there's a
+<a href="../../codeanticode/contrapro/GLFrame.html#constraint()"><code>constraint()</code></a> it is satisfied (without modifying
+<code>position</code>).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setReferenceFrame(GLFrame)">setReferenceFrame</a>(GLFrame&nbsp;rFrame)</code></dt><dd class="description"> Sets the <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a> of the GLFrame.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setRotation(GLQuaternion)">setRotation</a>(GLQuaternion&nbsp;r)</code></dt><dd class="description"> Set the current rotation GLQuaternion.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setRotation(float,float,float,float)">setRotation</a>(float&nbsp;x, float&nbsp;y, float&nbsp;z, float&nbsp;w)</code></dt><dd class="description"> Same as <a href="../../codeanticode/contrapro/GLFrame.html#setRotation(GLQuaternion)"><code>setRotation(GLQuaternion)</code></a> but with <code>float</code>
+ GLQuaternion parameters.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setRotationWithConstraint(GLQuaternion)">setRotationWithConstraint</a>(GLQuaternion&nbsp;rotation)</code></dt><dd class="description"> Same as <a href="../../codeanticode/contrapro/GLFrame.html#setRotation(GLQuaternion)"><code>setRotation(GLQuaternion)</code></a>, if there's a <a href="../../codeanticode/contrapro/GLFrame.html#constraint()"><code>constraint()</code></a>
+ it's satisfied (without modifying <code>rotation</code>).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setTranslation(PVector)">setTranslation</a>(PVector&nbsp;t)</code></dt><dd class="description"> Sets the <a href="../../codeanticode/contrapro/GLFrame.html#translation()"><code>translation()</code></a> of the frame, locally defined
+ with respect to the <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a>.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setTranslation(float,float,float)">setTranslation</a>(float&nbsp;x, float&nbsp;y, float&nbsp;z)</code></dt><dd class="description"> Same as <a href="../../codeanticode/contrapro/GLFrame.html#setTranslation(PVector)"><code>setTranslation(PVector)</code></a>, but with <code>float</code> parameters.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setTranslationWithConstraint(PVector)">setTranslationWithConstraint</a>(PVector&nbsp;translation)</code></dt><dd class="description"> Same as <a href="../../codeanticode/contrapro/GLFrame.html#setTranslation(PVector)"><code>setTranslation(PVector)</code></a>, but if there's a
+<a href="../../codeanticode/contrapro/GLFrame.html#constraint()"><code>constraint()</code></a> it is satisfied (without modifying
+<code>translation</code>).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> boolean</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#settingAsReferenceFrameWillCreateALoop(GLFrame)">settingAsReferenceFrameWillCreateALoop</a>(GLFrame&nbsp;frame)</code></dt><dd class="description"> Returns <code>true</code> if setting <code>frame</code> as the GLFrame's <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a>
+ would create a loop in the GLFrame hierarchy.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> PVector</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#transformOf(PVector)">transformOf</a>(PVector&nbsp;src)</code></dt><dd class="description"> Returns the GLFrame transform of a vector <code>src</code> defined in the world
+ coordinate system (converts vectors from world to Frame).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> PVector</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#transformOfFrom(PVector,GLFrame)">transformOfFrom</a>(PVector&nbsp;src, GLFrame&nbsp;from)</code></dt><dd class="description"> Returns the GLFrame transform of the vector whose coordinates in the <code>from</code>
+ coordinate system is <code>src</code> (converts vectors from <code>from</code> to GLFrame).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> PVector</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#transformOfIn(PVector,GLFrame)">transformOfIn</a>(PVector&nbsp;src, GLFrame&nbsp;in)</code></dt><dd class="description"> Returns the <code>in</code> transform of the vector whose coordinates in the GLFrame
+ coordinate system is <code>src</code> (converts vectors from GLFrame to <code>in</code>).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#translate(PVector)">translate</a>(PVector&nbsp;t)</code></dt><dd class="description"> Translates the GLFrame of <code>t</code> (defined in the GLFrame coordinate system).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#translate(float,float,float)">translate</a>(float&nbsp;x, float&nbsp;y, float&nbsp;z)</code></dt><dd class="description"> Same as <a href="../../codeanticode/contrapro/GLFrame.html#translate(PVector)"><code>translate(PVector)</code></a> but with <code>float</code> parameters.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#translateModifyingArgument(PVector)">translateModifyingArgument</a>(PVector&nbsp;t)</code></dt><dd class="description"> Same as <a href="../../codeanticode/contrapro/GLFrame.html#translate(PVector)"><code>translate(PVector)</code></a> but if there's a <a href="../../codeanticode/contrapro/GLFrame.html#constraint()"><code>constraint()</code></a> 
+<code>t</code> is modified to satisfy it.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> PVector</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#translation()">translation</a>()</code></dt><dd class="description"> Returns the GLFrame translation, defined with respect to
+ the <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a>.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float[]</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#worldArray()">worldArray</a>()</code></dt><dd class="description"> float[] version of <a href="../../codeanticode/contrapro/GLFrame.html#worldMatrix()"><code>worldMatrix()</code></a>.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> GLFrame</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#worldInverse()">worldInverse</a>()</code></dt><dd class="description"> 
+ Returns the <a href="../../codeanticode/contrapro/GLFrame.html#inverse()"><code>inverse()</code></a> of the GLFrame world transformation.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float[][]</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#worldMatrix()">worldMatrix</a>()</code></dt><dd class="description"> Returns the 4x4 OpenGL transformation matrix represented by the GLFrame.</dd></dl></td></tr></table></dd></dl><a name="detail-constructors" id="detail-constructors"/><h2 class="section header">Constructor Details</h2><div class="section"><a name="GLFrame()" id="GLFrame()"/><div class="member detail outer"><h3 class="member detail name">GLFrame</h3><pre class="member detail synopsis">public GLFrame()</pre><blockquote class="member detail name"><div class="member detail description"> Creates a default GLFrame.
+ 
+ <p/>
+ 
+ Its <a href="../../codeanticode/contrapro/GLFrame.html#position()"><code>position()</code></a> is (0,0,0) and it has an identity
+<a href="../../codeanticode/contrapro/GLFrame.html#orientation()"><code>orientation()</code></a> GLQuaternion. The <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a> and 
+  the <a href="../../codeanticode/contrapro/GLFrame.html#constraint()"><code>constraint()</code></a> are <code>null</code>.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="GLFrame(PVector,GLQuaternion)" id="GLFrame(PVector,GLQuaternion)"/><div class="member detail outer"><h3 class="member detail name">GLFrame</h3><pre class="member detail synopsis">public GLFrame(PVector p,
+               GLQuaternion r)</pre><blockquote class="member detail name"><div class="member detail description"> Creates a GLFrame with a <a href="../../codeanticode/contrapro/GLFrame.html#position()"><code>position()</code></a> and an <a href="../../codeanticode/contrapro/GLFrame.html#orientation()"><code>orientation()</code></a>.
+ 
+ <p/>
+ 
+ See the PVector and GLQuaternion documentations for convenient constructors and methods.
+ 
+ <p/>
+ 
+ The GLFrame is defined in the world coordinate system (its <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a>
+ is <code>null</code>). It has a <code>null</code> associated <a href="../../codeanticode/contrapro/GLFrame.html#constraint()"><code>constraint()</code></a>.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div></div><a name="detail-methods" id="detail-methods"/><h2 class="section header">Method Details</h2><div class="section"><a name="alignWithFrame(GLFrame)" id="alignWithFrame(GLFrame)"/><div class="member detail outer"><h3 class="member detail name">alignWithFrame</h3><pre class="member detail synopsis">public final void alignWithFrame(GLFrame frame)</pre><blockquote class="member detail name"><div class="member detail description"> Convenience function that simply calls <code>alignWithFrame(frame, false, 0.85f)</code>
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="alignWithFrame(GLFrame,boolean)" id="alignWithFrame(GLFrame,boolean)"/><div class="member detail outer"><h3 class="member detail name">alignWithFrame</h3><pre class="member detail synopsis">public final void alignWithFrame(GLFrame frame,
+                                 boolean move)</pre><blockquote class="member detail name"><div class="member detail description"> Convenience function that simply calls <code>alignWithFrame(frame, move, 0.85f)</code>
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="alignWithFrame(GLFrame,boolean,float)" id="alignWithFrame(GLFrame,boolean,float)"/><div class="member detail outer"><h3 class="member detail name">alignWithFrame</h3><pre class="member detail synopsis">public final void alignWithFrame(GLFrame frame,
+                                 boolean move,
+                                 float threshold)</pre><blockquote class="member detail name"><div class="member detail description"> Aligns the GLFrame with <code>frame</code>, so that two of their axis are parallel.
+ 
+ <p/>
+ 
+ If one of the X, Y and Z axis of the GLFrame is almost parallel to any of the
+ X, Y, or Z axis of <code>frame</code>, the GLFrame is rotated so that these two
+ axis actually become parallel.
+ 
+ <p/>
+ 
+ If, after this first rotation, two other axis are also almost parallel, a
+ second alignment is performed. The two frames then have identical orientations,
+ up to 90 degrees rotations.
+ 
+ <p/>
+<code>threshold</code> measures how close two axis must be to be considered parallel.
+ It is compared with the absolute values of the dot product of the normalized axis.
+ 
+ <p/>
+ 
+ When <code>move</code> is set to <code>true</code>, the GLFrame <a href="../../codeanticode/contrapro/GLFrame.html#position()"><code>position()</code></a> is
+ also affected by the alignment. The new GLFrame <a href="../../codeanticode/contrapro/GLFrame.html#position()"><code>position()</code></a> is such that
+ the <code>frame</code> frame position (computed with <a href="../../codeanticode/contrapro/GLFrame.html#coordinatesOf(PVector)"><code>coordinatesOf(PVector)</code></a>,
+ in the GLFrame coordinates system) does not change.
+ 
+ <p/>
+<code>frame</code> may be <code>null</code> and then represents the world coordinate system
+ (same convention than for the <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a>).
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="alignWithFrame(GLFrame,float)" id="alignWithFrame(GLFrame,float)"/><div class="member detail outer"><h3 class="member detail name">alignWithFrame</h3><pre class="member detail synopsis">public final void alignWithFrame(GLFrame frame,
+                                 float threshold)</pre><blockquote class="member detail name"><div class="member detail description"> Convenience function that simply calls <code>alignWithFrame(frame, false, threshold)</code>
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="array()" id="array()"/><div class="member detail outer"><h3 class="member detail name">array</h3><pre class="member detail synopsis">public final float[] array()</pre><blockquote class="member detail name"><div class="member detail description"> float[] version of <a href="../../codeanticode/contrapro/GLFrame.html#matrix()"><code>matrix()</code></a>.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="clone()" id="clone()"/><div class="member detail outer"><h3 class="member detail name">clone</h3><pre class="member detail synopsis">public GLFrame clone()</pre><blockquote class="member detail name"><div class="member detail description"> Implementation of the clone method.
+ 
+ <p/>
+ 
+ The method performs a deep copy of the <a href="../../codeanticode/contrapro/GLFrame.html#translation()"><code>translation()</code></a> and 
+<a href="../../codeanticode/contrapro/GLFrame.html#rotation()"><code>rotation()</code></a> objects of the GLFrame, and a shallow copy of
+  its <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a> and <a href="../../codeanticode/contrapro/GLFrame.html#constraint()"><code>constraint()</code></a> objects.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLFrame.html#copy()"><code>copy()</code></a></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="constraint()" id="constraint()"/><div class="member detail outer"><h3 class="member detail name">constraint</h3><pre class="member detail synopsis">public GLConstraint constraint()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the current constraint applied to the GLFrame.
+ 
+ <p/>
+ 
+ A <code>null</code> value (default) means that no GLConstraint is used to
+ filter the GLFrame translation and rotation.
+ 
+ <p/>
+ 
+ See the GLConstraint class documentation for details.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="coordinatesOf(PVector)" id="coordinatesOf(PVector)"/><div class="member detail outer"><h3 class="member detail name">coordinatesOf</h3><pre class="member detail synopsis">public final PVector coordinatesOf(PVector src)</pre><blockquote class="member detail name"><div class="member detail description"> Returns the GLFrame coordinates of a point <code>src</code> defined in the world
+ coordinate system (converts from world to Frame).
+ 
+ <p/>
+<a href="../../codeanticode/contrapro/GLFrame.html#inverseCoordinatesOf(PVector)"><code>inverseCoordinatesOf(PVector)</code></a> performs the inverse conversion.
+<a href="../../codeanticode/contrapro/GLFrame.html#transformOf(PVector)"><code>transformOf(PVector)</code></a> converts 3D vectors instead of 3D coordinates.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="coordinatesOfFrom(PVector,GLFrame)" id="coordinatesOfFrom(PVector,GLFrame)"/><div class="member detail outer"><h3 class="member detail name">coordinatesOfFrom</h3><pre class="member detail synopsis">public final PVector coordinatesOfFrom(PVector src,
+                                       GLFrame from)</pre><blockquote class="member detail name"><div class="member detail description"> Returns the GLFrame coordinates of the point whose position in the <code>from</code>
+ coordinate system is <code>src</code> (converts from <code>from</code> to GLFrame).
+ 
+ <p/>
+<a href="../../codeanticode/contrapro/GLFrame.html#coordinatesOfIn(PVector,GLFrame)"><code>coordinatesOfIn(PVector,GLFrame)</code></a> performs the inverse transformation.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="coordinatesOfIn(PVector,GLFrame)" id="coordinatesOfIn(PVector,GLFrame)"/><div class="member detail outer"><h3 class="member detail name">coordinatesOfIn</h3><pre class="member detail synopsis">public final PVector coordinatesOfIn(PVector src,
+                                     GLFrame in)</pre><blockquote class="member detail name"><div class="member detail description"> Returns the <code>in</code> coordinates of the point whose position in the GLFrame
+ coordinate system is <code>src</code> (converts from GLFrame to <code>in</code>).
+ 
+ <p/>
+<a href="../../codeanticode/contrapro/GLFrame.html#coordinatesOfFrom(PVector,GLFrame)"><code>coordinatesOfFrom(PVector,GLFrame)</code></a> performs the inverse transformation.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="copy()" id="copy()"/><div class="member detail outer"><h3 class="member detail name">copy</h3><pre class="member detail synopsis">public GLFrame copy()</pre><blockquote class="member detail name"><div class="member detail description"> Calls <code>GLFrame(GLFrame)</code> (which is private) and returns a copy
+ of <code>this</code> object.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><code>GLFrame(GLFrame)</code></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="fromArray(float[])" id="fromArray(float[])"/><div class="member detail outer"><h3 class="member detail name">fromArray</h3><pre class="member detail synopsis">public final void fromArray(float[] m)</pre><blockquote class="member detail name"><div class="member detail description"> Sets the GLFrame from an OpenGL matrix representation (rotation
+ in the upper left 3x3 matrix and translation on the last line).
+ 
+ <p/>
+ 
+ Hence, if a code fragment looks like:
+ 
+ <p/>
+<code>float [] m = new float [16]; m[0]=...;</code> <br/>
+<code>gl.glMultMatrixf(m);</code> <br/>
+ 
+ <p/>
+ 
+ It is equivalent to write:
+ 
+ <p/>
+<code>GLFrame fr = new GLFrame();</code> <br/>
+<code>fr.setFromMatrix(m);</code> <br/>
+<code>gl.glMultMatrixf(fr.matrix());</code> <br/>
+ 
+ <p/>
+ 
+ Using this conversion, you can benefit from the powerful GLFrame
+ transformation methods to translate points and vectors to and from
+ the GLFrame coordinate system to any other GLFrame coordinate system
+ (including the world coordinate system). See coordinatesOf() and transformOf().
+ 
+ <p/>
+ 
+ <b>Attention:</b> A GLFrame does not contain a scale factor. The possible scaling
+ in <code>m</code> will not be	converted into the GLFrame by this method.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="fromMatrix(float[][])" id="fromMatrix(float[][])"/><div class="member detail outer"><h3 class="member detail name">fromMatrix</h3><pre class="member detail synopsis">public final void fromMatrix(float[][] m)</pre><blockquote class="member detail name"><div class="member detail description"> This is an overloaded method provided for convenience. Same as <a href="../../codeanticode/contrapro/GLFrame.html#fromArray(float[])"><code>fromArray(float[])</code></a>
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="inverse()" id="inverse()"/><div class="member detail outer"><h3 class="member detail name">inverse</h3><pre class="member detail synopsis">public final GLFrame inverse()</pre><blockquote class="member detail name"><div class="member detail description"> Returns a GLFrame representing the inverse of the GLFrame space transformation.
+ 
+ <p/>
+ 
+ The <a href="../../codeanticode/contrapro/GLFrame.html#rotation()"><code>rotation()</code></a> the new GLFrame is the
+<a href="../../codeanticode/contrapro/GLQuaternion.html#inverse()"><code>GLQuaternion.inverse()</code></a> of the original rotation.
+  Its <a href="../../codeanticode/contrapro/GLFrame.html#translation()"><code>translation()</code></a> is the negated inverse rotated image of the original
+ translation.
+ 
+ <p/>
+ 
+ If a GLFrame is considered as a space rigid transformation (translation and
+ rotation), the inverse() GLFrame performs the inverse transformation.
+ 
+ <p/>
+ 
+ Only the local GLFrame transformation (i.e., defined with respect to the
+<a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a>) is inverted. Use <a href="../../codeanticode/contrapro/GLFrame.html#worldInverse()"><code>worldInverse()</code></a> for a
+  global inverse.
+ 
+ <p/>
+ 
+ The resulting GLFrame has the same  <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a> as the GLFrame
+ and a <code>null</code> <a href="../../codeanticode/contrapro/GLFrame.html#constraint()"><code>constraint()</code></a>.
+ 
+ <p/>
+ 
+ <b>Note:</b> The scaling factor of the 4x4 matrix is 1.0.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="inverseCoordinatesOf(PVector)" id="inverseCoordinatesOf(PVector)"/><div class="member detail outer"><h3 class="member detail name">inverseCoordinatesOf</h3><pre class="member detail synopsis">public final PVector inverseCoordinatesOf(PVector src)</pre><blockquote class="member detail name"><div class="member detail description"> Returns the world coordinates of the point whose position in the GLFrame
+ coordinate system is <code>src</code> (converts from Frame to world).
+ 
+ <p/>
+<a href="../../codeanticode/contrapro/GLFrame.html#coordinatesOf(PVector)"><code>coordinatesOf(PVector)</code></a> performs the inverse conversion. Use
+<a href="../../codeanticode/contrapro/GLFrame.html#inverseTransformOf(PVector)"><code>inverseTransformOf(PVector)</code></a> to transform 3D vectors instead
+ 
+   of 3D coordinates.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="inverseTransformOf(PVector)" id="inverseTransformOf(PVector)"/><div class="member detail outer"><h3 class="member detail name">inverseTransformOf</h3><pre class="member detail synopsis">public final PVector inverseTransformOf(PVector src)</pre><blockquote class="member detail name"><div class="member detail description"> Returns the world transform of the vector whose coordinates in the GLFrame
+ coordinate system is <code>src</code> (converts vectors from Frame to world).
+ 
+ <p/>
+<a href="../../codeanticode/contrapro/GLFrame.html#transformOf(PVector)"><code>transformOf(PVector)</code></a> performs the inverse transformation. Use
+<a href="../../codeanticode/contrapro/GLFrame.html#inverseCoordinatesOf(PVector)"><code>inverseCoordinatesOf(PVector)</code></a> to transform 3D coordinates instead
+ 
+   of 3D vectors.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="localCoordinatesOf(PVector)" id="localCoordinatesOf(PVector)"/><div class="member detail outer"><h3 class="member detail name">localCoordinatesOf</h3><pre class="member detail synopsis">public final PVector localCoordinatesOf(PVector src)</pre><blockquote class="member detail name"><div class="member detail description"> Returns the GLFrame coordinates of a point <code>src</code> defined in the
+<a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a> coordinate system (converts from referenceFrame()
+  to Frame).
+ 
+ <p/>
+<a href="../../codeanticode/contrapro/GLFrame.html#localInverseCoordinatesOf(PVector)"><code>localInverseCoordinatesOf(PVector)</code></a> performs the inverse conversion.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLFrame.html#localTransformOf(PVector)"><code>localTransformOf(PVector)</code></a></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="localInverseCoordinatesOf(PVector)" id="localInverseCoordinatesOf(PVector)"/><div class="member detail outer"><h3 class="member detail name">localInverseCoordinatesOf</h3><pre class="member detail synopsis">public final PVector localInverseCoordinatesOf(PVector src)</pre><blockquote class="member detail name"><div class="member detail description"> Returns the <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a> coordinates of a point <code>src</code> defined
+ in the GLFrame coordinate system (converts from Frame to <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a>).
+ 
+ <p/>
+<a href="../../codeanticode/contrapro/GLFrame.html#localCoordinatesOf(PVector)"><code>localCoordinatesOf(PVector)</code></a> performs the inverse conversion.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLFrame.html#localInverseTransformOf(PVector)"><code>localInverseTransformOf(PVector)</code></a></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="localInverseTransformOf(PVector)" id="localInverseTransformOf(PVector)"/><div class="member detail outer"><h3 class="member detail name">localInverseTransformOf</h3><pre class="member detail synopsis">public final PVector localInverseTransformOf(PVector src)</pre><blockquote class="member detail name"><div class="member detail description"> Returns the <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a> transform of a vector <code>src</code>
+ defined in the GLFrame coordinate system (converts vectors from GLFrame
+ to <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a>).
+ 
+ <p/>
+<a href="../../codeanticode/contrapro/GLFrame.html#localTransformOf(PVector)"><code>localTransformOf(PVector)</code></a> performs the inverse transformation.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLFrame.html#localInverseCoordinatesOf(PVector)"><code>localInverseCoordinatesOf(PVector)</code></a></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="localTransformOf(PVector)" id="localTransformOf(PVector)"/><div class="member detail outer"><h3 class="member detail name">localTransformOf</h3><pre class="member detail synopsis">public final PVector localTransformOf(PVector src)</pre><blockquote class="member detail name"><div class="member detail description"> Returns the GLFrame transform of a vector <code>src</code> defined in the
+<a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a> coordinate system (converts vectors from
+<a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a> to GLFrame).
+   
+ <p/>
+<a href="../../codeanticode/contrapro/GLFrame.html#localInverseTransformOf(PVector)"><code>localInverseTransformOf(PVector)</code></a> performs the inverse transformation.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLFrame.html#localCoordinatesOf(PVector)"><code>localCoordinatesOf(PVector)</code></a></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="matrix()" id="matrix()"/><div class="member detail outer"><h3 class="member detail name">matrix</h3><pre class="member detail synopsis">public final float[][] matrix()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the 4x4 OpenGL transformation matrix represented by the GLFrame.
+ 
+ <p/>
+ 
+ This method should be used in conjunction with <code>glMultMatrixf()</code>
+ to modify the OpenGL modelview matrix from a GLFrame hierarchy. For example
+ with this GLFrame hierarchy:
+ 
+ <p/>
+<code>GLFrame body = new GLFrame();</code> <br/>
+<code>GLFrame leftArm = new GLFrame();</code> <br/>
+<code>GLFrame rightArm = new GLFrame();</code> <br/>
+<code>leftArm.setReferenceFrame(body);</code> <br/>
+<code>rightArm.setReferenceFrame(body);</code> <br/>
+ 
+ <p/>
+ 
+ The associated OpenGL drawing code should look like:
+ 
+ <p/>
+<code>gl.glPushMatrix();</code> <br/>
+<code>gl.glMultMatrixd(body.matrix());</code> <br/>
+<code>drawBody();</code> <br/>
+<code>gl.glPushMatrix();</code> <br/>
+<code>gl.glMultMatrixd(leftArm.matrix());</code> <br/>
+<code>gl.drawArm();</code> <br/>
+<code>gl.glPopMatrix();</code> <br/>
+<code>gl.glPushMatrix();</code> <br/>
+<code>gl.glMultMatrixd(rightArm.matrix());</code> <br/>
+<code>drawArm();</code> <br/>
+<code>gl.glPopMatrix();</code> <br/>
+<code>gl.glPopMatrix();</code> <br/>
+ 
+ <p/>
+ 
+ Note the use of nested <code>gl.glPushMatrix()</code> and <code>gl.glPopMatrix()</code>
+ blocks to represent the frame hierarchy: <code>leftArm</code> and <code>rightArm</code>
+ are both correctly drawn with respect to the <code>body</code> coordinate system.
+ 
+ <p/>
+ 
+ This matrix only represents the local GLFrame transformation (i.e., with respect
+ to the <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a>). Use <a href="../../codeanticode/contrapro/GLFrame.html#worldMatrix()"><code>worldMatrix()</code></a> to get the full 
+ GLFrame transformation matrix (i.e., from the world to the Frame coordinate system).
+ These two match when the <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a> is <code>null</code>.
+ 
+ <p/>
+ 
+ The result is only valid until the next call to <code>matrix()</code>, <a href="../../codeanticode/contrapro/GLFrame.html#array()"><code>array()</code></a>,
+<a href="../../codeanticode/contrapro/GLFrame.html#worldMatrix()"><code>worldMatrix()</code></a> or <a href="../../codeanticode/contrapro/GLFrame.html#worldArray()"><code>worldArray()</code></a>. Use it immediately (as above).
+  
+ <p/>
+ 
+ <b>Attention:</b> The OpenGL format of the result is the transpose of the
+ actual mathematical European representation (translation is on
+ the last <i>line</i> instead of the last <i>column</i>).
+ 
+ <p/>
+ 
+ <b>Note:</b> The scaling factor of the 4x4 matrix is 1.0.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="orientation()" id="orientation()"/><div class="member detail outer"><h3 class="member detail name">orientation</h3><pre class="member detail synopsis">public final GLQuaternion orientation()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the orientation of the GLFrame, defined in the world coordinate system.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLFrame.html#position()"><code>position()</code></a>, <a href="../../codeanticode/contrapro/GLFrame.html#setOrientation(GLQuaternion)"><code>setOrientation(GLQuaternion)</code></a>, <a href="../../codeanticode/contrapro/GLFrame.html#rotation()"><code>rotation()</code></a></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="position()" id="position()"/><div class="member detail outer"><h3 class="member detail name">position</h3><pre class="member detail synopsis">public final PVector position()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the position of the GLFrame, defined in the world coordinate system.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLFrame.html#orientation()"><code>orientation()</code></a>, <a href="../../codeanticode/contrapro/GLFrame.html#setPosition(PVector)"><code>setPosition(PVector)</code></a>, <a href="../../codeanticode/contrapro/GLFrame.html#translation()"><code>translation()</code></a></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="projectOnLine(PVector,PVector)" id="projectOnLine(PVector,PVector)"/><div class="member detail outer"><h3 class="member detail name">projectOnLine</h3><pre class="member detail synopsis">public final void projectOnLine(PVector origin,
+                                PVector direction)</pre><blockquote class="member detail name"><div class="member detail description"> Translates the GLFrame so that its <a href="../../codeanticode/contrapro/GLFrame.html#position()"><code>position()</code></a> lies on the line
+ defined by <code>origin</code> and <code>direction</code> (defined in the world
+ coordinate system).
+ 
+ <p/>
+ 
+ Simply uses an orthogonal projection. <code>direction</code> does not need
+ to be normalized.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="referenceFrame()" id="referenceFrame()"/><div class="member detail outer"><h3 class="member detail name">referenceFrame</h3><pre class="member detail synopsis">public final GLFrame referenceFrame()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the reference GLFrame, in which coordinates system the GLFrame is defined.
+ 
+ <p/>
+ 
+ The <a href="../../codeanticode/contrapro/GLFrame.html#translation()"><code>translation()</code></a> <a href="../../codeanticode/contrapro/GLFrame.html#rotation()"><code>rotation()</code></a> of the GLFrame are defined with
+ respect to the reference GLFrame coordinate system. A <code>null</code>
+ reference GLFrame (default value) means that the GLFrame is defined in
+ the world coordinate system.
+  
+ <p/>
+  
+ Use <a href="../../codeanticode/contrapro/GLFrame.html#position()"><code>position()</code></a> and <a href="../../codeanticode/contrapro/GLFrame.html#orientation()"><code>orientation()</code></a> to recursively convert values
+ along the reference GLFrame chain and to get values expressed in the world
+ coordinate system. The values match when the reference GLFrame <code>null</code>.
+  
+ <p/>
+  
+ Use <a href="../../codeanticode/contrapro/GLFrame.html#setReferenceFrame(GLFrame)"><code>setReferenceFrame(GLFrame)</code></a> to set this value and create a Frame hierarchy.
+ Convenient functions allow you to convert 3D coordinates from one GLFrame
+ to another: see <a href="../../codeanticode/contrapro/GLFrame.html#coordinatesOf(PVector)"><code>coordinatesOf(PVector)</code></a>, <a href="../../codeanticode/contrapro/GLFrame.html#localCoordinatesOf(PVector)"><code>localCoordinatesOf(PVector)</code></a> ,
+<a href="../../codeanticode/contrapro/GLFrame.html#coordinatesOfIn(PVector,GLFrame)"><code>coordinatesOfIn(PVector,GLFrame)</code></a> and their inverse functions.
+   
+ <p/>
+  
+ Vectors can also be converted using <a href="../../codeanticode/contrapro/GLFrame.html#transformOf(PVector)"><code>transformOf(PVector)</code></a>,
+<a href="../../codeanticode/contrapro/GLFrame.html#transformOfIn(PVector,GLFrame)"><code>transformOfIn(PVector,GLFrame)</code></a>, <a href="../../codeanticode/contrapro/GLFrame.html#localTransformOf(PVector)"><code>localTransformOf(PVector)</code></a> and
+  their inverse functions.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="rotate(GLQuaternion)" id="rotate(GLQuaternion)"/><div class="member detail outer"><h3 class="member detail name">rotate</h3><pre class="member detail synopsis">public final void rotate(GLQuaternion q)</pre><blockquote class="member detail name"><div class="member detail description"> Rotates the GLFrame by <code>q</code> (defined in the GLFrame coordinate system): R = R*q.
+ 
+ <p/>
+ 
+ If there's a <a href="../../codeanticode/contrapro/GLFrame.html#constraint()"><code>constraint()</code></a> it is satisfied without modifying <code>q</code>:
+ The rotation actually applied to the GLFrame may differ from <code>q</code> since it
+ can be filtered by the <a href="../../codeanticode/contrapro/GLFrame.html#constraint()"><code>constraint()</code></a>. Use
+<a href="../../codeanticode/contrapro/GLFrame.html#rotateModifyingArgument(GLQuaternion)"><code>rotateModifyingArgument(GLQuaternion)</code></a> to retrieve the filtered rotation
+  value. Use <a href="../../codeanticode/contrapro/GLFrame.html#setRotation(GLQuaternion)"><code>setRotation(GLQuaternion)</code></a> to directly rotate the GLFrame
+ without taking the <a href="../../codeanticode/contrapro/GLFrame.html#constraint()"><code>constraint()</code></a> into account.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLFrame.html#translate(PVector)"><code>translate(PVector)</code></a></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="rotate(float,float,float,float)" id="rotate(float,float,float,float)"/><div class="member detail outer"><h3 class="member detail name">rotate</h3><pre class="member detail synopsis">public final void rotate(float x,
+                         float y,
+                         float z,
+                         float w)</pre><blockquote class="member detail name"><div class="member detail description"> Same as <a href="../../codeanticode/contrapro/GLFrame.html#rotate(GLQuaternion)"><code>rotate(GLQuaternion)</code></a> but with <code>float</code> GLQuaternion parameters.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="rotateAroundPoint(GLQuaternion,PVector)" id="rotateAroundPoint(GLQuaternion,PVector)"/><div class="member detail outer"><h3 class="member detail name">rotateAroundPoint</h3><pre class="member detail synopsis">public final void rotateAroundPoint(GLQuaternion rotation,
+                                    PVector point)</pre><blockquote class="member detail name"><div class="member detail description"> Makes the GLFrame <a href="../../codeanticode/contrapro/GLFrame.html#rotate(GLQuaternion)"><code>rotate(GLQuaternion)</code></a> by <code>rotation</code> around <code>point</code>.
+ 
+ <p/>
+<code>point</code> is defined in the world coordinate system, while the <code>rotation</code>
+ axis is defined in the GLFrame coordinate system.
+ 
+ <p/>
+ 
+ If the GLFrame has a <a href="../../codeanticode/contrapro/GLFrame.html#constraint()"><code>constraint()</code></a>, <code>rotation</code> is first constrained using
+<a href="../../codeanticode/contrapro/GLConstraint.html#constrainRotation(GLQuaternion,GLFrame)"><code>GLConstraint.constrainRotation(GLQuaternion,GLFrame)</code></a>.
+  The translation which results from the filtered rotation around <code>point</code> is then
+ computed and filtered using
+<a href="../../codeanticode/contrapro/GLConstraint.html#constrainTranslation(PVector,GLFrame)"><code>GLConstraint.constrainTranslation(PVector,GLFrame)</code></a>.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="rotateAroundPointModifyingArgument(GLQuaternion,PVector)" id="rotateAroundPointModifyingArgument(GLQuaternion,PVector)"/><div class="member detail outer"><h3 class="member detail name">rotateAroundPointModifyingArgument</h3><pre class="member detail synopsis">public final void rotateAroundPointModifyingArgument(GLQuaternion rotation,
+                                                     PVector point)</pre><blockquote class="member detail name"><div class="member detail description"> Same as <a href="../../codeanticode/contrapro/GLFrame.html#rotateAroundPoint(GLQuaternion,PVector)"><code>rotateAroundPoint(GLQuaternion,PVector)</code></a> but if there's a
+<a href="../../codeanticode/contrapro/GLFrame.html#constraint()"><code>constraint()</code></a> <code>rotation</code> is modified to satisfy it.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="rotateModifyingArgument(GLQuaternion)" id="rotateModifyingArgument(GLQuaternion)"/><div class="member detail outer"><h3 class="member detail name">rotateModifyingArgument</h3><pre class="member detail synopsis">public final void rotateModifyingArgument(GLQuaternion q)</pre><blockquote class="member detail name"><div class="member detail description"> Same as <a href="../../codeanticode/contrapro/GLFrame.html#rotate(GLQuaternion)"><code>rotate(GLQuaternion)</code></a> but if there's a <a href="../../codeanticode/contrapro/GLFrame.html#constraint()"><code>constraint()</code></a> 
+<code>q</code> is modified to satisfy it.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="rotation()" id="rotation()"/><div class="member detail outer"><h3 class="member detail name">rotation</h3><pre class="member detail synopsis">public final GLQuaternion rotation()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the GLFrame rotation, defined with respect
+ to the <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a> (i.e, the current
+ GLQuaternion orientation).
+ 
+ <p/>
+ 
+ Use <a href="../../codeanticode/contrapro/GLFrame.html#orientation()"><code>orientation()</code></a> to get the result in the world coordinates.
+ These two values are identical when the <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a>
+ is <code>null</code> (default).
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLFrame.html#setRotation(GLQuaternion)"><code>setRotation(GLQuaternion)</code></a>, <a href="../../codeanticode/contrapro/GLFrame.html#setRotationWithConstraint(GLQuaternion)"><code>setRotationWithConstraint(GLQuaternion)</code></a></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setConstraint(GLConstraint)" id="setConstraint(GLConstraint)"/><div class="member detail outer"><h3 class="member detail name">setConstraint</h3><pre class="member detail synopsis">public void setConstraint(GLConstraint c)</pre><blockquote class="member detail name"><div class="member detail description"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setOrientation(GLQuaternion)" id="setOrientation(GLQuaternion)"/><div class="member detail outer"><h3 class="member detail name">setOrientation</h3><pre class="member detail synopsis">public final void setOrientation(GLQuaternion q)</pre><blockquote class="member detail name"><div class="member detail description"> Sets the <a href="../../codeanticode/contrapro/GLFrame.html#orientation()"><code>orientation()</code></a> of the GLFrame, defined in the world coordinate system.
+ 
+ <p/>
+ 
+ Use <a href="../../codeanticode/contrapro/GLFrame.html#setRotation(GLQuaternion)"><code>setRotation(GLQuaternion)</code></a>to define the local frame rotation
+ (with respect to the <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a>).  The potential
+<a href="../../codeanticode/contrapro/GLFrame.html#constraint()"><code>constraint()</code></a> of the GLFrame is not taken into account, use
+<a href="../../codeanticode/contrapro/GLFrame.html#setOrientationWithConstraint(GLQuaternion)"><code>setOrientationWithConstraint(GLQuaternion)</code></a> instead.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setOrientation(float,float,float,float)" id="setOrientation(float,float,float,float)"/><div class="member detail outer"><h3 class="member detail name">setOrientation</h3><pre class="member detail synopsis">public final void setOrientation(float x,
+                                 float y,
+                                 float z,
+                                 float w)</pre><blockquote class="member detail name"><div class="member detail description"> Same as <a href="../../codeanticode/contrapro/GLFrame.html#setOrientation(GLQuaternion)"><code>setOrientation(GLQuaternion)</code></a>, but with <code>float</code> parameters.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setOrientationWithConstraint(GLQuaternion)" id="setOrientationWithConstraint(GLQuaternion)"/><div class="member detail outer"><h3 class="member detail name">setOrientationWithConstraint</h3><pre class="member detail synopsis">public final void setOrientationWithConstraint(GLQuaternion orientation)</pre><blockquote class="member detail name"><div class="member detail description"> Same as <a href="../../codeanticode/contrapro/GLFrame.html#setOrientation(GLQuaternion)"><code>setOrientation(GLQuaternion)</code></a>, but if there's a
+<a href="../../codeanticode/contrapro/GLFrame.html#constraint()"><code>constraint()</code></a> it is satisfied (without modifying
+<code>orientation</code>).
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLFrame.html#setPositionWithConstraint(PVector)"><code>setPositionWithConstraint(PVector)</code></a>, <a href="../../codeanticode/contrapro/GLFrame.html#setRotationWithConstraint(GLQuaternion)"><code>setRotationWithConstraint(GLQuaternion)</code></a></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setPosition(PVector)" id="setPosition(PVector)"/><div class="member detail outer"><h3 class="member detail name">setPosition</h3><pre class="member detail synopsis">public final void setPosition(PVector p)</pre><blockquote class="member detail name"><div class="member detail description"> Sets the <a href="../../codeanticode/contrapro/GLFrame.html#position()"><code>position()</code></a> of the GLFrame, defined in the world coordinate system.
+ 
+ <p/>
+ 
+ Use  <a href="../../codeanticode/contrapro/GLFrame.html#setTranslation(PVector)"><code>setTranslation(PVector)</code></a> to define the local GLframe translation
+ (with respect to the <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a>). The potential <a href="../../codeanticode/contrapro/GLFrame.html#constraint()"><code>constraint()</code></a>
+ of the GLFrame is not taken into account, use
+<a href="../../codeanticode/contrapro/GLFrame.html#setPositionWithConstraint(PVector)"><code>setPositionWithConstraint(PVector)</code></a> instead.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setPosition(float,float,float)" id="setPosition(float,float,float)"/><div class="member detail outer"><h3 class="member detail name">setPosition</h3><pre class="member detail synopsis">public final void setPosition(float x,
+                              float y,
+                              float z)</pre><blockquote class="member detail name"><div class="member detail description"> Same as <a href="../../codeanticode/contrapro/GLFrame.html#setPosition(float,float,float)"><code>setPosition(float,float,float)</code></a>, but with <code>float</code> parameters.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setPositionWithConstraint(PVector)" id="setPositionWithConstraint(PVector)"/><div class="member detail outer"><h3 class="member detail name">setPositionWithConstraint</h3><pre class="member detail synopsis">public final void setPositionWithConstraint(PVector position)</pre><blockquote class="member detail name"><div class="member detail description"> Same as <a href="../../codeanticode/contrapro/GLFrame.html#setPosition(PVector)"><code>setPosition(PVector)</code></a>, but if there's a
+<a href="../../codeanticode/contrapro/GLFrame.html#constraint()"><code>constraint()</code></a> it is satisfied (without modifying
+<code>position</code>).
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLFrame.html#setOrientationWithConstraint(GLQuaternion)"><code>setOrientationWithConstraint(GLQuaternion)</code></a>, <a href="../../codeanticode/contrapro/GLFrame.html#setTranslationWithConstraint(PVector)"><code>setTranslationWithConstraint(PVector)</code></a></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setReferenceFrame(GLFrame)" id="setReferenceFrame(GLFrame)"/><div class="member detail outer"><h3 class="member detail name">setReferenceFrame</h3><pre class="member detail synopsis">public final void setReferenceFrame(GLFrame rFrame)</pre><blockquote class="member detail name"><div class="member detail description"> Sets the <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a> of the GLFrame.
+ 
+ <p/>
+ 
+ The GLFrame <a href="../../codeanticode/contrapro/GLFrame.html#translation()"><code>translation()</code></a> and <a href="../../codeanticode/contrapro/GLFrame.html#rotation()"><code>rotation()</code></a> are then defined
+ in the <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a> coordinate system.
+ 
+ <p/>
+ 
+ Use <a href="../../codeanticode/contrapro/GLFrame.html#position()"><code>position()</code></a> and <a href="../../codeanticode/contrapro/GLFrame.html#orientation()"><code>orientation()</code></a> to express these in
+ the world coordinate system.
+ 
+ <p/>
+ 
+ Using this method, you can create a hierarchy of Frames. This hierarchy needs
+ to be a tree, which root is the world coordinate system (i.e.,
+<code>null</code> <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a>). No action is performed if setting
+<code>refFrame</code> as the <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a> would create a loop in the
+ GLFrame hierarchy
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLFrame.html#settingAsReferenceFrameWillCreateALoop(GLFrame)"><code>settingAsReferenceFrameWillCreateALoop(GLFrame)</code></a></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setRotation(GLQuaternion)" id="setRotation(GLQuaternion)"/><div class="member detail outer"><h3 class="member detail name">setRotation</h3><pre class="member detail synopsis">public final void setRotation(GLQuaternion r)</pre><blockquote class="member detail name"><div class="member detail description"> Set the current rotation GLQuaternion. See the different
+ GLQuaternion constructors.
+ 
+ <p/>
+ 
+ Sets the <a href="../../codeanticode/contrapro/GLFrame.html#rotation()"><code>rotation()</code></a> of the Frame, locally defined
+ with respect to the <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a>.
+ 
+ <p/>
+ 
+ Use <a href="../../codeanticode/contrapro/GLFrame.html#setOrientation(GLQuaternion)"><code>setOrientation(GLQuaternion)</code></a> to define the world
+ coordinates <a href="../../codeanticode/contrapro/GLFrame.html#orientation()"><code>orientation()</code></a>. The potential 
+<a href="../../codeanticode/contrapro/GLFrame.html#constraint()"><code>constraint()</code></a> of the GLFrame is not taken into account,
+  use <a href="../../codeanticode/contrapro/GLFrame.html#setRotationWithConstraint(GLQuaternion)"><code>setRotationWithConstraint(GLQuaternion)</code></a> instead.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLFrame.html#setRotationWithConstraint(GLQuaternion)"><code>setRotationWithConstraint(GLQuaternion)</code></a>, <a href="../../codeanticode/contrapro/GLFrame.html#rotation()"><code>rotation()</code></a>, <a href="../../codeanticode/contrapro/GLFrame.html#setTranslation(PVector)"><code>setTranslation(PVector)</code></a></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setRotation(float,float,float,float)" id="setRotation(float,float,float,float)"/><div class="member detail outer"><h3 class="member detail name">setRotation</h3><pre class="member detail synopsis">public final void setRotation(float x,
+                              float y,
+                              float z,
+                              float w)</pre><blockquote class="member detail name"><div class="member detail description"> Same as <a href="../../codeanticode/contrapro/GLFrame.html#setRotation(GLQuaternion)"><code>setRotation(GLQuaternion)</code></a> but with <code>float</code>
+ GLQuaternion parameters.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setRotationWithConstraint(GLQuaternion)" id="setRotationWithConstraint(GLQuaternion)"/><div class="member detail outer"><h3 class="member detail name">setRotationWithConstraint</h3><pre class="member detail synopsis">public final void setRotationWithConstraint(GLQuaternion rotation)</pre><blockquote class="member detail name"><div class="member detail description"> Same as <a href="../../codeanticode/contrapro/GLFrame.html#setRotation(GLQuaternion)"><code>setRotation(GLQuaternion)</code></a>, if there's a <a href="../../codeanticode/contrapro/GLFrame.html#constraint()"><code>constraint()</code></a>
+ it's satisfied (without modifying <code>rotation</code>).
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLFrame.html#setTranslationWithConstraint(PVector)"><code>setTranslationWithConstraint(PVector)</code></a>, <code>//PEND</code></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setTranslation(PVector)" id="setTranslation(PVector)"/><div class="member detail outer"><h3 class="member detail name">setTranslation</h3><pre class="member detail synopsis">public final void setTranslation(PVector t)</pre><blockquote class="member detail name"><div class="member detail description"> Sets the <a href="../../codeanticode/contrapro/GLFrame.html#translation()"><code>translation()</code></a> of the frame, locally defined
+ with respect to the <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a>.
+ 
+ <p/>
+ 
+ Use <a href="../../codeanticode/contrapro/GLFrame.html#setPosition(PVector)"><code>setPosition(PVector)</code></a> to define the world coordinates <a href="../../codeanticode/contrapro/GLFrame.html#position()"><code>position()</code></a>.
+ Use <a href="../../codeanticode/contrapro/GLFrame.html#setTranslationWithConstraint(PVector)"><code>setTranslationWithConstraint(PVector)</code></a> to take into account the potential
+<a href="../../codeanticode/contrapro/GLFrame.html#constraint()"><code>constraint()</code></a> of the GLFrame.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setTranslation(float,float,float)" id="setTranslation(float,float,float)"/><div class="member detail outer"><h3 class="member detail name">setTranslation</h3><pre class="member detail synopsis">public final void setTranslation(float x,
+                                 float y,
+                                 float z)</pre><blockquote class="member detail name"><div class="member detail description"> Same as <a href="../../codeanticode/contrapro/GLFrame.html#setTranslation(PVector)"><code>setTranslation(PVector)</code></a>, but with <code>float</code> parameters.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setTranslationWithConstraint(PVector)" id="setTranslationWithConstraint(PVector)"/><div class="member detail outer"><h3 class="member detail name">setTranslationWithConstraint</h3><pre class="member detail synopsis">public final void setTranslationWithConstraint(PVector translation)</pre><blockquote class="member detail name"><div class="member detail description"> Same as <a href="../../codeanticode/contrapro/GLFrame.html#setTranslation(PVector)"><code>setTranslation(PVector)</code></a>, but if there's a
+<a href="../../codeanticode/contrapro/GLFrame.html#constraint()"><code>constraint()</code></a> it is satisfied (without modifying
+<code>translation</code>).
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLFrame.html#setRotationWithConstraint(GLQuaternion)"><code>setRotationWithConstraint(GLQuaternion)</code></a>, <a href="../../codeanticode/contrapro/GLFrame.html#setPositionWithConstraint(PVector)"><code>setPositionWithConstraint(PVector)</code></a></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="settingAsReferenceFrameWillCreateALoop(GLFrame)" id="settingAsReferenceFrameWillCreateALoop(GLFrame)"/><div class="member detail outer"><h3 class="member detail name">settingAsReferenceFrameWillCreateALoop</h3><pre class="member detail synopsis">public final boolean settingAsReferenceFrameWillCreateALoop(GLFrame frame)</pre><blockquote class="member detail name"><div class="member detail description"> Returns <code>true</code> if setting <code>frame</code> as the GLFrame's <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a>
+ would create a loop in the GLFrame hierarchy.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="transformOf(PVector)" id="transformOf(PVector)"/><div class="member detail outer"><h3 class="member detail name">transformOf</h3><pre class="member detail synopsis">public final PVector transformOf(PVector src)</pre><blockquote class="member detail name"><div class="member detail description"> Returns the GLFrame transform of a vector <code>src</code> defined in the world
+ coordinate system (converts vectors from world to Frame).
+ 
+ <p/>
+<a href="../../codeanticode/contrapro/GLFrame.html#inverseTransformOf(PVector)"><code>inverseTransformOf(PVector)</code></a> performs the inverse transformation.
+<a href="../../codeanticode/contrapro/GLFrame.html#coordinatesOf(PVector)"><code>coordinatesOf(PVector)</code></a> converts 3D coordinates instead of 3D vectors
+ 
+   (here only the rotational part of the transformation is taken into account).
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="transformOfFrom(PVector,GLFrame)" id="transformOfFrom(PVector,GLFrame)"/><div class="member detail outer"><h3 class="member detail name">transformOfFrom</h3><pre class="member detail synopsis">public final PVector transformOfFrom(PVector src,
+                                     GLFrame from)</pre><blockquote class="member detail name"><div class="member detail description"> Returns the GLFrame transform of the vector whose coordinates in the <code>from</code>
+ coordinate system is <code>src</code> (converts vectors from <code>from</code> to GLFrame).
+ 
+ <p/>
+<a href="../../codeanticode/contrapro/GLFrame.html#transformOfIn(PVector,GLFrame)"><code>transformOfIn(PVector,GLFrame)</code></a> performs the inverse transformation.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="transformOfIn(PVector,GLFrame)" id="transformOfIn(PVector,GLFrame)"/><div class="member detail outer"><h3 class="member detail name">transformOfIn</h3><pre class="member detail synopsis">public final PVector transformOfIn(PVector src,
+                                   GLFrame in)</pre><blockquote class="member detail name"><div class="member detail description"> Returns the <code>in</code> transform of the vector whose coordinates in the GLFrame
+ coordinate system is <code>src</code> (converts vectors from GLFrame to <code>in</code>).
+ 
+ <p/>
+<a href="../../codeanticode/contrapro/GLFrame.html#transformOfFrom(PVector,GLFrame)"><code>transformOfFrom(PVector,GLFrame)</code></a> performs the inverse transformation.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="translate(PVector)" id="translate(PVector)"/><div class="member detail outer"><h3 class="member detail name">translate</h3><pre class="member detail synopsis">public final void translate(PVector t)</pre><blockquote class="member detail name"><div class="member detail description"> Translates the GLFrame of <code>t</code> (defined in the GLFrame coordinate system).
+
+ <p/> 
+ 
+ If there's a <a href="../../codeanticode/contrapro/GLFrame.html#constraint()"><code>constraint()</code></a> it is satisfied without modifying <code>t</code>:
+ The translation actually applied to the GLFrame may differ from <code>t</code> 
+ since it can be filtered by the <a href="../../codeanticode/contrapro/GLFrame.html#constraint()"><code>constraint()</code></a>. Use
+<a href="../../codeanticode/contrapro/GLFrame.html#translateModifyingArgument(PVector)"><code>translateModifyingArgument(PVector)</code></a> to retrieve the filtered
+  translation value. Use <a href="../../codeanticode/contrapro/GLFrame.html#setTranslation(PVector)"><code>setTranslation(PVector)</code></a> to directly translate
+ the GLFrame without taking the <a href="../../codeanticode/contrapro/GLFrame.html#constraint()"><code>constraint()</code></a> into account.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLFrame.html#rotate(GLQuaternion)"><code>rotate(GLQuaternion)</code></a></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="translate(float,float,float)" id="translate(float,float,float)"/><div class="member detail outer"><h3 class="member detail name">translate</h3><pre class="member detail synopsis">public final void translate(float x,
+                            float y,
+                            float z)</pre><blockquote class="member detail name"><div class="member detail description"> Same as <a href="../../codeanticode/contrapro/GLFrame.html#translate(PVector)"><code>translate(PVector)</code></a> but with <code>float</code> parameters.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="translateModifyingArgument(PVector)" id="translateModifyingArgument(PVector)"/><div class="member detail outer"><h3 class="member detail name">translateModifyingArgument</h3><pre class="member detail synopsis">public final void translateModifyingArgument(PVector t)</pre><blockquote class="member detail name"><div class="member detail description"> Same as <a href="../../codeanticode/contrapro/GLFrame.html#translate(PVector)"><code>translate(PVector)</code></a> but if there's a <a href="../../codeanticode/contrapro/GLFrame.html#constraint()"><code>constraint()</code></a> 
+<code>t</code> is modified to satisfy it.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="translation()" id="translation()"/><div class="member detail outer"><h3 class="member detail name">translation</h3><pre class="member detail synopsis">public final PVector translation()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the GLFrame translation, defined with respect to
+ the <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a>.
+ 
+ <p/>
+ 
+ Use <a href="../../codeanticode/contrapro/GLFrame.html#position()"><code>position()</code></a> to get the result in the world coordinates.
+ These two values are identical when the <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a>
+ is <code>null</code> (default).
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLFrame.html#setTranslation(PVector)"><code>setTranslation(PVector)</code></a>, <a href="../../codeanticode/contrapro/GLFrame.html#setTranslationWithConstraint(PVector)"><code>setTranslationWithConstraint(PVector)</code></a></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="worldArray()" id="worldArray()"/><div class="member detail outer"><h3 class="member detail name">worldArray</h3><pre class="member detail synopsis">public final float[] worldArray()</pre><blockquote class="member detail name"><div class="member detail description"> float[] version of <a href="../../codeanticode/contrapro/GLFrame.html#worldMatrix()"><code>worldMatrix()</code></a>.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="worldInverse()" id="worldInverse()"/><div class="member detail outer"><h3 class="member detail name">worldInverse</h3><pre class="member detail synopsis">public final GLFrame worldInverse()</pre><blockquote class="member detail name"><div class="member detail description"> 
+ Returns the <a href="../../codeanticode/contrapro/GLFrame.html#inverse()"><code>inverse()</code></a> of the GLFrame world transformation.
+ 
+ <p/>
+ 
+ The <a href="../../codeanticode/contrapro/GLFrame.html#orientation()"><code>orientation()</code></a> of the new GLFrame is the
+<a href="../../codeanticode/contrapro/GLQuaternion.html#inverse()"><code>GLQuaternion.inverse()</code></a> of the original orientation.
+  Its <a href="../../codeanticode/contrapro/GLFrame.html#position()"><code>position()</code></a> is the negated and inverse rotated image of the
+ original position.
+ 
+ <p/>
+ 
+ The result GLFrame has a <code>null</code> <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a> and a
+<code>null</code> <a href="../../codeanticode/contrapro/GLFrame.html#constraint()"><code>constraint()</code></a>.
+ 
+ <p/>
+ 
+ Use <a href="../../codeanticode/contrapro/GLFrame.html#inverse()"><code>inverse()</code></a> for a local (i.e., with respect to <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a>)
+ transformation inverse.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="worldMatrix()" id="worldMatrix()"/><div class="member detail outer"><h3 class="member detail name">worldMatrix</h3><pre class="member detail synopsis">public final float[][] worldMatrix()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the 4x4 OpenGL transformation matrix represented by the GLFrame.
+ 
+ <p/>
+ 
+ This method should be used in conjunction with <code>glMultMatrixf()</code>
+ to modify the OpenGL modelview matrix from a GLFrame:
+ 
+ <p/>
+<code>// The modelview here corresponds to the world coordinate system.</code>
+<code>GLFrame fr = new GLFrame(pos, GLQuaternion(from, to));</code> <br/>
+<code>gl.glPushMatrix();</code> <br/>
+<code>gl.glMultMatrixf(fr.worldMatrix());</code> <br/>
+<code>// draw object in the fr coordinate system.</code> <br/>
+<code>glPopMatrix();</code> <br/>
+ 
+ <p/>
+ 
+ This matrix represents the global GLFrame transformation: the entire
+<a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a> hierarchy is taken into account to define the
+  GLFrame transformation from the world coordinate system.
+ Use <a href="../../codeanticode/contrapro/GLFrame.html#matrix()"><code>matrix()</code></a> to get the local GLFrame transformation matrix
+ (i.e. defined with respect to the referenceFrame()).
+ These two match when the <a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>referenceFrame()</code></a> is <code>null</code>.
+ 
+ <p/>
+ 
+ The OpenGL format of the result is the transpose of the actual
+ mathematical European representation (translation is on the last
+ <i>line</i> instead of the last <i>column</i>.
+ 
+ <p/>
+ 
+ <b>Attention:</b> The result is only valid until the next call to
+<a href="../../codeanticode/contrapro/GLFrame.html#matrix()"><code>matrix()</code></a>, <a href="../../codeanticode/contrapro/GLFrame.html#array()"><code>array()</code></a> <code>worldMatrix()</code> or <a href="../../codeanticode/contrapro/GLFrame.html#worldArray()"><code>worldArray()</code></a>.
+ Use it immediately (as above).
+ 
+ <p/>
+ 
+ <b>ANote:</b> The scaling factor of the 4x4 matrix is 1.0.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div></div><p class="navbar bottom spacer"> </p><table class="navbar div bottom"><tr><td><div class="navbar div top"><span class="navbar item enabled"><a href="../../overview-summary.html">Overview</a></span> <span class="navbar item enabled"><a href="package-summary.html">Package</a></span> <span class="navbar item enabled"><a href="tree.html">Tree</a></span> <span class="navbar item enabled"><a href="../../alphaindex.html">Index</a></span> <span class="navbar item enabled"><a href="../../deprecated.html">Deprecated</a></span> <span class="navbar item enabled"><a href="../../about.html">About</a></span></div></td></tr></table><hr/>processing library glgraphics by Andres Colubri. (c) 2008</body></html>

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/119/trunk/unfolding/lib
+END
+opengl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/111/trunk/unfolding/lib/opengl.jar
+END
+libTUIO.jar
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/76/trunk/unfolding/lib/libTUIO.jar
+END
+core.jar
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/111/trunk/unfolding/lib/core.jar
+END
+gluegen-rt.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/111/trunk/unfolding/lib/gluegen-rt.jar
+END
+jogl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/111/trunk/unfolding/lib/jogl.jar
+END
+log4j-1.2.15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/76/trunk/unfolding/lib/log4j-1.2.15.jar
+END
+sqlitejdbc-v056.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/119/trunk/unfolding/lib/sqlitejdbc-v056.jar
+END
+glgraphics.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/111/trunk/unfolding/lib/glgraphics.jar
+END

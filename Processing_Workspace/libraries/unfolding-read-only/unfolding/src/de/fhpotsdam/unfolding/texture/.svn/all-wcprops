@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/144/trunk/unfolding/src/de/fhpotsdam/unfolding/texture
+END
+Distorter.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/144/trunk/unfolding/src/de/fhpotsdam/unfolding/texture/Distorter.java
+END
+ScaleInterpolationDistorter.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/144/trunk/unfolding/src/de/fhpotsdam/unfolding/texture/ScaleInterpolationDistorter.java
+END
+TextureDistorter.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/144/trunk/unfolding/src/de/fhpotsdam/unfolding/texture/TextureDistorter.java
+END
+LinearInterpolationDistorter.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/144/trunk/unfolding/src/de/fhpotsdam/unfolding/texture/LinearInterpolationDistorter.java
+END
+AbstractLensDistorter.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/144/trunk/unfolding/src/de/fhpotsdam/unfolding/texture/AbstractLensDistorter.java
+END
+PAppletFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/144/trunk/unfolding/src/de/fhpotsdam/unfolding/texture/PAppletFactory.java
+END
+TiltedSurfaceDistorter.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/144/trunk/unfolding/src/de/fhpotsdam/unfolding/texture/TiltedSurfaceDistorter.java
+END

@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//gnu.org///DTD XHTML 1.1 plus Target 1.0//EN" "../../resources/xhtml11-target10.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head><title>GLCamera (Javadocs: glgraphics)</title><script src="../../resources/gjdoc.js" type="text/javascript"><!-- this comment required for konqueror 3.2.2 --></script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="generator" content="GNU Gjdoc Standard Doclet"/><meta name="keywords" content="codeanticode.contrapro.GLCamera class"/><meta name="keywords" content="clone()"/><meta name="keywords" content="position()"/><meta name="keywords" content="setPosition()"/><meta name="keywords" content="upVector()"/><meta name="keywords" content="setUpVector()"/><meta name="keywords" content="viewDirection()"/><meta name="keywords" content="setViewDirection()"/><meta name="keywords" content="rightVector()"/><meta name="keywords" content="orientation()"/><meta name="keywords" content="setOrientation()"/><meta name="keywords" content="fromModelViewMatrix()"/><meta name="keywords" content="type()"/><meta name="keywords" content="setType()"/><meta name="keywords" content="fieldOfView()"/><meta name="keywords" content="setFieldOfView()"/><meta name="keywords" content="setFOVToFitScene()"/><meta name="keywords" content="getOrthoWidthHeight()"/><meta name="keywords" content="horizontalFieldOfView()"/><meta name="keywords" content="setHorizontalFieldOfView()"/><meta name="keywords" content="aspectRatio()"/><meta name="keywords" content="setAspectRatio()"/><meta name="keywords" content="setScreenWidthAndHeight()"/><meta name="keywords" content="screenWidth()"/><meta name="keywords" content="screenHeight()"/><meta name="keywords" content="getViewport()"/><meta name="keywords" content="zNear()"/><meta name="keywords" content="zFar()"/><meta name="keywords" content="zNearCoefficient()"/><meta name="keywords" content="setZNearCoefficient()"/><meta name="keywords" content="zClippingCoefficient()"/><meta name="keywords" content="setZClippingCoefficient()"/><meta name="keywords" content="pixelGLRatio()"/><meta name="keywords" content="getFrustumPlanesCoefficients()"/><meta name="keywords" content="sceneRadius()"/><meta name="keywords" content="setSceneRadius()"/><meta name="keywords" content="sceneCenter()"/><meta name="keywords" content="setSceneCenter()"/><meta name="keywords" content="distanceToSceneCenter()"/><meta name="keywords" content="setSceneBoundingBox()"/><meta name="keywords" content="revolveAroundPoint()"/><meta name="keywords" content="setRevolveAroundPoint()"/><meta name="keywords" content="frame()"/><meta name="keywords" content="setFrame()"/><meta name="keywords" content="getProjectionMatrix()"/><meta name="keywords" content="computeProjectionMatrix()"/><meta name="keywords" content="getModelViewMatrix()"/><meta name="keywords" content="computeModelViewMatrix()"/><meta name="keywords" content="getModelViewProjectionMatrix()"/><meta name="keywords" content="cameraCoordinatesOf()"/><meta name="keywords" content="worldCoordinatesOf()"/><meta name="keywords" content="convertClickToLine()"/><meta name="keywords" content="projectedCoordinatesOf()"/><meta name="keywords" content="unprojectedCoordinatesOf()"/><meta name="keywords" content="flySpeed()"/><meta name="keywords" content="setFlySpeed()"/><meta name="keywords" content="lookAt()"/><meta name="keywords" content="fitSphere()"/><meta name="keywords" content="fitBoundingBox()"/><meta name="keywords" content="fitScreenRegion()"/><meta name="keywords" content="showEntireScene()"/><meta name="keywords" content="centerScene()"/><meta name="keywords" content="IODistance()"/><meta name="keywords" content="setIODistance()"/><meta name="keywords" content="physicalDistanceToScreen()"/><meta name="keywords" content="setPhysicalDistanceToScreen()"/><meta name="keywords" content="physicalScreenWidth()"/><meta name="keywords" content="setPhysicalScreenWidth()"/><meta name="keywords" content="focusDistance()"/><meta name="keywords" content="setFocusDistance()"/><meta name="keywords" content="convertFloatsToDoubles()"/><link rel="stylesheet" type="text/css" href="../../resources/user.css" title="User-specified"/></head><body class="content class" onload="if(parent.contentPageLoaded)parent.contentPageLoaded(document.title)"><table class="navbar div top"><tr><td class="navbar div top"><div class="navbar div top"><span class="navbar item enabled"><a href="../../overview-summary.html">Overview</a></span> <span class="navbar item enabled"><a href="package-summary.html">Package</a></span> <span class="navbar item enabled"><a href="tree.html">Tree</a></span> <span class="navbar item enabled"><a href="../../alphaindex.html">Index</a></span> <span class="navbar item enabled"><a href="../../deprecated.html">Deprecated</a></span> <span class="navbar item enabled"><a href="../../about.html">About</a></span></div></td></tr><tr><td class="navi"><a href="../../codeanticode/contrapro/GLAxisPlaneConstraint.Type.html">Prev Class</a> | <a href="../../codeanticode/contrapro/GLCamera.Type.html">Next Class</a></td><td class="navi"><a href="../../index.html" title="Show in a frameset" target="_top">Frames</a> | <a href="GLCamera.html" title="Show without frames" target="_top">No Frames</a> </td></tr><tr><td class="navi">Summary: <a href="#summary-inner">Nested</a> | Field | <a href="#summary-methods">Method</a> | <a href="#summary-constructors">Constr</a></td><td class="navi">Detail: <a href="#detail-inner">Nested</a> | Field | <a href="#detail-methods">Method</a> | <a href="#detail-constructors">Constr</a></td></tr></table><div class="class title outer"><h3 class="class title-package">codeanticode.contrapro</h3><h1 class="class title-class">Class GLCamera</h1></div><div class="class inheritance-tree"><ul class="inheritance 0"><li class="inheritance 0"><code>java.lang.Object</code></li><li><ul class="inheritance 1"><li class="inheritance 1"><code>codeanticode.contrapro.GLCamera</code></li><li></li></ul></li></ul></div><dl class="class knownimplementing"><dt class="header"><b>Implemented Interfaces:</b></dt><dd class="item">Cloneable</dd></dl><hr/><div class="class synopsis outer"><div class="class synopsis declaration"><code>public class <b class="class synopsis name">GLCamera</b></code></div><div class="class synopsis superclass"><code>extends java.lang.Object</code></div><div class="class synopsis implements"><code>implements Cloneable</code></div></div><hr/><div class="class description"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>Author:</b></dt><dd class="tag item">pierre
+
+A perspective or orthographic camera.
+
+<p>
+
+A GLCamera defines some intrinsic parameters (fieldOfView(),
+position(), viewDirection(), upVector()...) and useful positioning
+tools that ease its placement (showEntireScene(), fitSphere(),
+lookAt()...). It exports its associated OpenGL projection and
+modelview matrices and can interactively be modified using the mouse.</dd></dl></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><a name="summary-inner" id="summary-inner"/><dl class="table container"><dd><table class="class summary" border="1" width="100%"><tr class="table header"><td colspan="2"><h2 class="table header">Nested Class Summary</h2></td></tr><tr><td class="left" valign="top"><code class="synopsis">  class</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="../../codeanticode/contrapro/GLCamera.Type.html">GLCamera.Type</a></code></dt></dl></td></tr></table></dd></dl><a name="summary-constructors" id="summary-constructors"/><dl class="table container"><dd><table class="class summary" border="1" width="100%"><tr class="table header"><td colspan="2"><h2 class="table header">Constructor Summary</h2></td></tr><tr><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#GLCamera()">GLCamera</a>()</code></dt><dd class="description"> Default constructor.</dd></dl></td></tr></table></dd></dl><a name="summary-methods" id="summary-methods"/><dl class="table container"><dd><table class="class summary" border="1" width="100%"><tr class="table header"><td colspan="2"><h2 class="table header">Method Summary</h2></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#IODistance()">IODistance</a>()</code></dt><dd class="description"> Returns the user's inter-ocular distance (in meters).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#aspectRatio()">aspectRatio</a>()</code></dt><dd class="description"> Returns the GLCamera aspect ratio defined by <a href="../../codeanticode/contrapro/GLCamera.html#screenWidth()"><code>screenWidth()</code></a> /
+<a href="../../codeanticode/contrapro/GLCamera.html#screenHeight()"><code>screenHeight()</code></a>.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> PVector</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#cameraCoordinatesOf(PVector)">cameraCoordinatesOf</a>(PVector&nbsp;src)</code></dt><dd class="description"> Returns the GLCamera frame coordinates of a point <code>src</code> defined in
+ world coordinates.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#centerScene()">centerScene</a>()</code></dt><dd class="description"> Moves the GLCamera so that its <a href="../../codeanticode/contrapro/GLCamera.html#sceneCenter()"><code>sceneCenter()</code></a> is projected on the
+ center of the window.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> GLCamera</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#clone()">clone</a>()</code></dt><dd class="description"> Implementation of the clone method.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#computeModelViewMatrix()">computeModelViewMatrix</a>()</code></dt><dd class="description"> Computes the modelView matrix associated with the Camera's <a href="../../codeanticode/contrapro/GLCamera.html#position()"><code>position()</code></a>
+ and <a href="../../codeanticode/contrapro/GLCamera.html#orientation()"><code>orientation()</code></a>.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#computeProjectionMatrix()">computeProjectionMatrix</a>()</code></dt><dd class="description"> Computes the projection matrix associated with the GLCamera.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#convertClickToLine(Point,PVector,PVector)">convertClickToLine</a>(Point&nbsp;pixel, PVector&nbsp;orig, PVector&nbsp;dir)</code></dt><dd class="description"> Gives the coefficients of a 3D half-line passing through the GLCamera eye
+ and pixel (x,y).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis">static double[]</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#convertFloatsToDoubles(float[])">convertFloatsToDoubles</a>(float[]&nbsp;input)</code></dt><dd class="description"> Utility function that converts array of floats <code>input</code> to an array of doubles
+<code>output</code>.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#distanceToSceneCenter()">distanceToSceneCenter</a>()</code></dt><dd class="description"> Returns the distance from the Camera center to sceneCenter(), projected
+ along the Camera Z axis.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#fieldOfView()">fieldOfView</a>()</code></dt><dd class="description"> Returns the vertical field of view of the GLCamera (in radians).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#fitBoundingBox(PVector,PVector)">fitBoundingBox</a>(PVector&nbsp;min, PVector&nbsp;max)</code></dt><dd class="description"> Moves the GLCamera so that the (world axis aligned) bounding box (<code>min</code>, <code>max</code>) is entirely visible, using
+<a href="../../codeanticode/contrapro/GLCamera.html#fitSphere(PVector,float)"><code>fitSphere(PVector,float)</code></a>.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#fitScreenRegion(Rectangle)">fitScreenRegion</a>(Rectangle&nbsp;rectangle)</code></dt><dd class="description"> Moves the Camera so that the rectangular screen region defined by <code>rectangle</code> (pixel units, with origin in the upper left corner) fits the
+ screen.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#fitSphere(PVector,float)">fitSphere</a>(PVector&nbsp;center, float&nbsp;radius)</code></dt><dd class="description"> Moves the GLCamera so that the sphere defined by <code>center</code>, <code>radius</code>) is visible and fits the window.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#flySpeed()">flySpeed</a>()</code></dt><dd class="description"> Returns the fly speed of the GLCamera.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#focusDistance()">focusDistance</a>()</code></dt><dd class="description"> Returns the focus distance used by stereo display, expressed in OpenGL
+ units.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> GLInteractiveCameraFrame</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#frame()">frame</a>()</code></dt><dd class="description"> Returns the GLInteractiveCameraFrame attached to the GLCamera.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#fromModelViewMatrix(float[])">fromModelViewMatrix</a>(float[]&nbsp;modelViewMatrix)</code></dt><dd class="description"> Sets the GLCamera's <a href="../../codeanticode/contrapro/GLCamera.html#position()"><code>position()</code></a> and <a href="../../codeanticode/contrapro/GLCamera.html#orientation()"><code>orientation()</code></a> from an OpenGL
+ ModelView matrix.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float[][]</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#getFrustumPlanesCoefficients()">getFrustumPlanesCoefficients</a>()</code></dt><dd class="description"> Returns the 6 plane equations of the GLCamera frustum.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float[]</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#getModelViewMatrix()">getModelViewMatrix</a>()</code></dt><dd class="description"> Convenience function that simply returns
+<code>return this.getModelViewMatrix(new float[16])</code>
+</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float[]</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#getModelViewMatrix(float[])">getModelViewMatrix</a>(float[]&nbsp;m)</code></dt><dd class="description"> Fills <code>m</code> with the Camera modelView matrix values and returns it.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float[]</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#getModelViewProjectionMatrix()">getModelViewProjectionMatrix</a>()</code></dt><dd class="description"> Convenience function that simply returns
+<code>return getModelViewProjectionMatrix(new float[16])</code>
+</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float[]</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#getModelViewProjectionMatrix(float[])">getModelViewProjectionMatrix</a>(float[]&nbsp;m)</code></dt><dd class="description"> Fills <code>m</code> m with the product of the ModelView and Projection matrices and returns it.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float[]</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#getOrthoWidthHeight()">getOrthoWidthHeight</a>()</code></dt><dd class="description"> Convenience function that simply returns <code>getOrthoWidthHeight(new
+ float[2])</code>.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float[]</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#getOrthoWidthHeight(float[])">getOrthoWidthHeight</a>(float[]&nbsp;target)</code></dt><dd class="description"> Fills in <code>target</code> with the <code>halfWidth</code> and <code>halfHeight</code>
+ of the GLCamera orthographic frustum and returns it.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float[]</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#getProjectionMatrix()">getProjectionMatrix</a>()</code></dt><dd class="description"> Convenience function that simply returns <code>return getProjectionMatrix(new float[16])</code>
+</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float[]</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#getProjectionMatrix(float[])">getProjectionMatrix</a>(float[]&nbsp;m)</code></dt><dd class="description"> Fills <code>m</code> with the GLCamera projection matrix values and returns it.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> int[]</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#getViewport()">getViewport</a>()</code></dt><dd class="description"> Convenience function that simply calls <code>return</code>
+<a href="../../codeanticode/contrapro/GLCamera.html#getViewport(int[])"><code>getViewport(int[])</code></a>.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> int[]</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#getViewport(int[])">getViewport</a>(int[]&nbsp;viewport)</code></dt><dd class="description"> Fills <code>viewport</code> with the GLCamera OpenGL viewport and returns it.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#horizontalFieldOfView()">horizontalFieldOfView</a>()</code></dt><dd class="description"> Returns the horizontal field of view of the GLCamera (in radians).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#lookAt(PVector)">lookAt</a>(PVector&nbsp;target)</code></dt><dd class="description"> Sets the GLCamera <a href="../../codeanticode/contrapro/GLCamera.html#orientation()"><code>orientation()</code></a>, so that it looks at point
+<code>target</code> (defined in the world coordinate system).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> GLQuaternion</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#orientation()">orientation</a>()</code></dt><dd class="description"> Returns the GLCamera orientation, defined in the world coordinate system.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#physicalDistanceToScreen()">physicalDistanceToScreen</a>()</code></dt><dd class="description"> Returns the physical distance between the user's eyes and the screen (in
+ meters).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#physicalScreenWidth()">physicalScreenWidth</a>()</code></dt><dd class="description"> Returns the physical screen width, in meters.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#pixelGLRatio(PVector)">pixelGLRatio</a>(PVector&nbsp;position)</code></dt><dd class="description"> Returns the ratio between pixel and OpenGL units at <code>position</code>.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> PVector</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#position()">position</a>()</code></dt><dd class="description"> Returns the GLCamera position (the eye), defined in the world coordinate
+ system.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> PVector</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#projectedCoordinatesOf(PVector)">projectedCoordinatesOf</a>(PVector&nbsp;src)</code></dt><dd class="description"> Convenience function that simply returns <code>return
+ projectedCoordinatesOf(src, null)</code>
+</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> PVector</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#projectedCoordinatesOf(PVector,GLFrame)">projectedCoordinatesOf</a>(PVector&nbsp;src, GLFrame&nbsp;frame)</code></dt><dd class="description"> Returns the screen projected coordinates of a point <code>src</code> defined
+ in the <code>frame</code> coordinate system.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> PVector</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#revolveAroundPoint()">revolveAroundPoint</a>()</code></dt><dd class="description"> The point the GLCamera revolves around with the GLGraphcis.ROTATE mouse
+ binding.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> PVector</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#rightVector()">rightVector</a>()</code></dt><dd class="description"> Returns the normalized right vector of the GLCamera, defined in the world
+ coordinate system.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> PVector</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#sceneCenter()">sceneCenter</a>()</code></dt><dd class="description"> 
+ Returns the position of the scene center, defined in the world coordinate
+ system.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#sceneRadius()">sceneRadius</a>()</code></dt><dd class="description"> Returns the radius of the scene observed by the Camera.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> int</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#screenHeight()">screenHeight</a>()</code></dt><dd class="description"> Returns the height (in pixels) of the GLCamera screen.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> int</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#screenWidth()">screenWidth</a>()</code></dt><dd class="description"> Returns the width (in pixels) of the GLCamera screen.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setAspectRatio(float)">setAspectRatio</a>(float&nbsp;aspect)</code></dt><dd class="description"> Defines the GLCamera <a href="../../codeanticode/contrapro/GLCamera.html#aspectRatio()"><code>aspectRatio()</code></a>.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setFOVToFitScene()">setFOVToFitScene</a>()</code></dt><dd class="description"> Changes the GLCamera <a href="../../codeanticode/contrapro/GLCamera.html#fieldOfView()"><code>fieldOfView()</code></a> so that the entire scene
+ (defined by GLGraphics.sceneCenter() and GLGraphics.sceneRadius()) is
+ visible from the GLCamera <a href="../../codeanticode/contrapro/GLCamera.html#position()"><code>position()</code></a>.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setFieldOfView(float)">setFieldOfView</a>(float&nbsp;fov)</code></dt><dd class="description"> Sets the vertical <a href="../../codeanticode/contrapro/GLCamera.html#fieldOfView()"><code>fieldOfView()</code></a> of the GLCamera (in radians).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setFlySpeed(float)">setFlySpeed</a>(float&nbsp;speed)</code></dt><dd class="description"> Sets the GLCamera <a href="../../codeanticode/contrapro/GLCamera.html#flySpeed()"><code>flySpeed()</code></a>.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setFocusDistance(float)">setFocusDistance</a>(float&nbsp;distance)</code></dt><dd class="description"> Sets the focusDistance(), in OpenGL scene units.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setFrame(GLInteractiveCameraFrame)">setFrame</a>(GLInteractiveCameraFrame&nbsp;icf)</code></dt><dd class="description"> Sets the GLCamera <a href="../../codeanticode/contrapro/GLCamera.html#frame()"><code>frame()</code></a>.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setHorizontalFieldOfView(float)">setHorizontalFieldOfView</a>(float&nbsp;hfov)</code></dt><dd class="description"> Sets the <a href="../../codeanticode/contrapro/GLCamera.html#horizontalFieldOfView()"><code>horizontalFieldOfView()</code></a> of the GLCamera (in radians).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setIODistance(float)">setIODistance</a>(float&nbsp;distance)</code></dt><dd class="description"> Sets the <a href="../../codeanticode/contrapro/GLCamera.html#IODistance()"><code>IODistance()</code></a>.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setOrientation(GLQuaternion)">setOrientation</a>(GLQuaternion&nbsp;q)</code></dt><dd class="description"> Sets the GLCamera <a href="../../codeanticode/contrapro/GLCamera.html#orientation()"><code>orientation()</code></a>, defined in the world coordinate
+ system.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setOrientation(float,float)">setOrientation</a>(float&nbsp;theta, float&nbsp;phi)</code></dt><dd class="description"> Sets the <a href="../../codeanticode/contrapro/GLCamera.html#orientation()"><code>orientation()</code></a> of the GLCamera using polar coordinates.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setPhysicalDistanceToScreen(float)">setPhysicalDistanceToScreen</a>(float&nbsp;distance)</code></dt><dd class="description"> Sets the <a href="../../codeanticode/contrapro/GLCamera.html#physicalDistanceToScreen()"><code>physicalDistanceToScreen()</code></a>.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setPhysicalScreenWidth(float)">setPhysicalScreenWidth</a>(float&nbsp;width)</code></dt><dd class="description"> Sets the physical screen (monitor or projected wall) width (in meters).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setPosition(PVector)">setPosition</a>(PVector&nbsp;pos)</code></dt><dd class="description"> Sets the GLCamera <a href="../../codeanticode/contrapro/GLCamera.html#position()"><code>position()</code></a> (the eye), defined in the world
+ coordinate system.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setRevolveAroundPoint(PVector)">setRevolveAroundPoint</a>(PVector&nbsp;rap)</code></dt><dd class="description"> Changes the <a href="../../codeanticode/contrapro/GLCamera.html#revolveAroundPoint()"><code>revolveAroundPoint()</code></a> to <code>rap</code> (defined in the
+ world coordinate system).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setSceneBoundingBox(PVector,PVector)">setSceneBoundingBox</a>(PVector&nbsp;min, PVector&nbsp;max)</code></dt><dd class="description"> Similar to <a href="../../codeanticode/contrapro/GLCamera.html#setSceneRadius(float)"><code>setSceneRadius(float)</code></a> and
+<a href="../../codeanticode/contrapro/GLCamera.html#setSceneCenter(PVector)"><code>setSceneCenter(PVector)</code></a>, but the scene limits are defined by a
+  (world axis aligned) bounding box.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setSceneCenter(PVector)">setSceneCenter</a>(PVector&nbsp;center)</code></dt><dd class="description"> Sets the <a href="../../codeanticode/contrapro/GLCamera.html#sceneCenter()"><code>sceneCenter()</code></a>.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setSceneRadius(float)">setSceneRadius</a>(float&nbsp;radius)</code></dt><dd class="description"> Sets the <a href="../../codeanticode/contrapro/GLCamera.html#sceneRadius()"><code>sceneRadius()</code></a> value.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setScreenWidthAndHeight(int,int)">setScreenWidthAndHeight</a>(int&nbsp;width, int&nbsp;height)</code></dt><dd class="description"> Sets GLCamera <a href="../../codeanticode/contrapro/GLCamera.html#screenWidth()"><code>screenWidth()</code></a> and <a href="../../codeanticode/contrapro/GLCamera.html#screenHeight()"><code>screenHeight()</code></a>
+ (expressed in pixels).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setType(codeanticode.contrapro.GLCamera.Type)">setType</a>(<a href="../../codeanticode/contrapro/GLCamera.Type.html" title="Class in codeanticode.contrapro">GLCamera.Type</a>&nbsp;type)</code></dt><dd class="description"> Defines the GLCamera <a href="../../codeanticode/contrapro/GLCamera.html#type()"><code>type()</code></a>.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setUpVector(PVector)">setUpVector</a>(PVector&nbsp;up)</code></dt><dd class="description"> Convenience function that simply calls <code>setUpVector(up, true)</code>.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setUpVector(PVector,boolean)">setUpVector</a>(PVector&nbsp;up, boolean&nbsp;noMove)</code></dt><dd class="description"> Rotates the GLCamera so that its <a href="../../codeanticode/contrapro/GLCamera.html#upVector()"><code>upVector()</code></a> becomes <code>up</code>
+ (defined in the world coordinate system).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setViewDirection(PVector)">setViewDirection</a>(PVector&nbsp;direction)</code></dt><dd class="description"> Rotates the GLCamera so that its <a href="../../codeanticode/contrapro/GLCamera.html#viewDirection()"><code>viewDirection()</code></a> is <code>direction</code> (defined in the world coordinate system).</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setZClippingCoefficient(float)">setZClippingCoefficient</a>(float&nbsp;coef)</code></dt><dd class="description"> Sets the <a href="../../codeanticode/contrapro/GLCamera.html#zClippingCoefficient()"><code>zClippingCoefficient()</code></a> value.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setZNearCoefficient(float)">setZNearCoefficient</a>(float&nbsp;coef)</code></dt><dd class="description"> Sets the <a href="../../codeanticode/contrapro/GLCamera.html#zNearCoefficient()"><code>zNearCoefficient()</code></a> value.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#showEntireScene()">showEntireScene</a>()</code></dt><dd class="description"> Moves the GLCamera so that the entire scene is visible.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> <a href="../../codeanticode/contrapro/GLCamera.Type.html" title="Class in codeanticode.contrapro">GLCamera.Type</a></code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#type()">type</a>()</code></dt><dd class="description"> Returns the GLCamera.Type of the GLCamera.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> PVector</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#unprojectedCoordinatesOf(PVector)">unprojectedCoordinatesOf</a>(PVector&nbsp;src)</code></dt><dd class="description"> Convenience function that simply returns <code>return
+ unprojectedCoordinatesOf(src, null)</code>
+</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> PVector</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#unprojectedCoordinatesOf(PVector,GLFrame)">unprojectedCoordinatesOf</a>(PVector&nbsp;src, GLFrame&nbsp;frame)</code></dt><dd class="description"> Returns the world unprojected coordinates of a point <code>src</code> defined
+ in the screen coordinate system.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> PVector</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#upVector()">upVector</a>()</code></dt><dd class="description"> Returns the normalized up vector of the GLCamera, defined in the world
+ coordinate system.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> PVector</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#viewDirection()">viewDirection</a>()</code></dt><dd class="description"> Returns the normalized view direction of the GLCamera, defined in the
+ world coordinate system.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> PVector</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#worldCoordinatesOf(PVector)">worldCoordinatesOf</a>(PVector&nbsp;src)</code></dt><dd class="description"> Returns the world coordinates of the point whose position <code>src</code> is
+ defined in the GLCamera coordinate system.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#zClippingCoefficient()">zClippingCoefficient</a>()</code></dt><dd class="description"> Returns the coefficient used to position the near and far clipping
+ planes.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#zFar()">zFar</a>()</code></dt><dd class="description"> Returns the far clipping plane distance used by the Camera projection
+ matrix.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#zNear()">zNear</a>()</code></dt><dd class="description"> Returns the near clipping plane distance used by the GLCamera projection
+ matrix.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> float</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#zNearCoefficient()">zNearCoefficient</a>()</code></dt><dd class="description"> Returns the coefficient which is used to set <a href="../../codeanticode/contrapro/GLCamera.html#zNear()"><code>zNear()</code></a> when the
+ GLCamera is inside the sphere defined by <a href="../../codeanticode/contrapro/GLCamera.html#sceneCenter()"><code>sceneCenter()</code></a> and
+<a href="../../codeanticode/contrapro/GLCamera.html#zClippingCoefficient()"><code>zClippingCoefficient()</code></a> * <a href="../../codeanticode/contrapro/GLCamera.html#sceneRadius()"><code>sceneRadius()</code></a>.</dd></dl></td></tr></table></dd></dl><a name="detail-constructors" id="detail-constructors"/><h2 class="section header">Constructor Details</h2><div class="section"><a name="GLCamera()" id="GLCamera()"/><div class="member detail outer"><h3 class="member detail name">GLCamera</h3><pre class="member detail synopsis">public GLCamera()</pre><blockquote class="member detail name"><div class="member detail description"> Default constructor.
+ 
+ <p/>
+<a href="../../codeanticode/contrapro/GLCamera.html#sceneCenter()"><code>sceneCenter()</code></a> is set to (0,0,0) and <a href="../../codeanticode/contrapro/GLCamera.html#sceneRadius()"><code>sceneRadius()</code></a> is
+ 
+  set to 1.0. <a href="../../codeanticode/contrapro/GLCamera.html#type()"><code>type()</code></a> GLCamera.PERSPECTIVE, with a <code>PI/4</code>
+<a href="../../codeanticode/contrapro/GLCamera.html#fieldOfView()"><code>fieldOfView()</code></a>.
+  
+ <p/>
+ 
+ See <a href="../../codeanticode/contrapro/GLCamera.html#IODistance()"><code>IODistance()</code></a>, <a href="../../codeanticode/contrapro/GLCamera.html#physicalDistanceToScreen()"><code>physicalDistanceToScreen()</code></a>,
+<a href="../../codeanticode/contrapro/GLCamera.html#physicalScreenWidth()"><code>physicalScreenWidth()</code></a> and <a href="../../codeanticode/contrapro/GLCamera.html#focusDistance()"><code>focusDistance()</code></a>
+  documentations for default stereo parameter values.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div></div><a name="detail-methods" id="detail-methods"/><h2 class="section header">Method Details</h2><div class="section"><a name="IODistance()" id="IODistance()"/><div class="member detail outer"><h3 class="member detail name">IODistance</h3><pre class="member detail synopsis">public float IODistance()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the user's inter-ocular distance (in meters). Default value is
+ 0.062m, which fits most people.
+ 
+ <p/>
+ 
+ loadProjectionMatrixStereo() uses this value to define the GLCamera
+ offset and frustum.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLCamera.html#setIODistance(float)"><code>setIODistance(float)</code></a></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="aspectRatio()" id="aspectRatio()"/><div class="member detail outer"><h3 class="member detail name">aspectRatio</h3><pre class="member detail synopsis">public float aspectRatio()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the GLCamera aspect ratio defined by <a href="../../codeanticode/contrapro/GLCamera.html#screenWidth()"><code>screenWidth()</code></a> /
+<a href="../../codeanticode/contrapro/GLCamera.html#screenHeight()"><code>screenHeight()</code></a>.
+  
+ <p/>
+ 
+ When the GLCamera is attached to a GLGraphics, these values and hence the
+ aspectRatio() are automatically fitted to the viewer's window aspect
+ ratio using setScreenWidthAndHeight().
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="cameraCoordinatesOf(PVector)" id="cameraCoordinatesOf(PVector)"/><div class="member detail outer"><h3 class="member detail name">cameraCoordinatesOf</h3><pre class="member detail synopsis">public final PVector cameraCoordinatesOf(PVector src)</pre><blockquote class="member detail name"><div class="member detail description"> Returns the GLCamera frame coordinates of a point <code>src</code> defined in
+ world coordinates.
+ 
+ <p/>
+<a href="../../codeanticode/contrapro/GLCamera.html#worldCoordinatesOf(PVector)"><code>worldCoordinatesOf(PVector)</code></a> performs the inverse transformation.
+ 
+  
+ <p/>
+ 
+ Note that the point coordinates are simply converted in a different
+ coordinate system. They are not projected on screen. Use
+<a href="../../codeanticode/contrapro/GLCamera.html#projectedCoordinatesOf(PVector,GLFrame)"><code>projectedCoordinatesOf(PVector,GLFrame)</code></a> for that.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="centerScene()" id="centerScene()"/><div class="member detail outer"><h3 class="member detail name">centerScene</h3><pre class="member detail synopsis">public void centerScene()</pre><blockquote class="member detail name"><div class="member detail description"> Moves the GLCamera so that its <a href="../../codeanticode/contrapro/GLCamera.html#sceneCenter()"><code>sceneCenter()</code></a> is projected on the
+ center of the window. The <a href="../../codeanticode/contrapro/GLCamera.html#orientation()"><code>orientation()</code></a> and
+<a href="../../codeanticode/contrapro/GLCamera.html#fieldOfView()"><code>fieldOfView()</code></a> are unchanged.
+  
+ <p/>
+ 
+ Simply projects the current position on a line passing through
+<a href="../../codeanticode/contrapro/GLCamera.html#sceneCenter()"><code>sceneCenter()</code></a>.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLCamera.html#showEntireScene()"><code>showEntireScene()</code></a></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="clone()" id="clone()"/><div class="member detail outer"><h3 class="member detail name">clone</h3><pre class="member detail synopsis">public GLCamera clone()</pre><blockquote class="member detail name"><div class="member detail description"> Implementation of the clone method.
+ 
+ <p/>
+ 
+ Calls <a href="../../codeanticode/contrapro/GLFrame.html#clone()"><code>GLFrame.clone()</code></a> and makes a deep
+ copy of the remaining object attributes except for
+<code>GLCamera</code> (which is shallow copied).
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLFrame.html#clone()"><code>GLFrame.clone()</code></a></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="computeModelViewMatrix()" id="computeModelViewMatrix()"/><div class="member detail outer"><h3 class="member detail name">computeModelViewMatrix</h3><pre class="member detail synopsis">public void computeModelViewMatrix()</pre><blockquote class="member detail name"><div class="member detail description"> Computes the modelView matrix associated with the Camera's <a href="../../codeanticode/contrapro/GLCamera.html#position()"><code>position()</code></a>
+ and <a href="../../codeanticode/contrapro/GLCamera.html#orientation()"><code>orientation()</code></a>.
+ 
+ This matrix converts from the world coordinates system to the GLCamera
+ coordinates system, so that coordinates can then be projected on screen
+ using the projection matrix (see <a href="../../codeanticode/contrapro/GLCamera.html#computeProjectionMatrix()"><code>computeProjectionMatrix()</code></a>).
+ 
+ Use getModelViewMatrix() to retrieve this matrix.
+ 
+ <b>Note:</b> You must call this method if your GLCamera is not associated with a
+ GLGraphics and is used for offscreen computations (using (un)projectedCoordinatesOf()
+ for instance). loadModelViewMatrix() does it otherwise.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="computeProjectionMatrix()" id="computeProjectionMatrix()"/><div class="member detail outer"><h3 class="member detail name">computeProjectionMatrix</h3><pre class="member detail synopsis">public void computeProjectionMatrix()</pre><blockquote class="member detail name"><div class="member detail description"> Computes the projection matrix associated with the GLCamera.
+ 
+ <p/>
+ 
+ If type() is PERSPECTIVE, defines a GL_PROJECTION matrix similar to what
+ would <code>gluPerspective()</code> do using the fieldOfView(), window
+ aspectRatio(), zNear() and zFar() parameters.
+ 
+ <p/>
+ 
+ If type() is ORTHOGRAPHIC, the projection matrix is as what <code>glOrtho()</code> would do. Frustum's width and height are set using
+ getOrthoWidthHeight().
+ 
+ <p/>
+ 
+ Both types use zNear() and zFar() to place clipping planes. These values
+ are determined from sceneRadius() and sceneCenter() so that they best fit
+ the scene size.
+ 
+ <p/>
+ 
+ Use getProjectionMatrix() to retrieve this matrix. Overload
+ loadProjectionMatrix() if you want your GLCamera to use an exotic
+ projection matrix.
+ 
+ <p/>
+ 
+ <b>Note:</b> You must call this method if your GLCamera is not associated
+ with a GLGraphics and is used for offscreen computations (using
+ (un)projectedCoordinatesOf() for instance). loadProjectionMatrix() does
+ it otherwise.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="convertClickToLine(Point,PVector,PVector)" id="convertClickToLine(Point,PVector,PVector)"/><div class="member detail outer"><h3 class="member detail name">convertClickToLine</h3><pre class="member detail synopsis">public void convertClickToLine(Point pixel,
+                               PVector orig,
+                               PVector dir)</pre><blockquote class="member detail name"><div class="member detail description"> Gives the coefficients of a 3D half-line passing through the GLCamera eye
+ and pixel (x,y).
+ 
+ <p/>
+ 
+ The origin of the half line (eye position) is stored in <code>orig</code>,
+ while <code>dir</code> contains the properly oriented and normalized direction
+ of the half line.
+ 
+ <p/>
+<code>x</code> and <code>y</code> are expressed in Processing format (origin in the
+ upper left corner). Use screenHeight() - y to convert to OpenGL units.
+ 
+ <p/>
+ 
+ This method is useful for analytical intersection in a selection method.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="convertFloatsToDoubles(float[])" id="convertFloatsToDoubles(float[])"/><div class="member detail outer"><h3 class="member detail name">convertFloatsToDoubles</h3><pre class="member detail synopsis">public static double[] convertFloatsToDoubles(float[] input)</pre><blockquote class="member detail name"><div class="member detail description"> Utility function that converts array of floats <code>input</code> to an array of doubles
+<code>output</code>.
+ 
+ <p/>
+ 
+ Useful in <a href="../../codeanticode/contrapro/GLCamera.html#projectedCoordinatesOf(PVector)"><code>projectedCoordinatesOf(PVector)</code></a> and
+<a href="../../codeanticode/contrapro/GLCamera.html#unprojectedCoordinatesOf(PVector)"><code>unprojectedCoordinatesOf(PVector)</code></a> 
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="distanceToSceneCenter()" id="distanceToSceneCenter()"/><div class="member detail outer"><h3 class="member detail name">distanceToSceneCenter</h3><pre class="member detail synopsis">public float distanceToSceneCenter()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the distance from the Camera center to sceneCenter(), projected
+ along the Camera Z axis.
+ 
+ <p/>
+ 
+ Used by zNear() and zFar() to optimize the Z range.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="fieldOfView()" id="fieldOfView()"/><div class="member detail outer"><h3 class="member detail name">fieldOfView</h3><pre class="member detail synopsis">public float fieldOfView()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the vertical field of view of the GLCamera (in radians).
+ 
+ <p/>
+ 
+ Value is set using <a href="../../codeanticode/contrapro/GLCamera.html#setFieldOfView(float)"><code>setFieldOfView(float)</code></a>. Default value is pi/4
+ radians. This value is meaningless if the GLCamera <a href="../../codeanticode/contrapro/GLCamera.html#type()"><code>type()</code></a> is
+ GLCamera.ORTHOGRAPHIC.
+ 
+ <p/>
+ 
+ The field of view corresponds the one used in <code>gluPerspective</code> (see
+ manual). It sets the Y (vertical) aperture of the GLCamera. The X
+ (horizontal) angle is inferred from the window aspect ratio (see
+<a href="../../codeanticode/contrapro/GLCamera.html#aspectRatio()"><code>aspectRatio()</code></a> and <a href="../../codeanticode/contrapro/GLCamera.html#horizontalFieldOfView()"><code>horizontalFieldOfView()</code></a>).
+  
+ <p/>
+ 
+ Use setFOVToFitScene() to adapt the fieldOfView() to a given scene.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="fitBoundingBox(PVector,PVector)" id="fitBoundingBox(PVector,PVector)"/><div class="member detail outer"><h3 class="member detail name">fitBoundingBox</h3><pre class="member detail synopsis">public void fitBoundingBox(PVector min,
+                           PVector max)</pre><blockquote class="member detail name"><div class="member detail description"> Moves the GLCamera so that the (world axis aligned) bounding box (<code>min</code>, <code>max</code>) is entirely visible, using
+<a href="../../codeanticode/contrapro/GLCamera.html#fitSphere(PVector,float)"><code>fitSphere(PVector,float)</code></a>.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="fitScreenRegion(Rectangle)" id="fitScreenRegion(Rectangle)"/><div class="member detail outer"><h3 class="member detail name">fitScreenRegion</h3><pre class="member detail synopsis">public void fitScreenRegion(Rectangle rectangle)</pre><blockquote class="member detail name"><div class="member detail description"> Moves the Camera so that the rectangular screen region defined by <code>rectangle</code> (pixel units, with origin in the upper left corner) fits the
+ screen.
+ 
+ <p/>
+ 
+ The GLCamera is translated (its orientation() is unchanged) so that
+<code>rectangle</code> is entirely visible. Since the pixel coordinates only
+ define a <i>frustum</i> in 3D, it's the intersection of this frustum with
+ a plane (orthogonal to the viewDirection() and passing through the
+ sceneCenter()) that is used to define the 3D rectangle that is eventually
+ fitted.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="fitSphere(PVector,float)" id="fitSphere(PVector,float)"/><div class="member detail outer"><h3 class="member detail name">fitSphere</h3><pre class="member detail synopsis">public void fitSphere(PVector center,
+                      float radius)</pre><blockquote class="member detail name"><div class="member detail description"> Moves the GLCamera so that the sphere defined by <code>center</code>, <code>radius</code>) is visible and fits the window.
+ 
+ <p/>
+ 
+ The GLCamera is simply translated along its <a href="../../codeanticode/contrapro/GLCamera.html#viewDirection()"><code>viewDirection()</code></a> so
+ that the sphere fits the screen. Its <a href="../../codeanticode/contrapro/GLCamera.html#orientation()"><code>orientation()</code></a> and its
+<a href="../../codeanticode/contrapro/GLCamera.html#fieldOfView()"><code>fieldOfView()</code></a> are unchanged.
+  
+ <p/>
+ 
+ You should therefore orientate the GLCamera before you call this method.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLCamera.html#lookAt(PVector)"><code>lookAt(PVector)</code></a>, <a href="../../codeanticode/contrapro/GLCamera.html#setOrientation(GLQuaternion)"><code>setOrientation(GLQuaternion)</code></a>, <a href="../../codeanticode/contrapro/GLCamera.html#setUpVector(PVector,boolean)"><code>setUpVector(PVector,boolean)</code></a></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="flySpeed()" id="flySpeed()"/><div class="member detail outer"><h3 class="member detail name">flySpeed</h3><pre class="member detail synopsis">public float flySpeed()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the fly speed of the GLCamera.
+ 
+ <p/>
+ 
+ Simply returns <code>frame().flySpeed()</code>. See the
+<code>codeanticode.contrapro.GLInteractiveCameraFrame.flySpeed()</code>
+  documentation. This value is only meaningful when the MouseAction
+ bindings is GLGraphics.MOVE_FORWARD or is GLGraphics.MOVE_BACKWARD.
+ 
+ Set to 0.5% of the <a href="../../codeanticode/contrapro/GLCamera.html#sceneRadius()"><code>sceneRadius()</code></a> by
+<a href="../../codeanticode/contrapro/GLCamera.html#setSceneRadius(float)"><code>setSceneRadius(float)</code></a>.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLCamera.html#setFlySpeed(float)"><code>setFlySpeed(float)</code></a></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="focusDistance()" id="focusDistance()"/><div class="member detail outer"><h3 class="member detail name">focusDistance</h3><pre class="member detail synopsis">public float focusDistance()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the focus distance used by stereo display, expressed in OpenGL
+ units.
+ 
+ <p/>
+ 
+ This is the distance in the virtual world between the Camera and the
+ plane where the horizontal stereo parallax is null (the stereo left and
+ right images are superimposed).
+ 
+ <p/>
+ 
+ This distance is the virtual world equivalent of the real-world
+<a href="../../codeanticode/contrapro/GLCamera.html#physicalDistanceToScreen()"><code>physicalDistanceToScreen()</code></a>.
+  
+ <p/>
+ 
+ <b>attention:</b> This value is modified by GLGraphics.setSceneRadius(),
+ setSceneRadius() and <a href="../../codeanticode/contrapro/GLCamera.html#setFieldOfView(float)"><code>setFieldOfView(float)</code></a>. When one of these
+ values is modified, <a href="../../codeanticode/contrapro/GLCamera.html#focusDistance()"><code>focusDistance()</code></a> is set to
+<a href="../../codeanticode/contrapro/GLCamera.html#sceneRadius()"><code>sceneRadius()</code></a> / tan(<a href="../../codeanticode/contrapro/GLCamera.html#fieldOfView()"><code>fieldOfView()</code></a>/2), which provides
+  good results.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="frame()" id="frame()"/><div class="member detail outer"><h3 class="member detail name">frame</h3><pre class="member detail synopsis">public GLInteractiveCameraFrame frame()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the GLInteractiveCameraFrame attached to the GLCamera.
+ 
+ <p/>
+ 
+ This GLInteractiveCameraFrame defines its <a href="../../codeanticode/contrapro/GLCamera.html#position()"><code>position()</code></a> and
+<a href="../../codeanticode/contrapro/GLCamera.html#orientation()"><code>orientation()</code></a> and can translate mouse events into GLCamera
+  displacement. Set using <a href="../../codeanticode/contrapro/GLCamera.html#setFrame(GLInteractiveCameraFrame)"><code>setFrame(GLInteractiveCameraFrame)</code></a>.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="fromModelViewMatrix(float[])" id="fromModelViewMatrix(float[])"/><div class="member detail outer"><h3 class="member detail name">fromModelViewMatrix</h3><pre class="member detail synopsis">public void fromModelViewMatrix(float[] modelViewMatrix)</pre><blockquote class="member detail name"><div class="member detail description"> Sets the GLCamera's <a href="../../codeanticode/contrapro/GLCamera.html#position()"><code>position()</code></a> and <a href="../../codeanticode/contrapro/GLCamera.html#orientation()"><code>orientation()</code></a> from an OpenGL
+ ModelView matrix.
+ 
+ <p/>
+ 
+ This enables a GLCamera initialisation from an other OpenGL application.
+<code>modelView</code> is a 16 float vector representing a valid OpenGL ModelView matrix,
+ such as one can get using:
+ <p/>
+<code>GLfloat mvm[16];</code><br/>
+<code>glGetFloatv(GL_MODELVIEW_MATRIX, mvm);</code><br/>
+<code>myCamera.fromModelViewMatrix(mvm);</code><br/>
+ <p/>
+ 
+ After this method has been called, #g getModelViewMatrix() returns a matrix equivalent
+ to <code>modelView</code>.
+ 
+ <p/>
+ 
+ Only the <a href="../../codeanticode/contrapro/GLCamera.html#orientation()"><code>orientation()</code></a> and <a href="../../codeanticode/contrapro/GLCamera.html#position()"><code>position()</code></a> of the GLCamera are modified.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="getFrustumPlanesCoefficients()" id="getFrustumPlanesCoefficients()"/><div class="member detail outer"><h3 class="member detail name">getFrustumPlanesCoefficients</h3><pre class="member detail synopsis">public float[][] getFrustumPlanesCoefficients()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the 6 plane equations of the GLCamera frustum.
+ 
+ <p/>
+ 
+ The six 4-component vectors of <code>coef</code> respectively correspond to the left,
+ right, near, far, top and bottom GLCamera frustum planes. Each vector holds a plane
+ equation of the form:
+ <p/>
+<code>a*x + b*y + c*z + d = 0</code>
+ <p/>
+ where <code>a</code>, <code>b</code>, <code>c</code> and <code>d</code> are the 4 components of each vector,
+ in that order.
+ 
+ <p/>
+ 
+ This format is compatible with the <code>glClipPlane()</code> function. One camera frustum
+ plane can hence be applied in an other viewer to visualize the culling results:
+ <p/>
+<code>// Retrieve place equations</code><br/>
+<code>float [][] coef = mainViewer.camera().getFrustumPlanesCoefficients();</code><br/>
+<code>// These two additional clipping planes (which must have been enabled)</code><br/>
+<code>// will reproduce the mainViewer's near and far clipping.</code><br/>
+<code>glClipPlane(GL_CLIP_PLANE0, coef[2]);</code><br/>
+<code>glClipPlane(GL_CLIP_PLANE1, coef[3]);</code><br/>
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="getModelViewMatrix()" id="getModelViewMatrix()"/><div class="member detail outer"><h3 class="member detail name">getModelViewMatrix</h3><pre class="member detail synopsis">public float[] getModelViewMatrix()</pre><blockquote class="member detail name"><div class="member detail description"> Convenience function that simply returns
+<code>return this.getModelViewMatrix(new float[16])</code>
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="getModelViewMatrix(float[])" id="getModelViewMatrix(float[])"/><div class="member detail outer"><h3 class="member detail name">getModelViewMatrix</h3><pre class="member detail synopsis">public float[] getModelViewMatrix(float[] m)</pre><blockquote class="member detail name"><div class="member detail description"> Fills <code>m</code> with the Camera modelView matrix values and returns it. If
+<code>m</code> is <code>null</code> (or not the correct size), a new array will be created.
+ 
+ <p/>
+ 
+ First calls <a href="../../codeanticode/contrapro/GLCamera.html#computeModelViewMatrix()"><code>computeModelViewMatrix()</code></a> to define the GLCamera modelView matrix.
+ 
+ <p/>
+ 
+ Note that this matrix is usually not the one you would get from a
+<code>glGetFloatv(GL_MODELVIEW_MATRIX, m)</code>. It converts from the world to the
+ GLCamera coordinate system, but as soon as you modify the GL_MODELVIEW in your
+ drawing code, the two matrices differ.
+ 
+ <p/>
+ 
+ The result is an OpenGL 4x4 matrix, which is given in column-major order (see
+<code>glMultMatrix</code> documentation for details).
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLCamera.html#getProjectionMatrix(float[])"><code>getProjectionMatrix(float[])</code></a>, <a href="../../codeanticode/contrapro/GLCamera.html#fromModelViewMatrix(float[])"><code>fromModelViewMatrix(float[])</code></a></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="getModelViewProjectionMatrix()" id="getModelViewProjectionMatrix()"/><div class="member detail outer"><h3 class="member detail name">getModelViewProjectionMatrix</h3><pre class="member detail synopsis">public float[] getModelViewProjectionMatrix()</pre><blockquote class="member detail name"><div class="member detail description"> Convenience function that simply returns
+<code>return getModelViewProjectionMatrix(new float[16])</code>
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="getModelViewProjectionMatrix(float[])" id="getModelViewProjectionMatrix(float[])"/><div class="member detail outer"><h3 class="member detail name">getModelViewProjectionMatrix</h3><pre class="member detail synopsis">public float[] getModelViewProjectionMatrix(float[] m)</pre><blockquote class="member detail name"><div class="member detail description"> Fills <code>m</code> m with the product of the ModelView and Projection matrices and returns it.
+ If <code>m</code> is <code>null</code> (or not the correct size), a new array will created.
+  
+ <p/>  
+  
+ Calls <a href="../../codeanticode/contrapro/GLCamera.html#getModelViewMatrix()"><code>getModelViewMatrix()</code></a> and <a href="../../codeanticode/contrapro/GLCamera.html#getProjectionMatrix()"><code>getProjectionMatrix()</code></a> and then fills
+<code>m</code> with the product of these two matrices.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="getOrthoWidthHeight()" id="getOrthoWidthHeight()"/><div class="member detail outer"><h3 class="member detail name">getOrthoWidthHeight</h3><pre class="member detail synopsis">public float[] getOrthoWidthHeight()</pre><blockquote class="member detail name"><div class="member detail description"> Convenience function that simply returns <code>getOrthoWidthHeight(new
+ float[2])</code>.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="getOrthoWidthHeight(float[])" id="getOrthoWidthHeight(float[])"/><div class="member detail outer"><h3 class="member detail name">getOrthoWidthHeight</h3><pre class="member detail synopsis">public float[] getOrthoWidthHeight(float[] target)</pre><blockquote class="member detail name"><div class="member detail description"> Fills in <code>target</code> with the <code>halfWidth</code> and <code>halfHeight</code>
+ of the GLCamera orthographic frustum and returns it.
+ 
+ <p/>
+ 
+ While  holds <code>halfWidth</code>, <code>target[1]</code> holds
+<code>halfHeight</code>.
+ 
+ <p/>
+ 
+ These values are only valid and used when the GLCamera is of type()
+ ORTHOGRAPHIC. They are expressed in OpenGL units and are used by
+ loadProjectionMatrix() to define the projection matrix using: <code>glOrtho( -halfWidth, halfWidth, -halfHeight, halfHeight, zNear(), zFar()
+ )</code>.
+ 
+ <p/>
+ 
+ 
+ These values are proportional to the GLCamera (z projected) distance to
+ the <a href="../../codeanticode/contrapro/GLCamera.html#revolveAroundPoint()"><code>revolveAroundPoint()</code></a>. When zooming on the object, the
+ GLCamera is translated forward \e and its frustum is narrowed, making the
+ object appear bigger on screen, as intuitively expected.
+ 
+ <p/>
+ 
+ Overload this method to change this behavior if desired.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="getProjectionMatrix()" id="getProjectionMatrix()"/><div class="member detail outer"><h3 class="member detail name">getProjectionMatrix</h3><pre class="member detail synopsis">public float[] getProjectionMatrix()</pre><blockquote class="member detail name"><div class="member detail description"> Convenience function that simply returns <code>return getProjectionMatrix(new float[16])</code>
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLCamera.html#getProjectionMatrix(float[])"><code>getProjectionMatrix(float[])</code></a></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="getProjectionMatrix(float[])" id="getProjectionMatrix(float[])"/><div class="member detail outer"><h3 class="member detail name">getProjectionMatrix</h3><pre class="member detail synopsis">public float[] getProjectionMatrix(float[] m)</pre><blockquote class="member detail name"><div class="member detail description"> Fills <code>m</code> with the GLCamera projection matrix values and returns it. If
+<code>m</code> is <code>null</code> (or not the correct size), a new array will created.
+ 
+ <p/>
+ 
+ Calls <a href="../../codeanticode/contrapro/GLCamera.html#computeProjectionMatrix()"><code>computeProjectionMatrix()</code></a> to define the GLCamera projection matrix.
+ 
+ <p/>
+ 
+ This matrix only reflects the GLCamera's internal parameters and it may differ from
+ the GL_PROJECTION matrix retrieved using <code>glGetFloatv(GL_PROJECTION_MATRIX, m)</code>.
+ 
+ <p/>
+ 
+ The result is an OpenGL 4x4 matrix, which is given in column-major order (see
+<code>glMultMatrix</code> documentation for details).
+ 
+ See also getModelViewMatrix() and fromProjectionMatrix().
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="getViewport()" id="getViewport()"/><div class="member detail outer"><h3 class="member detail name">getViewport</h3><pre class="member detail synopsis">public int[] getViewport()</pre><blockquote class="member detail name"><div class="member detail description"> Convenience function that simply calls <code>return</code>
+<a href="../../codeanticode/contrapro/GLCamera.html#getViewport(int[])"><code>getViewport(int[])</code></a>.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="getViewport(int[])" id="getViewport(int[])"/><div class="member detail outer"><h3 class="member detail name">getViewport</h3><pre class="member detail synopsis">public int[] getViewport(int[] viewport)</pre><blockquote class="member detail name"><div class="member detail description"> Fills <code>viewport</code> with the GLCamera OpenGL viewport and returns it.
+ If viewport is null (or not the correct size), a new array will be
+ created.
+ 
+ <p/>
+ 
+ This method is mainly used in conjunction with <code>gluProject</code>, which
+ requires such a viewport. Returned values are (0, screenHeight(),
+ screenWidth(), - screenHeight()), so that the origin is located in the
+ upper left corner of the window.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="horizontalFieldOfView()" id="horizontalFieldOfView()"/><div class="member detail outer"><h3 class="member detail name">horizontalFieldOfView</h3><pre class="member detail synopsis">public float horizontalFieldOfView()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the horizontal field of view of the GLCamera (in radians).
+ 
+ <p/>
+ 
+ Value is set using <a href="../../codeanticode/contrapro/GLCamera.html#setHorizontalFieldOfView(float)"><code>setHorizontalFieldOfView(float)</code></a> or
+<a href="../../codeanticode/contrapro/GLCamera.html#setFieldOfView(float)"><code>setFieldOfView(float)</code></a>. These values are always linked by:
+<code>horizontalFieldOfView() = 2.0 * atan ( tan(fieldOfView()/2.0) *
+   aspectRatio() )</code>.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="lookAt(PVector)" id="lookAt(PVector)"/><div class="member detail outer"><h3 class="member detail name">lookAt</h3><pre class="member detail synopsis">public void lookAt(PVector target)</pre><blockquote class="member detail name"><div class="member detail description"> Sets the GLCamera <a href="../../codeanticode/contrapro/GLCamera.html#orientation()"><code>orientation()</code></a>, so that it looks at point
+<code>target</code> (defined in the world coordinate system).
+ 
+ <p/>
+ 
+ The Camera <a href="../../codeanticode/contrapro/GLCamera.html#position()"><code>position()</code></a> is not modified. Simply
+<a href="../../codeanticode/contrapro/GLCamera.html#setViewDirection(PVector)"><code>setViewDirection(PVector)</code></a>.
+  
+ See also setUpVector(), setOrientation(), showEntireScene(), fitSphere()
+ and fitBoundingBox().
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="orientation()" id="orientation()"/><div class="member detail outer"><h3 class="member detail name">orientation</h3><pre class="member detail synopsis">public GLQuaternion orientation()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the GLCamera orientation, defined in the world coordinate system.
+ 
+ <p/>
+ 
+ Actually returns <code>frame().orientation()</code>.
+ 
+ Use setOrientation(), setUpVector() or lookAt() to set the Camera
+ orientation.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="physicalDistanceToScreen()" id="physicalDistanceToScreen()"/><div class="member detail outer"><h3 class="member detail name">physicalDistanceToScreen</h3><pre class="member detail synopsis">public float physicalDistanceToScreen()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the physical distance between the user's eyes and the screen (in
+ meters).
+ 
+ <p/>
+ 
+ Default value is 0.5m.
+ 
+ <p/>
+ 
+ Used by loadModelViewMatrixStereo() and loadProjectionMatrixStereo() for
+ stereo display. Value is set using setPhysicalDistanceToScreen().
+ 
+ <p/>
+ 
+ physicalDistanceToScreen() and focusDistance() represent the same
+ distance. The first one is expressed in physical real world units, while
+ the latter is expressed in OpenGL virtual world units. Use their ratio to
+ convert distances between these worlds.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="physicalScreenWidth()" id="physicalScreenWidth()"/><div class="member detail outer"><h3 class="member detail name">physicalScreenWidth</h3><pre class="member detail synopsis">public float physicalScreenWidth()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the physical screen width, in meters. Default value is 0.4m
+ (average monitor).
+ 
+ <p/>
+ 
+ Used for stereo display only (see loadModelViewMatrixStereo() and
+ loadProjectionMatrixStereo()). Set using
+<a href="../../codeanticode/contrapro/GLCamera.html#setPhysicalScreenWidth(float)"><code>setPhysicalScreenWidth(float)</code></a>.
+  
+ See <a href="../../codeanticode/contrapro/GLCamera.html#physicalDistanceToScreen()"><code>physicalDistanceToScreen()</code></a> for reality center automatic
+ configuration.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="pixelGLRatio(PVector)" id="pixelGLRatio(PVector)"/><div class="member detail outer"><h3 class="member detail name">pixelGLRatio</h3><pre class="member detail synopsis">public float pixelGLRatio(PVector position)</pre><blockquote class="member detail name"><div class="member detail description"> Returns the ratio between pixel and OpenGL units at <code>position</code>.
+ 
+ <p/>
+ 
+ A line of <code>n * pixelGLRatio()</code> OpenGL units, located at <code>position</code> in
+ the world coordinates system, will be projected with a length of <code>n</code> pixels on screen.
+ 
+ <p/>
+ 
+ Use this method to scale objects so that they have a constant pixel size on screen.
+ The following code will draw a 20 pixel line, starting at <a href="../../codeanticode/contrapro/GLCamera.html#sceneCenter()"><code>sceneCenter()</code></a> and
+ always directed along the screen vertical direction:
+ <p/>
+<code>gl.glBegin(GL.GL_LINES);</code><br/>
+<code>gl.glVertex3fv(sceneCenter());</code><br/>
+<code>gl.glVertex3fv(sceneCenter() + 20 * pixelGLRatio(sceneCenter()) * camera().upVector());</code><br/>
+<code>gl.glEnd();</code><br/>
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="position()" id="position()"/><div class="member detail outer"><h3 class="member detail name">position</h3><pre class="member detail synopsis">public final PVector position()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the GLCamera position (the eye), defined in the world coordinate
+ system.
+ 
+ <p/>
+ 
+ Use <a href="../../codeanticode/contrapro/GLCamera.html#setPosition(PVector)"><code>setPosition(PVector)</code></a> to set the Camera position. Other
+ convenient methods are showEntireScene() or fitSphere(). Actually returns
+<a href="../../codeanticode/contrapro/GLFrame.html#position()"><code>GLFrame.position()</code></a>.
+  
+ <p/>
+ 
+ This position corresponds to the projection center of a
+ GLCamera.PERSPECTIVE camera. It is not located in the image plane, which
+ is at a zNear() distance ahead.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="projectedCoordinatesOf(PVector)" id="projectedCoordinatesOf(PVector)"/><div class="member detail outer"><h3 class="member detail name">projectedCoordinatesOf</h3><pre class="member detail synopsis">public final PVector projectedCoordinatesOf(PVector src)</pre><blockquote class="member detail name"><div class="member detail description"> Convenience function that simply returns <code>return
+ projectedCoordinatesOf(src, null)</code>
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="projectedCoordinatesOf(PVector,GLFrame)" id="projectedCoordinatesOf(PVector,GLFrame)"/><div class="member detail outer"><h3 class="member detail name">projectedCoordinatesOf</h3><pre class="member detail synopsis">public final PVector projectedCoordinatesOf(PVector src,
+                                            GLFrame frame)</pre><blockquote class="member detail name"><div class="member detail description"> Returns the screen projected coordinates of a point <code>src</code> defined
+ in the <code>frame</code> coordinate system.
+ 
+ <p/>
+ 
+ When <code>frame</code> is <code>null</code>, <code>src</code> is expressed in the world
+ coordinate system. See <a href="../../codeanticode/contrapro/GLCamera.html#projectedCoordinatesOf(PVector)"><code>projectedCoordinatesOf(PVector)</code></a>.
+ 
+ <p/>
+ 
+ The x and y coordinates of the returned PVector are expressed in pixel,
+ (0,0) being the upper left corner of the window. The z coordinate ranges
+ between 0.0 (near plane) and 1.0 (excluded, far plane). See the <code>gluProject</code> man page for details.
+ 
+ <p/>
+ 
+ unprojectedCoordinatesOf() performs the inverse transformation.
+ 
+ <b>Attention:</b> This method only uses the intrinsic GLCamera parameters
+ (see getModelViewMatrix(), getProjectionMatrix() and getViewport()) and
+ is completely independent of the OpenGL GL_MODELVIEW, GL_PROJECTION and
+ viewport matrices. You can hence define a virtual GLCamera and use this
+ method to compute projections out of a classical rendering context.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="revolveAroundPoint()" id="revolveAroundPoint()"/><div class="member detail outer"><h3 class="member detail name">revolveAroundPoint</h3><pre class="member detail synopsis">public final PVector revolveAroundPoint()</pre><blockquote class="member detail name"><div class="member detail description"> The point the GLCamera revolves around with the GLGraphcis.ROTATE mouse
+ binding. Defined in world coordinate system.
+ 
+ <p/>
+ 
+ Default value is the <a href="../../codeanticode/contrapro/GLCamera.html#sceneCenter()"><code>sceneCenter()</code></a>.
+ 
+ <p/>
+ 
+ <b>Attention:</b> <a href="../../codeanticode/contrapro/GLCamera.html#setSceneCenter(PVector)"><code>setSceneCenter(PVector)</code></a> changes this value.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="rightVector()" id="rightVector()"/><div class="member detail outer"><h3 class="member detail name">rightVector</h3><pre class="member detail synopsis">public PVector rightVector()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the normalized right vector of the GLCamera, defined in the world
+ coordinate system.
+ 
+ <p/>
+ 
+ This vector lies in the GLCamera horizontal plane, directed along the X
+ axis (orthogonal to <a href="../../codeanticode/contrapro/GLCamera.html#upVector()"><code>upVector()</code></a> and to <a href="../../codeanticode/contrapro/GLCamera.html#viewDirection()"><code>viewDirection()</code></a>.
+ Set using setUpVector(), lookAt() or setOrientation().
+ 
+ <p/>
+ 
+ Simply returns <code>frame().inverseTransformOf(new PVector(1.0f, 0.0f,
+ 0.0f))</code>.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="sceneCenter()" id="sceneCenter()"/><div class="member detail outer"><h3 class="member detail name">sceneCenter</h3><pre class="member detail synopsis">public PVector sceneCenter()</pre><blockquote class="member detail name"><div class="member detail description"> 
+ Returns the position of the scene center, defined in the world coordinate
+ system.
+ 
+ <p/>
+ 
+ The scene observed by the GLCamera should be roughly centered on this
+ position, and included in a sceneRadius() sphere. This approximate
+ description of the scene permits a zNear() and zFar() clipping planes
+ definition, and allows convenient positioning methods such as
+ showEntireScene().
+ 
+ <p/>
+ 
+ Note that GLGraphics.sceneCenter() (resp. GLGraphics.setSceneCenter())
+ simply call this method (resp. setSceneCenter()) on its associated
+ GLGraphics.camera(). Default value is (0,0,0) (world origin). Use
+ setSceneCenter() to change it.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><code>setSceneBoundingBox().</code></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="sceneRadius()" id="sceneRadius()"/><div class="member detail outer"><h3 class="member detail name">sceneRadius</h3><pre class="member detail synopsis">public float sceneRadius()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the radius of the scene observed by the Camera.
+ 
+ <p/>
+ 
+ You need to provide such an approximation of the scene dimensions so that
+ the Camera can adapt its zNear() and zFar() values. See the sceneCenter()
+ documentation.
+ 
+ <p/>
+ 
+ Note that sceneRadius() (resp. setSceneRadius())simply call this
+ method(resp. setSceneRadius()) on its associated camera().
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><code>setSceneBoundingBox()</code></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="screenHeight()" id="screenHeight()"/><div class="member detail outer"><h3 class="member detail name">screenHeight</h3><pre class="member detail synopsis">public final int screenHeight()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the height (in pixels) of the GLCamera screen.
+ 
+ <p/>
+ 
+ Set using setScreenWidthAndHeight(). This value is automatically fitted
+ to the GLGraphcis's window dimensions when the GLCamera is attached to a
+ GLGraphics.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="screenWidth()" id="screenWidth()"/><div class="member detail outer"><h3 class="member detail name">screenWidth</h3><pre class="member detail synopsis">public final int screenWidth()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the width (in pixels) of the GLCamera screen.
+ 
+ <p/>
+ 
+ Set using setScreenWidthAndHeight(). This value is automatically fitted
+ to the GLGraphics's window dimensions when the GLCamera is attached to a
+ GLGraphics.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setAspectRatio(float)" id="setAspectRatio(float)"/><div class="member detail outer"><h3 class="member detail name">setAspectRatio</h3><pre class="member detail synopsis">public void setAspectRatio(float aspect)</pre><blockquote class="member detail name"><div class="member detail description"> Defines the GLCamera <a href="../../codeanticode/contrapro/GLCamera.html#aspectRatio()"><code>aspectRatio()</code></a>.
+ 
+ <p/>
+ 
+ This value is actually inferred from the <a href="../../codeanticode/contrapro/GLCamera.html#screenWidth()"><code>screenWidth()</code></a> /
+<a href="../../codeanticode/contrapro/GLCamera.html#screenHeight()"><code>screenHeight()</code></a> ratio. You should use
+<a href="../../codeanticode/contrapro/GLCamera.html#setScreenWidthAndHeight(int,int)"><code>setScreenWidthAndHeight(int,int)</code></a> instead.
+   
+ <p/>
+ 
+ This method might however be convenient when the GLCamera is not
+ associated with a GLGraphcis. It actually sets the
+<a href="../../codeanticode/contrapro/GLCamera.html#screenHeight()"><code>screenHeight()</code></a> to 100 and the <a href="../../codeanticode/contrapro/GLCamera.html#screenWidth()"><code>screenWidth()</code></a>
+  accordingly. See also <a href="../../codeanticode/contrapro/GLCamera.html#setFOVToFitScene()"><code>setFOVToFitScene()</code></a>.
+ 
+ <p/>
+ 
+ <b>Note:</b> If you absolutely need an <a href="../../codeanticode/contrapro/GLCamera.html#aspectRatio()"><code>aspectRatio()</code></a> that does
+ not correspond to your viewer's window dimensions, overload
+ loadProjectionMatrix() or multiply the created GL_PROJECTION matrix by a
+ scaled diagonal matrix in your GLGraphics.draw() method.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setFOVToFitScene()" id="setFOVToFitScene()"/><div class="member detail outer"><h3 class="member detail name">setFOVToFitScene</h3><pre class="member detail synopsis">public void setFOVToFitScene()</pre><blockquote class="member detail name"><div class="member detail description"> Changes the GLCamera <a href="../../codeanticode/contrapro/GLCamera.html#fieldOfView()"><code>fieldOfView()</code></a> so that the entire scene
+ (defined by GLGraphics.sceneCenter() and GLGraphics.sceneRadius()) is
+ visible from the GLCamera <a href="../../codeanticode/contrapro/GLCamera.html#position()"><code>position()</code></a>.
+ 
+ <p/>
+ 
+ The <a href="../../codeanticode/contrapro/GLCamera.html#position()"><code>position()</code></a> and <a href="../../codeanticode/contrapro/GLCamera.html#orientation()"><code>orientation()</code></a> of the GLCamera are
+ not modified and you first have to orientate the GLCamera in order to
+ actually see the scene (see <a href="../../codeanticode/contrapro/GLCamera.html#lookAt(PVector)"><code>lookAt(PVector)</code></a>,
+<a href="../../codeanticode/contrapro/GLCamera.html#showEntireScene()"><code>showEntireScene()</code></a> or <a href="../../codeanticode/contrapro/GLCamera.html#fitSphere(PVector,float)"><code>fitSphere(PVector,float)</code></a>).
+  
+ <p/>
+ 
+ This method is especially useful for <i>shadow maps</i> computation. Use
+ the GLCamera positioning tools (<a href="../../codeanticode/contrapro/GLCamera.html#setPosition(PVector)"><code>setPosition(PVector)</code></a>,
+<a href="../../codeanticode/contrapro/GLCamera.html#lookAt(PVector)"><code>lookAt(PVector)</code></a>) to position a GLCamera at the light position.
+  Then use this method to define the <a href="../../codeanticode/contrapro/GLCamera.html#fieldOfView()"><code>fieldOfView()</code></a> so that the
+ shadow map resolution is optimally used:
+ 
+ <p/>
+<code>// The light camera needs size hints in order to optimize its
+ 
+  fieldOfView</code> <br/>
+<code>lightCamera.setSceneRadius(sceneRadius());</code> <br/>
+<code>lightCamera.setSceneCenter(sceneCenter());</code> <br/>
+<code>// Place the light camera</code> <br/>
+<code>lightCamera.setPosition(lightFrame.position());</code> <br/>
+<code>lightCamera.lookAt(sceneCenter());</code> <br/>
+<code>lightCamera.setFOVToFitScene();</code> <br/>
+ 
+ <b>Attention:</b> The <a href="../../codeanticode/contrapro/GLCamera.html#fieldOfView()"><code>fieldOfView()</code></a> is clamped to M_PI/2.0. This
+ happens when the GLCamera is at a distance lower than sqrt(2.0) *
+ sceneRadius() from the sceneCenter(). It optimizes the shadow map
+ resolution, although it may miss some parts of the scene.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setFieldOfView(float)" id="setFieldOfView(float)"/><div class="member detail outer"><h3 class="member detail name">setFieldOfView</h3><pre class="member detail synopsis">public void setFieldOfView(float fov)</pre><blockquote class="member detail name"><div class="member detail description"> Sets the vertical <a href="../../codeanticode/contrapro/GLCamera.html#fieldOfView()"><code>fieldOfView()</code></a> of the GLCamera (in radians).
+ 
+ <p/>
+ 
+ Note that <a href="../../codeanticode/contrapro/GLCamera.html#focusDistance()"><code>focusDistance()</code></a> is set to <a href="../../codeanticode/contrapro/GLCamera.html#sceneRadius()"><code>sceneRadius()</code></a> /
+ tan( <a href="../../codeanticode/contrapro/GLCamera.html#fieldOfView()"><code>fieldOfView()</code></a>/2) by this method.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setFlySpeed(float)" id="setFlySpeed(float)"/><div class="member detail outer"><h3 class="member detail name">setFlySpeed</h3><pre class="member detail synopsis">public void setFlySpeed(float speed)</pre><blockquote class="member detail name"><div class="member detail description"> Sets the GLCamera <a href="../../codeanticode/contrapro/GLCamera.html#flySpeed()"><code>flySpeed()</code></a>.
+ 
+ <b>Attention:</b> This value is modified by
+<a href="../../codeanticode/contrapro/GLCamera.html#setSceneRadius(float)"><code>setSceneRadius(float)</code></a>.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setFocusDistance(float)" id="setFocusDistance(float)"/><div class="member detail outer"><h3 class="member detail name">setFocusDistance</h3><pre class="member detail synopsis">public void setFocusDistance(float distance)</pre><blockquote class="member detail name"><div class="member detail description"> Sets the focusDistance(), in OpenGL scene units.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setFrame(GLInteractiveCameraFrame)" id="setFrame(GLInteractiveCameraFrame)"/><div class="member detail outer"><h3 class="member detail name">setFrame</h3><pre class="member detail synopsis">public final void setFrame(GLInteractiveCameraFrame icf)</pre><blockquote class="member detail name"><div class="member detail description"> Sets the GLCamera <a href="../../codeanticode/contrapro/GLCamera.html#frame()"><code>frame()</code></a>.
+ 
+ <p/>
+ 
+ If you want to move the GLCamera, use <a href="../../codeanticode/contrapro/GLCamera.html#setPosition(PVector)"><code>setPosition(PVector)</code></a> and
+<a href="../../codeanticode/contrapro/GLCamera.html#setOrientation(GLQuaternion)"><code>setOrientation(GLQuaternion)</code></a> or one of the GLCamera positioning
+  methods (<a href="../../codeanticode/contrapro/GLCamera.html#lookAt(PVector)"><code>lookAt(PVector)</code></a>, <a href="../../codeanticode/contrapro/GLCamera.html#fitSphere(PVector,float)"><code>fitSphere(PVector,float)</code></a>,
+<a href="../../codeanticode/contrapro/GLCamera.html#showEntireScene()"><code>showEntireScene()</code></a>...) instead.
+  
+ 
+ <p/>
+ 
+ This method is actually mainly useful if you derive the
+ GLInteractiveCameraFrame class and want to use an instance of your new
+ class to move the GLCamera.
+ 
+ <p/>
+ 
+ A <code>null</code> <code>icf</code> reference will silently be ignored.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setHorizontalFieldOfView(float)" id="setHorizontalFieldOfView(float)"/><div class="member detail outer"><h3 class="member detail name">setHorizontalFieldOfView</h3><pre class="member detail synopsis">public void setHorizontalFieldOfView(float hfov)</pre><blockquote class="member detail name"><div class="member detail description"> Sets the <a href="../../codeanticode/contrapro/GLCamera.html#horizontalFieldOfView()"><code>horizontalFieldOfView()</code></a> of the GLCamera (in radians).
+ 
+ <p/>
+<a href="../../codeanticode/contrapro/GLCamera.html#horizontalFieldOfView()"><code>horizontalFieldOfView()</code></a> and <a href="../../codeanticode/contrapro/GLCamera.html#fieldOfView()"><code>fieldOfView()</code></a> are linked by
+ 
+  the <a href="../../codeanticode/contrapro/GLCamera.html#aspectRatio()"><code>aspectRatio()</code></a>. This method actually calls <code>setFieldOfView(( 2.0 * atan (tan(hfov / 2.0) / aspectRatio()) ))</code> so that
+ a call to <a href="../../codeanticode/contrapro/GLCamera.html#horizontalFieldOfView()"><code>horizontalFieldOfView()</code></a> returns the expected value.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setIODistance(float)" id="setIODistance(float)"/><div class="member detail outer"><h3 class="member detail name">setIODistance</h3><pre class="member detail synopsis">public void setIODistance(float distance)</pre><blockquote class="member detail name"><div class="member detail description"> Sets the <a href="../../codeanticode/contrapro/GLCamera.html#IODistance()"><code>IODistance()</code></a>.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setOrientation(GLQuaternion)" id="setOrientation(GLQuaternion)"/><div class="member detail outer"><h3 class="member detail name">setOrientation</h3><pre class="member detail synopsis">public void setOrientation(GLQuaternion q)</pre><blockquote class="member detail name"><div class="member detail description"> Sets the GLCamera <a href="../../codeanticode/contrapro/GLCamera.html#orientation()"><code>orientation()</code></a>, defined in the world coordinate
+ system.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setOrientation(float,float)" id="setOrientation(float,float)"/><div class="member detail outer"><h3 class="member detail name">setOrientation</h3><pre class="member detail synopsis">public void setOrientation(float theta,
+                           float phi)</pre><blockquote class="member detail name"><div class="member detail description"> Sets the <a href="../../codeanticode/contrapro/GLCamera.html#orientation()"><code>orientation()</code></a> of the GLCamera using polar coordinates.
+ 
+ <p/>
+<code>theta</code> rotates the GLCamera around its Y axis, and then <code>phi</code> rotates it around its X axis.
+ 
+ <p/>
+ 
+ The polar coordinates are defined in the world coordinates system:
+<code>theta = phi = 0</code> means that the GLCamera is directed towards the
+ world Z axis. Both angles are expressed in radians.
+ 
+ See also #setUpVector(PVector, boolean). The #position() of the
+ GLCamera is unchanged, you may want to call showEntireScene() after this
+ method to move the GLCamera.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setPhysicalDistanceToScreen(float)" id="setPhysicalDistanceToScreen(float)"/><div class="member detail outer"><h3 class="member detail name">setPhysicalDistanceToScreen</h3><pre class="member detail synopsis">public void setPhysicalDistanceToScreen(float distance)</pre><blockquote class="member detail name"><div class="member detail description"> Sets the <a href="../../codeanticode/contrapro/GLCamera.html#physicalDistanceToScreen()"><code>physicalDistanceToScreen()</code></a>.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setPhysicalScreenWidth(float)" id="setPhysicalScreenWidth(float)"/><div class="member detail outer"><h3 class="member detail name">setPhysicalScreenWidth</h3><pre class="member detail synopsis">public void setPhysicalScreenWidth(float width)</pre><blockquote class="member detail name"><div class="member detail description"> Sets the physical screen (monitor or projected wall) width (in meters).
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setPosition(PVector)" id="setPosition(PVector)"/><div class="member detail outer"><h3 class="member detail name">setPosition</h3><pre class="member detail synopsis">public void setPosition(PVector pos)</pre><blockquote class="member detail name"><div class="member detail description"> Sets the GLCamera <a href="../../codeanticode/contrapro/GLCamera.html#position()"><code>position()</code></a> (the eye), defined in the world
+ coordinate system.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setRevolveAroundPoint(PVector)" id="setRevolveAroundPoint(PVector)"/><div class="member detail outer"><h3 class="member detail name">setRevolveAroundPoint</h3><pre class="member detail synopsis">public void setRevolveAroundPoint(PVector rap)</pre><blockquote class="member detail name"><div class="member detail description"> Changes the <a href="../../codeanticode/contrapro/GLCamera.html#revolveAroundPoint()"><code>revolveAroundPoint()</code></a> to <code>rap</code> (defined in the
+ world coordinate system).
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setSceneBoundingBox(PVector,PVector)" id="setSceneBoundingBox(PVector,PVector)"/><div class="member detail outer"><h3 class="member detail name">setSceneBoundingBox</h3><pre class="member detail synopsis">public void setSceneBoundingBox(PVector min,
+                                PVector max)</pre><blockquote class="member detail name"><div class="member detail description"> Similar to <a href="../../codeanticode/contrapro/GLCamera.html#setSceneRadius(float)"><code>setSceneRadius(float)</code></a> and
+<a href="../../codeanticode/contrapro/GLCamera.html#setSceneCenter(PVector)"><code>setSceneCenter(PVector)</code></a>, but the scene limits are defined by a
+  (world axis aligned) bounding box.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setSceneCenter(PVector)" id="setSceneCenter(PVector)"/><div class="member detail outer"><h3 class="member detail name">setSceneCenter</h3><pre class="member detail synopsis">public void setSceneCenter(PVector center)</pre><blockquote class="member detail name"><div class="member detail description"> Sets the <a href="../../codeanticode/contrapro/GLCamera.html#sceneCenter()"><code>sceneCenter()</code></a>.
+ 
+ <p/>
+ 
+ <b>Attention:</b> This method also sets the <a href="../../codeanticode/contrapro/GLCamera.html#revolveAroundPoint()"><code>revolveAroundPoint()</code></a>
+ to <a href="../../codeanticode/contrapro/GLCamera.html#sceneCenter()"><code>sceneCenter()</code></a>.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setSceneRadius(float)" id="setSceneRadius(float)"/><div class="member detail outer"><h3 class="member detail name">setSceneRadius</h3><pre class="member detail synopsis">public void setSceneRadius(float radius)</pre><blockquote class="member detail name"><div class="member detail description"> Sets the <a href="../../codeanticode/contrapro/GLCamera.html#sceneRadius()"><code>sceneRadius()</code></a> value. Negative values are ignored.
+ 
+ <p/>
+ 
+ <b>Attention:</b> This methods also sets <a href="../../codeanticode/contrapro/GLCamera.html#focusDistance()"><code>focusDistance()</code></a> to
+<code>sceneRadius() / tan(fieldOfView()/2)</code> and <a href="../../codeanticode/contrapro/GLCamera.html#flySpeed()"><code>flySpeed()</code></a> to
+ 1% of <a href="../../codeanticode/contrapro/GLCamera.html#sceneRadius()"><code>sceneRadius()</code></a>.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setScreenWidthAndHeight(int,int)" id="setScreenWidthAndHeight(int,int)"/><div class="member detail outer"><h3 class="member detail name">setScreenWidthAndHeight</h3><pre class="member detail synopsis">public void setScreenWidthAndHeight(int width,
+                                    int height)</pre><blockquote class="member detail name"><div class="member detail description"> Sets GLCamera <a href="../../codeanticode/contrapro/GLCamera.html#screenWidth()"><code>screenWidth()</code></a> and <a href="../../codeanticode/contrapro/GLCamera.html#screenHeight()"><code>screenHeight()</code></a>
+ (expressed in pixels).
+ 
+ <p/>
+ 
+ You should not call this method when the GLCamera is associated with a
+ GLGraphics, since the latter automatically updates these values when it
+ is resized (hence overwriting your values).
+ 
+ <p/>
+ 
+ Non-positive dimension are silently replaced by a 1 pixel value to ensure
+ frustrum coherence.
+ 
+ <p/>
+ 
+ If your GLCamera is used without a GLGraphics (offscreen rendering,
+ shadow maps), use <a href="../../codeanticode/contrapro/GLCamera.html#setAspectRatio(float)"><code>setAspectRatio(float)</code></a> instead to define the
+ projection matrix.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setType(codeanticode.contrapro.GLCamera.Type)" id="setType(codeanticode.contrapro.GLCamera.Type)"/><div class="member detail outer"><h3 class="member detail name">setType</h3><pre class="member detail synopsis">public final void setType(<a href="../../codeanticode/contrapro/GLCamera.Type.html" title="Class in codeanticode.contrapro">GLCamera.Type</a> type)</pre><blockquote class="member detail name"><div class="member detail description"> Defines the GLCamera <a href="../../codeanticode/contrapro/GLCamera.html#type()"><code>type()</code></a>.
+ 
+ <p/>
+ 
+ Changing the GLCamera Type alters the viewport and the objects' size can
+ be changed. This method guarantees that the two frustum match in a plane
+ normal to <a href="../../codeanticode/contrapro/GLCamera.html#viewDirection()"><code>viewDirection()</code></a>, passing through the Revolve Around
+ Point (RAP).
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setUpVector(PVector)" id="setUpVector(PVector)"/><div class="member detail outer"><h3 class="member detail name">setUpVector</h3><pre class="member detail synopsis">public void setUpVector(PVector up)</pre><blockquote class="member detail name"><div class="member detail description"> Convenience function that simply calls <code>setUpVector(up, true)</code>.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLCamera.html#setUpVector(PVector,boolean)"><code>setUpVector(PVector,boolean)</code></a></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setUpVector(PVector,boolean)" id="setUpVector(PVector,boolean)"/><div class="member detail outer"><h3 class="member detail name">setUpVector</h3><pre class="member detail synopsis">public void setUpVector(PVector up,
+                        boolean noMove)</pre><blockquote class="member detail name"><div class="member detail description"> Rotates the GLCamera so that its <a href="../../codeanticode/contrapro/GLCamera.html#upVector()"><code>upVector()</code></a> becomes <code>up</code>
+ (defined in the world coordinate system).
+ 
+ <p/>
+ 
+ The GLCamera is rotated around an axis orthogonal to <code>up</code> and to
+ the current <a href="../../codeanticode/contrapro/GLCamera.html#upVector()"><code>upVector()</code></a> direction.
+ 
+ <p/>
+ 
+ Use this method in order to define the GLCamera horizontal plane.
+ 
+ <p/>
+ 
+ When <code>noMove</code> is set to <code>false</code>, the orientation modification
+ is compensated by a translation, so that the
+<a href="../../codeanticode/contrapro/GLCamera.html#revolveAroundPoint()"><code>revolveAroundPoint()</code></a> stays projected at the same position on
+  screen. This is especially useful when the GLCamera is an observer of the
+ scene (default mouse binding).
+ 
+ <p/>
+ 
+ When <code>noMove</code> is true, the GLCamera <a href="../../codeanticode/contrapro/GLCamera.html#position()"><code>position()</code></a> is left
+ unchanged, which is an intuitive behavior when the GLCamera is in a
+ walkthrough fly mode.
+ 
+ See also setViewDirection(), lookAt() and setOrientation().
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setViewDirection(PVector)" id="setViewDirection(PVector)"/><div class="member detail outer"><h3 class="member detail name">setViewDirection</h3><pre class="member detail synopsis">public void setViewDirection(PVector direction)</pre><blockquote class="member detail name"><div class="member detail description"> Rotates the GLCamera so that its <a href="../../codeanticode/contrapro/GLCamera.html#viewDirection()"><code>viewDirection()</code></a> is <code>direction</code> (defined in the world coordinate system).
+ 
+ <p/>
+ 
+ The GLCamera <a href="../../codeanticode/contrapro/GLCamera.html#position()"><code>position()</code></a> is not modified. The GLCamera is rotated
+ so that the horizon (defined by its <a href="../../codeanticode/contrapro/GLCamera.html#upVector()"><code>upVector()</code></a>) is preserved.
+ 
+ See also lookAt() and setUpVector().
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setZClippingCoefficient(float)" id="setZClippingCoefficient(float)"/><div class="member detail outer"><h3 class="member detail name">setZClippingCoefficient</h3><pre class="member detail synopsis">public void setZClippingCoefficient(float coef)</pre><blockquote class="member detail name"><div class="member detail description"> Sets the <a href="../../codeanticode/contrapro/GLCamera.html#zClippingCoefficient()"><code>zClippingCoefficient()</code></a> value.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="setZNearCoefficient(float)" id="setZNearCoefficient(float)"/><div class="member detail outer"><h3 class="member detail name">setZNearCoefficient</h3><pre class="member detail synopsis">public void setZNearCoefficient(float coef)</pre><blockquote class="member detail name"><div class="member detail description"> Sets the <a href="../../codeanticode/contrapro/GLCamera.html#zNearCoefficient()"><code>zNearCoefficient()</code></a> value.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="showEntireScene()" id="showEntireScene()"/><div class="member detail outer"><h3 class="member detail name">showEntireScene</h3><pre class="member detail synopsis">public void showEntireScene()</pre><blockquote class="member detail name"><div class="member detail description"> Moves the GLCamera so that the entire scene is visible.
+ 
+ <p/>
+ 
+ Simply calls <a href="../../codeanticode/contrapro/GLCamera.html#fitSphere(PVector,float)"><code>fitSphere(PVector,float)</code></a> on a sphere defined by
+<a href="../../codeanticode/contrapro/GLCamera.html#sceneCenter()"><code>sceneCenter()</code></a> and <a href="../../codeanticode/contrapro/GLCamera.html#sceneRadius()"><code>sceneRadius()</code></a>.
+  
+ <p/>
+ 
+ You will typically use this method in GLGraphics.init() after you defined
+ a new <a href="../../codeanticode/contrapro/GLCamera.html#sceneRadius()"><code>sceneRadius()</code></a>.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="type()" id="type()"/><div class="member detail outer"><h3 class="member detail name">type</h3><pre class="member detail synopsis">public final <a href="../../codeanticode/contrapro/GLCamera.Type.html" title="Class in codeanticode.contrapro">GLCamera.Type</a> type()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the GLCamera.Type of the GLCamera.
+ 
+ <p/>
+ 
+ Set by <a href="../../codeanticode/contrapro/GLCamera.html#setType(codeanticode.contrapro.GLCamera.Type)"><code>setType(GLCamera.Type)</code></a>. Mainly used by loadProjectionMatrix().
+ 
+ <p/>
+ 
+ A Camera.PERSPECTIVE GLCamera uses a classical projection mainly defined
+ by its <a href="../../codeanticode/contrapro/GLCamera.html#fieldOfView()"><code>fieldOfView()</code></a>.
+ 
+ <p/>
+ 
+ With a Camera.ORTHOGRAPHIC type(), the <a href="../../codeanticode/contrapro/GLCamera.html#fieldOfView()"><code>fieldOfView()</code></a> is
+ meaningless and the width and height of the GLCamera frustum are inferred
+ from the distance to the <a href="../../codeanticode/contrapro/GLCamera.html#revolveAroundPoint()"><code>revolveAroundPoint()</code></a> using
+<a href="../../codeanticode/contrapro/GLCamera.html#getOrthoWidthHeight()"><code>getOrthoWidthHeight()</code></a>.
+  
+ <p/>
+ 
+ Both types use <a href="../../codeanticode/contrapro/GLCamera.html#zNear()"><code>zNear()</code></a> and <a href="../../codeanticode/contrapro/GLCamera.html#zFar()"><code>zFar()</code></a> (to define their
+ clipping planes) and <a href="../../codeanticode/contrapro/GLCamera.html#aspectRatio()"><code>aspectRatio()</code></a> (for frustum shape).
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="unprojectedCoordinatesOf(PVector)" id="unprojectedCoordinatesOf(PVector)"/><div class="member detail outer"><h3 class="member detail name">unprojectedCoordinatesOf</h3><pre class="member detail synopsis">public final PVector unprojectedCoordinatesOf(PVector src)</pre><blockquote class="member detail name"><div class="member detail description"> Convenience function that simply returns <code>return
+ unprojectedCoordinatesOf(src, null)</code>
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="unprojectedCoordinatesOf(PVector,GLFrame)" id="unprojectedCoordinatesOf(PVector,GLFrame)"/><div class="member detail outer"><h3 class="member detail name">unprojectedCoordinatesOf</h3><pre class="member detail synopsis">public final PVector unprojectedCoordinatesOf(PVector src,
+                                              GLFrame frame)</pre><blockquote class="member detail name"><div class="member detail description"> Returns the world unprojected coordinates of a point <code>src</code> defined
+ in the screen coordinate system.
+ 
+ <p/>
+ 
+ The <code>src.x</code> and <code>src.y</code> input values are expressed in pixels,
+ (0,0) being the upper left corner of the window. <code>src.z</code> is a depth
+ value ranging in [0..1[ (near and far plane respectively). See the
+<code>gluUnProject</code> man page for details.
+ 
+ <p/>
+ 
+ The result is expressed in the <code>frame</code> coordinate system. When
+<code>frame</code> is <code>null</code>, the result is expressed in the world
+ coordinates system. The possible <code>frame</code>
+<a href="../../codeanticode/contrapro/GLFrame.html#referenceFrame()"><code>GLFrame.referenceFrame()</code></a> are taken into
+  account.
+ 
+ <p/>
+<a href="../../codeanticode/contrapro/GLCamera.html#projectedCoordinatesOf(PVector,GLFrame)"><code>projectedCoordinatesOf(PVector,GLFrame)</code></a> performs the inverse
+ 
+  transformation.
+ 
+ <p/>
+ 
+ This method only uses the intrinsic GLCamera parameters (see
+ getModelViewMatrix(), getProjectionMatrix() and getViewport()) and is
+ completely independent of the OpenGL GL_MODELVIEW, GL_PROJECTION and
+ viewport matrices. You can hence define a virtual GLCamera and use this
+ method to compute un-projections out of a classical rendering context.
+ 
+ <p/>
+ 
+ <b>Attention:</b> However, if your GLCamera is not attached to a
+ GLGraphics (used for offscreen computations for instance), make sure the
+ GLCamera matrices are updated before calling this method (use
+ computeModelViewMatrix(), computeProjectionMatrix()).
+ 
+ This method is not computationally optimized. If you call it several
+ times with no change in the matrices, you should buffer the entire
+ inverse projection matrix (modelview, projection and then viewport) to
+ speed-up the queries. See the gluUnProject man page for details.
+ 
+ See also setScreenWidthAndHeight().
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="upVector()" id="upVector()"/><div class="member detail outer"><h3 class="member detail name">upVector</h3><pre class="member detail synopsis">public PVector upVector()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the normalized up vector of the GLCamera, defined in the world
+ coordinate system.
+ 
+ <p/>
+ 
+ Set using setUpVector() or setOrientation(). It is orthogonal to
+ viewDirection() and to rightVector().
+ 
+ <p/>
+ 
+ It corresponds to the Y axis of the associated frame() (actually returns
+<a href="../../codeanticode/contrapro/GLFrame.html#inverseTransformOf(PVector)"><code>GLFrame.inverseTransformOf(PVector)</code></a>
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="viewDirection()" id="viewDirection()"/><div class="member detail outer"><h3 class="member detail name">viewDirection</h3><pre class="member detail synopsis">public PVector viewDirection()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the normalized view direction of the GLCamera, defined in the
+ world coordinate system.
+ 
+ <p/>
+ 
+ Change this value using <a href="../../codeanticode/contrapro/GLCamera.html#setViewDirection(PVector)"><code>setViewDirection(PVector)</code></a>, lookAt() or
+ setOrientation(). It is orthogonal to <a href="../../codeanticode/contrapro/GLCamera.html#upVector()"><code>upVector()</code></a> and to
+ rightVector().
+ 
+ <p/>
+ 
+ This corresponds to the negative Z axis of the <a href="../../codeanticode/contrapro/GLCamera.html#frame()"><code>frame()</code></a> ( <code>frame().inverseTransformOf(new PVector(0.0f, 0.0f, -1.0f))</code> ).
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="worldCoordinatesOf(PVector)" id="worldCoordinatesOf(PVector)"/><div class="member detail outer"><h3 class="member detail name">worldCoordinatesOf</h3><pre class="member detail synopsis">public PVector worldCoordinatesOf(PVector src)</pre><blockquote class="member detail name"><div class="member detail description"> Returns the world coordinates of the point whose position <code>src</code> is
+ defined in the GLCamera coordinate system.
+ 
+ <p/>
+<a href="../../codeanticode/contrapro/GLCamera.html#cameraCoordinatesOf(PVector)"><code>cameraCoordinatesOf(PVector)</code></a> performs the inverse
+ 
+  transformation.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="zClippingCoefficient()" id="zClippingCoefficient()"/><div class="member detail outer"><h3 class="member detail name">zClippingCoefficient</h3><pre class="member detail synopsis">public float zClippingCoefficient()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the coefficient used to position the near and far clipping
+ planes.
+ 
+ <p/>
+ 
+ The near (resp. far) clipping plane is positioned at a distance equal to
+<code>zClippingCoefficient() * sceneRadius()</code> in front of (resp. behind)
+ the <a href="../../codeanticode/contrapro/GLCamera.html#sceneCenter()"><code>sceneCenter()</code></a>. This guarantees an optimal use of the
+ z-buffer range and minimizes aliasing. See the <a href="../../codeanticode/contrapro/GLCamera.html#zNear()"><code>zNear()</code></a> and
+<a href="../../codeanticode/contrapro/GLCamera.html#zFar()"><code>zFar()</code></a> documentations.
+  
+ <p/>
+ 
+ Default value is square root of 3.0 (so that a cube of size
+<a href="../../codeanticode/contrapro/GLCamera.html#sceneRadius()"><code>sceneRadius()</code></a> is not clipped).
+  
+ <p/>
+ 
+ However, since the <a href="../../codeanticode/contrapro/GLCamera.html#sceneRadius()"><code>sceneRadius()</code></a> is used for other purposes (see
+ showEntireScene(), flySpeed(), ...) and you may want to change this value
+ to define more precisely the location of the clipping planes. See also
+<a href="../../codeanticode/contrapro/GLCamera.html#zNearCoefficient()"><code>zNearCoefficient()</code></a>.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="zFar()" id="zFar()"/><div class="member detail outer"><h3 class="member detail name">zFar</h3><pre class="member detail synopsis">public float zFar()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the far clipping plane distance used by the Camera projection
+ matrix.
+ 
+ <p/>
+ 
+ The far clipping plane is positioned at a distance equal to <code>zClippingCoefficient() * sceneRadius()</code> behind the <a href="../../codeanticode/contrapro/GLCamera.html#sceneCenter()"><code>sceneCenter()</code></a>:
+ <p/>
+<code>zFar = distanceToSceneCenter() +
+  zClippingCoefficient()*sceneRadius();</code><br/>
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../codeanticode/contrapro/GLCamera.html#zNear()"><code>zNear()</code></a></dd></dl></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="zNear()" id="zNear()"/><div class="member detail outer"><h3 class="member detail name">zNear</h3><pre class="member detail synopsis">public float zNear()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the near clipping plane distance used by the GLCamera projection
+ matrix.
+ 
+ <p/>
+ 
+ The clipping planes' positions depend on the <a href="../../codeanticode/contrapro/GLCamera.html#sceneRadius()"><code>sceneRadius()</code></a> and
+<a href="../../codeanticode/contrapro/GLCamera.html#sceneCenter()"><code>sceneCenter()</code></a> rather than being fixed small-enough and
+  large-enough values. A good scene dimension approximation will hence
+ result in an optimal precision of the z-buffer.
+ 
+ <p/>
+ 
+ The near clipping plane is positioned at a distance equal to
+<a href="../../codeanticode/contrapro/GLCamera.html#zClippingCoefficient()"><code>zClippingCoefficient()</code></a> * <a href="../../codeanticode/contrapro/GLCamera.html#sceneRadius()"><code>sceneRadius()</code></a> in front of the
+<a href="../../codeanticode/contrapro/GLCamera.html#sceneCenter()"><code>sceneCenter()</code></a>: <code>distanceToSceneCenter() -
+   zClippingCoefficient() * sceneRadius()</code>
+ 
+ <p/>
+ 
+ In order to prevent negative or too small zNear() values (which would
+ degrade the z precision), <a href="../../codeanticode/contrapro/GLCamera.html#zNearCoefficient()"><code>zNearCoefficient()</code></a> is used when the
+ GLCamera is inside the <a href="../../codeanticode/contrapro/GLCamera.html#sceneRadius()"><code>sceneRadius()</code></a> sphere:
+ <p/>
+<code>zMin = zNearCoefficient() * zClippingCoefficient() *
+  sceneRadius();</code><br/>
+<code>zNear = zMin;</code><br/>
+<code>// With an ORTHOGRAPHIC type, the value is simply clamped to 0.0</code>
+ <br/>
+ 
+ <p/>
+ 
+ See also the <a href="../../codeanticode/contrapro/GLCamera.html#zFar()"><code>zFar()</code></a>, <a href="../../codeanticode/contrapro/GLCamera.html#zClippingCoefficient()"><code>zClippingCoefficient()</code></a> and
+<a href="../../codeanticode/contrapro/GLCamera.html#zNearCoefficient()"><code>zNearCoefficient()</code></a> documentations.
+  
+ <p/>
+ 
+ If you need a completely different zNear computation, overload the
+ zNear() and zFar() methods in a new class that publicly inherits from
+ Camera and use GLGraphics.setCamera().
+ 
+ <p/>
+ 
+ <b>Attention:</b> The value is always positive although the clipping
+ plane is positioned at a negative z value in the Camera coordinate
+ system. This follows the <code>gluPerspective</code> standard.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div><hr/><a name="zNearCoefficient()" id="zNearCoefficient()"/><div class="member detail outer"><h3 class="member detail name">zNearCoefficient</h3><pre class="member detail synopsis">public float zNearCoefficient()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the coefficient which is used to set <a href="../../codeanticode/contrapro/GLCamera.html#zNear()"><code>zNear()</code></a> when the
+ GLCamera is inside the sphere defined by <a href="../../codeanticode/contrapro/GLCamera.html#sceneCenter()"><code>sceneCenter()</code></a> and
+<a href="../../codeanticode/contrapro/GLCamera.html#zClippingCoefficient()"><code>zClippingCoefficient()</code></a> * <a href="../../codeanticode/contrapro/GLCamera.html#sceneRadius()"><code>sceneRadius()</code></a>.
+  
+ <p/>
+ 
+ In that case, the <a href="../../codeanticode/contrapro/GLCamera.html#zNear()"><code>zNear()</code></a> value is set to <code>zNearCoefficient() * zClippingCoefficient() * sceneRadius()</code>. See the
+<code>zNear()</code> documentation for details.
+ 
+ <p/>
+ 
+ Default value is 0.005, which is appropriate for most applications. In
+ case you need a high dynamic ZBuffer precision, you can increase this
+ value (~0.1). A lower value will prevent clipping of very close objects
+ at the expense of a worst Z precision.
+ 
+ <p/>
+ 
+ Only meaningful when GLCamera type is GLCamera.PERSPECTIVE.
+</div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div><div class="taglet"></div></blockquote></div></div><p class="navbar bottom spacer"> </p><table class="navbar div bottom"><tr><td><div class="navbar div top"><span class="navbar item enabled"><a href="../../overview-summary.html">Overview</a></span> <span class="navbar item enabled"><a href="package-summary.html">Package</a></span> <span class="navbar item enabled"><a href="tree.html">Tree</a></span> <span class="navbar item enabled"><a href="../../alphaindex.html">Index</a></span> <span class="navbar item enabled"><a href="../../deprecated.html">Deprecated</a></span> <span class="navbar item enabled"><a href="../../about.html">About</a></span></div></td></tr></table><hr/>processing library glgraphics by Andres Colubri. (c) 2008</body></html>

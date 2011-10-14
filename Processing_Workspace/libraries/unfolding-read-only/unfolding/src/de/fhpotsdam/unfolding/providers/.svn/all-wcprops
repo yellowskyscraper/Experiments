@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/122/trunk/unfolding/src/de/fhpotsdam/unfolding/providers
+END
+Yahoo.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/122/trunk/unfolding/src/de/fhpotsdam/unfolding/providers/Yahoo.java
+END
+ImmoScout.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/122/trunk/unfolding/src/de/fhpotsdam/unfolding/providers/ImmoScout.java
+END
+Microsoft.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/122/trunk/unfolding/src/de/fhpotsdam/unfolding/providers/Microsoft.java
+END
+OpenStreetMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/122/trunk/unfolding/src/de/fhpotsdam/unfolding/providers/OpenStreetMap.java
+END
+MapBox.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/122/trunk/unfolding/src/de/fhpotsdam/unfolding/providers/MapBox.java
+END
+MBTilesMapProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/122/trunk/unfolding/src/de/fhpotsdam/unfolding/providers/MBTilesMapProvider.java
+END
+GeoMapApp.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/122/trunk/unfolding/src/de/fhpotsdam/unfolding/providers/GeoMapApp.java
+END
+AbstractMapTileProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/122/trunk/unfolding/src/de/fhpotsdam/unfolding/providers/AbstractMapTileProvider.java
+END
+Google.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/122/trunk/unfolding/src/de/fhpotsdam/unfolding/providers/Google.java
+END
+AbstractMapProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/122/trunk/unfolding/src/de/fhpotsdam/unfolding/providers/AbstractMapProvider.java
+END
+AbstractMapTileUrlProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/122/trunk/unfolding/src/de/fhpotsdam/unfolding/providers/AbstractMapTileUrlProvider.java
+END

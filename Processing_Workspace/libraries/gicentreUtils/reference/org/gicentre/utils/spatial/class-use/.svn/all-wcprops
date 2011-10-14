@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/23/trunk/giCentreUtils/reference/org/gicentre/utils/spatial/class-use
+END
+FrenchNTF.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/58/trunk/giCentreUtils/reference/org/gicentre/utils/spatial/class-use/FrenchNTF.html
+END
+Swiss.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/58/trunk/giCentreUtils/reference/org/gicentre/utils/spatial/class-use/Swiss.html
+END
+Ellipsoid.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/58/trunk/giCentreUtils/reference/org/gicentre/utils/spatial/class-use/Ellipsoid.html
+END
+WebMercator.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/59/trunk/giCentreUtils/reference/org/gicentre/utils/spatial/class-use/WebMercator.html
+END
+ObliqueMercator.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/58/trunk/giCentreUtils/reference/org/gicentre/utils/spatial/class-use/ObliqueMercator.html
+END
+Direction.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/58/trunk/giCentreUtils/reference/org/gicentre/utils/spatial/class-use/Direction.html
+END
+OSGB.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/58/trunk/giCentreUtils/reference/org/gicentre/utils/spatial/class-use/OSGB.html
+END
+UTM.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/58/trunk/giCentreUtils/reference/org/gicentre/utils/spatial/class-use/UTM.html
+END
+Postcode.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/58/trunk/giCentreUtils/reference/org/gicentre/utils/spatial/class-use/Postcode.html
+END
+AlbersEqualAreaConic.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/58/trunk/giCentreUtils/reference/org/gicentre/utils/spatial/class-use/AlbersEqualAreaConic.html
+END
