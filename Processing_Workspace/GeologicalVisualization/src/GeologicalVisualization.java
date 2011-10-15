@@ -1,9 +1,5 @@
-import java.awt.Point;
-
 import processing.core.PApplet;
 import processing.core.PFont;
-
-import codeanticode.glgraphics.GLConstants;
 
 import de.fhpotsdam.unfolding.*;
 import de.fhpotsdam.unfolding.geo.*;

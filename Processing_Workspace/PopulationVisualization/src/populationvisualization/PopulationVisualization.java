@@ -43,8 +43,8 @@ public class PopulationVisualization extends PApplet
 		MapUtils.createDefaultEventDispatcher(this, map);
 		
 		//| Copy
-		displayText = createFont("../data/fonts/Georgia-Bold.ttf", 50);
-		displaySubText = createFont("../data/fonts/Georgia.ttf", 50);
+		displayText = createFont("data/fonts/Georgia-Bold.ttf", 50);
+		displaySubText = createFont("data/fonts/Georgia.ttf", 50);
 	}
 
 	public void draw() 	
