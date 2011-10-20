@@ -1,0 +1,27 @@
+// -*- C++ -*-
+//
+// ======================================================================
+//
+//                           Brad T. Aagaard
+//                        U.S. Geological Survey
+//
+// {LicenseText}
+//
+// ======================================================================
+//
+
+#if !defined(eqsimio_streamtranslator_h)
+#error "StreamTranslator.icc must only be included from StreamTranslator.h"
+#endif
+
+// Set endian type of stream.
+inline
+void
+eqsimio::StreamTranslator::streamEndian(const EndianType endian) {
+  _streamEndian = endian;
+} // streamEndian
+
+// version
+// $Id: StreamTranslator.icc 2363 2006-01-29 22:30:23Z brad $
+
+// End of file 

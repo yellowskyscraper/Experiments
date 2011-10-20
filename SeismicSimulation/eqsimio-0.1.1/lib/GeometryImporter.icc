@@ -1,0 +1,27 @@
+// -*- C++ -*-
+//
+// ======================================================================
+//
+//                           Brad T. Aagaard
+//                        U.S. Geological Survey
+//
+// {LicenseText}
+//
+// ======================================================================
+//
+
+#if !defined(eqsimio_geometryimporter_h)
+#error "GeometryImporter.icc must only be included from GeometryImporter.h"
+#endif
+
+// Set filename of geometry file.
+inline
+void
+eqsimio::GeometryImporter::filename(const char* name) {
+  _filename = name;
+} // filename
+
+// version
+// $Id: GeometryImporter.icc 2363 2006-01-29 22:30:23Z brad $
+
+// End of file 

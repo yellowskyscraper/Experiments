@@ -1,0 +1,19 @@
+Tarball with the C++ code to read the data files. Includes discussion
+of the file formats.
+
+  eqsimio-0.1.1.tar.gz
+
+Mesh files
+
+  Coordinates of vertices are in longitude, latitude, and elevation
+  (m), where longitude and latitude are for the WGS84 datum.
+
+Ground surface data
+
+  Ground shaking intensity (Modified Mercalli Intensity, MMI) as a
+  function of time.
+
+sf1906 - estimate of ground motions for the 1906 earthquake
+
+  MMI on the ground surface. The model covers only the sourthern half
+  of the 1906 rupture.
