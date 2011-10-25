@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-<<<<<<< HEAD
-	<section name="ExternalProjectImportWizard">
-		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
-		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
-	</section>
-	<section name="NewWizardAction">
-		<item value="proclipsing.core.createproject.NewProcessingProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
-		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="proclipsing.core.wizardCategory"/>
-=======
 	<section name="ChooseWorkspaceDialogSettings">
 		<item value="350" key="DIALOG_Y_ORIGIN"/>
 		<item value="545" key="DIALOG_X_ORIGIN"/>
 	</section>
 	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 	</section>
 	<section name="WORKBENCH_SETTINGS">
 		<list key="ENABLED_TRANSFERS">
->>>>>>> 7ba8f9d09eee3a19dc58a0e3489074869cea55c8
 		</list>
 	</section>
 </section>
