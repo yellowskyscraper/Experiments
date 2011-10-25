@@ -1,0 +1,70 @@
+// -*- C++ -*-
+//
+// ----------------------------------------------------------------------
+//
+//                           Brad T. Aagaard
+//                        U.S. Geological Survey
+//
+// <LicenseText>
+//
+// ----------------------------------------------------------------------
+//
+
+/**
+ * @file INSTALL
+ * 
+ * @brief Installation instructions
+ *
+ * <ol>
+ *
+ * <li>Run 'configure'.
+ *
+ * Use 'configure --help' to see all of the arguments configure
+ * accepts. 
+ *
+ * <li>Run 'make'.
+ *
+ * You can change the compiler configure will use by setting CXX when
+ * running configure. For example, to build using the C++ Sunpro compiler
+\verbatim
+configure CXX=CC
+\endverbatim
+ *
+ * <li>Run 'make install'.
+ *
+ * After 'make install', the header files, libraries, and executables
+ * can be found under the PREFIX directory (defined by --prefix=PREFIX
+ * when running configure).
+ *
+ * <li> Set environment variables to find the library. If the library
+ * is not installed in a system directory, set the environment
+ * variables LD_LIBRARY_PATH (or its equivalent) accordingly. You will
+ * probably want to do this in your .bashrc or .cshrc file or a file
+ * that is included by them so that these are set automatically every
+ * time you log in.
+ *
+ * <li> bash shell users
+ *
+\verbatim
+export EQSIMIO_DIR=/home/johndoe/eqsimio
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${EQSIMIO_DIR}/lib
+\endverbatim
+ *
+ * <li> tcsh shell users
+\verbatim
+setenv EQSIMIO_DIR /home/johndoe/eqsimio
+setenv LD_LIBRARY_PATH ${LD_LIBRARY_PATH}:${EQSIMIO_DIR}/lib
+\endverbatim
+ *
+ * </ol>
+ *
+ * @section knownissues Known Issues
+ *
+ * None at this time.
+ *
+ */
+
+// version
+// $Id: INSTALL 2363 2006-01-29 22:30:23Z brad $
+
+// End of file 

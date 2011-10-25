@@ -1,0 +1,27 @@
+// -*- C++ -*-
+//
+// ======================================================================
+//
+//                           Brad T. Aagaard
+//                        U.S. Geological Survey
+//
+// {LicenseText}
+//
+// ======================================================================
+//
+
+#if !defined(eqsimio_dataimporter_h)
+#error "DataImporter.icc must only be included from DataImporter.h"
+#endif
+
+// Set filename of data file.
+inline
+void
+eqsimio::DataImporter::filename(const char* name) {
+  _filename = name;
+} // filename
+
+// version
+// $Id: DataImporter.icc 2363 2006-01-29 22:30:23Z brad $
+
+// End of file 

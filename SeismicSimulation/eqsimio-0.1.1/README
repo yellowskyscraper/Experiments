@@ -1,0 +1,61 @@
+// -*- C++ -*-
+//
+// ----------------------------------------------------------------------
+//
+//                           Brad T. Aagaard
+//                        U.S. Geological Survey
+//
+// <LicenseText>
+//
+// ----------------------------------------------------------------------
+//
+
+/** @mainpage
+ *
+ * @author Brad Aagaard
+ * @date 2006/02/02
+ * @version 0.1.1
+ *
+ * @section summary Summary
+ *
+ * This directory tree contains a library for use in reading EqSim
+ * output files. An example of its use is contained in the example
+ * directory.
+ *
+ * @section installation Installation
+ *
+ * For installation instructions, see \link INSTALL INSTALL \endlink.
+ *
+ * @section dirs Directories
+ *
+ * @li \b doc Top-level directory for the documentation. If the
+ * documentation has been generated it will be in doc/html. Point a
+ * web browser to doc/html/index.html. The documentation can be
+ * generated if you have doxygen by running "doxygen doxyconfig" in
+ * the doc directory.
+ *
+ * @li \b lib Directory holding library source code
+ *
+ * The public interfaces are in the GeometryImporter and DataImporter
+ * objects. The other objects are used by these two objects to
+ * implement the reading of the data files.
+ *
+ * @li \b examples Directory holding the source code for an example
+ * illustrating how to use the library. The example reads an EqSim
+ * geometry file and an EqSim data file and dumps information
+ * extracted from the files to stdout.
+ *
+ * @section format Format of files
+ *
+ * For information regarding the format specification of the geometry
+ * and data files, see \link README.formats README.formats \endlink.
+ * 
+ * @section version Version history
+ *
+ * For information regarding changes, enhancements, significant bug
+ * fixes, etc. see \link CHANGES CHANGES \endlink.
+ * 
+ */
+
+
+// End of file 
