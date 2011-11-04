@@ -1,4 +1,4 @@
-package dynamicearth.app;
+package dynamicearth.app.graphics;
 
 import processing.core.PApplet;
 import processing.core.PFont;
@@ -15,8 +15,6 @@ public class Ball
 	String mag;
 	int magnitude = 0;
 	PFont displayText;
-	//| Projector 1400, 1050
-	//| My Screen 1680, 1050
 	int wid = 1400;
 	int hei = 1050;
 	
