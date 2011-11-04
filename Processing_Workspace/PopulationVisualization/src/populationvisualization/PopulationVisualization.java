@@ -6,9 +6,7 @@ import processing.xml.XMLElement;
 
 import de.fhpotsdam.unfolding.*;
 import de.fhpotsdam.unfolding.geo.*;
-import de.fhpotsdam.unfolding.utils.*;
 import de.fhpotsdam.unfolding.providers.*;
-import de.fhpotsdam.unfolding.mapdisplay.MapDisplayFactory;
 
 public class PopulationVisualization extends PApplet 
 {
@@ -47,13 +45,13 @@ public class PopulationVisualization extends PApplet
 		//| http://maps.cloudmade.com/editor
 		//| Light Map:44768, Dark Map: 44840, Teal Map:44842
 	    sanFrancisco = new Location(37.87485339352928f, -121.79443359375f);
-	    map = new Map(this, "map", 0, 0, screenWidth, screenHeight, true, false, new OpenStreetMap.CloudmadeProvider(MapDisplayFactory.OSM_API_KEY, 15153));
-		map.zoomAndPanTo(new Location(37.87485339352928f, -121.79443359375f), 10);
-		MapUtils.createDefaultEventDispatcher(this, map);
+	    map = new Map(this, 0, 0, width, height, new Microsoft.AerialProvider());
+		map.zoomAndPanTo(sanFrancisco, 10);
 		
 		//| XML
 		parsed = false;
-		xml = new XMLElement(this, "http://localhost/Experiments/Processing_Workspace/PopulationVisualization/src/data/php/blocks.php"); 
+		//xml = new XMLElement(this, "http://localhost/Experiments/Processing_Workspace/PopulationVisualization/src/data/php/blocks_bay.php"); 
+		xml = new XMLElement(this, "http://localhost/Experiments/Processing_Workspace/PopulationVisualization/src/data/php/occupancy_bay_50mi.xml"); 
 		
 		//| Copy
 		displayText = createFont("data/fonts/Explo/Explo-Ultra.otf", 50);
@@ -64,14 +62,16 @@ public class PopulationVisualization extends PApplet
 	{
 		//| Map and Overlay
 		background(0);
-		//map.draw();
+		map.draw();
+		fill(0,0,0,200);
+		rect(-1,-1,screenWidth+2,screenHeight+2);
 		
 		//| Population Logic
 		this.totalPopulation();
 		
 		//| Model Bounds
-		this.markers();
-		this.copy("The Eye of the Earth", "There are impossible scribblings in nature, \nwritten neither by men nor by devils.");
+		//this.markers();
+		this.copy("No Self Is Of Itself Alone", "For it is never only about the thing itself; it \nis also about the image one obtains of a thing.");
 	}
 	
 	public void totalPopulation()
@@ -84,10 +84,22 @@ public class PopulationVisualization extends PApplet
 			Location coord = new Location(lat,lon);
 			float[] p = map.getScreenPositionFromLocation(coord);
 			
+			int scale = 2;
+			if(total > 20 && total < 40) scale = 3;
+			else if(total > 40 && total < 60) scale = 4;
+			else if(total > 60 && total < 80) scale = 5;
+			else if(total > 80 && total < 100) scale = 6;
+			else if(total > 100 && total < 120) scale = 7;
+			else if(total > 120 && total < 140) scale = 8;
+			else if(total > 140 && total < 160) scale = 9;
+			else if(total > 160) scale = 10;
+			
+			scale = 5;
 			smooth();
 			noStroke();
-			fill(0,255,255,50);
-			if(total > 0) ellipse(p[0], p[1], 3, 3);
+			//stroke(255);
+			fill(255,255,255, 20);
+			ellipse(p[0], p[1], scale, scale);
 		}
 	}
 	
@@ -96,13 +108,13 @@ public class PopulationVisualization extends PApplet
 		float[] tl = map.getScreenPositionFromLocation(coordTL);
 		
 		smooth();
-		fill(0, 100, 100);
+		fill(0,0,0);
 		textFont(displayText, 40);
 		text(t, tl[0] + 29, tl[1] + 71);
 		textFont(displaySubText, 20);
 		text(s, tl[0] + 29, tl[1] + 106);
 		
-		fill(0, 255, 255);
+		fill(255,255,255);
 		textFont(displayText, 40);
 		text(t, tl[0] + 30, tl[1] + 70);
 		textFont(displaySubText, 20);
@@ -118,13 +130,13 @@ public class PopulationVisualization extends PApplet
 		float[] tl = map.getScreenPositionFromLocation(coordTL);
 		float[] br = map.getScreenPositionFromLocation(coordBR);
 
-		fill(0,100,100);
+		fill(0,0,0);
 		ellipse(tl[0] - 1, tl[1] + 1, 5, 5);
 		ellipse(br[0] - 1, tl[1] + 1, 5, 5);
 		ellipse(br[0] - 1, br[1] + 1, 5, 5);
 		ellipse(tl[0] - 1, br[1] + 1, 5, 5);
 		
-		fill(0,255,255);
+		fill(255,255,255);
 		ellipse(tl[0], tl[1], 5, 5);
 		ellipse(br[0], tl[1], 5, 5);
 		ellipse(br[0], br[1], 5, 5);

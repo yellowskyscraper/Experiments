@@ -13,7 +13,7 @@
 	//| AMSFSJ BLOCKS: 1912856
 	//| A BLOCKS: 1896474
 	
-	$query = $ftclient->query('SELECT TOTAL, INTPTLAT, INTPTLON FROM 1896474');
+	$query = $ftclient->query('SELECT TOTAL, INTPTLAT, INTPTLON FROM 1912856');
 	$deliminator = substr($query, 23, 1); // no NAME
 	//$deliminator = substr($query, 28, 1); // with NAME
 	

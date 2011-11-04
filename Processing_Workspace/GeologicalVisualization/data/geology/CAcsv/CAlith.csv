@@ -1,992 +1,0 @@
-UNIT_LINK,LITH_RANK,LITH1,LITH2,LITH3,LITH4,LITH5,TOTAL_LITH,LOW_LITH,LITH_FORM,LITH_COM
-CAC1;0,incidental,Metamorphic,Schist,,,,Metamorphic     Schist                                             ,Schist,,Biotite-muscovite schist; protoliths of Cambrian and Late Precambrian age
-CAC1;0,incidental,Metamorphic,Quartzite,,,,Metamorphic     Quartzite                                             ,Quartzite,,Includes orthoquartzite and feldspathic quartzite; protoliths of Cambrian and Late Precambrian age
-CAC1;0,incidental,Metamorphic,Hornfels,,,,Metamorphic     Hornfels                                             ,Hornfels,,Includes pelitic hornfels and calc-hornfels; protoltiths primarily of Cambrian age
-CAC1;0,major,Metamorphic,Marble,,,,Metamorphic     Marble                                             ,Marble,,"Calcitic to dolomitic marble, regionally extensive; protoliths are Cambrian to Pennsylvanian in age"
-CAC1;0,minor,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed,"Mostly massive to thick-bedded, locally cherty; mostly Devonian to Pennsylvanian in age"
-CAC1;0,minor,Sedimentary,Carbonate,Dolostone,,,Sedimentary     Carbonate          Dolostone                                   ,Dolostone,Bed,Massive to thick-bedded; mostly Cambrian and Devonian in age
-CAC2;0,major,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed,Chiefly thick-bedded to massive limestone of shallow-water facies. Includes some cherty limestone
-CAC2;0,minor,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed,Generally forms thin layers interbedded with limestone
-CAC2;0,minor,Sedimentary,Clastic,Mixed-clastic,Siltstone-Mudstone,,Sedimentary     Clastic          Mixed-clastic               Siltstone-Mudstone                    ,Siltstone-Mudstone,Bed,Generally forms thin layers interbedded with limestone; most common in southeastern part of area
-CAC3;0,incidental,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,Mostly limestone and chert pebble conglomerate; boulder conglomerate locally at base of Kearsarge Formation
-CAC3;0,incidental,Metamorphic,Argillite,,,,Metamorphic     Argillite                                             ,Argillite,,Siliceous argillite of Squares Tunnel Fm.
-CAC3;0,major,Metamorphic,Argillite,,,,Metamorphic     Argillite                                             ,Argillite,Bed,Black shale forms thick units of Late Mississippian age (primarily Rest Spring Shale)
-CAC3;0,major,Sedimentary,Clastic,Mudstone,Shale,,Sedimentary     Clastic          Mudstone               Shale                    ,Shale,Bed,Mississippian limestones include both fne-grained limestones of shelf facies and clastic limestones of deep-water turbidite facies; some are cherty.  Pennsylvanian to Early Permian limestones are clastic limestones of deep-water turbidite facies
-CAC3;0,minor,Sedimentary,Clastic,Siltstone,,,Sedimentary     Clastic          Siltstone                                   ,Siltstone,Bed,Primarily quartzose siltstone to very fine grained sandstone of Mexican Spring Fm.
-CAC3;0,minor,Sedimentary,Chemical,Chert,,,Sedimentary     Chemical          Chert                                   ,Chert,Bed,"Thin-bedded, phosphatic chert is primary component of Late Devonian Squares Tunnel Fm (originally mapped as part of Mississippian Perdido Group)"
-CAC4;0,incidental,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed,Cherty limestone in Baird Fm.
-CAC4;0,incidental,Metamorphic,Greenstone,,,,Metamorphic     Greenstone                                             ,Greenstone,,Metamorphosed mafic lava in Baird Fm. (includes Bass Mountain Diabase)
-CAC4;0,major,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,"Ranges from nonfissile mudstone to thin-bedded, platy shale.  In part tuffaceous"
-CAC4;0,major,Igneous,Volcanic,,,,Igneous     Volcanic                                             ,Volcanic,Pyroclastic,"Volcanic breccia, tuff breccia, and tuff; includes andesite, keratophyre, and quartz keratophyre"
-CAC4;0,minor,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,"Mostly chert-pebble conglomerate; also contains clasts of limestone, greenstone, shale, white quartz, and sandstone.  Fills channels"
-CAC4;0,minor,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,Turbidites; in part tuffaceous
-CAC5;0,major,Metamorphic,Quartzite,,,,Metamorphic     Quartzite                                             ,Quartzite,,"Thin-bedded, fine-grained"
-CAC5;0,major,Sedimentary,Chemical,Chert,,,Sedimentary     Chemical          Chert                                   ,Chert,Bed,Thin-bedded
-CAC6;0,major,Sedimentary,Chemical,Chert,,,Sedimentary     Chemical          Chert                                   ,Chert,Bed,Varicolored ribbon chert
-CAC6;0,minor,Sedimentary,Clastic,Sandstone,Graywacke,,Sedimentary     Clastic          Sandstone               Graywacke                    ,Graywacke,Bed,Volcaniclastic graywacke
-CAC6;0,minor,Sedimentary,Clastic,Sedimentary-breccia,,,Sedimentary     Clastic          Sedimentary-breccia                                   ,Sedimentary-breccia,Bed,
-CAC6;0,minor,Metamorphic,Slate,,,,Metamorphic     Slate                                             ,Slate,,
-CAC7;0,incidental,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,Locally developed in Bright Dot Fm.
-CAC7;0,major,Metamorphic,Hornfels,,,,Metamorphic     Hornfels                                             ,Hornfels,,Thin-layered to massive siliceous hornfels
-CAC7;0,major,Metamorphic,Marble,,,,Metamorphic     Marble                                             ,Marble,,Thick unit comprising Mt. Baldwin Marble
-CAC8;0,major,Sedimentary,Chemical,Chert,,,Sedimentary     Chemical          Chert                                   ,Chert,Bed,Thin-bedded chert grading into argillite
-CAC8;0,major,Metamorphic,Argillite,,,,Metamorphic     Argillite                                             ,Argillite,,
-CAC8;0,minor,Metamorphic,Hornfels,,,,Metamorphic     Hornfels                                             ,Hornfels,,
-CAC8;0,minor,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,,
-CACA;0,incidental,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CACA;0,incidental,Sedimentary,Clastic,Siltstone,,,Sedimentary     Clastic          Siltstone                                   ,Siltstone,Bed,
-CACA;0,incidental,Sedimentary,Chemical,Chert,,,Sedimentary     Chemical          Chert                                   ,Chert,Bed,
-CACA;0,major,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,Arkosic to quartzitic; primarily Lower Cambrian
-CACA;0,major,Sedimentary,Carbonate,Dolostone,,,Sedimentary     Carbonate          Dolostone                                   ,Dolostone,Bed,"Mostly massive to thick-bedded, in part cherty.  Primarily Middle to Upper Cambrian"
-CACA;0,minor,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,
-CACA;0,minor,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed,
-CACA;0,minor,Metamorphic,Quartzite,,,,Metamorphic     Quartzite                                             ,Quartzite,,
-CAD1;0,incidental,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,"Quartzose sandstone, mainly near base and top of unit"
-CAD1;0,incidental,Metamorphic,Marble,,,,Metamorphic     Marble                                             ,Marble,,Calcitic to dolomitic marble resulting from contact and regional metamorphism of limestone and dolostone
-CAD1;0,incidental,Metamorphic,Quartzite,,,,Metamorphic     Quartzite                                             ,Quartzite,,
-CAD1;0,major,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed,"Thick-bedded, fine-grained, locally fossiliferous"
-CAD1;0,major,Sedimentary,Carbonate,Dolostone,,,Sedimentary     Carbonate          Dolostone                                   ,Dolostone,Bed,"Thick-bedded, fine-grained"
-CAD2;0,incidental,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed,Contains minor chert
-CAD2;0,major,Sedimentary,Clastic,Mudstone,Shale,,Sedimentary     Clastic          Mudstone               Shale                    ,Shale,Bed,Chiefly black siliceous shale; primary component of Kennett Fm.
-CAD2;0,major,Sedimentary,Clastic,Mixed-clastic,Siltstone-Mudstone,,Sedimentary     Clastic          Mixed-clastic               Siltstone-Mudstone                    ,Siltstone-Mudstone,Bed,
-CAD2;0,minor,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,In part tuffaceous
-CAD2;0,minor,Igneous,Volcanic,,,,Igneous     Volcanic                                             ,Volcanic,"Pyroclastic, tuff","Includes tuff, coarse pyroclastic rocks, and flow breccia.  Mostly keratophyre and quartz keratophyre"
-CAEO;0,incidental,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed,
-CAEO;0,incidental,Sedimentary,Clastic,Siltstone,,,Sedimentary     Clastic          Siltstone                                   ,Siltstone,Bed,
-CAEO;0,incidental,Sedimentary,Clastic,Sedimentary-breccia,,,Sedimentary     Clastic          Sedimentary-breccia                                   ,Sedimentary-breccia,,
-CAEO;0,major,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,
-CAEO;0,major,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,
-CAEO;0,minor,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CAEO-PN;0,major,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,Fine- to medium-grained arkose
-CAEO-PN;0,major,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,Commonly interbedded with arkose
-CAEO-PN;0,minor,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,Clasts are typically granitic
-CAEOc1;0,incidental,Sedimentary,Coal,Lignite,,,Sedimentary     Coal          Lignite                                   ,Lignite,Bed,
-CAEOc1;0,major,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,"Varies from white, quartzose sandstone to arkosic and lithic sandstone"
-CAEOc1;0,minor,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CAEOc1;0,minor,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,
-CAEOc1;0,minor,Sedimentary,Clastic,Siltstone,,,Sedimentary     Clastic          Siltstone                                   ,Siltstone,Bed,
-CAEOc2;0,major,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,"Clasts are predominantly metamorphosed rhyolitic and dacitic volcanic rocks, and minor quartzite"
-CAEOc2;0,major,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,Mostly friable
-CAgb1;0,major,Igneous,Plutonic,Dioritic,,,Igneous     Plutonic          Dioritic                                   ,Dioritic,Pluton,Cumulate and layered hornblende diorite and quartz diorite
-CAgb1;0,major,Igneous,Plutonic,Gabbroic,,,Igneous     Plutonic          Gabbroic                                   ,Gabbroic,Pluton,Cumulate and layered hornblende gabbro
-CAgb2;0,major,Igneous,Plutonic,Dioritic,,,Igneous     Plutonic          Dioritic                                   ,Dioritic,Pluton,Mafic plutonic rocks in batholithic and ophiolitic environments
-CAgb2;0,major,Igneous,Plutonic,Gabbroic,,,Igneous     Plutonic          Gabbroic                                   ,Gabbroic,Pluton,Mafic plutonic rocks in batholithic and ophiolitic environments
-CAgr-m;0,incidental,Metamorphic,Metasedimentary,,,,Metamorphic     Metasedimentary                                             ,Metasedimentary,,"Includes quartzite, schist, and carbonate rocks"
-CAgr-m;0,incidental,Metamorphic,Metavolcanic,,,,Metamorphic     Metavolcanic                                             ,Metavolcanic,,
-CAgr-m;0,major,Igneous,Plutonic,,,,Igneous     Plutonic                                             ,Plutonic,Pluton,"Includes quartz monzonite, granodiorite, quartz diorite, tonalite, diorite, and gabbro; commonly gneissic"
-CAgr-m;0,major,Metamorphic,Gneiss,,,,Metamorphic     Gneiss                                             ,Gneiss,,Includes both orthogneiss and paragneiss
-CAgr1;0,major,Igneous,Plutonic,,,,Igneous     Plutonic                                             ,Plutonic,Pluton,Primarily monzogranite and diorite  
-CAgr2;0,major,Igneous,Plutonic,,,,Igneous     Plutonic                                             ,Plutonic,Pluton,Intrusive complexes and plutons ranging from granite to gabbro
-CAgr3;0,major,Igneous,Plutonic,,,,Igneous     Plutonic                                             ,Plutonic,Pluton,"Monzonite, monzogranite, monzodiorite, granodiorite, diorite "
-CAgrCZ?;0,major,Igneous,Plutonic,Granitic,Granite,Monzogranite,Igneous     Plutonic          Granitic               Granite                    Monzogranite,Monzogranite,Pluton,Contains muscovite
-CAgrCZ1;0,incidental,Igneous,Hypabyssal,Felsic-hypabyssal,Hypabyssal-latite,,Igneous     Hypabyssal          Felsic-hypabyssal               Hypabyssal-latite                    ,Hypabyssal-latite,Pluton,
-CAgrCZ1;0,incidental,Igneous,Plutonic,Granitic,Leucocratic-granitic,Aplite,Igneous     Plutonic          Granitic               Leucocratic-granitic                    Aplite,Aplite,Dike or sill,
-CAgrCZ1;0,major,Igneous,Plutonic,Syenitic,Quartz-monzonite,,Igneous     Plutonic          Syenitic               Quartz-monzonite                    ,Quartz-monzonite,Pluton,Generally porphyritic
-CAgrCZ1;0,major,Igneous,Plutonic,Granitic,Granite,,Igneous     Plutonic          Granitic               Granite                    ,Granite,Pluton,Generally porphyritic.  Some described as hypabyssal
-CAgrCZ1;0,minor,Igneous,Plutonic,Syenitic,Monzonite,,Igneous     Plutonic          Syenitic               Monzonite                    ,Monzonite,Pluton,
-CAgrCZ2;0,major,Igneous,Plutonic,Dioritic,Quartz-diorite,,Igneous     Plutonic          Dioritic               Quartz-diorite                    ,Quartz-diorite,Pluton,Porphyritic hornblende quartz diorite
-CAgrMZ?;0,Major,Igneous,Plutonic,Dioritic,Diorite,,Igneous     Plutonic          Dioritic               Diorite                    ,Diorite,Pluton,apparently part of Bear Mtn complex
-CAgrMZ1;0,Major,Igneous,Plutonic,Granitic,Granodiorite,,Igneous     Plutonic          Granitic               Granodiorite                    ,Granodiorite,Pluton,
-CAgrMZ1;0,Incidental,Igneous,Plutonic,Granitic,Granite,,Igneous     Plutonic          Granitic               Granite                    ,Granite,Pluton,
-CAgrMZ1;0,Minor,Igneous,Plutonic,Granitic,Tonalite,,Igneous     Plutonic          Granitic               Tonalite                    ,Tonalite,Pluton,
-CAgrMZ1;0,Major,Igneous,Plutonic,Syenitic,Quartz-monzonite,,Igneous     Plutonic          Syenitic               Quartz-monzonite                    ,Quartz-monzonite,Pluton,
-CAgrMZ1;0,Minor,Igneous,Plutonic,Dioritic,Quartz-diorite,,Igneous     Plutonic          Dioritic               Quartz-diorite                    ,Quartz-diorite,Pluton,
-CAgrMZ1;0,Incidental,Igneous,Plutonic,Gabbroic,Gabbro,,Igneous     Plutonic          Gabbroic               Gabbro                    ,Gabbro,Pluton,
-CAgrMZ1;0,Incidental,Igneous,Plutonic,Granitic,Leucocratic-granitic,Alaskite,Igneous     Plutonic          Granitic               Leucocratic-granitic                    Alaskite,Alaskite,Dike or sill,
-CAgrMZ2;0,Incidental,Igneous,Plutonic,Granitic,Granite,,Igneous     Plutonic          Granitic               Granite                    ,Granite,Pluton,
-CAgrMZ2;0,Major,Igneous,Plutonic,Granitic,Tonalite,,Igneous     Plutonic          Granitic               Tonalite                    ,Tonalite,Pluton
-CAgrMZ2;0,Incidental,Igneous,Plutonic,Granitic,Leucocratic-granitic,Pegmatite,Igneous     Plutonic          Granitic               Leucocratic-granitic                    Pegmatite,Pegmatite,Dike or sill
-CAgrMZ2;0,Minor,Igneous,Plutonic,Dioritic,Quartz-diorite,,Igneous     Plutonic          Dioritic               Quartz-diorite                    ,Quartz-diorite,Pluton
-CAgrMZ2;0,Minor,Igneous,Plutonic,Granitic,Granodiorite,,Igneous     Plutonic          Granitic               Granodiorite                    ,Granodiorite,Pluton
-CAgrMZ2;0,Minor,Igneous,Plutonic,Syenitic,Quartz-monzonite,,Igneous     Plutonic          Syenitic               Quartz-monzonite                    ,Quartz-monzonite,Pluton
-CAgrMZ3;0,Minor,Igneous,Plutonic,Granitic,Granite,,Igneous     Plutonic          Granitic               Granite                    ,Granite,Pluton
-CAgrMZ3;0,Major,Igneous,Plutonic,Granitic,Granodiorite,,Igneous     Plutonic          Granitic               Granodiorite                    ,Granodiorite,Pluton
-CAgrMZ3;0,Minor,Igneous,Plutonic,Granitic,Tonalite,,Igneous     Plutonic          Granitic               Tonalite                    ,Tonalite,Pluton
-CAgrMZ3;0,Incidental,Igneous,Plutonic,Dioritic,Diorite,,Igneous     Plutonic          Dioritic               Diorite                    ,Diorite,Pluton
-CAgrMZ3;0,Minor,Igneous,Plutonic,Dioritic,Quartz-diorite,,Igneous     Plutonic          Dioritic               Quartz-diorite                    ,Quartz-diorite,Pluton
-CAgrMZ3;0,Minor,Igneous,Plutonic,Syenitic,Quartz-monzonite,,Igneous     Plutonic          Syenitic               Quartz-monzonite                    ,Quartz-monzonite,Pluton
-CAgrMZ3;0,Incidental,Igneous,Plutonic,Syenitic,Quartz-syenite,,Igneous     Plutonic          Syenitic               Quartz-syenite                    ,Quartz-syenite,Pluton
-CAgrMZ3;0,Incidental,Igneous,Plutonic,Dioritic,Quartz-monzodiorite,,Igneous     Plutonic          Dioritic               Quartz-monzodiorite                    ,Quartz-monzodiorite,Pluton
-CAgrMZ3;0,Incidental,Igneous,Plutonic,Gabbroic,Gabbro,,Igneous     Plutonic          Gabbroic               Gabbro                    ,Gabbro,Pluton
-CAgrMZ3;0,Incidental,Igneous,Plutonic,Granitic,Tonalite,Trondhjemite,Igneous     Plutonic          Granitic               Tonalite                    Trondhjemite,Trondhjemite,Pluton
-CAgrMZ3;0,Incidental,Igneous,Plutonic,Syenitic,Monzonite,,Igneous     Plutonic          Syenitic               Monzonite                    ,Monzonite,Pluton
-CAgrMZ3;0,Incidental,Igneous,Plutonic,Dioritic,Monzodiorite,,Igneous     Plutonic          Dioritic               Monzodiorite                    ,Monzodiorite,Pluton
-CAgrMZ3;0,Incidental,Igneous,Plutonic,Granitic,Leucocratic-granitic,Pegmatite,Igneous     Plutonic          Granitic               Leucocratic-granitic                    Pegmatite,Pegmatite,Dike or sill
-CAgrMZ3;0,Incidental,Igneous,Plutonic,Granitic,Leucocratic-granitic,Alaskite,Igneous     Plutonic          Granitic               Leucocratic-granitic                    Alaskite,Alaskite,Dike or sill
-CAgrMZ3;0,Incidental,Igneous,Plutonic,Granitic,Leucocratic-granitic,Aplite,Igneous     Plutonic          Granitic               Leucocratic-granitic                    Aplite,Aplite,Dike or sill
-CAgrMZ4;0,Minor,Igneous,Plutonic,Granitic,Granite,,Igneous     Plutonic          Granitic               Granite                    ,Granite,Pluton
-CAgrMZ4;0,Major,Igneous,Plutonic,Granitic,Granodiorite,,Igneous     Plutonic          Granitic               Granodiorite                    ,Granodiorite,Pluton
-CAgrMZ4;0,Incidental,Igneous,Plutonic,Dioritic,Quartz-diorite,,Igneous     Plutonic          Dioritic               Quartz-diorite                    ,Quartz-diorite,Pluton
-CAgrMZ4;0,Major,Igneous,Plutonic,Granitic,Tonalite,Trondhjemite,Igneous     Plutonic          Granitic               Tonalite                    Trondhjemite,Trondhjemite,Pluton
-CAgrMZ5;0,Minor,Igneous,Plutonic,Granitic,Granite,,Igneous     Plutonic          Granitic               Granite                    ,Granite,Pluton
-CAgrMZ5;0,Incidental,Igneous,Plutonic,Granitic,Granodiorite,,Igneous     Plutonic          Granitic               Granodiorite                    ,Granodiorite,Pluton
-CAgrMZ5;0,Incidental,Igneous,Plutonic,Granitic,Tonalite,,Igneous     Plutonic          Granitic               Tonalite                    ,Tonalite,Pluton
-CAgrMZ5;0,Major,Igneous,Plutonic,Dioritic,Diorite,,Igneous     Plutonic          Dioritic               Diorite                    ,Diorite,Pluton
-CAgrMZ5;0,Minor,Igneous,Plutonic,Dioritic,Quartz-diorite,,Igneous     Plutonic          Dioritic               Quartz-diorite                    ,Quartz-diorite,Pluton
-CAgrMZ5;0,Minor,Igneous,Plutonic,Gabbroic,Gabbro,,Igneous     Plutonic          Gabbroic               Gabbro                    ,Gabbro,Pluton
-CAgrMZ5;0,Incidental,Igneous,Plutonic,Ultramafic,Pyroxenite,,Igneous     Plutonic          Ultramafic               Pyroxenite                    ,Pyroxenite,Pluton
-CAgrMZ5;0,Incidental,Igneous,Plutonic,Granitic,Tonalite,Trondhjemite,Igneous     Plutonic          Granitic               Tonalite                    Trondhjemite,Trondhjemite,Pluton
-CAgrMZ5;0,Incidental,Igneous,Plutonic,Dioritic,Monzodiorite,,Igneous     Plutonic          Dioritic               Monzodiorite                    ,Monzodiorite,Pluton,
-CAgrMZ5;0,Incidental,Igneous,Plutonic,Granitic,Leucocratic-granitic,Aplite,Igneous     Plutonic          Granitic               Leucocratic-granitic                    Aplite,Aplite,Dike or sill,
-CAgrMZ5;0,Incidental,Igneous,Plutonic,Granitic,Leucocratic-granitic,Pegmatite,Igneous     Plutonic          Granitic               Leucocratic-granitic                    Pegmatite,Pegmatite,Dike or sill,
-CAgrMZ6;0,Major,Igneous,Plutonic,Dioritic,Diorite,,Igneous     Plutonic          Dioritic               Diorite                    ,Diorite,Pluton,
-CAgrMZ6;0,Minor,Igneous,Plutonic,Dioritic,Quartz-diorite,,Igneous     Plutonic          Dioritic               Quartz-diorite                    ,Quartz-diorite,Pluton,albite-bearing
-CAgrpCA?;0,major,Igneous,Plutonic,Dioritic,Diorite,,Igneous     Plutonic          Dioritic               Diorite                    ,Diorite,Pluton,
-CAgrpCA1;0,incidental,Igneous,Plutonic,Dioritic,Diorite,,Igneous     Plutonic          Dioritic               Diorite                    ,Diorite,Pluton,
-CAgrpCA1;0,incidental,Igneous,Plutonic,Gabbroic,Gabbro,,Igneous     Plutonic          Gabbroic               Gabbro                    ,Gabbro,Pluton,
-CAgrpCA1;0,incidental,Igneous,Plutonic,Anorthosite,,,Igneous     Plutonic          Anorthosite                                   ,Anorthosite,Pluton,
-CAgrpCA1;0,incidental,Igneous,Plutonic,Syenitic,Syenite,,Igneous     Plutonic          Syenitic               Syenite                    ,Syenite,Pluton,
-CAgrpCA1;0,major,Igneous,Plutonic,Granitic,Granite,,Igneous     Plutonic          Granitic               Granite                    ,Granite,Pluton,
-CAgrpCA1;0,minor,Igneous,Plutonic,Granitic,Granodiorite,,Igneous     Plutonic          Granitic               Granodiorite                    ,Granodiorite,Pluton,
-CAgrpCA1;0,minor,Metamorphic,Gneiss,,,,Metamorphic     Gneiss                                             ,Gneiss,,
-CAgrpCA2;0,major,Igneous,Plutonic,Anorthosite,,,Igneous     Plutonic          Anorthosite                                   ,Anorthosite,Pluton,
-CAgrpCA2;0,major,Igneous,Plutonic,Gabbroic,Gabbro,,Igneous     Plutonic          Gabbroic               Gabbro                    ,Gabbro,Pluton,
-CAgrpCA2;0,minor,Igneous,Plutonic,Syenitic,Syenite,,Igneous     Plutonic          Syenitic               Syenite                    ,Syenite,Pluton,
-CAgrpCA3;0,major,Igneous,Plutonic,Granitic,Granite,,Igneous     Plutonic          Granitic               Granite                    ,Granite,Pluton,
-CAgrpCA4;0,major,Igneous,Plutonic,Dioritic,Diorite,,Igneous     Plutonic          Dioritic               Diorite                    ,Diorite,Pluton,
-CAgrPZ1;0,major,Igneous,Plutonic,Granitic,Granodiorite,,Igneous     Plutonic          Granitic               Granodiorite                    ,Granodiorite,Pluton,
-CAgrPZ1;0,minor,Igneous,Plutonic,Granitic,Granite,,Igneous     Plutonic          Granitic               Granite                    ,Granite,Pluton,albite granite
-CAgrPZ1;0,minor,Igneous,Plutonic,Dioritic,Quartz-diorite,,Igneous     Plutonic          Dioritic               Quartz-diorite                    ,Quartz-diorite,Pluton,albite-bearing
-CAgrPZ1;0,Incidental,Igneous,Plutonic,Dioritic,Diorite,,Igneous     Plutonic          Dioritic               Diorite                    ,Diorite,Pluton,
-CAgrPZ2;0,major,Igneous,Plutonic,Syenitic,Quartz-monzonite,,Igneous     Plutonic          Syenitic               Quartz-monzonite                    ,Quartz-monzonite,Pluton,
-CAgrPZ2;0,minor,Igneous,Plutonic,Dioritic,Quartz-monzodiorite,,Igneous     Plutonic          Dioritic               Quartz-monzodiorite                    ,Quartz-monzodiorite,Pluton,
-CAgrPZ2;0,minor,Igneous,Plutonic,Dioritic,Diorite,,Igneous     Plutonic          Dioritic               Diorite                    ,Diorite,Pluton,
-CAgrPZ2;0,minor,Igneous,Plutonic,Dioritic,Quartz-diorite,,Igneous     Plutonic          Dioritic               Quartz-diorite                    ,Quartz-diorite,Pluton,
-CAgrPZ2;0,minor,Igneous,Plutonic,Syenitic,Monzonite,,Igneous     Plutonic          Syenitic               Monzonite                    ,Monzonite,Pluton,
-CAgrPZ2;0,minor,Igneous,Plutonic,Granitic,Granodiorite,,Igneous     Plutonic          Granitic               Granodiorite                    ,Granodiorite,Pluton,
-CAJ?;0,major,Sedimentary,Clastic,Siltstone,,,Sedimentary     Clastic          Siltstone                                   ,Siltstone,Bed,Clayey siltstone
-CAJ1;0,incidental,Sedimentary,Chemical,Chert,,,Sedimentary     Chemical          Chert                                   ,Chert,Bed,
-CAJ1;0,incidental,Igneous,Volcanic,,,,Igneous     Volcanic                                             ,Volcanic,Pyroclastic,
-CAJ1;0,incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Flow,Basaltic pillow lava
-CAJ1;0,major,Metamorphic,Slate,,,,Metamorphic     Slate                                             ,Slate,,
-CAJ1;0,major,Sedimentary,Clastic,Sandstone,Graywacke,,Sedimentary     Clastic          Sandstone               Graywacke                    ,Graywacke,Bed,Variably metamorphosed
-CAJ1;0,minor,Sedimentary,Clastic,Siltstone,,,Sedimentary     Clastic          Siltstone                                   ,Siltstone,Bed,
-CAJ1;0,minor,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CAJ2;0,incidental,Igneous,Volcanic,,,,Igneous     Volcanic                                             ,Volcanic,"Pyroclastic, tuff",
-CAJ2;0,major,Sedimentary,Clastic,Mixed-clastic,Siltstone-Mudstone,,Sedimentary     Clastic          Mixed-clastic               Siltstone-Mudstone                    ,Siltstone-Mudstone,Bed,Classified as shale in some references
-CAJ2;0,minor,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,Generally rich in volcanic rock fragments; low in quartz.  In lenticular beds
-CAJ2;0,minor,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,In lenticular beds
-CAJ3;0,incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Flow,
-CAJ3;0,incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Pyroclastic, tuff",
-CAJ3;0,major,Sedimentary,Clastic,Sandstone,Arenite,,Sedimentary     Clastic          Sandstone               Arenite                    ,Arenite,Bed,Eolian quartz arenite
-CAJ3;0,major,Metamorphic,Quartzite,,,,Metamorphic     Quartzite                                             ,Quartzite,,Indurated quartz arenite
-CAJ4;0,incidental,Sedimentary,Chemical,Chert,,,Sedimentary     Chemical          Chert                                   ,Chert,,Generally metamorphosed
-CAJ4;0,incidental,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,Commonly metamorphosed
-CAJ4;0,incidental,Metamorphic,Gneiss,,,,Metamorphic     Gneiss                                             ,Gneiss,,Commonly derived from impure quartzite
-CAJ4;0,incidental,Metamorphic,Amphibolite,,,,Metamorphic     Amphibolite                                             ,Amphibolite,,"Thin lenses, possibly metamorphosed sills"
-CAJ4;0,incidental,Metamorphic,Marble,Limestone,,,Metamorphic     Marble          Limestone                                   ,Limestone,,
-CAJ4;0,incidental,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed,Rarely fossiliferous
-CAJ4;0,incidental,Igneous,Volcanic,Ultramafic,,,Igneous     Volcanic          Ultramafic                                   ,Ultramafic,,
-CAJ4;0,major,Metamorphic,Argillite,,,,Metamorphic     Argillite                                             ,Argillite,,
-CAJ4;0,minor,Sedimentary,Clastic,Sandstone,Graywacke,,Sedimentary     Clastic          Sandstone               Graywacke                    ,Graywacke,Bed,Lithic graywacke
-CAJ4;0,minor,Metamorphic,Quartzite,,,,Metamorphic     Quartzite                                             ,Quartzite,,Feldspathic to arkosic quartzite
-CAJ4;0,minor,Metamorphic,Phyllite,,,,Metamorphic     Phyllite                                             ,Phyllite,,Gradational with schist
-CAJ4;0,minor,Metamorphic,Schist,,,,Metamorphic     Schist                                             ,Schist,,Gradational with phyllite
-CAJ5;0,incidental,Sedimentary,Clastic,Siltstone,,,Sedimentary     Clastic          Siltstone                                   ,Siltstone,Bed,
-CAJ5;0,incidental,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CAJ5;0,incidental,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,
-CAJ5;0,incidental,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed,
-CAJ5;0,incidental,Metamorphic,Quartzite,,,,Metamorphic     Quartzite                                             ,Quartzite,,
-CAJ5;0,incidental,Sedimentary,Chemical,Chert,,,Sedimentary     Chemical          Chert                                   ,Chert,Bed,
-CAJ5;0,incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Flow,
-CAJ5;0,incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Volcaniclastic,
-CAJ5;0,major,Metamorphic,Slate,,,,Metamorphic     Slate                                             ,Slate,,
-CAJ5;0,major,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,Feldspathic to volcaniclastic
-CAJ5;0,minor,Metamorphic,Argillite,,,,Metamorphic     Argillite                                             ,Argillite,,
-CAJ5;0,minor,Igneous,Volcanic,,,,Igneous     Volcanic                                             ,Volcanic,Pyroclastic,
-CAJ6;0,incidental,Metamorphic,Marble,,,,Metamorphic     Marble                                             ,Marble,,Thinly interbedded with other rock types
-CAJ6;0,incidental,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,Metamorphosed
-CAJ6;0,major,Metamorphic,Hornfels,,,,Metamorphic     Hornfels                                             ,Hornfels,,Quartzofeldspathic hornfels and calc-silicate hornfels
-CAJ6;0,major,Sedimentary,Clastic,Siltstone,,,Sedimentary     Clastic          Siltstone                                   ,Siltstone,Bed,Metamorphosed
-CAJ6;0,minor,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,Metamorphosed; associated with siltstone and conglomerate
-CAK?1;0,incidental,Sedimentary,Clastic,Siltstone,,,Sedimentary     Clastic          Siltstone                                   ,Siltstone,Bed,
-CAK?1;0,incidental,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,,Occurs in thrust sheet above McCoy Mountains Formation
-CAK?1;0,major,Sedimentary,Clastic,Siltstone,,,Sedimentary     Clastic          Siltstone                                   ,Siltstone,Bed,Mostly arkosic to volcanic-lithic; orthoquartzitic in lower part of unit
-CAK?1;0,major,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,Clasts mainly granitic and volcanic
-CAK?1;0,minor,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,Generally phyllitic
-CAK?2;0,major,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,Coarse-grained
-CAK?2;0,major,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,Includes conglomeratic sandstone
-CAK1;0,major,Sedimentary,Clastic,Mixed-clastic,Siltstone-Mudstone,,Sedimentary     Clastic          Mixed-clastic               Siltstone-Mudstone                    ,Siltstone-Mudstone,Bed,
-CAK1;0,minor,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,
-CAK1;0,minor,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CAK2;0,incidental,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CAK2;0,incidental,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed,Includes marble
-CAK2;0,major,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,"Volcanic sandstone, variably metamorphosed"
-CAK2;0,minor,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,Variably metamorphosed
-CAK2;0,minor,Sedimentary,Clastic,Siltstone,,,Sedimentary     Clastic          Siltstone                                   ,Siltstone,Bed,Variably metamorphosed
-CAK2;0,minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Flow,
-CAK2;0,minor,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,,
-CAK2;0,minor,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Ash-flow,
-CAK3;0,incidental,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,Volcanic sandstone
-CAK3;0,incidental,Sedimentary,Clastic,Siltstone,,,Sedimentary     Clastic          Siltstone                                   ,Siltstone,Bed,
-CAK3;0,incidental,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,
-CAK3;0,major,Igneous,Volcanic,Felsic-volcanic,,,Igneous     Volcanic          Felsic-volcanic                                   ,Felsic-volcanic,Pyroclastic,Includes welded tuff and tuff breccia
-CAK3;0,minor,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Flow,Forms basal part of unit
-CAKI?;0,incidental,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,
-CAKI?;0,major,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CAKI?;0,minor,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,Coarse-grained
-CAKJf1;0,incidental,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed,
-CAKJf1;0,incidental,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CAKJf1;0,incidental,Metamorphic,Greenstone,,,,Metamorphic     Greenstone                                             ,Greenstone,,
-CAKJf1;0,incidental,Metamorphic,Serpentinite,,,,Metamorphic     Serpentinite                                             ,Serpentinite,,Includes diapiric intrusions
-CAKJf1;0,incidental,Igneous,Plutonic,Gabbroic,Gabbro,,Igneous     Plutonic          Gabbroic               Gabbro                    ,Gabbro,,"Sills, dikes"
-CAKJf1;0,incidental,Metamorphic,Amphibolite,,,,Metamorphic     Amphibolite                                             ,Amphibolite,,Isolated blocks in melange
-CAKJf1;0,incidental,Metamorphic,Schist,,,,Metamorphic     Schist                                             ,Schist,,Isolated blocks of blueschist in melange
-CAKJf1;0,incidental,Igneous,Volcanic,Felsic-volcanic,,,Igneous     Volcanic          Felsic-volcanic                                   ,Felsic-volcanic,,"Extrusive and intrusive keratophyre, quartz keratophyre"
-CAKJf1;0,major,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,Mostly graywacke; commonly contains blueschist-facies metamorphic minerals.  
-CAKJf1;0,major,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,Generally sheared.  Commonly forms matrix of melange.  Also described as shale and argillite
-CAKJf1;0,minor,Sedimentary,Chemical,Chert,,,Sedimentary     Chemical          Chert                                   ,Chert,Bed,Thin-bedded radiolarian chert
-CAKJf2;0,major,Metamorphic,Schist,,,,Metamorphic     Schist                                             ,Schist,Blueschist,
-CAKJf2;0,major,Metamorphic,Metasedimentary,,,,Metamorphic     Metasedimentary                                             ,Metasedimentary,Blueschist,"Includes metamorphosed sandstone, shale, conglomerate, and chert. Some of these rocks form blocks in a blueschist-matrix melange"
-CAKJfm;0,major,Tectonite,Melange,,,,Tectonite     Melange                                             ,Melange,Melange,"Sheared mudstone or argillite enclosing tectonic blocks of graywacke, greenstone, chert, serpentinite, and high-grade metamorphic rocks including blueschist"
-CAKJfs;0,major,Metamorphic,Schist,,,,Metamorphic     Schist                                             ,Schist,Blueschist,Strongly deformed quartz-mica schist containing blueschist-facies minerals
-CAKJfs;0,minor,Metamorphic,Metasedimentary,,,,Metamorphic     Metasedimentary                                             ,Metasedimentary,Blueschist,Mostly metamorphosed graywacke; minor metachert
-CAKJfs;0,minor,Metamorphic,Metavolcanic,,,,Metamorphic     Metavolcanic                                             ,Metavolcanic,Blueschist,Metabasalt
-CAKl;0,incidental,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CAKl;0,major,Sedimentary,Clastic,Mixed-clastic,Siltstone-Mudstone,,Sedimentary     Clastic          Mixed-clastic               Siltstone-Mudstone                    ,Siltstone-Mudstone,Bed,
-CAKl;0,minor,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,"Mostly fine to medium grained, thin to thick bedded"
-CAKu?;0,incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Flow,
-CAKu?;0,major,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,Rhyolite clasts abundant
-CAKu?;0,minor,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,
-CAKu-PE;0,incidental,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed,Associated with mudstone and siltstone; includes concretions
-CAKu-PE;0,major,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,Feldspathic to arkosic; mostly thick bedded; fine-grained to conglomeratic; some beds are graded
-CAKu-PE;0,minor,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,Clasts mostly volcanic and granitic
-CAKu-PE;0,minor,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,
-CAKu-PE;0,minor,Sedimentary,Clastic,Siltstone,,,Sedimentary     Clastic          Siltstone                                   ,Siltstone,Bed,
-CAKu1;0,incidental,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CAKu1;0,major,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,Primarily turbidites forming lenticular to fan-shaped sequences enclosed by shale 
-CAKu1;0,major,Sedimentary,Clastic,Mixed-clastic,Siltstone-Mudstone,,Sedimentary     Clastic          Mixed-clastic               Siltstone-Mudstone                    ,Siltstone-Mudstone,Bed,
-CAKu2;0,incidental,Sedimentary,Clastic,Sedimentary-breccia,,,Sedimentary     Clastic          Sedimentary-breccia                                   ,Sedimentary-breccia,Bed,Present locally at base of unit
-CAKu2;0,incidental,Sedimentary,Coal,Bituminous,,,Sedimentary     Coal          Bituminous                                   ,Bituminous,Bed,
-CAKu2;0,major,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,Ranges from fine- to coarse-grained and pebbly; massive to well-bedded; includes graded turbidites
-CAKu2;0,major,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,Most abundant in upper part of unit
-CAKu2;0,minor,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CAKu2;0,minor,Sedimentary,Clastic,Siltstone,,,Sedimentary     Clastic          Siltstone                                   ,Siltstone,Bed,
-CAls;0,major,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed,
-CAls;0,major,Metamorphic,Marble,,,,Metamorphic     Marble                                             ,Marble,,
-CAls;0,minor,Sedimentary,Carbonate,Dolostone,,,Sedimentary     Carbonate          Dolostone                                   ,Dolostone,Bed,
-CAm;0,incidental,Metamorphic,Phyllite,,,,Metamorphic     Phyllite                                             ,Phyllite,,
-CAm;0,incidental,Metamorphic,Metavolcanic,,,,Metamorphic     Metavolcanic                                             ,Metavolcanic,,Composition ranges from felsic to mafic
-CAm;0,incidental,Metamorphic,Slate,,,,Metamorphic     Slate                                             ,Slate,,
-CAm;0,incidental,Metamorphic,Hornfels,,,,Metamorphic     Hornfels                                             ,Hornfels,,
-CAm;0,incidental,Metamorphic,Marble,,,,Metamorphic     Marble                                             ,Marble,,
-CAm;0,incidental,Sedimentary,Chemical,Chert,,,Sedimentary     Chemical          Chert                                   ,Chert,Bed,Variably metamorphosed
-CAm;0,incidental,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,Variably metamorphosed
-CAm;0,incidental,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,Variably metamorphosed
-CAm;0,incidental,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,Variably metamorphosed
-CAm;0,major,Metamorphic,Schist,,,,Metamorphic     Schist                                             ,Schist,,
-CAm;0,major,Metamorphic,Gneiss,,,,Metamorphic     Gneiss                                             ,Gneiss,,Includes metamorphosed plutonic rocks
-CAm;0,minor,Metamorphic,Quartzite,,,,Metamorphic     Quartzite                                             ,Quartzite,,
-CAm;0,minor,Metamorphic,Argillite,,,,Metamorphic     Argillite                                             ,Argillite,,
-CAMI;0,incidental,Sedimentary,Chemical,Evaporite,Gypsum,,Sedimentary     Chemical          Evaporite               Gypsum                    ,Gypsum,Bed,
-CAMI;0,major,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,
-CAMI;0,major,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,
-CAMI;0,minor,Sedimentary,Clastic,Siltstone,,,Sedimentary     Clastic          Siltstone                                   ,Siltstone,Bed,
-CAMI;0,minor,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CAMI?;0,major,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,
-CAMI?;0,major,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CAMI+KJfs;0,minor,Sedimentary,Clastic,Siltstone,,,Sedimentary     Clastic          Siltstone                                   ,Siltstone,Bed,
-CAMI+KJfs;0,minor,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,
-CAMI+KJfs;0,minor,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CAMI+KJfs;0,minor,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,
-CAMI+KJfs;0,minor,Sedimentary,Clastic,Sedimentary-breccia,,,Sedimentary     Clastic          Sedimentary-breccia                                   ,Sedimentary-breccia,,
-CAMI+KJfs;0,minor,Igneous,Hypabyssal,Felsic-hypabyssal,,,Igneous     Hypabyssal          Felsic-hypabyssal                                   ,Felsic-hypabyssal,Dike or sill,Intrusive into associated sedimentary rocks
-CAMI+KJfs;0,minor,Igneous,Hypabyssal,Mafic-hypabyssal,,,Igneous     Hypabyssal          Mafic-hypabyssal                                   ,Mafic-hypabyssal,Dike or sill,Intrusive into associated sedimentary rocks
-CAMIc;0,incidental,Sedimentary,Clastic,Sedimentary-breccia,,,Sedimentary     Clastic          Sedimentary-breccia                                   ,Sedimentary-breccia,Bed,
-CAMIc;0,incidental,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed,
-CAMIc;0,incidental,Sedimentary,Carbonate,Dolostone,,,Sedimentary     Carbonate          Dolostone                                   ,Dolostone,Bed,
-CAMIc;0,incidental,Igneous,Volcanic,Felsic-volcanic,,,Igneous     Volcanic          Felsic-volcanic                                   ,Felsic-volcanic,"Pyroclastic, tuff",
-CAMIc;0,incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Flow,
-CAMIc;0,incidental,Sedimentary,Chemical,Chert,,,Sedimentary     Chemical          Chert                                   ,Chert,Bed,
-CAMIc;0,major,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,
-CAMIc;0,major,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CAMIc;0,minor,Sedimentary,Clastic,Siltstone,,,Sedimentary     Clastic          Siltstone                                   ,Siltstone,Bed,
-CAMIc;0,minor,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,
-CAmv1;0,incidental,Sedimentary,Chemical,Chert,,,Sedimentary     Chemical          Chert                                   ,Chert,Bed,Slabs in melange
-CAmv1;0,major,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,,Slabs in melange
-CAmv1;0,major,Metamorphic,Serpentinite,,,,Metamorphic     Serpentinite                                             ,Serpentinite,Melange,Matrix of melange containing slabs of tectonized basalt and gabbro
-CAmv1;0,minor,Igneous,Plutonic,Gabbroic,Gabbro,,Igneous     Plutonic          Gabbroic               Gabbro                    ,Gabbro,,Slabs in melange
-CAmv2;0,incidental,Metamorphic,Amphibolite,,,,Metamorphic     Amphibolite                                             ,Amphibolite,,
-CAmv2;0,incidental,Igneous,Plutonic,Gabbroic,Gabbro,,Igneous     Plutonic          Gabbroic               Gabbro                    ,Gabbro,,
-CAmv2;0,major,Igneous,Volcanic,Mafic-volcanic,,,Igneous     Volcanic          Mafic-volcanic                                   ,Mafic-volcanic,,Variably metamorphosed
-CAmv2;0,major,Metamorphic,Greenstone,,,,Metamorphic     Greenstone                                             ,Greenstone,,"Dervived from mafic to intermediate-composition flows, tuffs, and breccias"
-CAmv2;0,minor,Igneous,Volcanic,Felsic-volcanic,,,Igneous     Volcanic          Felsic-volcanic                                   ,Felsic-volcanic,,Variably metamorphosed
-CAMZv1;0,incidental,Igneous,Plutonic,Dioritic,Diorite,,Igneous     Plutonic          Dioritic               Diorite                    ,Diorite,Dike or sill,
-CAMZv1;0,incidental,Sedimentary,Chemical,Chert,,,Sedimentary     Chemical          Chert                                   ,Chert,Bed,Radiolarian chert and metachert
-CAMZv1;0,incidental,Igneous,Volcanic,Felsic-volcanic,,,Igneous     Volcanic          Felsic-volcanic                                   ,Felsic-volcanic,,Siliceous tuff and quartz keratophyre associated with Coast Range ophiolite
-CAMZv1;0,major,Metamorphic,Greenstone,,,,Metamorphic     Greenstone                                             ,Greenstone,,"Altered basalts derived from flows, pillow lavas, tuffs, tuff breccias, and minor intrusions; gradational with relatively unaltered basalt"
-CAMZv1;0,minor,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,,Gradational with greenstone
-CAMZv1;0,minor,Metamorphic,Schist,,,,Metamorphic     Schist                                             ,Schist,Blueschist,Mafic schists (metabasalts) containing greenschist- to blueschist-facies metamorphic minerals
-CAMZv2;0,incidental,Sedimentary,Chemical,Chert,,,Sedimentary     Chemical          Chert                                   ,Chert,Bed,
-CAMZv2;0,incidental,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,
-CAMZv2;0,incidental,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CAMZv2;0,major,Igneous,Volcanic,Mafic-volcanic,,,Igneous     Volcanic          Mafic-volcanic                                   ,Mafic-volcanic,,"Basaltic lava, pillow lava, volcanic breccia, and tuff; andesite and basaltic andesite flows and pyroclastic rocks; mostly metamorphosed but original volcanic features generally visible"
-CAMZv2;0,minor,Igneous,Volcanic,Felsic-volcanic,,,Igneous     Volcanic          Felsic-volcanic                                   ,Felsic-volcanic,,Massive volcanics and pyroclastic rocks of felsic composition; includes dikes and intrusions
-CAMZv3;0,incidental,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed,
-CAMZv3;0,major,Igneous,Volcanic,Felsic-volcanic,,,Igneous     Volcanic          Felsic-volcanic                                   ,Felsic-volcanic,,"Rhyodacite to dacite ash-flow tuffs, tuffs, flows, intrusions, and breccia"
-CAMZv3;0,minor,Igneous,Volcanic,Mafic-volcanic,,,Igneous     Volcanic          Mafic-volcanic                                   ,Mafic-volcanic,,Mostly basaltic lava flows; less abundant andesite
-CAMZv3;0,minor,Sedimentary,Clastic,,,,Sedimentary     Clastic                                             ,Clastic,Bed,Mostly sandstone and conglomerate
-CAMZv4;0,incidental,Metamorphic,Amphibolite,,,,Metamorphic     Amphibolite                                             ,Amphibolite,,
-CAMZv4;0,major,Igneous,Volcanic,Felsic-volcanic,,,Igneous     Volcanic          Felsic-volcanic                                   ,Felsic-volcanic,,"Flows, tuff, agglomerate, and breccia.  Weakly metamorphosed"
-CAMZv4;0,major,Igneous,Volcanic,Mafic-volcanic,,,Igneous     Volcanic          Mafic-volcanic                                   ,Mafic-volcanic,,Andesitic to basaltic volcanic rocks
-CAMZv4;0,minor,Sedimentary,Clastic,,,,Sedimentary     Clastic                                             ,Clastic,Bed,"Volcaniclastic sandstone, siltstone, mudstone, and Sedimentary_breccia"
-CAMZv5;0,major,Igneous,Volcanic,Mafic-volcanic,,,Igneous     Volcanic          Mafic-volcanic                                   ,Mafic-volcanic,,"Andesitic tuff breccia, tuff, flows, and shallow intrusive rocks"
-CAMZv5;0,major,Igneous,Volcanic,Felsic-volcanic,,,Igneous     Volcanic          Felsic-volcanic                                   ,Felsic-volcanic,,"Quartz keratophyre to dacite flows, tuff, tuff breccia, dikes, and shallow intrusive bodies"
-CAMZv5;0,minor,Sedimentary,Clastic,,,,Sedimentary     Clastic                                             ,Clastic,Bed,Volcaniclastic sandstone and conglomerate
-CAOG;0,major,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,
-CAOG;0,major,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,
-CAOG;0,minor,Sedimentary,Clastic,Siltstone,,,Sedimentary     Clastic          Siltstone                                   ,Siltstone,Bed,
-CAOGc1;0,incidental,Sedimentary,Coal,Lignite,,,Sedimentary     Coal          Lignite                                   ,Lignite,Bed,
-CAOGc1;0,incidental,Igneous,Volcanic,,,,Igneous     Volcanic                                             ,Volcanic,"Pyroclastic, tuff",
-CAOGc1;0,major,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,
-CAOGc1;0,minor,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CAOGc1;0,minor,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,
-CAOGc1?;0,major,Unconsolidated,Coarse-detrital,Sand,,,Unconsolidated     Coarse-detrital          Sand                                   ,Sand,Bed,
-CAOGc1?;0,minor,Unconsolidated,Coarse-detrital,Gravel,,,Unconsolidated     Coarse-detrital          Gravel                                   ,Gravel,Bed,
-CAOGc2;0,incidental,Sedimentary,Clastic,Sedimentary-breccia,,,Sedimentary     Clastic          Sedimentary-breccia                                   ,Sedimentary-breccia,Bed,
-CAOGc2;0,incidental,Sedimentary,Chemical,Evaporite,,,Sedimentary     Chemical          Evaporite                                   ,Evaporite,Bed,Occurs locally in lacustrine sequences
-CAOGc2;0,incidental,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed,Occurs locally in lacustrine sequences
-CAOGc2;0,major,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,Feldspathic to arkosic
-CAOGc2;0,major,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,"Polymict clasts include granitic, metamorphic, metavolcanic, and quartzitic rocks"
-CAOGc2;0,minor,Sedimentary,Clastic,Mixed-clastic,Siltstone-Mudstone,,Sedimentary     Clastic          Mixed-clastic               Siltstone-Mudstone                    ,Siltstone-Mudstone,Bed,Commonly forms thin interbeds with sandstone
-CAOGc2?;0,major,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,Clasts are locally derived gneiss
-CAOGc2?;0,major,Sedimentary,Clastic,Sedimentary-breccia,,,Sedimentary     Clastic          Sedimentary-breccia                                   ,Sedimentary-breccia,,Includes monolithologic breccia
-CAP1;0,incidental,Metamorphic,Marble,,,,Metamorphic     Marble                                             ,Marble,,Locally developed near contacts with plutonic rocks
-CAP1;0,major,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,Chiefly very fine grained sandstone of deep-water turbidite facies; includes some coarse-grained sandstone of shallow-water or nonmarine facies
-CAP1;0,major,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed,Includes both shallow-water and deep-water turbidite facies
-CAP1;0,minor,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,"Chiefly sandy conglomerate containing clasts of limestone, quartzite, and chert"
-CAP1;0,minor,Sedimentary,Clastic,Mixed-clastic,Siltstone-Mudstone,,Sedimentary     Clastic          Mixed-clastic               Siltstone-Mudstone                    ,Siltstone-Mudstone,Bed,Chiefly deep-water turbidite facies
-CAP1;0,minor,Metamorphic,Hornfels,,,,Metamorphic     Hornfels                                             ,Hornfels,,"Generally minor, but abundant in eastern Sierra Nevada and locally in Mojave Desert"
-CAP2;0,incidental,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,Interbedded with quartzite; clasts are quartzite or chert
-CAP2;0,major,Metamorphic,Phyllite,,,,Metamorphic     Phyllite                                             ,Phyllite,Amphibolite,"Quartz-biotite-muscovite phyllite; locally contains andalusite, staurolite, garnet, and cordierite."
-CAP2;0,minor,Metamorphic,Marble,,,,Metamorphic     Marble                                             ,Marble,,Lenticular bodies
-CAP2;0,minor,Metamorphic,Quartzite,,,,Metamorphic     Quartzite                                             ,Quartzite,,Interbedded with phyllite
-CAP2;0,minor,Sedimentary,Chemical,Chert,,,Sedimentary     Chemical          Chert                                   ,Chert,Bed,Interbedded with phyllite
-CAP3;0,major,Metamorphic,Slate,,,,Metamorphic     Slate                                             ,Slate,,
-CAP3;0,major,Sedimentary,Clastic,Sandstone,Graywacke,,Sedimentary     Clastic          Sandstone               Graywacke                    ,Graywacke,Bed,Volcaniclastic sandstone
-CAP3;0,minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Pyroclastic, tuff",Andesitic tuff and tuff breccia
-CAP3;0,minor,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,"Includes chert-rich pebbly mudstone and conglomerate, and volcanic conglomerate"
-CAP3;0,minor,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,
-CAP4;0,major,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed,Limestone with minor chert lenses
-CApCA1;0,incidental,Sedimentary,Clastic,Siltstone,,,Sedimentary     Clastic          Siltstone                                   ,Siltstone,Bed,
-CApCA1;0,incidental,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed,
-CApCA1;0,incidental,Metamorphic,Metavolcanic,,,,Metamorphic     Metavolcanic                                             ,Metavolcanic,,
-CApCA1;0,incidental,Metamorphic,Amphibolite,,,,Metamorphic     Amphibolite                                             ,Amphibolite,,
-CApCA1;0,incidental,Metamorphic,Marble,,,,Metamorphic     Marble                                             ,Marble,,
-CApCA1;0,incidental,Metamorphic,Hornfels,,,,Metamorphic     Hornfels                                             ,Hornfels,,
-CApCA1;0,incidental,Sedimentary,Chemical,Chert,,,Sedimentary     Chemical          Chert                                   ,Chert,Bed,
-CApCA1;0,minor,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,
-CApCA1;0,minor,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,
-CApCA1;0,minor,Sedimentary,Carbonate,Dolostone,,,Sedimentary     Carbonate          Dolostone                                   ,Dolostone,Bed,
-CApCA1;0,minor,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CApCA1;0,minor,Metamorphic,Gneiss,,,,Metamorphic     Gneiss                                             ,Gneiss,,
-CApCA1;0,minor,Igneous,Plutonic,Granitic,,,Igneous     Plutonic          Granitic                                   ,Granitic,,
-CApCA1;0,minor,Metamorphic,Schist,,,,Metamorphic     Schist                                             ,Schist,,
-CApCA1;0,minor,Metamorphic,Quartzite,,,,Metamorphic     Quartzite                                             ,Quartzite,,
-CApCA2;0,incidental,Metamorphic,Amphibolite,,,,Metamorphic     Amphibolite                                             ,Amphibolite,,
-CApCA2;0,incidental,Metamorphic,Marble,,,,Metamorphic     Marble                                             ,Marble,,
-CApCA2;0,incidental,Metamorphic,Quartzite,,,,Metamorphic     Quartzite                                             ,Quartzite,,
-CApCA2;0,incidental,Metamorphic,Hornfels,,,,Metamorphic     Hornfels                                             ,Hornfels,,
-CApCA2;0,incidental,Metamorphic,Marble,,,,Metamorphic     Marble                                             ,Marble,,
-CApCA2;0,incidental,Metamorphic,Granofels,,,,Metamorphic     Granofels                                             ,Granofels,,
-CApCA2;0,incidental,Igneous,Plutonic,Granitic,Granite,,Igneous     Plutonic          Granitic               Granite                    ,Granite,,
-CApCA2;0,incidental,Igneous,Plutonic,Syenitic,Syenite,,Igneous     Plutonic          Syenitic               Syenite                    ,Syenite,,
-CApCA2;0,incidental,Igneous,Plutonic,Intrusive-carbonatite,,,Igneous     Plutonic          Intrusive-carbonatite                                   ,Intrusive-carbonatite,,
-CApCA2;0,major,Metamorphic,Gneiss,,,,Metamorphic     Gneiss                                             ,Gneiss,,Mostly orthogneiss
-CApCA2;0,minor,Igneous,Plutonic,Granitic,,,Igneous     Plutonic          Granitic                                   ,Granitic,,
-CApCAc;0,incidental,Igneous,Plutonic,Anorthosite,,,Igneous     Plutonic          Anorthosite                                   ,Anorthosite,,
-CApCAc;0,incidental,Igneous,Plutonic,Syenitic,Syenite,,Igneous     Plutonic          Syenitic               Syenite                    ,Syenite,,
-CApCAc;0,incidental,Igneous,Plutonic,Dioritic,Diorite,,Igneous     Plutonic          Dioritic               Diorite                    ,Diorite,,
-CApCAc;0,incidental,Metamorphic,Amphibolite,,,,Metamorphic     Amphibolite                                             ,Amphibolite,,
-CApCAc;0,major,Metamorphic,Gneiss,,,,Metamorphic     Gneiss                                             ,Gneiss,,
-CApCAc;0,minor,Igneous,Plutonic,Granitic,,,Igneous     Plutonic          Granitic                                   ,Granitic,,
-CAPN1;0,major,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,
-CAPN1;0,major,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,
-CAPN1;0,minor,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CAPN2;0,major,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,Silty; thinly interbedded with sandstone
-CAPN2;0,major,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,Arkosic to feldspathic; locally lithic.  Thin- to thick-bedded to massive.  Interpreted as turbidites
-CAPN2;0,minor,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,"Occurs as channelized lenses as much as 1 km long.  Clasts are polymict, rounded to subrounded"
-CAPN3;0,incidental,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CAPN3;0,major,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,
-CAPN3;0,minor,Sedimentary,Clastic,Siltstone,,,Sedimentary     Clastic          Siltstone                                   ,Siltstone,Bed,
-CAPO;0,major,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,
-CAPO;0,major,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,
-CAPO;0,minor,Sedimentary,Clastic,Siltstone,,,Sedimentary     Clastic          Siltstone                                   ,Siltstone,Bed,
-CAPO;0,minor,Sedimentary,Clastic,Mudstone,Claystone,,Sedimentary     Clastic          Mudstone               Claystone                    ,Claystone,Bed,
-CAPO;0,minor,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CAPZ1;0,minor,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed
-CAPZ1;0,minor,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed
-CAPZ1;0,minor,Sedimentary,Carbonate,Dolostone,,,Sedimentary     Carbonate          Dolostone                                   ,Dolostone,Bed
-CAPZ1;0,minor,Metamorphic,Quartzite,,,,Metamorphic     Quartzite                                             ,Quartzite,
-CAPZ1;0,minor,Metamorphic,Marble,,,,Metamorphic     Marble                                             ,Marble,
-CAPZ1;0,minor,Metamorphic,Schist,,,,Metamorphic     Schist                                             ,Schist,
-CAPZ2;0,incidental,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed
-CAPZ2;0,incidental,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed
-CAPZ2;0,incidental,Metamorphic,Marble,,,,Metamorphic     Marble                                             ,Marble,
-CAPZ2;0,incidental,Sedimentary,Carbonate,Dolostone,,,Sedimentary     Carbonate          Dolostone                                   ,Dolostone,Bed
-CAPZ2;0,minor,Metamorphic,Argillite,,,,Metamorphic     Argillite                                             ,Argillite,
-CAPZ2;0,minor,Sedimentary,Chemical,Chert,,,Sedimentary     Chemical          Chert                                   ,Chert,Bed
-CAPZ2;0,minor,Metamorphic,Phyllite,,,,Metamorphic     Phyllite                                             ,Phyllite,
-CAPZ2;0,minor,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed
-CAPZ2;0,minor,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,
-CAPZ2;0,minor,Metamorphic,Quartzite,,,,Metamorphic     Quartzite                                             ,Quartzite,
-CAPZ2;0,minor,Metamorphic,Hornfels,,,,Metamorphic     Hornfels                                             ,Hornfels,,
-CAPZ3;0,incidental,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CAPZ3;0,incidental,Metamorphic,Marble,,,,Metamorphic     Marble                                             ,Marble,,
-CAPZ3;0,major,Metamorphic,Hornfels,,,,Metamorphic     Hornfels                                             ,Hornfels,,
-CAPZ3;0,minor,Metamorphic,Slate,,,,Metamorphic     Slate                                             ,Slate,,
-CAPZ3;0,minor,Metamorphic,Phyllite,,,,Metamorphic     Phyllite                                             ,Phyllite,,
-CAPZ3;0,minor,Metamorphic,Schist,,,,Metamorphic     Schist                                             ,Schist,,
-CAPZ3;0,minor,Sedimentary,Chemical,Chert,,,Sedimentary     Chemical          Chert                                   ,Chert,,
-CAPZ3;0,minor,Metamorphic,Argillite,,,,Metamorphic     Argillite                                             ,Argillite,,
-CAPZ3;0,minor,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,,
-CAPZ4;0,incidental,Metamorphic,Schist,,,,Metamorphic     Schist                                             ,Schist,,
-CAPZ4;0,incidental,Metamorphic,Marble,,,,Metamorphic     Marble                                             ,Marble,Melange,Blocks in melange
-CAPZ4;0,incidental,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CAPZ4;0,incidental,Sedimentary,Clastic,Sedimentary-breccia,,,Sedimentary     Clastic          Sedimentary-breccia                                   ,Sedimentary-breccia,Bed,
-CAPZ4;0,incidental,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed,
-CAPZ4;0,incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,,
-CAPZ4;0,minor,Metamorphic,Argillite,,,,Metamorphic     Argillite                                             ,Argillite,Melange,
-CAPZ4;0,minor,Metamorphic,Quartzite,,,,Metamorphic     Quartzite                                             ,Quartzite,,
-CAPZ4;0,minor,Metamorphic,Phyllite,,,,Metamorphic     Phyllite                                             ,Phyllite,,
-CAPZ4;0,minor,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,
-CAPZ4;0,minor,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,
-CAPZ4;0,minor,Sedimentary,Chemical,Chert,,,Sedimentary     Chemical          Chert                                   ,Chert,Bed,
-CAPZ4;0,minor,Sedimentary,Chemical,Chert,,,Sedimentary     Chemical          Chert                                   ,Chert,Melange,Forms matrix of melange
-CAPZ5;0,major,Metamorphic,Metasedimentary,,,,Metamorphic     Metasedimentary                                             ,Metasedimentary,,
-CAPZ5;0,major,Metamorphic,Metavolcanic,,,,Metamorphic     Metavolcanic                                             ,Metavolcanic,,
-CAPZ5;0,minor,Tectonite,Melange,,,,Tectonite     Melange                                             ,Melange,Melange,
-CAPZ6;0,incidental,Metamorphic,Marble,,,,Metamorphic     Marble                                             ,Marble,,
-CAPZ6;0,incidental,Metamorphic,Greenstone,,,,Metamorphic     Greenstone                                             ,Greenstone,,
-CAPZ6;0,incidental,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,
-CAPZ6;0,major,Metamorphic,Argillite,,,,Metamorphic     Argillite                                             ,Argillite,,
-CAPZ6;0,major,Metamorphic,Phyllite,,,,Metamorphic     Phyllite                                             ,Phyllite,,
-CAPZ6;0,minor,Metamorphic,Slate,,,,Metamorphic     Slate                                             ,Slate,,
-CAPZ6;0,minor,Sedimentary,Chemical,Chert,,,Sedimentary     Chemical          Chert                                   ,Chert,Bed,
-CAPZ7;0,major,Metamorphic,Gneiss,,,,Metamorphic     Gneiss                                             ,Gneiss,,Probably derived from Devonian volcanic rocks
-CAPZ7;0,major,Metamorphic,Amphibolite,,,,Metamorphic     Amphibolite                                             ,Amphibolite,,Probably derived from Devonian volcanic rocks
-CAPZ8;0,major,Sedimentary,Clastic,Mixed-clastic,Siltstone-Mudstone,,Sedimentary     Clastic          Mixed-clastic               Siltstone-Mudstone                    ,Siltstone-Mudstone,Bed,
-CAPZ8;0,major,Metamorphic,Phyllite,,,,Metamorphic     Phyllite                                             ,Phyllite,,
-CAPZ9;0,incidental,Metamorphic,Quartzite,,,,Metamorphic     Quartzite                                             ,Quartzite,,
-CAPZ9;0,incidental,Metamorphic,Phyllite,,,,Metamorphic     Phyllite                                             ,Phyllite,,
-CAPZ9;0,incidental,Metamorphic,Schist,,,,Metamorphic     Schist                                             ,Schist,,
-CAPZ9;0,incidental,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CAPZ9;0,incidental,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Melange,Blocks in melange
-CAPZ9;0,incidental,Metamorphic,Marble,,,,Metamorphic     Marble                                             ,Marble,Melange,Blocks in melange
-CAPZ9;0,incidental,Igneous,Volcanic,Mafic-volcanic,,,Igneous     Volcanic          Mafic-volcanic                                   ,Mafic-volcanic,,
-CAPZ9;0,incidental,Igneous,Volcanic,Felsic-volcanic,,,Igneous     Volcanic          Felsic-volcanic                                   ,Felsic-volcanic,,
-CAPZ9;0,incidental,Metamorphic,Amphibolite,,,,Metamorphic     Amphibolite                                             ,Amphibolite,Melange,Blocks in melange
-CAPZ9;0,major,Tectonite,Melange,,,,Tectonite     Melange                                             ,Melange,Melange,"Disrupted chert, argillite, volcanic rocks, and clastic sedimentary rocks containing blocks of limestone, marble, and amphibolite "
-CAPZ9;0,minor,Metamorphic,Argillite,,,,Metamorphic     Argillite                                             ,Argillite,,
-CAPZ9;0,minor,Sedimentary,Chemical,Chert,,,Sedimentary     Chemical          Chert                                   ,Chert,Bed,
-CAPZ9;0,minor,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,
-CAPZ9;0,minor,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,
-CAPZ9;0,minor,Igneous,Volcanic,Mafic-volcanic,,,Igneous     Volcanic          Mafic-volcanic                                   ,Mafic-volcanic,,
-CAPZv1;0,incidental,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,Mostly tuffaceous
-CAPZv1;0,incidental,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CAPZv1;0,major,Igneous,Volcanic,Mafic-volcanic,,,Igneous     Volcanic          Mafic-volcanic                                   ,Mafic-volcanic,,"Includes pillow lavas, volcanic breccia, and tuffs"
-CAPZv1;0,minor,Igneous,Volcanic,Felsic-volcanic,,,Igneous     Volcanic          Felsic-volcanic                                   ,Felsic-volcanic,,"Includes flows, breccias, and tuffs"
-CAPZv1;0,minor,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,Mostly tuffaceous
-CAPZv2;0,major,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,,"Weakly metamorphosed.  Includes flows, tuff, tuff breccia, and hypabyssal intrusive rocks"
-CAPZv2;0,minor,Igneous,Volcanic,Felsic-volcanic,,,Igneous     Volcanic          Felsic-volcanic                                   ,Felsic-volcanic,,"Weakly metamorphosed.  Includes tuff, tuff breccia, and intrusive rhyolite"
-CAPZv2;0,minor,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,,"Weakly metamorphosed.  Pillow lava, tuff, and tuff breccia"
-CAPZv3;0,major,Igneous,Volcanic,Mafic-volcanic,,,Igneous     Volcanic          Mafic-volcanic                                   ,Mafic-volcanic,,"Thoroughly recrystallized but retains primary volcanic features such as volcanic breccia, bombs, lapilli, and pillows"
-CAPZv3;0,minor,Igneous,Volcanic,Felsic-volcanic,,,Igneous     Volcanic          Felsic-volcanic                                   ,Felsic-volcanic,,Thoroughly recrystallized
-CAPZv3;0,minor,Metamorphic,Amphibolite,,,,Metamorphic     Amphibolite                                             ,Amphibolite,,Metamorphosed basalt
-CAPZv4;0,major,Metamorphic,Metavolcanic,,,,Metamorphic     Metavolcanic                                             ,Metavolcanic,,Detailed lithology unknown
-CAPZv5;0,incidental,Metamorphic,Marble,,,,Metamorphic     Marble                                             ,Marble,,
-CAPZv5;0,incidental,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CAPZv5;0,incidental,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,
-CAPZv5;0,major,Igneous,Volcanic,Mafic-volcanic,,,Igneous     Volcanic          Mafic-volcanic                                   ,Mafic-volcanic,,Metamorphosed andesite and basalt
-CAPZv5;0,minor,Igneous,Volcanic,Felsic-volcanic,,,Igneous     Volcanic          Felsic-volcanic                                   ,Felsic-volcanic,,Metamorphosed rhyolitic welded tuffs and dacite flows
-CAPZv5;0,minor,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,Includes impure quartz sandstones and lithic wacke 
-CAPZv6;0,major,Metamorphic,Greenstone,,,,Metamorphic     Greenstone                                             ,Greenstone,,"Metamorphosed basaltic breccia, tuff breccia, pillow lava, flows, and dikes"
-CAPZv6;0,major,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,,"Metamorphosed andesitic flows, flow breccia, and hypabyssal intrusions"
-CAQ;0,major,Unconsolidated,Coarse-detrital,,,,Unconsolidated     Coarse-detrital                                             ,Coarse-detrital,Alluvial,
-CAQ;0,major,Unconsolidated,Coarse-detrital,,,,Unconsolidated     Coarse-detrital                                             ,Coarse-detrital,Terrace,
-CAQ;0,minor,Unconsolidated,Fine-detrital,,,,Unconsolidated     Fine-detrital                                             ,Fine-detrital,Lacustrine,
-CAQ;0,minor,Unconsolidated,Coarse-detrital,,,,Unconsolidated     Coarse-detrital                                             ,Coarse-detrital,Bed,
-CAQ;0,minor,Unconsolidated,Fine-detrital,,,,Unconsolidated     Fine-detrital                                             ,Fine-detrital,Bed,
-CAQg;0,major,Unconsolidated,Coarse-detrital,,,,Unconsolidated     Coarse-detrital                                             ,Coarse-detrital,Glacial,
-CAQHp1;0,Major,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Pyroclastic,
-CAQHp2;0,Major,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Pyroclastic,
-CAQHv1;0,Minor,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Volcaniclastic, volcanic breccia"
-CAQHv1;0,Minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Volcaniclastic, volcanic breccia"
-CAQHv1;0,Minor,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Flow
-CAQHv1;0,Minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Flow
-CAQHv1;0,Minor,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Dome
-CAQHv1;0,Minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Dome
-CAQHv2;0,Major,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Dome
-CAQHv2;0,Minor,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Flow
-CAQHv3;0,Major,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Flow
-CAQHv3;0,Minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Volcaniclastic, volcanic breccia"
-CAQHv4;0,Major,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Flow
-CAQHv4;0,Major,Igneous,Volcanic,Alkalic-volcanic,Basanite,,Igneous     Volcanic          Alkalic-volcanic               Basanite                    ,Basanite,Flow
-CAQHv5;0,Major,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Flow
-CAQHv5;0,Major,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Dome
-CAQls;0,major,Unconsolidated,Coarse-detrital,,,,Unconsolidated     Coarse-detrital                                             ,Coarse-detrital,Landslide
-CAQPOc;0,incidental,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed
-CAQPOc;0,incidental,Sedimentary,Chemical,Evaporite,,,Sedimentary     Chemical          Evaporite                                   ,Evaporite,Bed,
-CAQPOc;0,incidental,Sedimentary,Coal,,,,Sedimentary     Coal                                             ,Coal,Bed,
-CAQPOc;0,incidental,Sedimentary,Clastic,Sedimentary-breccia,,,Sedimentary     Clastic          Sedimentary-breccia                                   ,Sedimentary-breccia,Bed,
-CAQPOc;0,major,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,Includes unconsolidated sand deposits
-CAQPOc;0,major,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,Includes unconsolidated gravel deposits
-CAQPOc;0,minor,Sedimentary,Clastic,Siltstone,,,Sedimentary     Clastic          Siltstone                                   ,Siltstone,Bed,
-CAQPOc;0,minor,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,
-CAQs1;0,major,Unconsolidated,Coarse-detrital,Sand,,,Unconsolidated     Coarse-detrital          Sand                                   ,Sand,Eolian,
-CAQs1;0,minor,Unconsolidated,Coarse-detrital,Sand,,,Unconsolidated     Coarse-detrital          Sand                                   ,Sand,Beach,
-CAQs2;0,incidental,Unconsolidated,Fine-detrital,,,,Unconsolidated     Fine-detrital                                             ,Fine-detrital,Lacustrine,
-CAQs2;0,incidental,Unconsolidated,Coarse-detrital,,,,Unconsolidated     Coarse-detrital                                             ,Coarse-detrital,,
-CAQs2;0,major,Unconsolidated,Coarse-detrital,Sand,,,Unconsolidated     Coarse-detrital          Sand                                   ,Sand,Eolian,
-CAQs2;0,minor,Unconsolidated,Coarse-detrital,Sand,,,Unconsolidated     Coarse-detrital          Sand                                   ,Sand,Lacustrine,
-CAQv1;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Pyroclastic,
-CAQv1;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Pyroclastic,
-CAQv1;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Pyroclastic,
-CAQv1;0,Minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Volcaniclastic, lahar"
-CAQv1;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,"Volcaniclastic, lahar"
-CAQv1;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,"Volcaniclastic, lahar"
-CAQv1;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,"Volcaniclastic, volcanic breccia"
-CAQv1;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,"Volcaniclastic, volcanic breccia"
-CAQv1;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Volcaniclastic, volcanic breccia"
-CAQv1;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Flow
-CAQv1;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Flow
-CAQv1;0,Minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Flow
-CAQv1;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,Flow
-CAQv1;0,Minor,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Flow
-CAQv2;0,Major,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Flow
-CAQv2;0,Major,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Dome
-CAQv2;0,Minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Dome
-CAQv2;0,Minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Flow
-CAQv2;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Flow
-CAQv3;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Volcaniclastic, volcanic breccia"
-CAQv3;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Volcaniclastic, volcanic breccia"
-CAQv3;0,Minor,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Flow
-CAQv3;0,Major,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Flow
-CAQv3;0,Minor,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Dome
-CAQv4;0,Minor,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Dome
-CAQv4;0,Minor,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Flow
-CAQv4;0,Minor,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Flow
-CAQv4;0,Minor,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Dome
-CAQv4;0,Minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Dome
-CAQv4;0,Minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Flow
-CAQv5;0,Major,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Flow
-CAQv5;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,"Volcaniclastic, volcanic breccia"
-CAQv5;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Flow
-CAQv5;0,Minor,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Flow
-CAQv5;0,Minor,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Flow
-CAQv5;0,Minor,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Dome
-CAQv6;0,Major,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Flow
-CAQv6;0,Minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Volcaniclastic, volcanic breccia"
-CAQv6;0,Major,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Flow
-CAQv7;0,Major,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Flow
-CAQv7;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Flow
-CAQv7;0,Incidental,Igneous,Volcanic,Alkalic-volcanic,Basanite,,Igneous     Volcanic          Alkalic-volcanic               Basanite                    ,Basanite,Flow
-CAQv8;0,Major,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Flow
-CAQvp1;0,Minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Pyroclastic
-CAQvp1;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,Pyroclastic
-CAQvp1;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Pyroclastic
-CAQvp1;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Pyroclastic
-CAQvp1;0,Minor,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,"Pyroclastic, ash-flow"
-CAQvp1;0,Major,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Volcaniclastic, lahar"
-CAQvp1;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,"Volcaniclastic, lahar"
-CAQvp1;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,"Volcaniclastic, lahar"
-CAQvp2;0,Minor,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,"Pyroclastic, air fall",
-CAQvp2;0,Major,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,"Pyroclastic, ash-flow",
-CAQvp3;0,Minor,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Pyroclastic,
-CAQvp3;0,Minor,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,"Volcaniclastic, lahar",
-CAQvp3;0,Minor,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Volcaniclastic, lahar",
-CAQvp3;0,Minor,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Pyroclastic,
-CAQvp3;0,Minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Volcaniclastic, lahar",
-CAQvp3;0,Minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Pyroclastic,
-CAQvp4;0,Major,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Pyroclastic,
-CAQvp5;0,Major,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Pyroclastic,
-CAsch1;0,incidental,Metamorphic,Amphibolite,,,,Metamorphic     Amphibolite                                             ,Amphibolite,,"Probably represents metamorphosed mafic flows, tuff, tuff-breccia, and sills.  Locally grades into fine-grained gabbro"
-CAsch1;0,incidental,Metamorphic,Marble,,,,Metamorphic     Marble                                             ,Marble,,
-CAsch1;0,incidental,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,,Metamorphosed
-CAsch1;0,incidental,Metamorphic,Metavolcanic,,,,Metamorphic     Metavolcanic                                             ,Metavolcanic,,
-CAsch1;0,major,Metamorphic,Schist,,,,Metamorphic     Schist                                             ,Schist,,Mostly pelitic schist; also includes locally pebbly quartz-mica schist
-CAsch1;0,minor,Metamorphic,Gneiss,,,,Metamorphic     Gneiss                                             ,Gneiss,,Gradational with schist
-CAsch1;0,minor,Metamorphic,Quartzite,,,,Metamorphic     Quartzite                                             ,Quartzite,,Mostly calc-silicate-bearing feldspathic quartzite; also includes pure quartzite
-CAsch10;0,major,Metamorphic,Schist,,,,Metamorphic     Schist                                             ,Schist,Amphibolite,
-CAsch11;0,major,Metamorphic,Schist,,,,Metamorphic     Schist                                             ,Schist,,Quartz-sericite schist
-CAsch11;0,major,Metamorphic,Hornfels,,,,Metamorphic     Hornfels                                             ,Hornfels,,
-CAsch2;0,incidental,Metamorphic,Amphibolite,,,,Metamorphic     Amphibolite                                             ,Amphibolite,,
-CAsch2;0,incidental,Metamorphic,Quartzite,,,,Metamorphic     Quartzite                                             ,Quartzite,,Includes metachert
-CAsch2;0,incidental,Metamorphic,Marble,,,,Metamorphic     Marble                                             ,Marble,,
-CAsch2;0,incidental,Metamorphic,Serpentinite,,,,Metamorphic     Serpentinite                                             ,Serpentinite,,
-CAsch2;0,major,Metamorphic,Schist,,,,Metamorphic     Schist                                             ,Schist,Greenschist,Ranges from quartz-muscovite to quartz-biotite schist
-CAsch2;0,minor,Metamorphic,Schist,,,,Metamorphic     Schist                                             ,Schist,Amphibolite,Ranges from quartz-muscovite to quartz-biotite schist
-CAsch3;0,incidental,Sedimentary,Chemical,Chert,,,Sedimentary     Chemical          Chert                                   ,Chert,Bed,Weakly metamorphosed
-CAsch3;0,incidental,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,Weakly metamorphosed
-CAsch3;0,incidental,Igneous,Plutonic,Dioritic,Diorite,,Igneous     Plutonic          Dioritic               Diorite                    ,Diorite,,Weakly metamorphosed
-CAsch3;0,incidental,Igneous,Plutonic,Granitic,Tonalite,,Igneous     Plutonic          Granitic               Tonalite                    ,Tonalite,,Weakly metamorphosed
-CAsch3;0,major,Metamorphic,Metavolcanic,,,,Metamorphic     Metavolcanic                                             ,Metavolcanic,Greenschist,"Massive to schistose; compositions include keratophyre, quartz keratophyre, and spilite"
-CAsch3;0,major,Metamorphic,Schist,,,,Metamorphic     Schist                                             ,Schist,Greenschist,Includes both metasedimentary and metavolcanic rocks
-CAsch4;0,major,Metamorphic,Schist,,,,Metamorphic     Schist                                             ,Schist,,
-CAsch4;0,minor,Metamorphic,Marble,,,,Metamorphic     Marble                                             ,Marble,,
-Casch5;0,major,Metamorphic,Schist,,,,Metamorphic     Schist                                             ,Schist,,
-Casch5;0,minor,Metamorphic,Gneiss,,,,Metamorphic     Gneiss                                             ,Gneiss,,
-Casch5;0,minor,Metamorphic,Slate,,,,Metamorphic     Slate                                             ,Slate,,
-CAsch6;0,major,Metamorphic,Schist,,,,Metamorphic     Schist                                             ,Schist,Amphibolite,
-CAsch6;0,major,Metamorphic,Quartzite,,,,Metamorphic     Quartzite                                             ,Quartzite,Amphibolite,
-CAsch6;0,minor,Metamorphic,Marble,,,,Metamorphic     Marble                                             ,Marble,Amphibolite,Includes calc-silicate rocks
-CAsch7;0,major,Metamorphic,Amphibolite,,,,Metamorphic     Amphibolite                                             ,Amphibolite,Amphibolite,Main rock type in Salmon Horneblende Schist
-CAsch7;0,major,Metamorphic,Schist,,,,Metamorphic     Schist                                             ,Schist,Amphibolite,Includes quartz-mica schist and calc-schist (Abrams Mica Schist)
-CAsch7;0,minor,Metamorphic,Marble,,,,Metamorphic     Marble                                             ,Marble,Amphibolite,Associated with schist in Abrams Mica Schist
-CAsch8;0,incidental,Sedimentary,Chemical,Chert,,,Sedimentary     Chemical          Chert                                   ,Chert,,Metachert associated with quartz-mica schist
-CAsch8;0,major,Metamorphic,Schist,,,,Metamorphic     Schist                                             ,Schist,Greenschist,"Includes mafic metavolcanic schist in upper part of unit, and quartz-mica metasedimentary schist in lower part"
-CAsch8;0,minor,Metamorphic,Schist,,,,Metamorphic     Schist                                             ,Schist,Blueschist,Glaucophane schist
-CAsch9;0,incidental,Metamorphic,Quartzite,,,,Metamorphic     Quartzite                                             ,Quartzite,Amphibolite,
-CAsch9;0,incidental,Metamorphic,Marble,,,,Metamorphic     Marble                                             ,Marble,Amphibolite,
-CAsch9;0,incidental,Metamorphic,Amphibolite,,,,Metamorphic     Amphibolite                                             ,Amphibolite,Amphibolite,
-CAsch9;0,major,Metamorphic,Amphibolite,,,,Metamorphic     Amphibolite                                             ,Amphibolite,Amphibolite,Interpreted as metamorphosed arkose
-CAsch9;0,minor,Metamorphic,Schist,,,,Metamorphic     Schist                                             ,Schist,Amphibolite,Includes kyanite-bearing schist (Vitrefrax Fm.)
-CASO1;0,incidental,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,
-CASO1;0,major,Sedimentary,Carbonate,Dolostone,,,Sedimentary     Carbonate          Dolostone                                   ,Dolostone,Bed,"Thick-bedded, fine-grained"
-CASO1;0,major,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed,"Thick-bedded, fine-grained, locally fossiliferous"
-CASO1;0,minor,Metamorphic,Quartzite,,,,Metamorphic     Quartzite                                             ,Quartzite,,"Indurated quartzose sandstone, primarily Eureka Quartzite and stratigraphic equivalents"
-CASO2;0,incidental,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,Thin conglomerate beds in Bright Dot Fm.
-CASO2;0,major,Metamorphic,Argillite,,,,Metamorphic     Argillite                                             ,Argillite,,
-CASO2;0,minor,Metamorphic,Slate,,,,Metamorphic     Slate                                             ,Slate,,
-CASO2;0,minor,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,Primarily quartzose sandstone of Mt. Morrison Sandstone
-CASO2;0,minor,Metamorphic,Hornfels,,,,Metamorphic     Hornfels                                             ,Hornfels,,Includes calc-hornfels and siliceous hornfels
-CASO2;0,minor,Sedimentary,Chemical,Chert,,,Sedimentary     Chemical          Chert                                   ,Chert,Bed,Primarily black phosphatic chert of Squares Tunnel Fm.
-CASO2;0,minor,Metamorphic,Quartzite,,,,Metamorphic     Quartzite                                             ,Quartzite,,
-CASO2;0,minor,Metamorphic,Marble,,,,Metamorphic     Marble                                             ,Marble,,
-CASO3;0,incidental,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CASO3;0,incidental,Sedimentary,Chemical,Chert,,,Sedimentary     Chemical          Chert                                   ,Chert,Bed,
-CASO3;0,incidental,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed,
-CASO3;0,major,Metamorphic,Phyllite,,,,Metamorphic     Phyllite                                             ,Phyllite,,Includes phyllitic siltstone and shale
-CASO3;0,minor,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,
-CASO3;0,minor,Sedimentary,Clastic,Siltstone,,,Sedimentary     Clastic          Siltstone                                   ,Siltstone,Bed,
-CASO3;0,minor,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,
-CASO3;0,minor,Metamorphic,Quartzite,,,,Metamorphic     Quartzite                                             ,Quartzite,Bed,
-CASO4;0,incidental,Sedimentary,Chemical,Chert,,,Sedimentary     Chemical          Chert                                   ,Chert,Melange,
-CASO4;0,incidental,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Melange,Fossiliferous limestone blocks originally named Montgomery Limestone
-CASO4;0,incidental,Sedimentary,Clastic,Sedimentary-breccia,,,Sedimentary     Clastic          Sedimentary-breccia                                   ,Sedimentary-breccia,Melange,
-CASO4;0,major,Metamorphic,Slate,,,,Metamorphic     Slate                                             ,Slate,Melange,
-CASO4;0,major,Metamorphic,Phyllite,,,,Metamorphic     Phyllite                                             ,Phyllite,Melange,
-CASO4;0,minor,Sedimentary,Clastic,Sandstone,Graywacke,,Sedimentary     Clastic          Sandstone               Graywacke                    ,Graywacke,Melange,
-CATc;0,incidental,Sedimentary,Clastic,Sedimentary-breccia,,,Sedimentary     Clastic          Sedimentary-breccia                                   ,Sedimentary-breccia,Bed,Includes monolithologic breccias
-CATc;0,incidental,Igneous,Volcanic,,,,Igneous     Volcanic                                             ,Volcanic,,Includes tuffs and flows
-CATc;0,incidental,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,
-CATc;0,incidental,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed,
-CATc;0,incidental,Sedimentary,Clastic,Siltstone,,,Sedimentary     Clastic          Siltstone                                   ,Siltstone,Bed,
-CATc;0,major,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,Mostly arkosic
-CATc;0,major,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CATi1;0,Minor,Igneous,Hypabyssal,Felsic-hypabyssal,Hypabyssal-rhyolite,,Igneous     Hypabyssal          Felsic-hypabyssal               Hypabyssal-rhyolite                    ,Hypabyssal-rhyolite,Pluton,
-CATi1;0,Incidental,Igneous,Hypabyssal,Felsic-hypabyssal,Hypabyssal-dacite,,Igneous     Hypabyssal          Felsic-hypabyssal               Hypabyssal-dacite                    ,Hypabyssal-dacite,Pluton,
-CATi1;0,Major,Igneous,Hypabyssal,Mafic-hypabyssal,Hypabyssal-andesite,,Igneous     Hypabyssal          Mafic-hypabyssal               Hypabyssal-andesite                    ,Hypabyssal-andesite,Pluton,
-CATi1;0,Incidental,Igneous,Hypabyssal,Mafic-hypabyssal,Hypabyssal-basaltic-andesite,,Igneous     Hypabyssal          Mafic-hypabyssal               Hypabyssal-basaltic-andesite                    ,Hypabyssal-basaltic-andesite,Pluton,
-CATi1;0,Minor,Igneous,Hypabyssal,Mafic-hypabyssal,Hypabyssal-basalt,,Igneous     Hypabyssal          Mafic-hypabyssal               Hypabyssal-basalt                    ,Hypabyssal-basalt,Pluton,
-CATi2;0,Incidental,Igneous,Hypabyssal,Mafic-hypabyssal,Hypabyssal-basalt,,Igneous     Hypabyssal          Mafic-hypabyssal               Hypabyssal-basalt                    ,Hypabyssal-basalt,Pluton,
-CATi2;0,Incidental,Igneous,Hypabyssal,Mafic-hypabyssal,Hypabyssal-basaltic-andesite,,Igneous     Hypabyssal          Mafic-hypabyssal               Hypabyssal-basaltic-andesite                    ,Hypabyssal-basaltic-andesite,Pluton,
-CATi2;0,Major,Igneous,Hypabyssal,Mafic-hypabyssal,Hypabyssal-andesite,,Igneous     Hypabyssal          Mafic-hypabyssal               Hypabyssal-andesite                    ,Hypabyssal-andesite,Pluton,
-CATi2;0,Major,Igneous,Hypabyssal,Felsic-hypabyssal,Hypabyssal-dacite,,Igneous     Hypabyssal          Felsic-hypabyssal               Hypabyssal-dacite                    ,Hypabyssal-dacite,Pluton,
-CATi2;0,Incidental,Igneous,Hypabyssal,Felsic-hypabyssal,Hypabyssal-rhyolite,,Igneous     Hypabyssal          Felsic-hypabyssal               Hypabyssal-rhyolite                    ,Hypabyssal-rhyolite,Pluton,
-CATi3;0,Major,Igneous,Hypabyssal,Felsic-hypabyssal,Hypabyssal-rhyolite,,Igneous     Hypabyssal          Felsic-hypabyssal               Hypabyssal-rhyolite                    ,Hypabyssal-rhyolite,Dike or sill,
-CATi3;0,Incidental,Igneous,Hypabyssal,Felsic-hypabyssal,Hypabyssal-dacite,,Igneous     Hypabyssal          Felsic-hypabyssal               Hypabyssal-dacite                    ,Hypabyssal-dacite,Dike or sill,
-CATi3;0,Incidental,Igneous,Hypabyssal,Mafic-hypabyssal,Hypabyssal-andesite,,Igneous     Hypabyssal          Mafic-hypabyssal               Hypabyssal-andesite                    ,Hypabyssal-andesite,Dike or sill
-CATi4;0,Minor,Igneous,Hypabyssal,Felsic-hypabyssal,Hypabyssal-rhyolite,,Igneous     Hypabyssal          Felsic-hypabyssal               Hypabyssal-rhyolite                    ,Hypabyssal-rhyolite,Dike or sill
-CATi4;0,Major,Igneous,Hypabyssal,Felsic-hypabyssal,Hypabyssal-rhyolite,,Igneous     Hypabyssal          Felsic-hypabyssal               Hypabyssal-rhyolite                    ,Hypabyssal-rhyolite,Pluton
-CATi4;0,Minor,Igneous,Hypabyssal,Felsic-hypabyssal,Hypabyssal-dacite,,Igneous     Hypabyssal          Felsic-hypabyssal               Hypabyssal-dacite                    ,Hypabyssal-dacite,Pluton
-CATi4;0,Incidental,Igneous,Hypabyssal,Mafic-hypabyssal,Hypabyssal-andesite,,Igneous     Hypabyssal          Mafic-hypabyssal               Hypabyssal-andesite                    ,Hypabyssal-andesite,Pluton
-CATi4;0,Incidental,Igneous,Hypabyssal,Mafic-hypabyssal,Hypabyssal-basalt,,Igneous     Hypabyssal          Mafic-hypabyssal               Hypabyssal-basalt                    ,Hypabyssal-basalt,Pluton
-CATi5;0,Minor,Igneous,Hypabyssal,Felsic-hypabyssal,Hypabyssal-dacite,,Igneous     Hypabyssal          Felsic-hypabyssal               Hypabyssal-dacite                    ,Hypabyssal-dacite,Pluton
-CATi5;0,Minor,Igneous,Hypabyssal,Mafic-hypabyssal,Hypabyssal-andesite,,Igneous     Hypabyssal          Mafic-hypabyssal               Hypabyssal-andesite                    ,Hypabyssal-andesite,Pluton
-CATi5;0,Minor,Igneous,Hypabyssal,Mafic-hypabyssal,Hypabyssal-basaltic-andesite,,Igneous     Hypabyssal          Mafic-hypabyssal               Hypabyssal-basaltic-andesite                    ,Hypabyssal-basaltic-andesite,Pluton
-CATi5;0,Major,Igneous,Hypabyssal,Mafic-hypabyssal,Hypabyssal-basalt,,Igneous     Hypabyssal          Mafic-hypabyssal               Hypabyssal-basalt                    ,Hypabyssal-basalt,Pluton
-CATi5;0,Incidental,Igneous,Hypabyssal,Mafic-hypabyssal,Hypabyssal-andesite,,Igneous     Hypabyssal          Mafic-hypabyssal               Hypabyssal-andesite                    ,Hypabyssal-andesite,Dike or sill
-CATi5;0,Incidental,Igneous,Hypabyssal,Mafic-hypabyssal,Hypabyssal-basalt,,Igneous     Hypabyssal          Mafic-hypabyssal               Hypabyssal-basalt                    ,Hypabyssal-basalt,Dike or sill
-CATi6;0,Minor,Igneous,Hypabyssal,Mafic-hypabyssal,Hypabyssal-basalt,,Igneous     Hypabyssal          Mafic-hypabyssal               Hypabyssal-basalt                    ,Hypabyssal-basalt,Dike or sill
-CATi6;0,Minor,Igneous,Hypabyssal,Felsic-hypabyssal,Hypabyssal-rhyolite,,Igneous     Hypabyssal          Felsic-hypabyssal               Hypabyssal-rhyolite                    ,Hypabyssal-rhyolite,Dike or sill
-CATi6;0,Minor,Igneous,Hypabyssal,Felsic-hypabyssal,Hypabyssal-rhyolite,,Igneous     Hypabyssal          Felsic-hypabyssal               Hypabyssal-rhyolite                    ,Hypabyssal-rhyolite,Pluton
-CATi6;0,Minor,Igneous,Hypabyssal,Felsic-hypabyssal,Hypabyssal-dacite,,Igneous     Hypabyssal          Felsic-hypabyssal               Hypabyssal-dacite                    ,Hypabyssal-dacite,Pluton
-CATi6;0,Minor,Igneous,Hypabyssal,Mafic-hypabyssal,Hypabyssal-andesite,,Igneous     Hypabyssal          Mafic-hypabyssal               Hypabyssal-andesite                    ,Hypabyssal-andesite,Pluton,
-CATi6;0,Incidental,Igneous,Hypabyssal,Mafic-hypabyssal,Hypabyssal-basaltic-andesite,,Igneous     Hypabyssal          Mafic-hypabyssal               Hypabyssal-basaltic-andesite                    ,Hypabyssal-basaltic-andesite,Pluton,
-CATi6;0,Minor,Igneous,Hypabyssal,Mafic-hypabyssal,Hypabyssal-basalt,,Igneous     Hypabyssal          Mafic-hypabyssal               Hypabyssal-basalt                    ,Hypabyssal-basalt,Pluton,
-CATi7;0,Incidental,Igneous,Hypabyssal,Mafic-hypabyssal,Hypabyssal-basalt,,Igneous     Hypabyssal          Mafic-hypabyssal               Hypabyssal-basalt                    ,Hypabyssal-basalt,Pluton,
-CATi7;0,Incidental,Igneous,Hypabyssal,Mafic-hypabyssal,Hypabyssal-basaltic-andesite,,Igneous     Hypabyssal          Mafic-hypabyssal               Hypabyssal-basaltic-andesite                    ,Hypabyssal-basaltic-andesite,Pluton,
-CATi7;0,Minor,Igneous,Hypabyssal,Mafic-hypabyssal,Hypabyssal-andesite,,Igneous     Hypabyssal          Mafic-hypabyssal               Hypabyssal-andesite                    ,Hypabyssal-andesite,Pluton,
-CATi7;0,Minor,Igneous,Hypabyssal,Felsic-hypabyssal,Hypabyssal-dacite,,Igneous     Hypabyssal          Felsic-hypabyssal               Hypabyssal-dacite                    ,Hypabyssal-dacite,Pluton,
-CATi7;0,Major,Igneous,Hypabyssal,Felsic-hypabyssal,Hypabyssal-rhyolite,,Igneous     Hypabyssal          Felsic-hypabyssal               Hypabyssal-rhyolite                    ,Hypabyssal-rhyolite,Pluton,
-CATi7;0,Minor,Igneous,Hypabyssal,Felsic-hypabyssal,Hypabyssal-rhyolite,,Igneous     Hypabyssal          Felsic-hypabyssal               Hypabyssal-rhyolite                    ,Hypabyssal-rhyolite,Dike or sill,
-CATi7;0,Incidental,Igneous,Hypabyssal,Mafic-hypabyssal,Hypabyssal-basalt,,Igneous     Hypabyssal          Mafic-hypabyssal               Hypabyssal-basalt                    ,Hypabyssal-basalt,Dike or sill,
-CATi8;0,Major,Igneous,Hypabyssal,Felsic-hypabyssal,Hypabyssal-dacite,,Igneous     Hypabyssal          Felsic-hypabyssal               Hypabyssal-dacite                    ,Hypabyssal-dacite,Pluton,
-CATi9;0,Major,Igneous,Plutonic,Gabbroic,Gabbro,,Igneous     Plutonic          Gabbroic               Gabbro                    ,Gabbro,Pluton,
-CATK;0,incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Flow,Commonly forms blocks in melange
-CATK;0,incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,"Pyroclastic, tuff",Commonly forms blocks in melange
-CATK;0,incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Dike or sill,Commonly forms blocks in melange
-CATK;0,incidental,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Lens,Pelagic limestone interbedded with basalt
-CATK;0,incidental,Metamorphic,Schist,,,,Metamorphic     Schist                                             ,Schist,Blueschist,Forms blocks in melange locally along eastern boundaries of unit
-CATK;0,incidental,Sedimentary,Chemical,Chert,,,Sedimentary     Chemical          Chert                                   ,Chert,Bed,Radiolarian chert
-CATK;0,major,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,Feldspathic to arkosic. Commonly cut by laumontite veins; commonly contains fine-grained prehnite and pumpellyite.  Ranges from partially disrupted to melange
-CATK;0,major,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,Penetratively sheared; commonly forms matrix of melange enclosing other rocks of unit
-CATK;0,minor,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CATR1;0,incidental,Metamorphic,Quartzite,,,,Metamorphic     Quartzite                                             ,Quartzite,,
-CATR1;0,incidental,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CATR1;0,incidental,Sedimentary,Carbonate,Dolostone,,,Sedimentary     Carbonate          Dolostone                                   ,Dolostone,Bed,
-CATR1;0,major,Sedimentary,Clastic,Mixed-clastic,Siltstone-Mudstone,,Sedimentary     Clastic          Mixed-clastic               Siltstone-Mudstone                    ,Siltstone-Mudstone,Bed,
-CATR1;0,minor,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,
-CATR1;0,minor,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed,
-CATR1;0,minor,Sedimentary,Clastic,Mudstone,Shale,,Sedimentary     Clastic          Mudstone               Shale                    ,Shale,Bed,
-CATR1;0,minor,Metamorphic,Hornfels,,,,Metamorphic     Hornfels                                             ,Hornfels,,
-CATR2;0,incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Flow,
-CATR2;0,incidental,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,
-CATR2;0,incidental,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CATR2;0,major,Sedimentary,Clastic,Mixed-clastic,Siltstone-Mudstone,,Sedimentary     Clastic          Mixed-clastic               Siltstone-Mudstone                    ,Siltstone-Mudstone,Bed,
-CATR2;0,major,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,
-CATR2;0,minor,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed,
-CATR2;0,minor,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Pyroclastic,
-CATR3;0,incidental,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CATR3;0,incidental,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed,
-CATR3;0,incidental,Metamorphic,Argillite,,,,Metamorphic     Argillite                                             ,Argillite,,
-CATR3;0,major,Metamorphic,Slate,,,,Metamorphic     Slate                                             ,Slate,,In part tuffaceous
-CATR3;0,minor,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,Volcaniclastic
-CATR4;0,incidental,Sedimentary,Clastic,Mudstone,,,Sedimentary     Clastic          Mudstone                                   ,Mudstone,Bed,
-CATR4;0,incidental,Metamorphic,Argillite,,,,Metamorphic     Argillite                                             ,Argillite,,
-CATR4;0,incidental,Metamorphic,Hornfels,,,,Metamorphic     Hornfels                                             ,Hornfels,,
-CATR4;0,major,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed,
-CATR4;0,minor,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,Bed,Volcanogenic
-CATR4;0,minor,Igneous,Volcanic,Mafic-volcanic,,,Igneous     Volcanic          Mafic-volcanic                                   ,Mafic-volcanic,,
-CATR4;0,minor,Igneous,Volcanic,Felsic-volcanic,,,Igneous     Volcanic          Felsic-volcanic                                   ,Felsic-volcanic,,
-CATR5;0,incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Pyroclastic, tuff",
-CATR5;0,major,Metamorphic,Slate,,,,Metamorphic     Slate                                             ,Slate,,In part tuffaceous
-CATR5;0,major,Sedimentary,Carbonate,Limestone,,,Sedimentary     Carbonate          Limestone                                   ,Limestone,Bed,
-CATR5;0,minor,Sedimentary,Clastic,Conglomerate,,,Sedimentary     Clastic          Conglomerate                                   ,Conglomerate,Bed,
-CATR6;0,incidental,Igneous,Volcanic,,,,Igneous     Volcanic                                             ,Volcanic,,
-CATR6;0,major,Sedimentary,Clastic,Sandstone,,,Sedimentary     Clastic          Sandstone                                   ,Sandstone,,Variably metamorphosed
-CATR6;0,minor,Metamorphic,Hornfels,,,,Metamorphic     Hornfels                                             ,Hornfels,,Includes calc-silicate rocks
-CATR6;0,minor,Metamorphic,Marble,,,,Metamorphic     Marble                                             ,Marble,,
-CATR6;0,minor,Metamorphic,Slate,,,,Metamorphic     Slate                                             ,Slate,,
-CATR7;0,incidental,Sedimentary,Chemical,Chert,,,Sedimentary     Chemical          Chert                                   ,Chert,,
-CATR7;0,major,Metamorphic,Hornfels,,,,Metamorphic     Hornfels                                             ,Hornfels,,
-CATR7;0,minor,Metamorphic,Quartzite,,,,Metamorphic     Quartzite                                             ,Quartzite,,
-CATv1;0,Minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Flow,
-CATv1;0,Minor,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Flow,
-CATv1;0,Minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Volcaniclastic, volcanic breccia",
-CATv1;0,Minor,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Volcaniclastic, volcanic breccia",
-CATv1;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Pyroclastic
-CATv1;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Pyroclastic
-CATv1;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,Flow
-CATv1;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,"Volcaniclastic, volcanic breccia"
-CATv1;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Flow
-CATv1;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,"Volcaniclastic, volcanic breccia"
-CATv1;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Dome
-CATv10;0,Major,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Flow
-CATv10;0,Minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Volcaniclastic, volcanic breccia"
-CATv10;0,Minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Pyroclastic
-CATv10;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,Flow
-CATv10;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,"Volcaniclastic, volcanic breccia"
-CATv10;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,Pyroclastic
-CATv10;0,Minor,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Flow
-CATv10;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,"Volcaniclastic, volcanic breccia"
-CATv10;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Pyroclastic
-CATv11;0,Major,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Flow
-CATv11;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Volcaniclastic, volcanic breccia"
-CATv11;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Volcaniclastic, lahar"
-CATv11;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,Flow
-CATv11;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,"Volcaniclastic, volcanic breccia"
-CATv11;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,"Volcaniclastic, lahar"
-CATv11;0,Major,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Flow
-CATv11;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,"Volcaniclastic, volcanic breccia"
-CATv11;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Pyroclastic
-CATV12;0,Major,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Flow
-CATV12;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,"Volcaniclastic, volcanic breccia"
-CATV12;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,Flow
-CATV12;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,"Volcaniclastic, volcanic breccia"
-CATV12;0,Minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Flow
-CATV12;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Volcaniclastic, volcanic breccia"
-CATV12;0,Minor,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Flow
-CATV12;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Volcaniclastic, volcanic breccia"
-CATV12;0,Minor,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Flow
-CATV12;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,"Volcaniclastic, volcanic breccia"
-CATv13;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Flow
-CATv13;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Volcaniclastic, volcanic breccia"
-CATv13;0,Minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Flow
-CATv13;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Volcaniclastic, volcanic breccia"
-CATv13;0,Minor,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,Flow
-CATv13;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,"Volcaniclastic, volcanic breccia"
-CATv13;0,Major,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Flow
-CATv13;0,Minor,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,"Volcaniclastic, volcanic breccia"
-CATv14;0,Major,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Flow
-CATv14;0,Minor,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,"Volcaniclastic, volcanic breccia"
-CATv14;0,Minor,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Flow
-CATv14;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Volcaniclastic, volcanic breccia"
-CATv14;0,Minor,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Flow
-CATv14;0,Minor,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,"Volcaniclastic, volcanic breccia"
-CATv14;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Flow
-CATv15;0,Minor,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,"Pyroclastic, ash-flow"
-CATv15;0,Minor,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Flow
-CATv15;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,"Volcaniclastic, volcanic breccia"
-CATv15;0,Minor,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Flow
-CATv15;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Volcaniclastic, volcanic breccia"
-CATv15;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Flow
-CATv15;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Volcaniclastic, volcanic breccia"
-CATv15;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,Flow
-CATv15;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,"Volcaniclastic, volcanic breccia"
-CATv15;0,Minor,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Flow
-CATv15;0,Minor,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,"Volcaniclastic, volcanic breccia"
-CATv16;0,Minor,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,"Pyroclastic, air fall"
-CATv16;0,Minor,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,"Pyroclastic, ash-flow"
-CATv16;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,"Volcaniclastic, volcanic breccia"
-CATv16;0,Minor,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Flow
-CATv16;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Dome
-CATv16;0,Minor,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Flow
-CATv16;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Volcaniclastic, volcanic breccia"
-CATv16;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Trachyte,,Igneous     Volcanic          Felsic-volcanic               Trachyte                    ,Trachyte,Flow
-CATv16;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Flow
-CATv16;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Volcaniclastic, volcanic breccia"
-CATv16;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,Flow
-CATv16;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,"Volcaniclastic, volcanic breccia"
-CATv16;0,Minor,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Flow
-CATv16;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,"Volcaniclastic, volcanic breccia"
-CATv17;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Pyroclastic
-CATv17;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Flow
-CATv17;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Dome
-CATv17;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Volcaniclastic, volcanic breccia"
-CATv17;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Flow
-CATv17;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Dome
-CATv17;0,Minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Flow
-CATv17;0,Minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Volcaniclastic, volcanic breccia"
-CATv17;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Volcaniclastic, lahar"
-CATv17;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,Flow
-CATv17;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,"Volcaniclastic, volcanic breccia"
-CATv17;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,"Volcaniclastic, lahar"
-CATv17;0,Minor,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Flow
-CATv17;0,Minor,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,"Volcaniclastic, volcanic breccia"
-CATv17;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,"Volcaniclastic, lahar"
-CATv18;0,Major,Igneous,Volcanic,Alkalic-volcanic,Basanite,,Igneous     Volcanic          Alkalic-volcanic               Basanite                    ,Basanite,Flow
-CATv18;0,Minor,Igneous,Volcanic,Alkalic-volcanic,Basanite,,Igneous     Volcanic          Alkalic-volcanic               Basanite                    ,Basanite,"Volcaniclastic, volcanic breccia"
-CATv18;0,Minor,Igneous,Volcanic,Alkalic-volcanic,Foidite,,Igneous     Volcanic          Alkalic-volcanic               Foidite                    ,Foidite,Flow
-CATv18;0,Incidental,Igneous,Volcanic,Alkalic-volcanic,Foidite,,Igneous     Volcanic          Alkalic-volcanic               Foidite                    ,Foidite,"Volcaniclastic, volcanic breccia"
-CATv18;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Trachyte,,Igneous     Volcanic          Felsic-volcanic               Trachyte                    ,Trachyte,Flow
-CATv18;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Trachyte,,Igneous     Volcanic          Felsic-volcanic               Trachyte                    ,Trachyte,"Volcaniclastic, volcanic breccia"
-CATv19;0,Major,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Flow
-CATv2;0,Major,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Flow
-CATv2;0,Minor,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,"Volcaniclastic, volcanic breccia"
-CATv2;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Pyroclastic
-CATv2;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Flow
-CATv2;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Volcaniclastic, volcanic breccia"
-CATv2;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Flow
-CATv2;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Volcaniclastic, volcanic breccia"
-CATv3;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,"Pyroclastic, air fall"
-CATv3;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,"Pyroclastic, ash-flow"
-CATv3;0,Minor,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Flow
-CATv3;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Dome
-CATv3;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Pyroclastic, air fall"
-CATv3;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Pyroclastic, ash-flow"
-CATv3;0,Major,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Flow
-CATv3;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Dome
-CATv3;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Flow
-CATv3;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,Flow
-CATv3;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Flow
-CATv3;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Pyroclastic
-CATv4;0,Major,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Flow
-CATv4;0,Major,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,Flow
-CATv4;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Flow
-CATv4;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Flow
-CATv5;0,Major,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,Flow
-CATv5;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Flow
-CATv5;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Flow
-CATv6;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Volcaniclastic, volcanic breccia"
-CATv6;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Flow
-CATv6;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Volcaniclastic, volcanic breccia"
-CATv6;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Flow
-CATv6;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,Pyroclastic
-CATv6;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,"Volcaniclastic, volcanic breccia"
-CATv6;0,Minor,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,Flow
-CATv6;0,Major,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Flow
-CATv6;0,Minor,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,"Volcaniclastic, volcanic breccia"
-CATv6;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Pyroclastic
-CATv7;0,Major,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Flow
-CATv8;0,Minor,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Flow
-CATv8;0,Minor,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,"Volcaniclastic, volcanic breccia"
-CATv8;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,"Pyroclastic, air fall"
-CATv8;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,"Pyroclastic, air fall"
-CATv8;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,"Volcaniclastic, volcanic breccia"
-CATv8;0,Minor,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,Flow
-CATv8;0,Minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Flow
-CATv8;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Volcaniclastic, volcanic breccia"
-CATv8;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Pyroclastic, air fall"
-CATv8;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Pyroclastic, air fall"
-CATv8;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Volcaniclastic, volcanic breccia"
-CATv8;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Flow
-CATv9;0,Major,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Flow
-CATv9;0,Minor,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,"Volcaniclastic, volcanic breccia"
-CATvp1;0,Minor,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,"Pyroclastic, air fall"
-CATvp1;0,Major,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,"Pyroclastic, ash-flow"
-CATvp1;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Flow
-CATvp1;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Flow
-CATvp1;0,Minor,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Pyroclastic, air fall"
-CATvp1;0,Major,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Pyroclastic, ash-flow"
-CATvp1;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Pyroclastic, air fall"
-CATvp2;0,"Indeterminate, major",Igneous,Volcanic,,,,Igneous     Volcanic                                             ,Volcanic,
-CATvp2;0,"Indeterminate, major",Igneous,Volcanic,,,,Igneous     Volcanic                                             ,Volcanic,
-CATvp2;0,"Indeterminate, major",Igneous,Volcanic,,,,Igneous     Volcanic                                             ,Volcanic,
-CATvp2;0,"Indeterminate, major",Igneous,Volcanic,,,,Igneous     Volcanic                                             ,Volcanic,
-CATvp3;0,Minor,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,"Pyroclastic, air fall"
-CATvp3;0,Minor,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,"Pyroclastic, ash-flow"
-CATvp3;0,Minor,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,"Volcaniclastic, volcanic breccia"
-CATvp3;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Pyroclastic, air fall"
-CATvp3;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Pyroclastic, ash-flow"
-CATvp3;0,Minor,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Volcaniclastic, volcanic breccia"
-CATvp3;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Pyroclastic, air fall"
-CATvp3;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Pyroclastic, ash-flow"
-CATvp4;0,Major,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Pyroclastic
-CATvp4;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,"Pyroclastic, ash-flow"
-CATvp4;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,"Volcaniclastic, volcanic breccia"
-CATvp4;0,Minor,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Pyroclastic
-CATvp4;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Pyroclastic, ash-flow"
-CATvp4;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Volcaniclastic, volcanic breccia"
-CATvp5;0,Major,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Pyroclastic
-CATvp5;0,Minor,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Volcaniclastic, volcanic breccia"
-CATvp5;0,Minor,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,Flow
-CATvp5;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Pyroclastic
-CATvp5;0,Minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Volcaniclastic, volcanic breccia"
-CATvp5;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,Pyroclastic
-CATvp5;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,"Volcaniclastic, volcanic breccia"
-CATvp5;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Pyroclastic
-CATvp5;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,"Volcaniclastic, volcanic breccia"
-CATvp6;0,Minor,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Pyroclastic
-CATvp6;0,Minor,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,"Volcaniclastic, lahar"
-CATvp6;0,Minor,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,"Volcaniclastic, volcanic breccia"
-CATvp6;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,Pyroclastic
-CATvp6;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,"Volcaniclastic, lahar"
-CATvp6;0,Minor,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,"Volcaniclastic, volcanic breccia"
-CATvp6;0,Minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Pyroclastic
-CATvp6;0,Minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Volcaniclastic, lahar"
-CATvp6;0,Minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Volcaniclastic, volcanic breccia"
-CATvp7;0,Minor,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,"Volcaniclastic, volcanic breccia"
-CATvp7;0,Minor,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,"Pyroclastic, ash-flow"
-CATvp7;0,Minor,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,"Pyroclastic, air fall"
-CATvp7;0,Minor,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Volcaniclastic, volcanic breccia"
-CATvp7;0,Minor,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Pyroclastic, ash-flow"
-CATvp7;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Pyroclastic, air fall"
-CATvp7;0,Minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Pyroclastic
-CATvp7;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,"Volcaniclastic, volcanic breccia"
-CATvp8;0,Minor,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,"Pyroclastic, air fall"
-CATvp8;0,Major,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,"Pyroclastic, ash-flow"
-CATvp8;0,Minor,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,"Volcaniclastic, volcanic breccia"
-CATvp8;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Pyroclastic, air fall"
-CATvp8;0,Minor,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Pyroclastic, ash-flow"
-CATvp8;0,Incidental,Igneous,Volcanic,Felsic-volcanic,Dacite,,Igneous     Volcanic          Felsic-volcanic               Dacite                    ,Dacite,"Volcaniclastic, volcanic breccia"
-CATvp8;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Pyroclastic
-CATvp8;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,"Volcaniclastic, volcanic breccia"
-CATvp9;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,"Volcaniclastic, lahar"
-CATvp9;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basalt,,Igneous     Volcanic          Mafic-volcanic               Basalt                    ,Basalt,Pyroclastic,
-CATvp9;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,"Volcaniclastic, lahar",
-CATvp9;0,Incidental,Igneous,Volcanic,Mafic-volcanic,Basaltic-andesite,,Igneous     Volcanic          Mafic-volcanic               Basaltic-andesite                    ,Basaltic-andesite,Pyroclastic,
-CATvp9;0,Major,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,"Volcaniclastic, lahar",
-CATvp9;0,Minor,Igneous,Volcanic,Mafic-volcanic,Andesite,,Igneous     Volcanic          Mafic-volcanic               Andesite                    ,Andesite,Pyroclastic,
-CATvp9;0,Minor,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,Pyroclastic,
-CATvp9;0,Minor,Igneous,Volcanic,Felsic-volcanic,Rhyolite,,Igneous     Volcanic          Felsic-volcanic               Rhyolite                    ,Rhyolite,"Pyroclastic, ash-flow",
-CAum1;0,major,Igneous,Plutonic,Ultramafic,Peridotite,,Igneous     Plutonic          Ultramafic               Peridotite                    ,Peridotite,,Serpentinized tectonitic harzburgite-lherzolite-dunite
-CAum1;0,minor,Igneous,Plutonic,Ultramafic,Pyroxenite,,Igneous     Plutonic          Ultramafic               Pyroxenite                    ,Pyroxenite,,Serpentinized and tectonized
-CAum1;0,minor,Metamorphic,Serpentinite,,,,Metamorphic     Serpentinite                                             ,Serpentinite,,
-CAum2;0,major,Igneous,Plutonic,Ultramafic,Peridotite,,Igneous     Plutonic          Ultramafic               Peridotite                    ,Peridotite,,Commonly occurs as blocks and slabs of harzburgite-dunite tectonite in serpentinite-matrix melange
-CAum2;0,major,Metamorphic,Serpentinite,,,,Metamorphic     Serpentinite                                             ,Serpentinite,,Forms matrix of melanges; also occurs as alteration product of ultramafic rock slabs in melange
-CAum2;0,minor,Igneous,Plutonic,Ultramafic,Pyroxenite,,Igneous     Plutonic          Ultramafic               Pyroxenite                    ,Pyroxenite,,
-CAum3;0,major,Metamorphic,Serpentinite,,,,Metamorphic     Serpentinite                                             ,Serpentinite,,Formed by alteration of peridotite.  Also forms sheared matrix of serpentinite melange
-CAum3;0,minor,Igneous,Plutonic,Ultramafic,Peridotite,,Igneous     Plutonic          Ultramafic               Peridotite                    ,Peridotite,,Most peridotite has been serpentinized
-CAwater;0,Major,Water,,,,,Water                                                  ,Water,,
