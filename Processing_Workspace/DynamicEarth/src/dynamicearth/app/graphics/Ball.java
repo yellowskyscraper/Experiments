@@ -9,39 +9,44 @@ public class Ball
 {
 	PApplet parent;
 	float xpos, ypos;
+	
 	Location quake;
 	String name;
+	String description;
+	float magnitude;
+	int mag;
+	
 	PFont magText;
-	String mag;
-	int magnitude = 0;
+	
+	//String mag;
 	PFont displayText;
 	int wid = 1400;
 	int hei = 1050;
 	
-	int size = 0;
-	int fillalph = 0;
-	int strokealph = 0;
+
+	
+	float easing = 0.05f;
+	float aniStroke = 10;
+	float aniAlpha = 100;
 	
 	public Ball(PApplet p)
 	{
 		parent = p;
 	}
 	
-	public void setup(String n, float la, float lo)
+	public void setup(String n, String d, float la, float lo)
 	{
 		wid = parent.screenWidth;
 		hei = parent.screenHeight;
 		
 		name = n.replace(",", ""); //| 7 Day RSS
-		//name = n; //| all.xml Local
+		description = d;
 		quake = new Location(la,lo);
 		
-		
 		String[] a = name.split(" ");
-		mag = Character.toString(a[1].charAt(0));
-		int m = 10;
-		if(!a[1].equals("None")) m = Math.round(Float.valueOf(a[1]).floatValue() * 10);
-		magnitude = m;
+		if(!a[1].equals("None")) mag = Math.round(Float.valueOf(a[1]).floatValue() * 10);
+		else mag = 10;
+		magnitude = Float.parseFloat(a[1]);
 
 		displayText = parent.createFont("data/fonts/Explo/Explo-Light.otf", 20);
 	}
@@ -72,10 +77,26 @@ public class Ball
 		ypos = y;
 	}
 	
+	public void drawAni()
+	{
+		float ta = 0 + aniAlpha;
+		float ts = (mag * 2) - aniStroke;
+		
+		if(ta > 0){
+			aniAlpha -= ta * easing;
+			aniStroke += ts * easing;
+		} 
+		
+		if(ta < 5){
+			aniAlpha = 100;
+			aniStroke = 10;
+		}
+	}
+	
 	public void draw() 	
 	{	
 		//| Earthquake Size
-		int scale = magnitude/3;
+		int scale = mag;
 		
 		/*
 		//| Small Scale of Unfolding Map Zoom 10
@@ -100,10 +121,31 @@ public class Ball
 		parent.smooth(); 	
 		parent.fill(255, 255, 255, 100);
 		parent.stroke(255);
+		parent.strokeWeight(1);
 		parent.ellipse(newX, newY, scale, scale);
 
 		parent.fill(255, 255, 255, 255);
 		parent.textFont(displayText, 15);
-		parent.text(name, newX + 15, newY + 5);
+		parent.text("Magnitude " + magnitude, newX + mag/2 + 10, newY - 2);
+		parent.text(description, newX + mag/2 + 10, newY + 16);
+		
+		//| Animation
+		this.drawAni();			
+		parent.noFill();
+		parent.stroke(255, 255, 255, aniAlpha);
+		parent.strokeWeight(aniStroke);
+		parent.ellipse(newX, newY, scale +  aniStroke, scale +  aniStroke);
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+

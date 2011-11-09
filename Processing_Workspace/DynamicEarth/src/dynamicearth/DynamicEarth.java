@@ -28,6 +28,9 @@ public class DynamicEarth extends PApplet
 	PFont displayText;
 	PFont displaySubText;
 	
+	//| Timemaster
+	int timekeeper = 0;
+	
 	//| Data
 	EarthquakeFeed earthquakeFeed;
 	
@@ -55,6 +58,8 @@ public class DynamicEarth extends PApplet
 		earthquakeFeed = new EarthquakeFeed(this);
 		earthquakeFeed.setup(map, wid, hei);
 		
+		timekeeper = PApplet.minute();
+		
 		//| Copy
 		displayText = createFont("data/fonts/Explo/Explo-Ultra.otf", 50);
 		displaySubText = createFont("data/fonts/Explo/Explo-Medi.otf", 50);
@@ -70,6 +75,16 @@ public class DynamicEarth extends PApplet
 		//| Display Data
 		earthquakeFeed.update();
 		earthquakeFeed.draw(map);
+		
+		int time = PApplet.minute();
+		int difference = time - timekeeper;
+		
+		PApplet.println(time +" : "+ difference);
+		
+		if(difference > 5){
+			earthquakeFeed.checkUSGS(map, wid, hei);
+			timekeeper = PApplet.minute();
+		}
 		
 		//| Model Bounds & Text
 //		this.markers();

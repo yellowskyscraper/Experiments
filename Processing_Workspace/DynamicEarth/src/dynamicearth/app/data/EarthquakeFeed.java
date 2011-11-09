@@ -20,7 +20,7 @@ public class EarthquakeFeed
 	
 	//| Graphics
 	EqFeedLabel label;
-	String lastQuake;
+	String[] lastQuake = new String[2];
 	int countQuake;
 	
 	public EarthquakeFeed(PApplet p)
@@ -31,6 +31,14 @@ public class EarthquakeFeed
 	public void setup(Map m, float w, float h)
 	{
 		//| Data Sources
+		this.checkUSGS(m, w, h);
+		
+		label = new EqFeedLabel(parent);
+		label.setup();
+	}
+	
+	public void checkUSGS(Map m, float w, float h)
+	{
 		balls = new ArrayList<Ball>();
 		xml = new XMLElement(parent, "http://earthquake.usgs.gov/earthquakes/catalogs/eqs7day-M2.5.xml");
 		
@@ -42,12 +50,14 @@ public class EarthquakeFeed
 				countQuake += 1;
 				
 				String name = xml.getChild(0).getChild(i).getChild(1).getContent();
+				String description = xml.getChild(0).getChild(i).getChild(2).getContent();
 				float lat = new Float(xml.getChild(0).getChild(i).getChild(4).getContent());
 			    float lon = new Float(xml.getChild(0).getChild(i).getChild(5).getContent());
 				
 			    if(tracker == 0){
 			    	tracker = 1;
-			    	lastQuake = name;
+			    	lastQuake[0] = name;
+			    	lastQuake[1] = description;
 			    }
 			    
 				Location coord = new Location(lat,lon);
@@ -55,14 +65,11 @@ public class EarthquakeFeed
 				
 				if(p[0] > 0 && p[0] < w && p[1] > 0 && p[1] < h) {
 					Ball b = new Ball(parent);
-					b.setup(name, lat, lon);
+					b.setup(name, description, lat, lon);
 					balls.add(b);
 				}
 			}
-		}
-		
-		label = new EqFeedLabel(parent);
-		label.setup();
+		}	
 	}
 	
 	public void update()
