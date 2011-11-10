@@ -1,14 +1,11 @@
 package dynamicearth;
 
 import processing.core.PApplet;
-import processing.core.PFont;
 import processing.core.PImage;
-
-import de.fhpotsdam.unfolding.*;
-import de.fhpotsdam.unfolding.geo.*;
+import de.fhpotsdam.unfolding.Map;
+import de.fhpotsdam.unfolding.geo.Location;
 import de.fhpotsdam.unfolding.providers.Microsoft;
-import de.fhpotsdam.unfolding.utils.MapUtils;
-
+import dynamicearth.app.data.IntertitleDynamicEarth;
 import dynamicearth.app.data.EarthquakeFeed;
 
 public class DynamicEarth extends PApplet 
@@ -25,20 +22,19 @@ public class DynamicEarth extends PApplet
 	PImage baymodel;
 	Location coordTL;
 	Location coordBR;
-	PFont displayText;
-	PFont displaySubText;
 	
-	//| Timemaster
-	int timekeeper = 0;
+	//| Director
+	String SCENE = "INTERTITLE";
 	
 	//| Data
+	IntertitleDynamicEarth intertitleDynamicEarth;
 	EarthquakeFeed earthquakeFeed;
 	
 	public void setup() 
 	{
+		//| Start
 		wid = screenWidth;
 		hei = screenHeight;
-		
 		background(0);
 		size(wid, hei);
 
@@ -51,112 +47,69 @@ public class DynamicEarth extends PApplet
 	    sanFrancisco = new Location(37.85316995894978f, -121.95510864257812f);
 	    map = new Map(this, 0, 0, width, height, new Microsoft.AerialProvider());
 		map.zoomAndPanTo(sanFrancisco, 10);
-//		MapUtils.createDefaultEventDispatcher(this, map);
-		this.setLeft();
 		
-		//| Earthquake feed from USGS
-		earthquakeFeed = new EarthquakeFeed(this);
-		earthquakeFeed.setup(map, wid, hei);
-		
-		timekeeper = PApplet.minute();
-		
-		//| Copy
-		displayText = createFont("data/fonts/Explo/Explo-Ultra.otf", 50);
-		displaySubText = createFont("data/fonts/Explo/Explo-Medi.otf", 50);
-	}
-
-	public void draw() 
-	{
-		background(0);
-
-		//| Map and Overlay
-		this.renderMap();
-
-		//| Display Data
-		earthquakeFeed.update();
-		earthquakeFeed.draw(map);
-		
-		int time = PApplet.minute();
-		int difference = time - timekeeper;
-		
-		PApplet.println(time +" : "+ difference);
-		
-		if(difference > 5){
-			earthquakeFeed.checkUSGS(map, wid, hei);
-			timekeeper = PApplet.minute();
-		}
-		
-		//| Model Bounds & Text
-//		this.markers();
-//		this.copy("The Eye Of The Earth", "But instead am wandering awed about on a splintered " +
-//				"\nwreck I've come to care for, whose gnawed trees breathe \na delicate air.");
-	}
-	
-	public void copy(String t, String s)
-	{
-		float[] tl = map.getScreenPositionFromLocation(coordTL);
-
-		smooth();
-
-		fill(0,0,0);
-		textFont(displayText, 40);
-		text(t, tl[0] + 29, tl[1] + 91);
-		textFont(displaySubText, 20);
-		text(s, tl[0] + 29, tl[1] + 126);
-
-		fill(255,255,255);
-		textFont(displayText, 40);
-		text(t, tl[0] + 30, tl[1] + 90);
-		textFont(displaySubText, 20);
-		text(s, tl[0] + 30, tl[1] + 125);
-	}
-	
-	public void markers()
-	{
-		//| Markers for Rough Models boundaries. 
-		float[] tl = map.getScreenPositionFromLocation(coordTL);
-		float[] br = map.getScreenPositionFromLocation(coordBR);
-
-		float newX = tl[0];
-		float newY = tl[1];
-		float newW = br[0] - tl[0] + 190; 
-		float newH = br[1] - tl[1];
-		
-		noStroke();
-		fill(0,0,0);
-		ellipse(tl[0] - 1, tl[1] + 1, 5, 5);
-		ellipse(br[0] - 1, tl[1] + 1, 5, 5);
-		ellipse(br[0] - 1, br[1] + 1, 5, 5);
-		ellipse(tl[0] - 1, br[1] + 1, 5, 5);
-		
-		fill(255,255,255);
-		ellipse(tl[0], tl[1], 5, 5);
-		ellipse(br[0], tl[1], 5, 5);
-		ellipse(br[0], br[1], 5, 5);
-		ellipse(tl[0], br[1], 5, 5);
-		
-		//| Percentage Increase
-		fill(0,0,0);
-		ellipse(newX + newW - 1, newY + 1, 5, 5);
-		ellipse(newX + newW - 1, newY + newH + 1, 5, 5);
-		
-		fill(255,255,255);
-		ellipse(newX + newW, newY, 5, 5);
-		ellipse(newX + newW, newY + newH, 5, 5);
-
-	}
-	
-	public void setLeft()
-	{
 		//| Position Projection to top Left Coordinate
 		float[] tl = map.getScreenPositionFromLocation(coordTL);
 		Location nl = map.getLocationFromScreenPosition(wid/2+tl[0], hei/2+tl[1]);
 		map.zoomAndPanTo(nl, 10);
+
+		//| Intertitle
+		intertitleDynamicEarth = new IntertitleDynamicEarth(this);
+		intertitleDynamicEarth.setup(map, wid, hei);
+		intertitleDynamicEarth.firstcall();
+		
+		//| Earthquake feed from USGS
+		earthquakeFeed = new EarthquakeFeed(this);
+		earthquakeFeed.setup(map, wid, hei);
+	}
+	
+	public void checkSceneStatus()
+	{
+		String stat = "null";
+		
+		if(SCENE.equals("INTERTITLE")) {
+			stat = intertitleDynamicEarth.status();
+			if(stat.equals("OFF")) intertitleDynamicEarth.start();
+			if(stat.equals("DONE")) {
+				SCENE = "EARTHQUAKE FEED";
+				intertitleDynamicEarth.off();
+			}
+
+		} else if(SCENE.equals("EARTHQUAKE FEED")) {
+			stat = earthquakeFeed.status();
+			if(stat.equals("OFF")) earthquakeFeed.start();
+			if(stat.equals("DONE")) {
+				SCENE = "INTERTITLE";
+				earthquakeFeed.off();
+			}
+		}
+		
+		PApplet.println(SCENE + " " + stat);
+	}
+
+	public void draw() 
+	{
+		//| Map and Background
+		background(0);
+		this.renderMap();
+		
+		//| Sequence
+		this.checkSceneStatus();
+		
+		if(SCENE.equals("INTERTITLE")) {
+			intertitleDynamicEarth.update();
+			intertitleDynamicEarth.draw(map);
+		}
+		
+		if(SCENE.equals("EARTHQUAKE FEED")) {
+			earthquakeFeed.update();
+			earthquakeFeed.draw(map);
+		}
 	}
 	
 	public void renderMap()
 	{
-		map.draw();
+		//map.draw();
 		fill(0,0,0,100);
 		rect(-1,-1,screenWidth+2,screenHeight+2);
 		
@@ -168,7 +121,8 @@ public class DynamicEarth extends PApplet
 		float newW = br[0] - tl[0] + 190; 
 		float newH = br[1] - tl[1];
 		
-//		image(baymodel, newX, newY, newW, newH); //| Zoom 10 Scale
+		noSmooth();
+		image(baymodel, newX, newY, newW, newH); //| Zoom 10 Scale
 		image(baymodel, newX, newY, 1051, 1051); //| Bay Model Full Scale
 	}
 	

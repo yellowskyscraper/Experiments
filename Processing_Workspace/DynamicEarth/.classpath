@@ -35,6 +35,8 @@
 	<classpathentry kind="lib" path="lib/base/core/gicentreUtils.jar"/>
 	<classpathentry kind="lib" path="lib/base/core/glgraphics.jar"/>
 	<classpathentry kind="lib" path="lib/base/core/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="lib/base/core/ijeomacore.jar"/>
+	<classpathentry kind="lib" path="lib/base/core/ijeomamotion.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

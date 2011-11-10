@@ -1,5 +1,7 @@
 package findingfaults.app.data;
 
+import ijeoma.motion.tween.Tween;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -7,11 +9,12 @@ import java.util.Comparator;
 import processing.core.PApplet;
 import processing.xml.XMLElement;
 
-import de.fhpotsdam.unfolding.Map;
-import de.fhpotsdam.unfolding.geo.Location;
-
 import findingfaults.app.graphics.Ball;
 import findingfaults.app.labels.EqTimelineLabel;
+
+import de.fhpotsdam.unfolding.Map;
+import de.fhpotsdam.unfolding.geo.Location;
+import findingfaults.app.util.BasicUtils;
 
 public class EarthquakeTimeline 
 {
@@ -20,6 +23,7 @@ public class EarthquakeTimeline
 	//| Data
 	XMLElement xml;
 	ArrayList<Ball> balls;
+	String[][] metaBalls;
 	boolean parsed;
 	int parse = 0;
 	boolean interstishial = false;
@@ -37,6 +41,15 @@ public class EarthquakeTimeline
 	int count_day = 1;
 	int count_hour = 0;
 	int count = 0;
+	
+	//| Sequencing
+	String STATUS = "OFF";
+	int stepcount = 0;
+	
+	Tween tweenUP;
+	Tween tweenOUT;
+	float alphaBackground = 255;
+	float alphaForeground = 0;
 	
 	public EarthquakeTimeline(PApplet p)
 	{
@@ -58,47 +71,120 @@ public class EarthquakeTimeline
 
 			Location coord = new Location(lat,lon);
 			float[] p = m.getScreenPositionFromLocation(coord);
-			PApplet.println(name);
+			float[] position = BasicUtils.scaleCoordinates(1050, 1050, p[0], p[1]);
 			
-			if(p[0] > 0 && p[0] < w && p[1] > 0 && p[1] < h) {
+			if(position[0] > 0 && position[0] < 1050 && position[1] > 0 && position[1] < h) {
 				Ball b = new Ball(parent);
 				b.setup(name, lat, lon);
 				balls.add(b);
 			}
 		}
 		PApplet.println("DONE " + balls.size());
+		metaBalls = this.sortEarthquakes();
 		
 		//| Time Line Label
 		label = new EqTimelineLabel(parent);
-		label.setup(this.sortEarthquakes()); 
+		label.setup(metaBalls); 
+	}
+	
+	public void start()
+	{
+		STATUS = "ANIMATING IN";
+		Ball ball = (Ball) balls.get(0);
+		label.write(ball.getYearMonthDayMagnitude());
+		label.open();
 	}
 	
 	public void update()
-	{	
-		this.julianCalendarDay();
-		label.update(count_year,month[count_month],count_day, count);
+	{		
+		if(STATUS.equals("OFF")) {
+			label.update(1973,"Jan",1, 0);
+			
+		} else if(STATUS.equals("ANIMATING IN")) {
+			label.update(1973,"Jan",1, 0);
+			if(label.opened()) STATUS = "ON";
+			
+		} else if(STATUS.equals("ON")) {
+			
+			if(count < metaBalls.length) {
+				this.jumpThroughQuakes();
+			} else {
+				label.done();
+				STATUS = "ON 2";
+			}
+
+			label.update(count_year,month[count_month - 1],count_day, count);
+			
+			/*
+			if(timekeeper > 1000) {
+				STATUS = "ANIMATING OUT";
+				label.close();
+				for (int i = balls.size()-1; i >= 0; i--) 
+				{
+					Ball ball = (Ball) balls.get(i);
+					ball.close();
+				}
+			}
+			*/
+			
+		} else if(STATUS.equals("ON 2")) {
+			label.update(count_year,month[count_month - 1],count_day, count);
+			
+		} else if(STATUS.equals("ANIMATING OUT")) {
+			if(label.closed()) STATUS = "DONE";
+		}
+
 	}
 	
 	public void draw(Map m) 	
 	{	
-//		this.drawTotalQuakes(m);
-		this.incrementThroughQuakes(m);
+		if(STATUS.equals("ON")) this.incrementThroughQuakes(m);
+		if(STATUS.equals("ON 2")) this.dimQuakes(m);
+		
 		label.draw(m);
 	}
 	
-	public void drawTotalQuakes(Map m)
+	public void incrementThroughQuakes(Map m)
+	{
+		for (int i = 0; i < balls.size()-1; i++) 
+		{
+			Ball ball = (Ball) balls.get(i);			
+			String[] q = ball.getYearMonthDayMagnitude();
+			
+			if(metaBalls[count][5].equals(q[5])){
+				float[] pos = m.getScreenPositionFromLocation(ball.getLocation());
+				ball.update(pos[0], pos[1]);
+				ball.startAni();
+				label.write(ball.getYearMonthDayMagnitude());
+			}
+			
+			ball.draw();
+		}
+		
+		count += 1;
+	}
+	
+	public void dimQuakes(Map m)
 	{	
 		//| Iterate Quakes & Draw
 		for (int i = balls.size()-1; i >= 0; i--) 
 		{ 
 			Ball ball = (Ball) balls.get(i);
 			float[] pos = m.getScreenPositionFromLocation(ball.getLocation());
+			ball.dim();
 			ball.update(pos[0], pos[1]);
 			ball.draw();
 		} 
 	}
 	
-	public void incrementThroughQuakes(Map m)
+	public void jumpThroughQuakes()
+	{
+		count_year = Integer.parseInt(metaBalls[count][0]);	
+		count_month = Integer.parseInt(PApplet.split(metaBalls[count][5], ".")[1]);
+		count_day = Integer.parseInt(metaBalls[count][2]);
+	}
+	
+	public void incrementThroughCalendar(Map m)
 	{
 		//| Iterate Quakes Based on "Current Date"
 		for (int i = balls.size()-1; i >= 0; i--) 
@@ -167,22 +253,21 @@ public class EarthquakeTimeline
 				if(count_year > 2010) count_year = 1973;
 			}
 		}
-	}
-		
-	public float[] sortEarthquakes()
+	}		
+
+	public String[][] sortEarthquakes()
 	{
-		//| Sort on Happening
-		/*
-		String[][] temp = new String[balls.size()][6];
+		//| Sort By Date
+		String[][] ordering = new String[balls.size()][6];
 		
 		for (int j = balls.size()-1; j >= 0; j--) 
 		{ 
 			Ball ball = (Ball) balls.get(j);
 			String[] bundle = ball.getYearMonthDayMagnitude();
-			temp[j] = bundle;
+			ordering[j] = bundle;
 		}
 		
-		Arrays.sort(temp, new Comparator<String[]>() {
+		Arrays.sort(ordering, new Comparator<String[]>() {
             @Override
             public int compare(final String[] entry1, final String[] entry2) {
                 final String time1 = entry1[5];
@@ -190,9 +275,11 @@ public class EarthquakeTimeline
                 return time1.compareTo(time2);
             }
         });
-        */
+		
+		return ordering;
 		
 		//| Set into a Calendar
+		/*
 		float[] thirtySevenYears = new float[13878];
 		
 		for(int i = 0; i < thirtySevenYears.length; i++){
@@ -217,13 +304,23 @@ public class EarthquakeTimeline
 				}
 			}
 		}
-		/**/
 		count_year = 1973;
 		count_month = 0;
 		count_day = 0;
 		count = 0;
 		
 		return thirtySevenYears;
+		*/
+	}
+	
+	public void off() 
+	{
+		STATUS = "OFF";
+	}
+
+	public String status() 
+	{
+		return STATUS;
 	}
 }
 

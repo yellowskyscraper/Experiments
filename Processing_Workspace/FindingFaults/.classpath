@@ -36,6 +36,8 @@
 	<classpathentry kind="lib" path="lib/base/core/Unfolding.jar"/>
 	<classpathentry kind="lib" path="lib/base/core/gifAnimation.jar"/>
 	<classpathentry kind="lib" path="lib/base/dxf.jar"/>
+	<classpathentry kind="lib" path="lib/base/core/ijeomacore.jar"/>
+	<classpathentry kind="lib" path="lib/base/core/ijeomamotion.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -2,8 +2,10 @@ package dynamicearth.app.graphics;
 
 import processing.core.PApplet;
 import processing.core.PFont;
-
+import dynamicearth.app.util.BasicUtils;
 import de.fhpotsdam.unfolding.geo.*;
+import ijeoma.motion.Motion;
+import ijeoma.motion.tween.Tween;
 
 public class Ball
 {
@@ -22,8 +24,12 @@ public class Ball
 	PFont displayText;
 	int wid = 1400;
 	int hei = 1050;
-	
 
+	Tween tweenIN;
+	Tween tweenOUT;
+	int animating = 3;
+	float alphaBackground = 0;
+	float alphaForeground = 0;
 	
 	float easing = 0.05f;
 	float aniStroke = 10;
@@ -38,6 +44,10 @@ public class Ball
 	{
 		wid = parent.screenWidth;
 		hei = parent.screenHeight;
+
+		Motion.setup(parent);
+		tweenIN = new Tween(0f, 255, 10f);
+		tweenOUT = new Tween(255, 0f, 10f);
 		
 		name = n.replace(",", ""); //| 7 Day RSS
 		description = d;
@@ -71,10 +81,64 @@ public class Ball
 		return quake;
 	}
 	
+	public void open()
+	{
+		animating = 1;
+		tweenIN.play();
+	}
+	
+	public void close()
+	{
+		animating = 0;
+		tweenOUT.play();
+	}
+	
 	public void update(float x, float y)
 	{	
 		xpos = x;
 		ypos = y;
+		
+		switch(animating){
+			case 1:
+			float v = tweenIN.getPosition();
+			alphaBackground = v;
+			alphaForeground = v;
+			break;
+			
+			case 0:
+			float j = tweenOUT.getPosition();
+			alphaBackground = j;
+			alphaForeground = j;
+			break;
+		}
+	}
+	
+	public void draw() 	
+	{	
+		//| Earthquake Size
+		int scale = mag;
+
+		//| Larger Scale to Bay Model Screen Resolution
+		float[] position = BasicUtils.scaleCoordinates(wid, hei, xpos, ypos);
+		
+		parent.smooth(); 	
+		parent.fill(255, 255, 255, alphaBackground);
+		parent.stroke(255, alphaForeground);
+		parent.strokeWeight(1);
+		parent.ellipse(position[0], position[1], scale, scale);
+
+		parent.fill(255, 255, 255, alphaForeground);
+		parent.textFont(displayText, 15);
+		parent.text("Magnitude " + magnitude, position[0] + mag/2 + 10, position[1] - 2);
+		parent.text(description, position[0] + mag/2 + 10, position[1] + 16);
+		
+		//| Animation
+		if(alphaBackground < 255) return;
+		this.drawAni();			
+		parent.noFill();
+		parent.stroke(255, 255, 255, aniAlpha);
+		parent.strokeWeight(aniStroke);
+		parent.ellipse(position[0], position[1], scale +  aniStroke, scale +  aniStroke);
 	}
 	
 	public void drawAni()
@@ -91,50 +155,6 @@ public class Ball
 			aniAlpha = 100;
 			aniStroke = 10;
 		}
-	}
-	
-	public void draw() 	
-	{	
-		//| Earthquake Size
-		int scale = mag;
-		
-		/*
-		//| Small Scale of Unfolding Map Zoom 10
-		int oldwidth = wid;
-		float percentincrease = 0.26f * oldwidth;
-		float newwidth = oldwidth + percentincrease;
-		*/
-		
-		//| Larger Scale to Bay Model Screen Resolution
-		int oldwidth = wid;
-		float percentincreaseW = 0.42f * oldwidth;
-		float newwidth = oldwidth + percentincreaseW;
-		
-		int oldheight = hei; 
-		float percentincreaseH = 0.14f * oldheight;
-		float newheight = oldheight + percentincreaseH;
-		
-		//| Scaled position based on percentage of stretch (x = newMax * n/oldMax)
-		float newX = newwidth * xpos/oldwidth;
-		float newY = newheight * ypos/oldheight;
-		
-		parent.smooth(); 	
-		parent.fill(255, 255, 255, 100);
-		parent.stroke(255);
-		parent.strokeWeight(1);
-		parent.ellipse(newX, newY, scale, scale);
-
-		parent.fill(255, 255, 255, 255);
-		parent.textFont(displayText, 15);
-		parent.text("Magnitude " + magnitude, newX + mag/2 + 10, newY - 2);
-		parent.text(description, newX + mag/2 + 10, newY + 16);
-		
-		//| Animation
-		this.drawAni();			
-		parent.noFill();
-		parent.stroke(255, 255, 255, aniAlpha);
-		parent.strokeWeight(aniStroke);
-		parent.ellipse(newX, newY, scale +  aniStroke, scale +  aniStroke);
 	}
 }
 

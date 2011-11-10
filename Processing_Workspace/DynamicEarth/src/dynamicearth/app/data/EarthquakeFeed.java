@@ -2,17 +2,16 @@ package dynamicearth.app.data;
 
 import java.util.ArrayList;
 import processing.core.PApplet;
-import processing.core.PFont;
 import processing.xml.XMLElement;
 import de.fhpotsdam.unfolding.Map;
 import de.fhpotsdam.unfolding.geo.Location;
+import ijeoma.motion.tween.Tween;
 import dynamicearth.app.graphics.Ball;
 import dynamicearth.app.labels.EqFeedLabel;
 
 public class EarthquakeFeed 
 {
 	PApplet parent;
-	PFont displayText;
 
 	//| Data
 	XMLElement xml;
@@ -22,6 +21,17 @@ public class EarthquakeFeed
 	EqFeedLabel label;
 	String[] lastQuake = new String[2];
 	int countQuake;
+	
+	//| Sequencing
+	String STATUS = "OFF";
+	boolean animating = false;
+	int timekeeper = 0;
+	
+	Tween tweenUP;
+	Tween tweenOUT;
+	float alphaBackground = 255;
+	float alphaForeground = 0;
+
 	
 	public EarthquakeFeed(PApplet p)
 	{
@@ -41,6 +51,7 @@ public class EarthquakeFeed
 	{
 		balls = new ArrayList<Ball>();
 		xml = new XMLElement(parent, "http://earthquake.usgs.gov/earthquakes/catalogs/eqs7day-M2.5.xml");
+//		xml = new XMLElement(parent, "data/php/eqs1day-M0.xml");
 		
 		int tracker = 0;
 		countQuake = 0;
@@ -71,9 +82,42 @@ public class EarthquakeFeed
 			}
 		}	
 	}
+
+	public void start()
+	{
+		STATUS = "ANIMATING IN";
+		timekeeper = 0;
+		label.open();
+		for (int i = balls.size()-1; i >= 0; i--) 
+		{
+			Ball ball = (Ball) balls.get(i);
+			ball.open();
+		}
+	}
 	
 	public void update()
 	{	
+		if(STATUS.equals("OFF")) {
+			
+		} else if(STATUS.equals("ANIMATING IN")) {
+			if(label.opened()) STATUS = "ON";
+			
+		} else if(STATUS.equals("ON")) {
+			timekeeper += 1;
+			if(timekeeper > 1000) {
+				STATUS = "ANIMATING OUT";
+				label.close();
+				for (int i = balls.size()-1; i >= 0; i--) 
+				{
+					Ball ball = (Ball) balls.get(i);
+					ball.close();
+				}
+			}
+			
+		} else if(STATUS.equals("ANIMATING OUT")) {
+			if(label.closed()) STATUS = "DONE";
+		}
+		
 		label.update(lastQuake, countQuake);
 	}
 	
@@ -87,7 +131,16 @@ public class EarthquakeFeed
 			ball.update(pos[0], pos[1]);
 			ball.draw();
 		}
-		
 		label.draw(m);
+	}
+	
+	public void off() 
+	{
+		STATUS = "OFF";
+	}
+
+	public String status() 
+	{
+		return STATUS;
 	}
 }

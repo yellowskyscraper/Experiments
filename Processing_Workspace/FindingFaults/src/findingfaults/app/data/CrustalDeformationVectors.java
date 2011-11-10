@@ -1,14 +1,9 @@
 package findingfaults.app.data;
 
 import java.util.ArrayList;
-
 import processing.core.PApplet;
-import processing.core.PConstants;
-import processing.core.PVector;
-import de.fhpotsdam.unfolding.Map;
-import de.fhpotsdam.unfolding.geo.Location;
-import findingfaults.app.graphics.Ball;
 import findingfaults.app.graphics.Vector;
+import de.fhpotsdam.unfolding.Map;
 
 public class CrustalDeformationVectors {
 

@@ -1,5 +1,7 @@
 package findingfaults.app.graphics;
 
+import ijeoma.motion.Motion;
+import ijeoma.motion.tween.Tween;
 import processing.core.PApplet;
 import processing.core.PFont;
 
@@ -9,21 +11,28 @@ import findingfaults.app.util.BasicUtils;
 public class Ball
 {
 	PApplet parent;
+	int wid = 1400;
+	int hei = 1050;
+	
 	float xpos, ypos;
 	Location quake;
 	String name;
-	PFont magText;
-	String mag;
-	int magnitude = 0;
-	PFont displayText;
-	int wid = 1400;
-	int hei = 1050;
+	float magnitude;
+	int mag;
 
-	float easing = 0.05f;
+	Tween tweenIN;
+	Tween tweenOUT;
+	Tween tweenDIM;
+	int animating = 3;
+	float alphaBackground = 0;
+	float alphaForeground = 0;
+	
+	float easing = 0.1f;
+	float aniScale = 0;
 	float aniStroke = 0;
+	float baseAlpha = 0;
 	float aniAlpha = 0;
 	float scale = 0;
-	float aniScale = 0;
 	
 	public Ball(PApplet p)
 	{
@@ -34,19 +43,24 @@ public class Ball
 	{
 		wid = parent.screenWidth;
 		hei = parent.screenHeight;
+
+		Motion.setup(parent);
+		tweenIN = new Tween(0f, 255, 10f);
+		tweenOUT = new Tween(255, 0f, 10f);
+		tweenDIM = new Tween(255, 100f, 10f);
 		
 		//name = n.replace(",", ""); //| 7 Day RSS
 		name = n; //| all.xml Local
 		quake = new Location(la,lo);
 		
 		String[] a = name.split(" ");
-		mag = Character.toString(a[1].charAt(0));
-		int m = 10;
-		if(!a[1].equals("None")) m = Math.round(Float.valueOf(a[1]).floatValue() * 10);
-		magnitude = m;
-		scale = magnitude/3;
-
-		displayText = parent.createFont("data/fonts/Explo/Explo-Light.otf", 20);
+		if(!a[1].equals("None")) mag = Math.round(Float.valueOf(a[1]).floatValue() * 10);
+		else mag = 10;
+		
+		if(!a[1].equals("None")) magnitude = Float.parseFloat(a[1]);
+		else magnitude = 0.0f;
+		
+		scale = mag/3;
 	}
 	
 	public String[] getYearMonthDayMagnitude()
@@ -58,7 +72,7 @@ public class Ball
 		String month = d[4];
 		String day = d[5].replace(",","");
 		String title = t[1];
-		String magnitude = d[1];
+		String magnitude = (d[1].equals("None")) ? "0" : d[1];
 		
 		String m = "00";
 		if(month.equals("Jan")) m = "01";
@@ -97,77 +111,82 @@ public class Ball
 		return quake;
 	}
 	
+	public void open()
+	{
+		animating = 1;
+		tweenIN.play();
+		tweenDIM.play();
+	}
+	
+	public void close()
+	{
+		animating = 0;
+		tweenOUT.play();
+	}
+	
+	public void dim()
+	{
+		
+	}
+	
 	public void update(float x, float y)
 	{	
 		xpos = x;
 		ypos = y;
+		/*
+		switch(animating){
+			case 1:
+			float v = tweenIN.getPosition();
+			float k = tweenDIM.getPosition();
+			alphaBackground = v;
+			alphaForeground = k;
+			break;
+			
+			case 0:
+			float j = tweenOUT.getPosition();
+			alphaBackground = j;
+			alphaForeground = j;
+			break;
+		}
+		*/
 	}
 	
 	public void draw() 	
 	{	
 		//| Larger Scale to Bay Model Screen Resolution
-		int oldwidth = wid;
-		float percentincreaseW = 0.42f * oldwidth;
-		float newwidth = oldwidth + percentincreaseW;
-		
-		int oldheight = hei; 
-		float percentincreaseH = 0.14f * oldheight;
-		float newheight = oldheight + percentincreaseH;
-		
-		//| Scaled position based on percentage of stretch (x = newMax * n/oldMax)
-		float newX = newwidth * xpos/oldwidth;
-		float newY = newheight * ypos/oldheight;
-		
-		parent.smooth(); 	
-		parent.fill(255, 255, 255, 100);
-		parent.stroke(255);
-		parent.strokeWeight(1);
-		parent.ellipse(newX, newY, scale, scale);
-	}
-
-	public void startAni()
-	{
-		aniScale = scale;
-		aniStroke = 10;
-		aniAlpha = 100;
-	}
-
-	public void drawAni() 	
-	{	
-		//| Larger Scale to Bay Model Screen Resolution
 		float[] position = BasicUtils.scaleCoordinates(wid, hei, xpos, ypos);
-		
+
 		parent.smooth(); 	
-		parent.fill(255, 255, 255, 100);
+		parent.fill(255, 255, 255, baseAlpha);
 		parent.stroke(255);
 		parent.strokeWeight(1);
-		parent.ellipse(position[0], position[1], aniScale, aniScale);
-
-		/*
-		parent.fill(255, 255, 255, 255);
-		parent.textFont(displayText, 15);
-		parent.text(name, newX + magnitude/2 + 10, newY + 5);
+		parent.ellipse(position[0], position[1], scale, scale);
 		
-		//| Attempt to animate
-		float ta = 0 + aniAlpha;
-		float ts = 30 - aniStroke;
-		
-		if(ta > 0){
-			aniAlpha -= ta * easing;
-			aniStroke += ts * easing;
-		} 
-		
-		if(ta < 5){
-			aniAlpha = 100;
-			aniStroke = 10;
-		}
-		
-		parent.smooth(); 	
+		//| Animation
+		this.drawAni();			
 		parent.noFill();
 		parent.stroke(255, 255, 255, aniAlpha);
 		parent.strokeWeight(aniStroke);
-		parent.ellipse(newX, newY, scale +  aniStroke, scale +  aniStroke);
-		*/
+		parent.ellipse(position[0], position[1], scale +  aniStroke, scale +  aniStroke);
+	}
+
+	public void startAni()
+	{	
+		aniScale = scale;
+		aniStroke = 10;
+		aniAlpha = 100;
+		baseAlpha = 255;
+	}
+
+	public void drawAni()	
+	{	
+		float tb = 100 + baseAlpha;
+		float ta = 0 + aniAlpha;
+		float ts = mag - aniStroke;
+
+		if(baseAlpha > 50) baseAlpha -= tb * 0.01f;
+		if(ta > 0) aniAlpha -= ta * 0.1f;
+		if(ta > 0) aniStroke += ts * 0.1f;
 	}
 }
 

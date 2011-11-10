@@ -8,10 +8,10 @@ import de.fhpotsdam.unfolding.Map;
 import de.fhpotsdam.unfolding.geo.Location;
 import de.fhpotsdam.unfolding.providers.Microsoft;
 
+import findingfaults.app.data.IntertitleFindingFaults;
 import findingfaults.app.data.CrustalDeformationVectors;
 import findingfaults.app.data.EarthquakeTimeline;
 import findingfaults.app.data.FaultLineAnimation;
-
 
 public class FindingFaults extends PApplet 
 {
@@ -26,12 +26,14 @@ public class FindingFaults extends PApplet
 	PImage baymodel;
 	Location coordTL;
 	Location coordBR;
-	PFont displayText;
-	PFont displaySubText;
+	
+	//| Director
+	String SCENE = "INTERTITLE";
 	
 	//| Data
-	EarthquakeTimeline earthquakeTimeline;
+	IntertitleFindingFaults intertitleFindingFaults;
 	FaultLineAnimation faultComplexAni;
+	EarthquakeTimeline earthquakeTimeline;
 	CrustalDeformationVectors cristalVelocities;
 	
 	public void setup() 
@@ -57,7 +59,11 @@ public class FindingFaults extends PApplet
 		float[] tl = map.getScreenPositionFromLocation(coordTL);
 		Location nl = map.getLocationFromScreenPosition(wid/2+tl[0], hei/2+tl[1]);
 		map.zoomAndPanTo(nl, 10);
-//		MapUtils.createDefaultEventDispatcher(this, map);
+		
+		//| Intertitle
+		intertitleFindingFaults = new IntertitleFindingFaults(this);
+		intertitleFindingFaults.setup(map, wid, hei);
+		intertitleFindingFaults.firstcall();
 		
 		//| GIF Animation
 		faultComplexAni = new FaultLineAnimation(this);
@@ -68,12 +74,32 @@ public class FindingFaults extends PApplet
 		earthquakeTimeline.setup(map, wid, hei);
 
 		//| Crustal Velocities
-//		cristalVelocities = new CrustalDeformationVectors(this);
-//		cristalVelocities.setup(map, wid, hei);
+		cristalVelocities = new CrustalDeformationVectors(this);
+		cristalVelocities.setup(map, wid, hei);
+	}
 	
-		//| Copy
-		displayText = createFont("data/fonts/Explo/Explo-Ultra.otf", 50);
-		displaySubText = createFont("data/fonts/Explo/Explo-Medi.otf", 50);
+	public void checkSceneStatus()
+	{
+		String stat = "null";
+		
+		if(SCENE.equals("INTERTITLE")) {
+			stat = intertitleFindingFaults.status();
+			if(stat.equals("OFF")) intertitleFindingFaults.start();
+			if(stat.equals("DONE")) {
+				SCENE = "EARTHQUAKE ANIMATION";
+				intertitleFindingFaults.off();
+			}
+
+		} else if(SCENE.equals("EARTHQUAKE ANIMATION")) {
+			stat = earthquakeTimeline.status();
+			if(stat.equals("OFF")) earthquakeTimeline.start();
+			if(stat.equals("DONE")) {
+				SCENE = "INTERTITLE";
+				earthquakeTimeline.off();
+			}
+		}
+		
+		PApplet.println(SCENE + " " + stat);
 	}
 
 	public void draw() 
@@ -83,78 +109,33 @@ public class FindingFaults extends PApplet
 		this.renderMap();
 
 		//| GIF Animation
-		faultComplexAni.draw(map);	
+//		faultComplexAni.draw(map);	
 		
 		//| Display Data
-		earthquakeTimeline.update();
-		earthquakeTimeline.draw(map);
+//		earthquakeTimeline.update();
+//		earthquakeTimeline.draw(map);
 		
 		//| Crustal Velocities
 //		cristalVelocities.draw(map);	
 		
-		//| Model Bounds & Text
-//		this.markers();
-//		this.copy("The Eye Of The Earth", "But instead am wandering awed about on a splintered " +
-//				"\nwreck I've come to care for, whose gnawed trees breathe \na delicate air.");
-	}
-	
-	public void copy(String t, String s)
-	{
-		float[] tl = map.getScreenPositionFromLocation(coordTL);
 
-		smooth();
-
-		fill(0,0,0);
-		textFont(displayText, 40);
-		text(t, tl[0] + 29, tl[1] + 91);
-		textFont(displaySubText, 20);
-		text(s, tl[0] + 29, tl[1] + 126);
-
-		fill(255,255,255);
-		textFont(displayText, 40);
-		text(t, tl[0] + 30, tl[1] + 90);
-		textFont(displaySubText, 20);
-		text(s, tl[0] + 30, tl[1] + 125);
-	}
-	
-	public void markers()
-	{
-		//| Markers for Rough Models boundaries. 
-		float[] tl = map.getScreenPositionFromLocation(coordTL);
-		float[] br = map.getScreenPositionFromLocation(coordBR);
-
-		float newX = tl[0];
-		float newY = tl[1];
-		float newW = br[0] - tl[0] + 190; 
-		float newH = br[1] - tl[1];
+		//| Sequence
+		this.checkSceneStatus();
 		
-		noStroke();
-		fill(0,0,0);
-		ellipse(tl[0] - 1, tl[1] + 1, 5, 5);
-		ellipse(br[0] - 1, tl[1] + 1, 5, 5);
-		ellipse(br[0] - 1, br[1] + 1, 5, 5);
-		ellipse(tl[0] - 1, br[1] + 1, 5, 5);
+		if(SCENE.equals("INTERTITLE")) {
+			intertitleFindingFaults.update();
+			intertitleFindingFaults.draw(map);
+		}
 		
-		fill(255,255,255);
-		ellipse(tl[0], tl[1], 5, 5);
-		ellipse(br[0], tl[1], 5, 5);
-		ellipse(br[0], br[1], 5, 5);
-		ellipse(tl[0], br[1], 5, 5);
-		
-		//| Percentage Increase
-		fill(0,0,0);
-		ellipse(newX + newW - 1, newY + 1, 5, 5);
-		ellipse(newX + newW - 1, newY + newH + 1, 5, 5);
-		
-		fill(255,255,255);
-		ellipse(newX + newW, newY, 5, 5);
-		ellipse(newX + newW, newY + newH, 5, 5);
-
+		if(SCENE.equals("EARTHQUAKE ANIMATION")) {
+			earthquakeTimeline.update();
+			earthquakeTimeline.draw(map);
+		}
 	}
 		
 	public void renderMap()
 	{
-		map.draw();
+		//map.draw();
 		fill(0,0,0,100);
 		rect(-1,-1,screenWidth+2,screenHeight+2);
 		
@@ -166,6 +147,7 @@ public class FindingFaults extends PApplet
 		float newW = br[0] - tl[0] + 190; 
 		float newH = br[1] - tl[1];
 		
+		noSmooth();
 		image(baymodel, newX, newY, newW, newH); //| Zoom 10 Scale
 		image(baymodel, newX, newY, 1051, 1051); //| Bay Model Full Scale
 	}
