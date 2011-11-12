@@ -104,7 +104,7 @@ public class EarthquakeFeed
 			
 		} else if(STATUS.equals("ON")) {
 			timekeeper += 1;
-			if(timekeeper > 1000) {
+			if(timekeeper > 500) {
 				STATUS = "ANIMATING OUT";
 				label.close();
 				for (int i = balls.size()-1; i >= 0; i--) 

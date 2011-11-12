@@ -101,13 +101,13 @@ public class Ball
 		switch(animating){
 			case 1:
 			float v = tweenIN.getPosition();
-			alphaBackground = v;
+			alphaBackground = v - 155;
 			alphaForeground = v;
 			break;
 			
 			case 0:
 			float j = tweenOUT.getPosition();
-			alphaBackground = j;
+			alphaBackground = j - 155;
 			alphaForeground = j;
 			break;
 		}
@@ -133,7 +133,7 @@ public class Ball
 		parent.text(description, position[0] + mag/2 + 10, position[1] + 16);
 		
 		//| Animation
-		if(alphaBackground < 255) return;
+		if(alphaForeground < 255) return;
 		this.drawAni();			
 		parent.noFill();
 		parent.stroke(255, 255, 255, aniAlpha);

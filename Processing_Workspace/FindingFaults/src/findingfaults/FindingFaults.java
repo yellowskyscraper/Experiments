@@ -94,8 +94,9 @@ public class FindingFaults extends PApplet
 			stat = earthquakeTimeline.status();
 			if(stat.equals("OFF")) earthquakeTimeline.start();
 			if(stat.equals("DONE")) {
-				SCENE = "INTERTITLE";
-				earthquakeTimeline.off();
+				SCENE = "CRUSTAL VELOCITIES";
+				//earthquakeTimeline.off();
+				//faultComplexAni.start();
 			}
 		}
 		
@@ -109,15 +110,7 @@ public class FindingFaults extends PApplet
 		this.renderMap();
 
 		//| GIF Animation
-//		faultComplexAni.draw(map);	
-		
-		//| Display Data
-//		earthquakeTimeline.update();
-//		earthquakeTimeline.draw(map);
-		
-		//| Crustal Velocities
-//		cristalVelocities.draw(map);	
-		
+		faultComplexAni.draw(map);	
 
 		//| Sequence
 		this.checkSceneStatus();
@@ -130,6 +123,12 @@ public class FindingFaults extends PApplet
 		if(SCENE.equals("EARTHQUAKE ANIMATION")) {
 			earthquakeTimeline.update();
 			earthquakeTimeline.draw(map);
+		}
+
+		if(SCENE.equals("CRUSTAL VELOCITIES")) {
+			//earthquakeTimeline.update();
+			//earthquakeTimeline.draw(map);
+			cristalVelocities.draw(map);
 		}
 	}
 		

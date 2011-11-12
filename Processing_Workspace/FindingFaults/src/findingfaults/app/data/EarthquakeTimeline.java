@@ -109,28 +109,14 @@ public class EarthquakeTimeline
 			if(count < metaBalls.length) {
 				this.jumpThroughQuakes();
 			} else {
+				//label.done1();
 				label.done();
-				STATUS = "ON 2";
-			}
-
-			label.update(count_year,month[count_month - 1],count_day, count);
-			
-			/*
-			if(timekeeper > 1000) {
 				STATUS = "ANIMATING OUT";
-				label.close();
-				for (int i = balls.size()-1; i >= 0; i--) 
-				{
-					Ball ball = (Ball) balls.get(i);
-					ball.close();
-				}
 			}
-			*/
-			
-		} else if(STATUS.equals("ON 2")) {
 			label.update(count_year,month[count_month - 1],count_day, count);
-			
+
 		} else if(STATUS.equals("ANIMATING OUT")) {
+			label.update(count_year,month[count_month - 1],count_day, count);
 			if(label.closed()) STATUS = "DONE";
 		}
 
@@ -139,7 +125,8 @@ public class EarthquakeTimeline
 	public void draw(Map m) 	
 	{	
 		if(STATUS.equals("ON")) this.incrementThroughQuakes(m);
-		if(STATUS.equals("ON 2")) this.dimQuakes(m);
+		if(STATUS.equals("ANIMATING OUT")) this.dimQuakes(m);
+		if(STATUS.equals("DONE")) this.dimQuakes(m);
 		
 		label.draw(m);
 	}

@@ -17,9 +17,11 @@ public class EqTimelineLabel {
 	PFont secondaryTitleText;
 	PFont secondaryText;
 
-	Tween tweenIN;
-	Tween tweenOUT;
-	Tween tweenDIM;
+	Tween tweenBackgroundIN;
+	Tween tweenForegroundIN;
+	Tween tweenBackgroundOUT;
+	Tween tweenForegroundOUT;
+	Tween tweenQuakesDIM;
 	int animating = 3;
 	float alphaBackground = 0;
 	float alphaForeground = 0;
@@ -33,6 +35,7 @@ public class EqTimelineLabel {
 	String latestEarthquakeDate;
 	int totalEarthuakes;
 	float markerTick = 51;
+	float increment = 0.327f;
 	
 	public EqTimelineLabel(PApplet p)
 	{
@@ -50,25 +53,55 @@ public class EqTimelineLabel {
 
 		//| Tween Test
 		Motion.setup(parent);
-		tweenIN = new Tween(0f, 255f, 10f);
-		tweenOUT = new Tween(255f, 0f, 20f);
-		tweenDIM = new Tween(255f, 0f, 10f);
+		tweenBackgroundIN = new Tween(0f, 255f, 20f);
+		tweenForegroundIN = new Tween(0f, 255f, 10f, 10f);
+		tweenBackgroundOUT = new Tween(255f, 0f, 10f, 5f);
+		tweenForegroundOUT = new Tween(255f, 0f, 10f);
+		tweenQuakesDIM = new Tween(255f, 0f, 10f);
 
-		titleText = parent.createFont("data/fonts/ExploSlab/ExploSlab-Medi.otf", 21);
-		secondaryTitleText = parent.createFont("data/fonts/ExploSlab/ExploSlab-Medi.otf", 15);
-		secondaryText = parent.createFont("data/fonts/ExploSlab/ExploSlab.otf", 15);
+		titleText = parent.createFont("data/fonts/ExploSlab/ExploSlab-Medi.otf", 16);
+		secondaryTitleText = parent.createFont("data/fonts/Explo/Explo-Medi.otf", 12);
+		secondaryText = parent.createFont("data/fonts/Explo/Explo-Medi.otf", 12);
+	}
+	
+	public void update(int y, String m, int d, float c)
+	{	
+		switch(animating){
+			case 2:
+			float j = tweenQuakesDIM.getPosition();
+			alphaForegroundTicker = j;
+			break;
+		
+			case 1:
+			alphaBackground = tweenBackgroundIN.getPosition();
+			alphaForeground = tweenForegroundIN.getPosition();
+			alphaForegroundTicker = tweenForegroundIN.getPosition();;
+			break;
+			
+			case 0:
+			alphaBackground = tweenBackgroundOUT.getPosition();
+			alphaForeground = tweenForegroundOUT.getPosition();
+			alphaForegroundTicker = tweenForegroundOUT.getPosition();
+			break;
+		}
+		
+		markerTick = increment * c;
+		latestEarthquakeDate = y +" "+ m +" "+ d;
+		latestEarthquakeDate = "";
 	}
 
 	public void open()
 	{
 		animating = 1;
-		tweenIN.play();
+		tweenBackgroundIN.play();
+		tweenForegroundIN.play();
 	}
 	
 	public void close()
 	{
 		animating = 0;
-		tweenOUT.play();
+		tweenBackgroundOUT.play();
+		tweenForegroundOUT.play();
 	}
 	
 	public boolean opened()
@@ -82,37 +115,17 @@ public class EqTimelineLabel {
 		return (alphaForeground == 0) ? true : false;
 	}
 	
-	public void done()
+	public void done1()
 	{
 		animating = 2;
-		tweenDIM.play();
+		tweenQuakesDIM.play();
 	}
 	
-	public void update(int y, String m, int d, float c)
-	{	
-		switch(animating){
-			case 2:
-			float j = tweenDIM.getPosition();
-			alphaForegroundTicker = j;
-			break;
-		
-			case 1:
-			float v = tweenIN.getPosition();
-			alphaBackground = v;
-			alphaForeground = v;
-			alphaForegroundTicker = v;
-			break;
-			
-			case 0:
-			float x = tweenOUT.getPosition();
-			alphaBackground = x;
-			alphaForeground = x;
-			break;
-		}
-		
-		markerTick = 0.420f * c;
-		latestEarthquakeDate = y +" "+ m +" "+ d;
-		latestEarthquakeDate = "";
+	public void done()
+	{
+		animating = 0;
+		tweenBackgroundOUT.play();
+		tweenForegroundOUT.play();
 	}
 	
 	public void draw(Map m)
@@ -123,82 +136,90 @@ public class EqTimelineLabel {
 		parent.pushMatrix();
 		parent.translate(tl[0], tl[1]);
 		
+		//| Box Location
+		parent.pushMatrix();
+		parent.translate(20, 891);
+		
+		//| Label
+		int boxW = 306;
+		int boxH = 140;
 		parent.noStroke();
 		parent.fill(255, alphaBackground);
-		parent.rect(20, 845, 388, 186);
+		parent.rect(0, 0, boxW, boxH);
 		
 		parent.strokeWeight(1);
 		parent.noFill();
-		parent.stroke(154,194,185, alphaBackground);
-		parent.rect(25, 850, 378, 176);
+		parent.stroke(154,194,185, alphaForeground);
+		parent.rect(5, 5, boxW - 10, boxH - 10);
 			
 		//| Title
 		parent.textAlign(PConstants.LEFT);
 		parent.smooth();
 		parent.fill(0, alphaForeground);
-		parent.textFont(titleText, 21);
-		parent.text("Cumulative Earthquakes 1973-2010",  50, 890);
+		parent.textFont(titleText, 16);
+		parent.text("Cumulative Earthquakes 1973-2010",  25, 37);
 	
 		//| Sub Title
-		int tick = PApplet.round(markerTick) + 49;
-		if(tick > 293) {
+		int tick = PApplet.round(markerTick) + 24;
+		if(tick > 213) {
 			parent.textAlign(PConstants.RIGHT);
-			tick = 383;
+			tick = boxW - 25;
 		}
 		
 		parent.fill(0, 103, 73, alphaForegroundTicker);
-		parent.textFont(secondaryTitleText, 15);
-		parent.text(latestEarthuake, tick, 934);
+		parent.textFont(secondaryTitleText, 12);
+		parent.text(latestEarthuake, tick, 67);
 
 		parent.fill(100, 100, 100, alphaForegroundTicker);
-		parent.textFont(secondaryText, 15);
-		parent.text(latestEarthquakePlace, tick, 952);
+		parent.textFont(secondaryText, 12);
+		parent.text(latestEarthquakePlace, tick, 81);
 		
-		parent.text(latestEarthquakeDate, tick, 970);
+		parent.text(latestEarthquakeDate, tick, 95);
 		
 		this.drawTimeline();
-		
+
+		parent.popMatrix();
 		parent.popMatrix();
 	}
 	
 	public void drawTimeline()
 	{	
+		parent.pushMatrix();
+		parent.translate(25, 97);
+		
 		//| Draw Time Line
-		//| W:324 H:20 X:50 Y:981
-		float start = 0.0f;
-//		float increment = 0.0235f;
-		float increment = 0.420f; 
+		//| 253 / 776 = increment percentage.
+		int width = 255;  
+		float start = 1.0f; 
 		parent.noSmooth();
 		parent.noStroke();
 		
 		for(int i = 0; i < quakes.length; i ++) 
 		{
-			float mag = Float.parseFloat(quakes[i][4]) * 2;
+			float mag = Float.parseFloat(quakes[i][4]) * 3;
 			if(mag == 0) mag = 1;
-
-			parent.fill(188, 214, 205, alphaForeground);
-			parent.rect(51 + start, 995 - mag, 1, mag);
+			
+			parent.fill(158, 194, 175, alphaForeground);
+			parent.rect(start, 15 - mag, 1, mag);
 			
 			start += increment;
 		}
 		
-		float tick = PApplet.round(markerTick) + 51;
+		float tick = PApplet.round(markerTick);
 		
 		parent.smooth();
-		parent.fill(158, 194, 175, alphaForeground);
-		parent.rect(50, 995, 328, 1);
+//		parent.fill(158, 194, 175, alphaForeground);
+//		parent.rect(0, 15, width, 1); //| Base Line
+		
 		parent.fill(0, 103, 73, alphaForegroundTicker);
-		parent.rect(tick, 960, 2, 35);
-		parent.rect(tick, 960, 3, 1);
-		/*parent.rect(tick, 965, 3, 6);
-		parent.rect(tick, 965, 4, 5);
-		parent.rect(tick, 965, 5, 4);
-		parent.rect(tick, 965, 6, 3);
-		parent.rect(tick, 965, 7, 2);
-		parent.rect(tick, 965, 8, 1);*/
+		parent.rect(tick, -7, 2, 22);
+		parent.rect(tick, -7, 4, 1);
+
 		parent.fill(0, alphaForeground);
-		parent.rect(50, 981, 1, 15);
-		parent.rect(378, 981, 1, 15);
+		parent.rect(0, 0, 1, 15); //| Left Brace
+		parent.rect(width, 0, 1, 15); //| Right Brace
+
+		parent.popMatrix();
 	}
 	
 	public void write(String[] q)

@@ -17,9 +17,11 @@ public class IntertitleFindingFaults
 	//| Main Controle
 	String STATUS = "OFF";
 	int timekeeper = 0;
-	
-	Tween tweenIN;
-	Tween tweenOUT;
+
+	Tween tweenBackgroundIN;
+	Tween tweenForegroundIN;
+	Tween tweenBackgroundOUT;
+	Tween tweenForegroundOUT;
 	float alphaBackground = 0;
 	float alphaForeground = 0;
 	
@@ -40,60 +42,70 @@ public class IntertitleFindingFaults
 		
 		//| Tween Test
 		Motion.setup(parent);
-		tweenIN = new Tween(0f, 255f, 10f);
-		tweenOUT = new Tween(255f, 0f, 20f);
-		
+		tweenBackgroundIN = new Tween(0f, 255f, 20f);
+		tweenForegroundIN = new Tween(0f, 255f, 30f, 20f);
+		tweenBackgroundOUT = new Tween(255f, 0f, 30f, 20f);
+		tweenForegroundOUT = new Tween(255f, 0f, 20f);
+
 		//| Copy
-		displayText = parent.createFont("data/fonts/ExploSlab/ExploSlab-Bold.otf", 50);
-		displaySubText = parent.createFont("data/fonts/ExploSlab/ExploSlab-Medi.otf", 50);
+		displayText = parent.createFont("data/fonts/ExploSlab/ExploSlab-Bold.otf", 72);
+		displaySubText = parent.createFont("data/fonts/ExploSlab/ExploSlab.otf", 22);
 	}
 	
 	public void firstcall()
 	{
-		STATUS = "ON";
-		alphaBackground = 255;
-		alphaForeground = 255;
+		STATUS = "FIRST CALL";
+		tweenForegroundIN.play();
 	}
 	
 	public void start()
 	{
 		STATUS = "ANIMATING IN";
 		timekeeper = 0;
-		tweenIN.play();
+		tweenBackgroundIN.play();
+		tweenForegroundIN.play();
 	}
 
 	public void off() 
 	{
 		STATUS = "OFF";
-		tweenOUT.stop();
+		tweenBackgroundOUT.stop();
+		tweenForegroundOUT.stop();
 	}
 	
 	public void update()
 	{
-		float a;
-		
 		if(STATUS.equals("OFF")) {
-			alphaBackground = 0;
-			alphaForeground = 0;
+			alphaBackground = alphaForeground = 0;
 			
-		} else if(STATUS.equals("ANIMATING IN")) {
-			a = tweenIN.getPosition();
-			alphaBackground = alphaForeground = a;
+		} else if(STATUS.equals("FIRST CALL")) {
+			alphaBackground = 255;
+			alphaForeground = tweenForegroundIN.getPosition();
 			if(alphaForeground == 255) {
 				STATUS = "ON";
-				tweenIN.stop();
+				tweenForegroundIN.stop();
+			}
+			
+		} else if(STATUS.equals("ANIMATING IN")) {
+			alphaBackground = tweenBackgroundIN.getPosition();
+			alphaForeground = tweenForegroundIN.getPosition();
+			if(alphaForeground == 255) {
+				STATUS = "ON";
+				tweenBackgroundIN.stop();
+				tweenForegroundIN.stop();
 			}
 			
 		} else if(STATUS.equals("ON")) {
 			timekeeper += 1;
 			if(timekeeper > 120) {
 				STATUS = "ANIMATING OUT";
-				tweenOUT.play();
+				tweenBackgroundOUT.play();
+				tweenForegroundOUT.play();
 			}
 			
 		} else if(STATUS.equals("ANIMATING OUT")) {
-			a = tweenOUT.getPosition();
-			alphaBackground = alphaForeground = a;
+			alphaBackground = tweenBackgroundOUT.getPosition();
+			alphaForeground = tweenForegroundOUT.getPosition();
 			if(alphaBackground == 0) STATUS = "DONE";
 		}
 	}
@@ -131,16 +143,16 @@ public class IntertitleFindingFaults
 		String title = "Finding Faults";
 		//String quote = "I am a frayed and nibbled survivor in a fallen world, and I am getting along. I am aging and eaten and have done my share of eating too. I am not washed and beautiful, in control of a shining world in which everything fits, but instead am wondering awed about on a splintered wreck I've come to care for, whose gnawed trees breathe a delicate air, whose bloodied and scarred creatures are my dearest companions, and whose beauty bats and shines not in its imperfections but overwhelmingly in spite of them...";
 		String quote = "[It] is the little causes, long continued, which are considered as bringing about the greatest changes of the earth. \n- James Hutton";
-		float quoteWid = 520;
+		float quoteWid = 450;
 		
 		float mainTitleX = tl[0];
-		float mainTitleY = 1050/2 - 120;
-		float mainQuoteX = 1050/2 - quoteWid/2 + 15;
-		float mainQuoteY = 1050/2 - 50;
+		float mainTitleY = 1050/2;
+		float mainQuoteX = 1050/2 - quoteWid/2;
+		float mainQuoteY = 1050/2 + 120;
 		
 		parent.fill(255, alphaForeground);
 		parent.textAlign(PApplet.CENTER);
-		parent.textFont(displayText, 40);
+		parent.textFont(displayText, 72);
 		parent.text(title, mainTitleX, mainTitleY, 1050, 200);
 		
 		parent.textAlign(PApplet.LEFT);

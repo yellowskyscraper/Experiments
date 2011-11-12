@@ -1,6 +1,7 @@
 package dynamicearth.app.labels;
 
 import processing.core.PApplet;
+import processing.core.PConstants;
 import processing.core.PFont;
 import ijeoma.motion.Motion;
 import ijeoma.motion.tween.Tween;
@@ -15,8 +16,10 @@ public class EqFeedLabel {
 	PFont secondaryTitleText;
 	PFont secondaryText;
 
-	Tween tweenIN;
-	Tween tweenOUT;
+	Tween tweenBackgroundIN;
+	Tween tweenForegroundIN;
+	Tween tweenBackgroundOUT;
+	Tween tweenForegroundOUT;
 	int animating = 3;
 	float alphaBackground = 0;
 	float alphaForeground = 0;
@@ -37,27 +40,27 @@ public class EqFeedLabel {
 		
 		//| Tween Test
 		Motion.setup(parent);
-		tweenIN = new Tween(0f, 255f, 30f);
-		tweenOUT = new Tween(255f, 0f, 10f);
+		tweenBackgroundIN = new Tween(0f, 255f, 20f);
+		tweenForegroundIN = new Tween(0f, 255f, 10f, 10f);
+		tweenBackgroundOUT = new Tween(255f, 0f, 10f, 5f);
+		tweenForegroundOUT = new Tween(255f, 0f, 10f);
 				
-		titleText = parent.createFont("data/fonts/ExploSlab/ExploSlab-Medi.otf", 21);
-		secondaryTitleText = parent.createFont("data/fonts/ExploSlab/ExploSlab-Medi.otf", 15);
-		secondaryText = parent.createFont("data/fonts/ExploSlab/ExploSlab.otf", 15);
+		titleText = parent.createFont("data/fonts/ExploSlab/ExploSlab-Medi.otf", 16);
+		secondaryTitleText = parent.createFont("data/fonts/Explo/Explo-Medi.otf", 12);
+		secondaryText = parent.createFont("data/fonts/Explo/Explo-Medi.otf", 12);
 	}
 	
 	public void update(String[] e, int c)
 	{	
 		switch(animating){
 			case 1:
-			float v = tweenIN.getPosition();
-			alphaBackground = v;
-			alphaForeground = v;
+			alphaBackground = tweenBackgroundIN.getPosition();
+			alphaForeground = tweenForegroundIN.getPosition();
 			break;
 			
 			case 0:
-			float x = tweenOUT.getPosition();
-			alphaBackground = x;
-			alphaForeground = x;
+			alphaBackground = tweenBackgroundOUT.getPosition();
+			alphaForeground = tweenForegroundOUT.getPosition();
 			break;
 		}
 
@@ -70,13 +73,15 @@ public class EqFeedLabel {
 	public void open()
 	{
 		animating = 1;
-		tweenIN.play();
+		tweenBackgroundIN.play();
+		tweenForegroundIN.play();
 	}
 	
 	public void close()
 	{
 		animating = 0;
-		tweenOUT.play();
+		tweenBackgroundOUT.play();
+		tweenForegroundOUT.play();
 	}
 	
 	public boolean opened()
@@ -86,7 +91,7 @@ public class EqFeedLabel {
 	
 	public boolean closed()
 	{
-		return (alphaForeground == 0) ? true : false;
+		return (alphaBackground == 0) ? true : false;
 	}
 	
 	public void draw(Map m) 	
@@ -96,36 +101,44 @@ public class EqFeedLabel {
 		parent.pushMatrix();
 		parent.translate(tl[0], tl[1]);
 		
+		//| Box Location
+		parent.pushMatrix();
+		parent.translate(20, 891);
+		
 		//| Label
+		int boxW = 266;
+		int boxH = 140;
 		parent.noStroke();
 		parent.fill(255, alphaBackground);
-		parent.rect(20, 855, 336, 176);
+		parent.rect(0, 0, boxW, boxH);
 		parent.strokeWeight(1);
 		parent.noFill();
-		parent.stroke(154,194,185, alphaBackground);
-		parent.rect(25, 860, 326, 166);
+		parent.stroke(154,194,185, alphaForeground);
+		parent.rect(5, 5, boxW - 10, boxH - 10);
 		
-		//| Type
+		//| Title
+		parent.textAlign(PConstants.LEFT);
 		parent.smooth();
-
 		parent.fill(0, alphaForeground);
-		parent.textFont(titleText, 21);
-		parent.text("Total Earthquakes Worldwide",  50, 900);
-		parent.text("In The Past 7 Days: " + totalEarthuakes,  50, 925);
+		parent.textFont(titleText, 16);
+		parent.text("Total Earthquakes Worldwide",  25, 37);
+		parent.text("In The Past 7 Days: " + totalEarthuakes,  25, 60);
 	
+		//| Secondary
 		parent.fill(0, 103, 73, alphaForeground);
-		parent.textFont(secondaryTitleText, 15);
+		parent.textFont(secondaryTitleText, 12);
 		String mag = latestEarthuake[0].substring(1);
-		parent.text("Magnitude " + mag, 50, 960);
+		parent.text("Magnitude " + mag, 25, 90);
 		
 		parent.fill(100, 100, 100, alphaForeground);
-		parent.textFont(secondaryText, 15);
+		parent.textFont(secondaryText, 12);
 		String des = latestEarthuake[1].substring(1);
-		parent.text(des, 50, 980);
+		parent.text(des, 25, 104);
 		
-		parent.textFont(secondaryText, 15);
-		parent.text(latestEarthquakeDate, 50, 1000);
-		
+		parent.textFont(secondaryText, 12);
+		parent.text(latestEarthquakeDate, 25, 118);
+
+		parent.popMatrix();
 		parent.popMatrix();
 	}
 }

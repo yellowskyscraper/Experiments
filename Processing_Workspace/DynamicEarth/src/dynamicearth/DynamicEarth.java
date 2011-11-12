@@ -39,7 +39,7 @@ public class DynamicEarth extends PApplet
 		size(wid, hei);
 
 		//| Model Boundaries & Image
-		baymodel = loadImage("data/images/bay1.jpg");
+		baymodel = loadImage("data/images/bay.jpg");
 		coordTL = new Location(38.339f, -122.796f);
 		coordBR = new Location(37.342f, -121.781f);
 		
