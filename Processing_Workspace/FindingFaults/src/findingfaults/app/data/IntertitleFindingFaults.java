@@ -134,7 +134,20 @@ public class IntertitleFindingFaults
 		parent.stroke(255, alphaForeground);
 		parent.noFill();
 		parent.strokeWeight(1);
-		parent.rect(topLeftX, topLeftY, bottomLeftX, bottomLeftY);
+		//parent.rect(topLeftX, topLeftY, bottomLeftX, bottomLeftY);
+		parent.line(flairTLX, topLeftY, flairTRX + 5, topLeftY);
+		parent.line(flairTRX + 10, flairTRY, flairTRX + 10, flairBRY + 5);
+		parent.line(flairBLX, bottomLeftY + 25, flairBRX + 5, bottomLeftY + 25);
+		parent.line(flairTLX - 5,topLeftY + 5,flairTLX - 5, flairBLY + 5);
+		parent.line(flairTLX, topLeftY, flairTLX, flairTLY);
+		parent.line(flairTLX - 5,topLeftY + 5, flairTLX, flairTLY);
+		parent.line(flairTRX + 5, topLeftY, flairTRX + 5, flairTRY);
+		parent.line(flairTRX + 10, flairTRY, flairTRX + 5, flairTRY);
+		parent.line(flairTRX + 10, flairBRY + 5, flairBRX + 5, flairBRY + 5);
+		parent.line(flairBRX + 5, bottomLeftY + 25, flairBRX + 5, flairBRY + 5);
+		parent.line(flairTLX - 5, flairBLY + 5, flairBLX, flairBLY + 5);
+		parent.line(flairBLX, flairBLY + 5, flairBLX, bottomLeftY + 25);
+
 		parent.rect(flairTLX, flairTLY, 5, 5);
 		parent.rect(flairTRX, flairTRY, 5, 5);
 		parent.rect(flairBRX, flairBRY, 5, 5);

@@ -20,19 +20,21 @@ public class Ball
 	float magnitude;
 	int mag;
 
-	Tween tweenIN;
-	Tween tweenOUT;
-	Tween tweenDIM;
-	int animating = 3;
+	Tween tweenBackgroundIN;
+	Tween tweenForegroundIN;
+	Tween tweenStrokeShockWaveIN;
+	Tween tweenAlphaShockWaveIN;
+	Tween tweenBackgroundDIM;
+	Tween tweenForegroundDIM;
+	Tween tweenBackgroundOUT;
+	Tween tweenForegroundOUT;
+	
+	int animating = 0;
+	float scaleEarthquake = 0;
 	float alphaBackground = 0;
 	float alphaForeground = 0;
-	
-	float easing = 0.1f;
-	float aniScale = 0;
-	float aniStroke = 0;
-	float baseAlpha = 0;
-	float aniAlpha = 0;
-	float scale = 0;
+	float alphaShockWave = 0;
+	float strokeShockWave = 0;
 	
 	public Ball(PApplet p)
 	{
@@ -43,24 +45,33 @@ public class Ball
 	{
 		wid = parent.screenWidth;
 		hei = parent.screenHeight;
-
-		Motion.setup(parent);
-		tweenIN = new Tween(0f, 255, 10f);
-		tweenOUT = new Tween(255, 0f, 10f);
-		tweenDIM = new Tween(255, 100f, 10f);
-		
-		//name = n.replace(",", ""); //| 7 Day RSS
-		name = n; //| all.xml Local
+		name = n;
 		quake = new Location(la,lo);
 		
 		String[] a = name.split(" ");
-		if(!a[1].equals("None")) mag = Math.round(Float.valueOf(a[1]).floatValue() * 10);
-		else mag = 10;
+		if(a[1].equals("None")) {
+			mag = 10;
+			magnitude = 0.0f;
+		} else {
+			mag = Math.round(Float.valueOf(a[1]).floatValue() * 10);
+			magnitude = Float.parseFloat(a[1]);
+		}
+
+		scaleEarthquake = mag/3;
 		
-		if(!a[1].equals("None")) magnitude = Float.parseFloat(a[1]);
-		else magnitude = 0.0f;
+		//| Animation Setup
+		float shockwave = mag;
+		Motion.setup(parent);
+		tweenBackgroundIN = new Tween(255f, 50f, shockwave);
+		tweenForegroundIN = new Tween(255f, 200f, shockwave);
+		tweenStrokeShockWaveIN = new Tween(0f, shockwave, shockwave);
+		tweenAlphaShockWaveIN = new Tween(255f, 0, shockwave);
 		
-		scale = mag/3;
+		tweenBackgroundDIM = new Tween(50f, 255f, 10f, 5f);
+		tweenForegroundDIM = new Tween(140f, 255f, 5f);
+		
+		tweenBackgroundOUT = new Tween(255f, 0f, 5f);
+		tweenForegroundOUT = new Tween(255f, 0f, 5f);
 	}
 	
 	public String[] getYearMonthDayMagnitude()
@@ -111,44 +122,78 @@ public class Ball
 		return quake;
 	}
 	
-	public void open()
-	{
+	public void triggerQuake()
+	{	
 		animating = 1;
-		tweenIN.play();
-		tweenDIM.play();
-	}
-	
-	public void close()
-	{
-		animating = 0;
-		tweenOUT.play();
+		tweenBackgroundIN.play();
+		tweenForegroundIN.play();
+		tweenStrokeShockWaveIN.play();
+		tweenAlphaShockWaveIN.play();
 	}
 	
 	public void dim()
 	{
-		
+		animating = 2;
+		tweenBackgroundIN.stop();
+		tweenForegroundIN.stop();
+		tweenBackgroundDIM.play();
+		tweenForegroundDIM.play();
+	}
+	
+	public void close()
+	{
+		animating = 3;
+		tweenBackgroundDIM.stop();
+		tweenForegroundDIM.stop();
+		tweenBackgroundOUT.play();
+		tweenForegroundOUT.play();
 	}
 	
 	public void update(float x, float y)
 	{	
 		xpos = x;
 		ypos = y;
-		/*
+		
 		switch(animating){
 			case 1:
-			float v = tweenIN.getPosition();
-			float k = tweenDIM.getPosition();
-			alphaBackground = v;
-			alphaForeground = k;
+			alphaBackground = tweenBackgroundIN.getPosition();
+			alphaForeground = tweenForegroundIN.getPosition();
+			alphaShockWave = tweenAlphaShockWaveIN.getPosition();
+			strokeShockWave = tweenStrokeShockWaveIN.getPosition();
+			if(alphaShockWave == 0){
+				tweenStrokeShockWaveIN.stop();
+				tweenAlphaShockWaveIN.stop();
+			}
+			if(alphaBackground == 50){
+				tweenBackgroundIN.stop();
+				tweenForegroundIN.stop();
+			}
 			break;
-			
-			case 0:
-			float j = tweenOUT.getPosition();
-			alphaBackground = j;
-			alphaForeground = j;
+		
+			case 2:
+			alphaBackground = tweenBackgroundDIM.getPosition();
+			alphaForeground = tweenForegroundDIM.getPosition();
+			alphaShockWave = tweenAlphaShockWaveIN.getPosition();
+			strokeShockWave = tweenStrokeShockWaveIN.getPosition();
+			if(alphaBackground == 255){
+				tweenBackgroundDIM.stop();
+				tweenForegroundDIM.stop();
+			}
+			if(alphaShockWave == 0){
+				tweenStrokeShockWaveIN.stop();
+				tweenAlphaShockWaveIN.stop();
+			}
+			break;
+
+			case 3:
+			alphaBackground = tweenBackgroundOUT.getPosition();
+			alphaForeground = tweenForegroundOUT.getPosition();
+			if(alphaBackground == 0){
+				tweenBackgroundOUT.stop();
+				tweenForegroundOUT.stop();
+			}
 			break;
 		}
-		*/
 	}
 	
 	public void draw() 	
@@ -156,38 +201,38 @@ public class Ball
 		//| Larger Scale to Bay Model Screen Resolution
 		float[] position = BasicUtils.scaleCoordinates(wid, hei, xpos, ypos);
 
-		parent.smooth(); 	
-		parent.fill(255, 255, 255, baseAlpha);
-		parent.stroke(255);
-		parent.strokeWeight(1);
-		parent.ellipse(position[0], position[1], scale, scale);
+		//| Background Circle
+		parent.smooth();
+		parent.noStroke();
+		parent.fill(255, 255, 255, alphaBackground);
+		parent.ellipse(position[0], position[1], scaleEarthquake + 4, scaleEarthquake + 4);
 		
-		//| Animation
-		this.drawAni();			
+		//| Foreground Stroke
 		parent.noFill();
-		parent.stroke(255, 255, 255, aniAlpha);
-		parent.strokeWeight(aniStroke);
-		parent.ellipse(position[0], position[1], scale +  aniStroke, scale +  aniStroke);
+		parent.strokeWeight(1);
+		parent.stroke(154, 194, 185, alphaForeground);
+		parent.ellipse(position[0], position[1], scaleEarthquake, scaleEarthquake);
+		
+		//| Shockwave Stroke
+		parent.stroke(255, 255, 255, alphaShockWave);
+		parent.strokeWeight(strokeShockWave);
+		parent.ellipse(position[0], position[1], scaleEarthquake +  strokeShockWave + 2, scaleEarthquake +  strokeShockWave + 2);
 	}
-
-	public void startAni()
-	{	
-		aniScale = scale;
-		aniStroke = 10;
-		aniAlpha = 100;
-		baseAlpha = 255;
+	
+	public void kill()
+	{
+		/*
+		tweenBackgroundIN.stop();
+		tweenForegroundIN.stop();
+		tweenStrokeShockWaveIN.stop();
+		tweenAlphaShockWaveIN.stop();
+		tweenBackgroundDIM.stop();
+		tweenForegroundDIM.stop();
+		tweenBackgroundOUT.stop();
+		tweenForegroundOUT.stop();
+		*/
 	}
-
-	public void drawAni()	
-	{	
-		float tb = 100 + baseAlpha;
-		float ta = 0 + aniAlpha;
-		float ts = mag - aniStroke;
-
-		if(baseAlpha > 50) baseAlpha -= tb * 0.01f;
-		if(ta > 0) aniAlpha -= ta * 0.1f;
-		if(ta > 0) aniStroke += ts * 0.1f;
-	}
+	
 }
 
 

@@ -49,14 +49,15 @@ public class Ball
 		tweenIN = new Tween(0f, 255, 10f);
 		tweenOUT = new Tween(255, 0f, 10f);
 		
-		name = n.replace(",", ""); //| 7 Day RSS
-		description = d;
+		//name = n.replace(",", ""); //| 7 Day RSS
+		name = n.replace("-", "");
+		name = name.replace(",", "");
+		description = d.substring(0, 26);
 		quake = new Location(la,lo);
 		
 		String[] a = name.split(" ");
-		if(!a[1].equals("None")) mag = Math.round(Float.valueOf(a[1]).floatValue() * 10);
-		else mag = 10;
-		magnitude = Float.parseFloat(a[1]);
+		mag = Math.round(Float.valueOf(a[0]).floatValue() * 10);
+		magnitude = Float.parseFloat(a[0]);
 
 		displayText = parent.createFont("data/fonts/Explo/Explo-Light.otf", 20);
 	}
@@ -129,8 +130,8 @@ public class Ball
 
 		parent.fill(255, 255, 255, alphaForeground);
 		parent.textFont(displayText, 15);
-		parent.text("Magnitude " + magnitude, position[0] + mag/2 + 10, position[1] - 2);
-		parent.text(description, position[0] + mag/2 + 10, position[1] + 16);
+		parent.text("Magnitude " + magnitude + " " + description, position[0] + mag/2 + 10, position[1] - 2);
+		//parent.text(description, position[0] + mag/2 + 10, position[1] + 16);
 		
 		//| Animation
 		if(alphaForeground < 255) return;

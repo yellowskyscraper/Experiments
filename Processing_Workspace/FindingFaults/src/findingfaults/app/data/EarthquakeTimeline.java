@@ -1,7 +1,5 @@
 package findingfaults.app.data;
 
-import ijeoma.motion.tween.Tween;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -11,10 +9,10 @@ import processing.xml.XMLElement;
 
 import findingfaults.app.graphics.Ball;
 import findingfaults.app.labels.EqTimelineLabel;
+import findingfaults.app.util.BasicUtils;
 
 import de.fhpotsdam.unfolding.Map;
 import de.fhpotsdam.unfolding.geo.Location;
-import findingfaults.app.util.BasicUtils;
 
 public class EarthquakeTimeline 
 {
@@ -44,12 +42,8 @@ public class EarthquakeTimeline
 	
 	//| Sequencing
 	String STATUS = "OFF";
-	int stepcount = 0;
+	int timekeeper = 0;
 	
-	Tween tweenUP;
-	Tween tweenOUT;
-	float alphaBackground = 255;
-	float alphaForeground = 0;
 	
 	public EarthquakeTimeline(PApplet p)
 	{
@@ -105,30 +99,55 @@ public class EarthquakeTimeline
 			if(label.opened()) STATUS = "ON";
 			
 		} else if(STATUS.equals("ON")) {
-			
 			if(count < metaBalls.length) {
 				this.jumpThroughQuakes();
 			} else {
-				//label.done1();
-				label.done();
-				STATUS = "ANIMATING OUT";
+				STATUS = "DIM";
+				this.batchCommandQuakes();
+				//label.timelineFinished();
+				label.close();
 			}
 			label.update(count_year,month[count_month - 1],count_day, count);
-
-		} else if(STATUS.equals("ANIMATING OUT")) {
+			
+		} else if(STATUS.equals("DIM")) {
+			timekeeper += 1;
 			label.update(count_year,month[count_month - 1],count_day, count);
-			if(label.closed()) STATUS = "DONE";
+			if(timekeeper > 40) {
+				STATUS = "ANIMATING OUT"; 
+				this.batchCommandQuakes();
+				timekeeper = 0;
+			}
+			
+		} else if(STATUS.equals("ANIMATING OUT")) {
+			timekeeper += 1;
+			label.update(count_year,month[count_month - 1],count_day, count);
+			//if(label.closed()) 
+			if(timekeeper > 20) {
+				STATUS = "DONE";
+			}
 		}
-
 	}
 	
 	public void draw(Map m) 	
 	{	
 		if(STATUS.equals("ON")) this.incrementThroughQuakes(m);
-		if(STATUS.equals("ANIMATING OUT")) this.dimQuakes(m);
-		if(STATUS.equals("DONE")) this.dimQuakes(m);
+		if(STATUS.equals("DIM")) this.drawQuakes(m);
+		if(STATUS.equals("ANIMATING OUT")) this.drawQuakes(m);
+		if(STATUS.equals("DONE")) this.drawQuakes(m);
 		
 		label.draw(m);
+	}
+	
+	public void drawQuakes(Map m)
+	{	
+		//| Iterate Quakes & Draw
+		for (int i = balls.size()-1; i >= 0; i--) 
+		{ 
+			Ball ball = (Ball) balls.get(i);
+			float[] pos = m.getScreenPositionFromLocation(ball.getLocation());
+			ball.update(pos[0], pos[1]);
+			ball.draw();
+		} 
 	}
 	
 	public void incrementThroughQuakes(Map m)
@@ -137,31 +156,18 @@ public class EarthquakeTimeline
 		{
 			Ball ball = (Ball) balls.get(i);			
 			String[] q = ball.getYearMonthDayMagnitude();
+			float[] pos = m.getScreenPositionFromLocation(ball.getLocation());
 			
 			if(metaBalls[count][5].equals(q[5])){
-				float[] pos = m.getScreenPositionFromLocation(ball.getLocation());
-				ball.update(pos[0], pos[1]);
-				ball.startAni();
+				ball.triggerQuake();
 				label.write(ball.getYearMonthDayMagnitude());
 			}
-			
+
+			ball.update(pos[0], pos[1]);
 			ball.draw();
 		}
 		
 		count += 1;
-	}
-	
-	public void dimQuakes(Map m)
-	{	
-		//| Iterate Quakes & Draw
-		for (int i = balls.size()-1; i >= 0; i--) 
-		{ 
-			Ball ball = (Ball) balls.get(i);
-			float[] pos = m.getScreenPositionFromLocation(ball.getLocation());
-			ball.dim();
-			ball.update(pos[0], pos[1]);
-			ball.draw();
-		} 
 	}
 	
 	public void jumpThroughQuakes()
@@ -169,6 +175,16 @@ public class EarthquakeTimeline
 		count_year = Integer.parseInt(metaBalls[count][0]);	
 		count_month = Integer.parseInt(PApplet.split(metaBalls[count][5], ".")[1]);
 		count_day = Integer.parseInt(metaBalls[count][2]);
+	}
+	
+	public void batchCommandQuakes()
+	{
+		for (int i = balls.size()-1; i >= 0; i--) 
+		{ 
+			Ball ball = (Ball) balls.get(i);
+			if(STATUS.equals("DIM")) ball.dim();
+			if(STATUS.equals("ANIMATING OUT")) ball.close();
+		}	
 	}
 	
 	public void incrementThroughCalendar(Map m)
@@ -185,12 +201,12 @@ public class EarthquakeTimeline
 			
 			if(yr == count_year && mn.equals(month[count_month]) && dy == count_day) {
 				PApplet.println("QUAKE: " + ball.getYearMonthDayMagnitude()[0] +" "+ ball.getYearMonthDayMagnitude()[1] +" "+ ball.getYearMonthDayMagnitude()[2]);
-				ball.startAni();
+				ball.triggerQuake();
 				label.write(ball.getYearMonthDayMagnitude());
 			}
 			
 			ball.update(pos[0], pos[1]);
-			ball.drawAni();
+			ball.triggerQuake();
 		}
 	}
 	
@@ -303,6 +319,8 @@ public class EarthquakeTimeline
 	public void off() 
 	{
 		STATUS = "OFF";
+		count = 0;
+		timekeeper = 0;
 	}
 
 	public String status() 

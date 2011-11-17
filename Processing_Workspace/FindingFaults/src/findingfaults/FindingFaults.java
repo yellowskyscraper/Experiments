@@ -78,7 +78,7 @@ public class FindingFaults extends PApplet
 		cristalVelocities.setup(map, wid, hei);
 	}
 	
-	public void checkSceneStatus()
+	public void update()
 	{
 		String stat = "null";
 		
@@ -86,17 +86,39 @@ public class FindingFaults extends PApplet
 			stat = intertitleFindingFaults.status();
 			if(stat.equals("OFF")) intertitleFindingFaults.start();
 			if(stat.equals("DONE")) {
-				SCENE = "EARTHQUAKE ANIMATION";
 				intertitleFindingFaults.off();
+				SCENE = "EARTHQUAKE ANIMATION";
 			}
 
 		} else if(SCENE.equals("EARTHQUAKE ANIMATION")) {
 			stat = earthquakeTimeline.status();
 			if(stat.equals("OFF")) earthquakeTimeline.start();
+			if(stat.equals("DIM")) faultComplexAni.showSecondaryFaults();
+			if(stat.equals("DONE")) {
+				earthquakeTimeline.off();
+				SCENE = "FAULT LINES";
+			}
+			
+		} else if(SCENE.equals("FAULT LINES")) {
+			stat = faultComplexAni.status();
+			if(stat.equals("OFF")) faultComplexAni.showMainFaults();
 			if(stat.equals("DONE")) {
 				SCENE = "CRUSTAL VELOCITIES";
-				//earthquakeTimeline.off();
-				//faultComplexAni.start();
+			}
+			
+		} else if(SCENE.equals("CRUSTAL VELOCITIES")) {
+			stat = cristalVelocities.status();
+			if(stat.equals("OFF")) cristalVelocities.open();
+			
+			if(stat.equals("ANIMATING OUT")) {
+				faultComplexAni.close();
+				cristalVelocities.close();
+			}
+			
+			if(stat.equals("DONE")) {
+				faultComplexAni.off();
+				cristalVelocities.off();
+				SCENE = "INTERTITLE";
 			}
 		}
 		
@@ -109,11 +131,8 @@ public class FindingFaults extends PApplet
 		background(0);
 		this.renderMap();
 
-		//| GIF Animation
-		faultComplexAni.draw(map);	
-
 		//| Sequence
-		this.checkSceneStatus();
+		this.update();
 		
 		if(SCENE.equals("INTERTITLE")) {
 			intertitleFindingFaults.update();
@@ -123,12 +142,22 @@ public class FindingFaults extends PApplet
 		if(SCENE.equals("EARTHQUAKE ANIMATION")) {
 			earthquakeTimeline.update();
 			earthquakeTimeline.draw(map);
+			
+			faultComplexAni.update();
+			faultComplexAni.draw(map);
+		}
+
+		if(SCENE.equals("FAULT LINES")) {
+			faultComplexAni.update();
+			faultComplexAni.draw(map);
 		}
 
 		if(SCENE.equals("CRUSTAL VELOCITIES")) {
-			//earthquakeTimeline.update();
-			//earthquakeTimeline.draw(map);
+			cristalVelocities.update();
 			cristalVelocities.draw(map);
+
+			faultComplexAni.update();
+			faultComplexAni.draw(map);
 		}
 	}
 		

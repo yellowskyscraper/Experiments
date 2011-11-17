@@ -16,13 +16,14 @@ public class EqTimelineLabel {
 	PFont titleText;
 	PFont secondaryTitleText;
 	PFont secondaryText;
+	PFont yearText;
 
 	Tween tweenBackgroundIN;
 	Tween tweenForegroundIN;
 	Tween tweenBackgroundOUT;
 	Tween tweenForegroundOUT;
 	Tween tweenQuakesDIM;
-	int animating = 3;
+	int animating = 0;
 	float alphaBackground = 0;
 	float alphaForeground = 0;
 	float alphaForegroundTicker = 0;
@@ -55,30 +56,30 @@ public class EqTimelineLabel {
 		Motion.setup(parent);
 		tweenBackgroundIN = new Tween(0f, 255f, 20f);
 		tweenForegroundIN = new Tween(0f, 255f, 10f, 10f);
+		tweenQuakesDIM = new Tween(255f, 0f, 10f);
 		tweenBackgroundOUT = new Tween(255f, 0f, 10f, 5f);
 		tweenForegroundOUT = new Tween(255f, 0f, 10f);
-		tweenQuakesDIM = new Tween(255f, 0f, 10f);
 
 		titleText = parent.createFont("data/fonts/ExploSlab/ExploSlab-Medi.otf", 16);
 		secondaryTitleText = parent.createFont("data/fonts/Explo/Explo-Medi.otf", 12);
 		secondaryText = parent.createFont("data/fonts/Explo/Explo-Medi.otf", 12);
+		yearText = parent.createFont("data/fonts/Explo/Explo-Medi.otf", 9);
 	}
 	
 	public void update(int y, String m, int d, float c)
 	{	
 		switch(animating){
-			case 2:
-			float j = tweenQuakesDIM.getPosition();
-			alphaForegroundTicker = j;
-			break;
-		
 			case 1:
 			alphaBackground = tweenBackgroundIN.getPosition();
 			alphaForeground = tweenForegroundIN.getPosition();
 			alphaForegroundTicker = tweenForegroundIN.getPosition();;
 			break;
+
+			case 2:
+			alphaForegroundTicker = tweenQuakesDIM.getPosition();
+			break;
 			
-			case 0:
+			case 3:
 			alphaBackground = tweenBackgroundOUT.getPosition();
 			alphaForeground = tweenForegroundOUT.getPosition();
 			alphaForegroundTicker = tweenForegroundOUT.getPosition();
@@ -99,7 +100,7 @@ public class EqTimelineLabel {
 	
 	public void close()
 	{
-		animating = 0;
+		animating = 3;
 		tweenBackgroundOUT.play();
 		tweenForegroundOUT.play();
 	}
@@ -115,30 +116,25 @@ public class EqTimelineLabel {
 		return (alphaForeground == 0) ? true : false;
 	}
 	
-	public void done1()
+	public void timelineFinished()
 	{
 		animating = 2;
 		tweenQuakesDIM.play();
 	}
 	
-	public void done()
-	{
-		animating = 0;
-		tweenBackgroundOUT.play();
-		tweenForegroundOUT.play();
-	}
-	
 	public void draw(Map m)
 	{	
 		float[] tl = m.getScreenPositionFromLocation(new Location(38.339f, -122.796f));
+		int xpos = Math.round(tl[0]);
+		int ypos = Math.round(tl[0]);
 		
 		//| Backing
 		parent.pushMatrix();
-		parent.translate(tl[0], tl[1]);
+		parent.translate(xpos, ypos);
 		
 		//| Box Location
 		parent.pushMatrix();
-		parent.translate(20, 891);
+		parent.translate(20, 889);
 		
 		//| Label
 		int boxW = 306;
@@ -150,7 +146,7 @@ public class EqTimelineLabel {
 		parent.strokeWeight(1);
 		parent.noFill();
 		parent.stroke(154,194,185, alphaForeground);
-		parent.rect(5, 5, boxW - 10, boxH - 10);
+		parent.rect(5, 5, boxW - 11, boxH - 11);
 			
 		//| Title
 		parent.textAlign(PConstants.LEFT);
@@ -188,7 +184,7 @@ public class EqTimelineLabel {
 		parent.translate(25, 97);
 		
 		//| Draw Time Line
-		//| 253 / 776 = increment percentage.
+		//| 253 / 776 = increment percentage
 		int width = 255;  
 		float start = 1.0f; 
 		parent.noSmooth();
@@ -208,17 +204,22 @@ public class EqTimelineLabel {
 		float tick = PApplet.round(markerTick);
 		
 		parent.smooth();
-//		parent.fill(158, 194, 175, alphaForeground);
-//		parent.rect(0, 15, width, 1); //| Base Line
 		
 		parent.fill(0, 103, 73, alphaForegroundTicker);
 		parent.rect(tick, -7, 2, 22);
-		parent.rect(tick, -7, 4, 1);
+		if(tick < 194) parent.rect(tick, -7, 4, 1);
+		else parent.rect(tick, -7, -2, 1);
 
 		parent.fill(0, alphaForeground);
 		parent.rect(0, 0, 1, 15); //| Left Brace
 		parent.rect(width, 0, 1, 15); //| Right Brace
 
+		parent.fill(0, alphaForeground);
+		parent.textFont(yearText, 9);
+		parent.textAlign(PConstants.RIGHT);
+		parent.text("2010",  width + 1, 26);
+		parent.textAlign(PConstants.LEFT);
+		parent.text("1973",  0, 26);
 		parent.popMatrix();
 	}
 	

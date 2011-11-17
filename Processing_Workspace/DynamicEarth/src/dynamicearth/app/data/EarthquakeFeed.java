@@ -19,13 +19,16 @@ public class EarthquakeFeed
 	
 	//| Graphics
 	EqFeedLabel label;
-	String[] lastQuake = new String[2];
-	int countQuake;
+	String[][] lastQuake = new String[5][4];
+	int totalBayAreaQuakes = 0;
+	int totalWorldwideQuakes = 0;
 	
 	//| Sequencing
 	String STATUS = "OFF";
 	boolean animating = false;
 	int timekeeper = 0;
+	int recentQuaketicker = 0;
+	int recentQuakecount = 0;
 	
 	Tween tweenUP;
 	Tween tweenOUT;
@@ -49,38 +52,52 @@ public class EarthquakeFeed
 	
 	public void checkUSGS(Map m, float w, float h)
 	{
-		balls = new ArrayList<Ball>();
+		//| Worldwide 7 Day Quakes
 		xml = new XMLElement(parent, "http://earthquake.usgs.gov/earthquakes/catalogs/eqs7day-M2.5.xml");
-//		xml = new XMLElement(parent, "data/php/eqs1day-M0.xml");
-		
 		int tracker = 0;
-		countQuake = 0;
 		for(int i = 0; i < xml.getChild(0).getChildCount(); i ++)
 		{
 			if(xml.getChild(0).getChild(i).getName().equals("item")){
-				countQuake += 1;
+				totalWorldwideQuakes += 1;
 				
 				String name = xml.getChild(0).getChild(i).getChild(1).getContent();
 				String description = xml.getChild(0).getChild(i).getChild(2).getContent();
 				float lat = new Float(xml.getChild(0).getChild(i).getChild(4).getContent());
 			    float lon = new Float(xml.getChild(0).getChild(i).getChild(5).getContent());
 				
-			    if(tracker == 0){
-			    	tracker = 1;
-			    	lastQuake[0] = name;
-			    	lastQuake[1] = description;
+			    if(tracker < 5){
+			    	lastQuake[tracker][0] = name;
+			    	lastQuake[tracker][1] = description;
+			    	lastQuake[tracker][2] = ""+lat;
+			    	lastQuake[tracker][3] = ""+lon;
+			    	tracker += 1;
 			    }
-			    
+			}
+		}
+		
+		//| Bay Area 30 Day Quakes
+		balls = new ArrayList<Ball>();
+		xml = new XMLElement(parent, "http://earthquake.usgs.gov/earthquakes/shakemap/rss.xml");
+		for(int i = 0; i < xml.getChild(0).getChildCount(); i ++)
+		{
+			if(xml.getChild(0).getChild(i).getName().equals("item")){
+				
+				String name = xml.getChild(0).getChild(i).getChild(0).getContent();
+				String description = xml.getChild(0).getChild(i).getChild(3).getContent();;
+				float lat = new Float(xml.getChild(0).getChild(i).getChild(4).getContent());
+			    float lon = new Float(xml.getChild(0).getChild(i).getChild(5).getContent());
+
 				Location coord = new Location(lat,lon);
 				float[] p = m.getScreenPositionFromLocation(coord);
-				
-				if(p[0] > 0 && p[0] < w && p[1] > 0 && p[1] < h) {
+
+				if(p[0] > 0 && p[0] < w && p[1] > 0 && p[1] < h) {	
+					totalBayAreaQuakes += 1;
 					Ball b = new Ball(parent);
 					b.setup(name, description, lat, lon);
 					balls.add(b);
 				}
 			}
-		}	
+		}
 	}
 
 	public void start()
@@ -104,6 +121,12 @@ public class EarthquakeFeed
 			
 		} else if(STATUS.equals("ON")) {
 			timekeeper += 1;
+			recentQuaketicker += 1;
+			if(recentQuaketicker > 83){
+				recentQuaketicker = 0;
+				recentQuakecount += 1;
+				if(recentQuakecount > lastQuake.length-1) recentQuakecount = 0;
+			}
 			if(timekeeper > 500) {
 				STATUS = "ANIMATING OUT";
 				label.close();
@@ -118,7 +141,12 @@ public class EarthquakeFeed
 			if(label.closed()) STATUS = "DONE";
 		}
 		
-		label.update(lastQuake, countQuake);
+		String[] lq = new String[4];
+		lq[0] = lastQuake[recentQuakecount][0];
+		lq[1] = lastQuake[recentQuakecount][1];
+		lq[2] = lastQuake[recentQuakecount][2];
+		lq[3] = lastQuake[recentQuakecount][3];
+		label.update(lq, totalWorldwideQuakes, totalBayAreaQuakes);
 	}
 	
 	public void draw(Map m) 	
@@ -137,6 +165,8 @@ public class EarthquakeFeed
 	public void off() 
 	{
 		STATUS = "OFF";
+		recentQuaketicker = 0;
+		recentQuakecount = 0;
 	}
 
 	public String status() 

@@ -3,15 +3,24 @@ package findingfaults.app.data;
 import java.util.ArrayList;
 import processing.core.PApplet;
 import findingfaults.app.graphics.Vector;
+import findingfaults.app.labels.CrustalDeformationLabel;
+import findingfaults.app.util.BasicUtils;
 import de.fhpotsdam.unfolding.Map;
+import de.fhpotsdam.unfolding.geo.Location;
 
 public class CrustalDeformationVectors {
 
 	PApplet parent;
 	int wid = 1400;
 	int hei = 1050;
+
+	//| Graphics
+	CrustalDeformationLabel label;
+
+	int animating = 0;
+	int timekeeper = 0;
+	String STATUS = "OFF";
 	
-//	Gif animation;
 	ArrayList<Vector> vectors;
 	  
 	public CrustalDeformationVectors(PApplet p)
@@ -37,21 +46,71 @@ public class CrustalDeformationVectors {
 				float vE = Float.valueOf(vector[3].trim()).floatValue();	
 				String name = vector[7];
 				
-				Vector v = new Vector(parent);
-				v.setup(name, lat, lon, vN, vE);
-				vectors.add(v);
+				Location coord = new Location(lat,lon);
+				float[] p = m.getScreenPositionFromLocation(coord);
+				float[] position = BasicUtils.scaleCoordinates(1050, 1050, p[0], p[1]);
+				
+				if(position[0] > 0 && position[0] < 1050 && position[1] > 0 && position[1] < h) {
+					Vector v = new Vector(parent);
+					v.setup(name, lat, lon, vN, vE);
+					vectors.add(v);
+				}
+				
 			}
 		}
+
+		//| Faults Label
+		label = new CrustalDeformationLabel(parent);
+		label.setup(); 
 	}
 	
-	public void drawAni()
+	public void open()
 	{
+		STATUS = "ON";
+		animating = 1;
+		label.open();
+	}
+	
+	public void close()
+	{
+		if(animating == 1){
+			timekeeper = 0;
+			label.close();
+		}
+		animating = 2;
+	}
+	
+	public void update()
+	{
+		switch(animating){
+			case 1:
+			timekeeper += 1;
+			if(timekeeper > 100) {
+				STATUS = "ANIMATING OUT";
+			}
+			break;
 		
+			case 2:
+			timekeeper += 1;
+			if(timekeeper > 30) STATUS = "DONE";
+			break;
+	
+			case 3:
+			break;
+		}
+		
+		label.update();
 	}
 	
 	public void draw(Map m)
+	{	
+		if(STATUS.equals("ON")) this.drawVecotors(m);
+		label.draw(m);	
+	}
+	
+	public void drawVecotors(Map m)
 	{
-		//| Iterate Quakes & Draw
+		//| Iterate Velocities
 		for (int i = vectors.size()-1; i >= 0; i--) 
 		{ 
 			Vector vector = (Vector) vectors.get(i);
@@ -61,4 +120,15 @@ public class CrustalDeformationVectors {
 		} 
 	}
 	
+	public void off() 
+	{
+		STATUS = "OFF";
+		animating = 0;
+		timekeeper = 0;
+	}
+
+	public String status() 
+	{
+		return STATUS;
+	}
 }

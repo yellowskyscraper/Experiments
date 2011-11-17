@@ -36,6 +36,7 @@ public class DynamicEarth extends PApplet
 		wid = screenWidth;
 		hei = screenHeight;
 		background(0);
+//		size(1400, 1050);
 		size(wid, hei);
 
 		//| Model Boundaries & Image
@@ -63,7 +64,7 @@ public class DynamicEarth extends PApplet
 		earthquakeFeed.setup(map, wid, hei);
 	}
 	
-	public void checkSceneStatus()
+	public void update()
 	{
 		String stat = "null";
 		
@@ -84,7 +85,7 @@ public class DynamicEarth extends PApplet
 			}
 		}
 		
-		PApplet.println(SCENE + " " + stat);
+		//PApplet.println(SCENE + " " + stat);
 	}
 
 	public void draw() 
@@ -94,7 +95,7 @@ public class DynamicEarth extends PApplet
 		this.renderMap();
 		
 		//| Sequence
-		this.checkSceneStatus();
+		this.update();
 		
 		if(SCENE.equals("INTERTITLE")) {
 			intertitleDynamicEarth.update();

@@ -10,7 +10,7 @@ public class Vector
 {
 	PApplet parent;
 	int wid = 1400;
-	int hei = 1050;	
+	int hei = 1050;
 	
 	Location station;
 	float vN, vE;
@@ -99,13 +99,13 @@ public class Vector
 		parent.stroke(241, 100, 93, alpha);
 		parent.strokeWeight(5);
 		parent.line(position[0], position[1], x2, y2);
-		
+		/*
 		parent.fill(241, 100, 93);
 		parent.stroke(241, 100, 93);
 		parent.strokeWeight(3);
 		parent.ellipseMode(PConstants.CENTER);
 		parent.ellipse(position[0], position[1], 5, 5);
-		
+		*/
 		parent.strokeWeight(0);
 		parent.noStroke();
 	}
