@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/2/trunk/test/lib
+END
+jboss-common.jar
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/test/lib/jboss-common.jar
+END
+mysql-connector-java-3.0.11-stable-bin.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2/trunk/test/lib/mysql-connector-java-3.0.11-stable-bin.jar
+END
+jcommon-0.9.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/test/lib/jcommon-0.9.6.jar
+END
+jdbc2_0-stdext.jar
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/test/lib/jdbc2_0-stdext.jar
+END
+jboss-jmx.jar
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/test/lib/jboss-jmx.jar
+END
+oscache-2.0.2-22Jan04.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2/trunk/test/lib/oscache-2.0.2-22Jan04.jar
+END
+jboss-cache.jar
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/test/lib/jboss-cache.jar
+END
+ehcache-0.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/test/lib/ehcache-0.8.jar
+END
+commons-lang-2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/test/lib/commons-lang-2.0.jar
+END
+jcs-1.1-dev.jar
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/test/lib/jcs-1.1-dev.jar
+END
+jgroups.jar
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/test/lib/jgroups.jar
+END
+jboss-aop.jar
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/test/lib/jboss-aop.jar
+END
+jboss-system.jar
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/test/lib/jboss-system.jar
+END
+jfreechart-0.9.21.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/test/lib/jfreechart-0.9.21.jar
+END
+jboss-j2ee.jar
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/test/lib/jboss-j2ee.jar
+END

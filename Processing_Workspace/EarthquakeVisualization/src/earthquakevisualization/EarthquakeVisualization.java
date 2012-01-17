@@ -118,7 +118,8 @@ public class EarthquakeVisualization extends PApplet
 		
 		//| Model Bounds
 		//this.markers();
-		this.copy("I Have Tried In My Way To Be Free", "I live in another world, but you live in it too.");
+		String quote = "I am a frayed and nibbled survivor in a fallen world, and I am getting along. I am aging and eaten and have done my share of eating too. I am not washed and beautiful, in control of a shining world in which everything fits, but instead am wondering awed about on a splintered wreck I've come to care for, whose gnawed trees breathe a delicate air, whose bloodied and scarred creatures are my dearest companions, and whose beauty bats and shines not in its imperfections but overwhelmingly in spite of them...";
+		this.copy("I Have Tried In My Way To Be Free", quote);
 	}
 	
 	public void timeline()
@@ -283,7 +284,7 @@ public class EarthquakeVisualization extends PApplet
 		textFont(displayText, 40);
 		text(t, tl[0] + 30, tl[1] + 70);
 		textFont(displaySubText, 20);
-		text(s, tl[0] + 30, tl[1] + 105);
+		text(s, tl[0] + 30, tl[1] + 105, 600, 500);
 	}
 	
 	public void markers()

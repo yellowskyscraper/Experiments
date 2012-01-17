@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/14/trunk/src/java/com/whirlycott/cache/policy
+END
+CountComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/8/trunk/src/java/com/whirlycott/cache/policy/CountComparator.java
+END
+ExpirationTimePredicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/8/trunk/src/java/com/whirlycott/cache/policy/ExpirationTimePredicate.java
+END
+LRUMaintenancePolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/14/trunk/src/java/com/whirlycott/cache/policy/LRUMaintenancePolicy.java
+END
+FIFOMaintenancePolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/14/trunk/src/java/com/whirlycott/cache/policy/FIFOMaintenancePolicy.java
+END
+UsedComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/8/trunk/src/java/com/whirlycott/cache/policy/UsedComparator.java
+END
+AddedComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/8/trunk/src/java/com/whirlycott/cache/policy/AddedComparator.java
+END
+LFUMaintenancePolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/14/trunk/src/java/com/whirlycott/cache/policy/LFUMaintenancePolicy.java
+END
+NullPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/14/trunk/src/java/com/whirlycott/cache/policy/NullPolicy.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2/trunk/src/java/com/whirlycott/cache/policy/package.html
+END

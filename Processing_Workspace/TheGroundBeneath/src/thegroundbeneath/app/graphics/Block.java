@@ -1,7 +1,6 @@
 package thegroundbeneath.app.graphics;
 
 import processing.core.PApplet;
-import processing.core.PGraphics;
 import thegroundbeneath.app.util.BasicUtils;
 import de.fhpotsdam.unfolding.geo.Location;
 
@@ -40,7 +39,10 @@ public class Block
 		else if(population > 100 && population < 120) scale = 7;
 		else if(population > 120 && population < 140) scale = 8;
 		else if(population > 140 && population < 160) scale = 9;
-		else if(population > 160) scale = 10;
+		else if(population > 160 && population < 180) scale = 10;
+		else if(population > 180 && population < 200) scale = 11;
+		else if(population > 200 && population < 220) scale = 12;
+		else if(population > 220 && population < 240) scale = 13;
 		
 		block = new Location(la,lo);
 	}
@@ -68,22 +70,10 @@ public class Block
 		ypos = y;
 	}
 	
-	public void draw(PGraphics b) 	
-	{
-		//| Larger Scale to Bay Model Screen Resolution
-		float[] position = BasicUtils.scaleCoordinates(wid, hei, xpos, ypos);
-
-		b.fill(84,188,235, 255);
-		b.ellipse(position[0], position[1], 2, 2);
-		b.fill(4,188,235, 100);
-		b.ellipse(position[0], position[1], scale, scale);
-	}
-	
 	public void draw() 	
 	{
 		//| Larger Scale to Bay Model Screen Resolution
 		float[] position = BasicUtils.scaleCoordinates(wid, hei, xpos, ypos);
-
 		parent.fill(84,188,235, 255);
 		parent.ellipse(position[0], position[1], 2, 2);
 		parent.fill(4,188,235, 100);

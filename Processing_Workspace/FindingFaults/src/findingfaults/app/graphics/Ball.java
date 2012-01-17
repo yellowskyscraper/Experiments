@@ -62,12 +62,12 @@ public class Ball
 		//| Animation Setup
 		float shockwave = mag;
 		Motion.setup(parent);
-		tweenBackgroundIN = new Tween(255f, 50f, shockwave);
-		tweenForegroundIN = new Tween(255f, 200f, shockwave);
-		tweenStrokeShockWaveIN = new Tween(0f, shockwave, shockwave);
-		tweenAlphaShockWaveIN = new Tween(255f, 0, shockwave);
+		tweenBackgroundIN = new Tween(255f, 50f, shockwave/2);
+		tweenForegroundIN = new Tween(255f, 200f, shockwave/2);
+		tweenStrokeShockWaveIN = new Tween(0f, shockwave, shockwave/2);
+		tweenAlphaShockWaveIN = new Tween(255f, 0, shockwave/2);
 		
-		tweenBackgroundDIM = new Tween(50f, 255f, 10f, 5f);
+		tweenBackgroundDIM = new Tween(50f, 200f, 10f, 5f);
 		tweenForegroundDIM = new Tween(140f, 255f, 5f);
 		
 		tweenBackgroundOUT = new Tween(255f, 0f, 5f);
@@ -205,32 +205,19 @@ public class Ball
 		parent.smooth();
 		parent.noStroke();
 		parent.fill(255, 255, 255, alphaBackground);
-		parent.ellipse(position[0], position[1], scaleEarthquake + 4, scaleEarthquake + 4);
+		parent.ellipse(position[0], position[1], scaleEarthquake, scaleEarthquake);
 		
 		//| Foreground Stroke
 		parent.noFill();
 		parent.strokeWeight(1);
-		parent.stroke(154, 194, 185, alphaForeground);
+//		parent.stroke(154, 194, 185, alphaForeground);
+		parent.stroke(255, 255, 255, alphaForeground);
 		parent.ellipse(position[0], position[1], scaleEarthquake, scaleEarthquake);
 		
 		//| Shockwave Stroke
 		parent.stroke(255, 255, 255, alphaShockWave);
 		parent.strokeWeight(strokeShockWave);
-		parent.ellipse(position[0], position[1], scaleEarthquake +  strokeShockWave + 2, scaleEarthquake +  strokeShockWave + 2);
-	}
-	
-	public void kill()
-	{
-		/*
-		tweenBackgroundIN.stop();
-		tweenForegroundIN.stop();
-		tweenStrokeShockWaveIN.stop();
-		tweenAlphaShockWaveIN.stop();
-		tweenBackgroundDIM.stop();
-		tweenForegroundDIM.stop();
-		tweenBackgroundOUT.stop();
-		tweenForegroundOUT.stop();
-		*/
+		parent.ellipse(position[0], position[1], scaleEarthquake +  strokeShockWave, scaleEarthquake +  strokeShockWave);
 	}
 	
 }

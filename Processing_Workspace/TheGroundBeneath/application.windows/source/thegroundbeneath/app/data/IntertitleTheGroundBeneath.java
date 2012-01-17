@@ -12,6 +12,7 @@ public class IntertitleTheGroundBeneath
 	PApplet parent;
 	int wid = 1400;
 	int hei = 1050;
+	boolean MODEL = false;
 	Location coordTL;
 	
 	//| Main Controle
@@ -65,13 +66,6 @@ public class IntertitleTheGroundBeneath
 		tweenBackgroundIN.play();
 		tweenForegroundIN.play();
 	}
-
-	public void off() 
-	{
-		STATUS = "OFF";
-		tweenBackgroundOUT.stop();
-		tweenForegroundOUT.stop();
-	}
 	
 	public void update()
 	{
@@ -97,7 +91,8 @@ public class IntertitleTheGroundBeneath
 			
 		} else if(STATUS.equals("ON")) {
 			timekeeper += 1;
-			if(timekeeper > 120) {
+			if(timekeeper > 600) {
+//			if(timekeeper > 50) {
 				STATUS = "ANIMATING OUT";
 				tweenBackgroundOUT.play();
 				tweenForegroundOUT.play();
@@ -113,10 +108,12 @@ public class IntertitleTheGroundBeneath
 	public void draw(Map m)
 	{	
 		float[] tl = m.getScreenPositionFromLocation(coordTL);
+		int xpos = Math.round(tl[0]);
+		int ypos = Math.round(tl[0]);
 		int buffer = 25;
 		
-		float topLeftX = tl[0] + buffer; 
-		float topLeftY = tl[1] + buffer; 
+		float topLeftX = xpos + buffer; 
+		float topLeftY = ypos + buffer; 
 		float bottomLeftX = 1051 - buffer*2; 
 		float bottomLeftY = 1051 - buffer*2; 
 		
@@ -131,11 +128,11 @@ public class IntertitleTheGroundBeneath
 		
 		parent.fill(0, alphaBackground);
 		parent.noStroke();
-		parent.rect(tl[0], tl[1], wid, hei);
+		parent.rect(xpos, ypos, wid, hei);
 		parent.stroke(255, alphaForeground);
 		parent.noFill();
 		parent.strokeWeight(1);
-		//parent.rect(topLeftX, topLeftY, bottomLeftX, bottomLeftY);
+
 		parent.line(flairTLX, topLeftY, flairTRX + 5, topLeftY);
 		parent.line(flairTRX + 10, flairTRY, flairTRX + 10, flairBRY + 5);
 		parent.line(flairBLX, bottomLeftY + 25, flairBRX + 5, bottomLeftY + 25);
@@ -154,15 +151,18 @@ public class IntertitleTheGroundBeneath
 		parent.rect(flairBRX, flairBRY, 5, 5);
 		parent.rect(flairBLX, flairBLY, 5, 5);
 		
-		String title = "The Ground Beneath";
+		String title = "Earthquake Hazards";
 		String quote =  "Civilization exists by geological consent, subject to change without notice. \n-Will Durant";
-
 		float quoteWid = 650;
 		
-		float mainTitleX = tl[0];
-		float mainTitleY = 1050/2;
-		float mainQuoteX = 1050/2 - quoteWid/2;
-		float mainQuoteY = 1050/2 + 120;
+		float mainTitleX = xpos;
+		float mainTitleY = 1050/3;
+		float mainQuoteX = 210;
+		float mainQuoteY = 1050/3 + 110;
+
+		if(MODEL) parent.pushMatrix();
+		if(MODEL) parent.translate(0, 1050);
+		if(MODEL) parent.rotate(PApplet.radians(-90));
 		
 		parent.fill(255, alphaForeground);
 		parent.textAlign(PApplet.CENTER);
@@ -173,6 +173,25 @@ public class IntertitleTheGroundBeneath
 		parent.textLeading(15);
 		parent.textFont(displaySubText, 20);
 		parent.text(quote, mainQuoteX, mainQuoteY, quoteWid, 1000);
+
+		if(MODEL) parent.rotate(PApplet.radians(0));
+		if(MODEL) parent.popMatrix();
+	}
+	
+	public void kill()
+	{
+		STATUS = "OFF";	
+		alphaBackground = 0;
+		alphaForeground = 0;
+		tweenBackgroundOUT.stop();
+		tweenForegroundOUT.stop();
+	}
+
+	public void off() 
+	{
+		STATUS = "OFF";
+		tweenBackgroundOUT.stop();
+		tweenForegroundOUT.stop();
 	}
 	
 	public String status() 

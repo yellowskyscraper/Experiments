@@ -39,7 +39,7 @@
     <key>Java</key>
     <dict>
       <key>VMOptions</key>
-      <string> -Xms64m -Xmx384m</string>
+      <string>-Xmx1024m -XX:MaxPermSize=128m</string>
       <key>MainClass</key>
       <string>thegroundbeneath.TheGroundBeneath</string>
       <key>JVMVersion</key>

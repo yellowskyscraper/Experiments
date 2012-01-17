@@ -50,8 +50,8 @@ public class PopulationVisualization extends PApplet
 		
 		//| XML
 		parsed = false;
-		//xml = new XMLElement(this, "http://localhost/Experiments/Processing_Workspace/PopulationVisualization/src/data/php/blocks_bay.php"); 
-		xml = new XMLElement(this, "http://localhost/Experiments/Processing_Workspace/PopulationVisualization/src/data/php/occupancy_bay_50mi.xml"); 
+		//xml = new XMLElement(this, "http://localhost/Experiments/Processing_Workspace/PopulationVisualization/src/data/php/occupancy2010.php");
+		xml = new XMLElement(this, "http://localhost/Experiments/Processing_Workspace/PopulationVisualization/src/data/php/occupancy_bay_all.xml");
 		
 		//| Copy
 		displayText = createFont("data/fonts/Explo/Explo-Ultra.otf", 50);
@@ -77,29 +77,33 @@ public class PopulationVisualization extends PApplet
 	public void totalPopulation()
 	{
 		for(int i=0; i<xml.getChildCount()-1; i++){
-			int total = xml.getChild(i).getInt("total");
+			int population = xml.getChild(i).getInt("total");
 			float lat = Float.valueOf(xml.getChild(i).getFloat("lat"));
 			float lon = Float.valueOf(xml.getChild(i).getFloat("lon"));
 
 			Location coord = new Location(lat,lon);
-			float[] p = map.getScreenPositionFromLocation(coord);
+			float[] position = map.getScreenPositionFromLocation(coord);
 			
 			int scale = 2;
-			if(total > 20 && total < 40) scale = 3;
-			else if(total > 40 && total < 60) scale = 4;
-			else if(total > 60 && total < 80) scale = 5;
-			else if(total > 80 && total < 100) scale = 6;
-			else if(total > 100 && total < 120) scale = 7;
-			else if(total > 120 && total < 140) scale = 8;
-			else if(total > 140 && total < 160) scale = 9;
-			else if(total > 160) scale = 10;
+			if(population > 20 && population < 40) scale = 3;
+			else if(population > 40 && population < 60) scale = 4;
+			else if(population > 60 && population < 80) scale = 5;
+			else if(population > 80 && population < 100) scale = 6;
+			else if(population > 100 && population < 120) scale = 7;
+			else if(population > 120 && population < 140) scale = 8;
+			else if(population > 140 && population < 160) scale = 9;
+			else if(population > 160 && population < 180) scale = 10;
+			else if(population > 180 && population < 200) scale = 11;
+			else if(population > 200 && population < 220) scale = 12;
+			else if(population > 220 && population < 240) scale = 13;
 			
-			scale = 5;
 			smooth();
 			noStroke();
 			//stroke(255);
-			fill(255,255,255, 20);
-			ellipse(p[0], p[1], scale, scale);
+			fill(84,188,235, 100);
+			ellipse(position[0], position[1], 2, 2);
+			fill(4,188,235, 100);
+			ellipse(position[0], position[1], scale, scale);
 		}
 	}
 	

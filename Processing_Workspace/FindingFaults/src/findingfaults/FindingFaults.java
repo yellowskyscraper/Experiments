@@ -1,8 +1,8 @@
 package findingfaults;
 
 import processing.core.PApplet;
-import processing.core.PFont;
 import processing.core.PImage;
+import processing.core.PMatrix2D;
 
 import de.fhpotsdam.unfolding.Map;
 import de.fhpotsdam.unfolding.geo.Location;
@@ -20,7 +20,7 @@ public class FindingFaults extends PApplet
 	Map map;
 	Location sanFrancisco;
 	int wid = 1400;
-	int hei = 1050;
+	int hei = 1051;
 
 	//| Marker Points & Text
 	PImage baymodel;
@@ -38,12 +38,13 @@ public class FindingFaults extends PApplet
 	
 	public void setup() 
 	{
-		wid = screenWidth;
-		hei = screenHeight;
-		
+		//| Size
 		background(0);
-		frameRate(100);
-		size(wid, hei);
+		size(1400, 1051);
+		
+//		wid = screenWidth;
+//		hei = screenHeight;
+//		size(wid, hei);
 
 		//| Model Boundaries & Image
 		baymodel = loadImage("data/images/bay.jpg");
@@ -140,11 +141,11 @@ public class FindingFaults extends PApplet
 		}
 		
 		if(SCENE.equals("EARTHQUAKE ANIMATION")) {
-			earthquakeTimeline.update();
-			earthquakeTimeline.draw(map);
-			
 			faultComplexAni.update();
 			faultComplexAni.draw(map);
+			
+			earthquakeTimeline.update();
+			earthquakeTimeline.draw(map);
 		}
 
 		if(SCENE.equals("FAULT LINES")) {
@@ -153,12 +154,14 @@ public class FindingFaults extends PApplet
 		}
 
 		if(SCENE.equals("CRUSTAL VELOCITIES")) {
-			cristalVelocities.update();
-			cristalVelocities.draw(map);
-
 			faultComplexAni.update();
 			faultComplexAni.draw(map);
+			
+			cristalVelocities.update();
+			cristalVelocities.draw(map);
 		}
+		
+		this.renderBoarder();
 	}
 		
 	public void renderMap()
@@ -179,9 +182,45 @@ public class FindingFaults extends PApplet
 		image(baymodel, newX, newY, newW, newH); //| Zoom 10 Scale
 		image(baymodel, newX, newY, 1051, 1051); //| Bay Model Full Scale
 	}
+
+	public void renderBoarder()
+	{
+		noFill();
+		stroke(255);
+		strokeWeight(1);
+		rect(0,0, 1050, 1050);
+	}
 	
 	public static void main(String _args[]) 
 	{
-		PApplet.main(new String[] { "--present", "--bgcolor=#111111", "--hide-stop", FindingFaults.class.getName() });
+		PApplet.main(new String[] { "--location=0,0", "--present", "--bgcolor=#000000", "--hide-stop", FindingFaults.class.getName() });
+	}
+	
+	//| adjust this value to whatever depth is actually necessary
+	public final int STACK_DEPTH = 5000;
+	public float[][] matrixStack = new float[STACK_DEPTH][6];
+	public int matrixStackDepth;
+	 
+	//| this version will override the built-in version pushMatrix function
+	public void pushMatrix() 
+	{
+		if (matrixStackDepth == 5000) {
+			throw new RuntimeException("too many calls to pushMatrix()");
+		}
+		this.getMatrix().get(matrixStack[matrixStackDepth]);
+		matrixStackDepth++;
+	}
+	 
+	//| this version will override the built-in version popMatrix function
+	public void popMatrix() 
+	{
+		if (matrixStackDepth == 0) {
+			throw new RuntimeException("too many calls to popMatrix()" +
+                           "(or too few to pushMatrix)");
+		}
+		matrixStackDepth--;
+		PMatrix2D m = new PMatrix2D();
+		m.set(matrixStack[matrixStackDepth]);
+		this.setMatrix(m);
 	}
 }

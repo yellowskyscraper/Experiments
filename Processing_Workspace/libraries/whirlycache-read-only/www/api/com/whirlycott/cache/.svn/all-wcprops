@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/www/api/com/whirlycott/cache
+END
+Constants.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2/trunk/www/api/com/whirlycott/cache/Constants.html
+END
+ManagedCache.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/www/api/com/whirlycott/cache/ManagedCache.html
+END
+CacheException.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/www/api/com/whirlycott/cache/CacheException.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/trunk/www/api/com/whirlycott/cache/package-frame.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2/trunk/www/api/com/whirlycott/cache/package-summary.html
+END
+CacheMaintenancePolicy.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2/trunk/www/api/com/whirlycott/cache/CacheMaintenancePolicy.html
+END
+Cacheable.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2/trunk/www/api/com/whirlycott/cache/Cacheable.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/www/api/com/whirlycott/cache/package-tree.html
+END
+CacheConfiguration.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2/trunk/www/api/com/whirlycott/cache/CacheConfiguration.html
+END
+Item.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/trunk/www/api/com/whirlycott/cache/Item.html
+END
+CacheManager.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/www/api/com/whirlycott/cache/CacheManager.html
+END
+Cache.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/www/api/com/whirlycott/cache/Cache.html
+END
+CacheDecorator.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/www/api/com/whirlycott/cache/CacheDecorator.html
+END
+Messages.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/2/trunk/www/api/com/whirlycott/cache/Messages.html
+END
+RecordKeeper.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/www/api/com/whirlycott/cache/RecordKeeper.html
+END

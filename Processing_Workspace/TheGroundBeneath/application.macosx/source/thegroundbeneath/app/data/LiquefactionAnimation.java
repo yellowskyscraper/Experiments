@@ -4,9 +4,6 @@ import processing.core.PApplet;
 import processing.core.PImage;
 
 import thegroundbeneath.app.labels.LiquefactionLabel;
-import thegroundbeneath.app.util.ImageLoader;
-import thegroundbeneath.app.util.QueueListener;
-import thegroundbeneath.app.util.AsyncImageLoader;
 
 import de.fhpotsdam.unfolding.Map;
 import de.fhpotsdam.unfolding.geo.Location;
@@ -17,24 +14,32 @@ import ijeoma.motion.tween.Tween;
 public class LiquefactionAnimation {
 
 	PApplet parent;
-	
-	//| Image Values
-	QueueListener listener;
-	int currID = 0;
-	ImageLoader loader;
 
 	//| Graphics
 	LiquefactionLabel label;
-	
-	//| Faults
-	int animating = 0;
+
+	//| Scene Images
+	PImage mainLiquefactionImage;
+	PImage mainLandmarksImage;
+	PImage[] annotationsArray;
+	int[] annotationsPause;
+	int annotation = 0;
+
+	//| Sequence Variable
+	int animating = 9;
 	int timekeeper = 0;
 	String STATUS = "OFF";
 	
-	PImage[] images;
-	
 	float alphaMainLiquefation = 0;
+	float alphaMainLandmarks = 0;
+	float alphaAnnotation = 0;
+	
 	Tween tweenLiquefactionIN;
+	Tween tweenLandmarksIN;
+	Tween tweenLandmarksOUT;
+	Tween tweenLiqueLandmarksOUT;
+	Tween tweenAnnotationIN;
+	Tween tweenAnnotationOUT;
 	
 	public LiquefactionAnimation(PApplet p)
 	{
@@ -44,45 +49,27 @@ public class LiquefactionAnimation {
 	public void setup()
 	{
 		//| Fault Images
-		String[] files = new String[]{
-			"data/images/liquefaction_main.png",
-			"data/images/liquefaction_landmarks.png",
-			"data/images/liquefaction_annotation1.png",
-			"data/images/liquefaction_annotation2.png",
-			"data/images/liquefaction_annotation3.png"
+		annotationsPause = new int[]{250,250,250,250}; //| First Is Innitital Leadin Time
+		String[] a = new String[]{
+			"data/images/liquefaction_an_alluvium.png",
+			"data/images/liquefaction_an_artifical_fill.png",
+			"data/images/liquefaction_an_islands.png",
+			"data/images/liquefaction_an_sand.png"
 		};
-/*		
-		images = new PImage[files.length];
-		loader = new ImageLoader(parent);
-		images[0] = loader.addFile(files[0]);
-		loader.finish();
-*/		
-/*		images = new PImage[files.length];
-		
-		images[0] = this.loadImageAsync(files[0]);
-		images[1] = this.loadImageAsync(files[1]);
-		images[2] = this.loadImageAsync(files[2]);
-*/
-		
-/**/	images = new PImage[5];
-		images[0]  = parent.loadImage("data/images/liquefaction_main.png");
-		System.out.println("1");
-		images[1]  = parent.loadImage("data/images/liquefaction_landmarks.png");
-		System.out.println("2");
-		images[2]  = parent.loadImage("data/images/liquefaction_annotation1.png");
-		System.out.println("3");
-		images[3]  = parent.loadImage("data/images/liquefaction_annotation2.png");
-		System.out.println("4");
-		images[4]  = parent.loadImage("data/images/liquefaction_annotation3.png");
-		System.out.println("5");
-		
-//		listener = new QueueListener(parent, files);
+		annotationsArray = new PImage[a.length];
+		for(int i = 0; i < a.length; i++) annotationsArray[i] = parent.loadImage(a[i]);
 
-		
-		
+		mainLiquefactionImage = parent.loadImage("data/images/liquefaction_main.png");
+		mainLandmarksImage = parent.loadImage("data/images/liquefaction_landmarks.png");
+
 		//| Tween Test
 		Motion.setup(parent);
 		tweenLiquefactionIN = new Tween(0f, 255f, 10f);
+		tweenLandmarksIN = new Tween(0f, 255f, 10f);
+		tweenLandmarksOUT = new Tween(255f, 0f, 10f);
+		tweenLiqueLandmarksOUT = new Tween(255f, 0f, 10f);
+		tweenAnnotationIN = new Tween(0f, 255f, 10f);
+		tweenAnnotationOUT = new Tween(255f, 0f, 20f, 8f);
 		
 		//| Faults Label
 		label = new LiquefactionLabel(parent);
@@ -94,15 +81,107 @@ public class LiquefactionAnimation {
 		if(animating == 0) {
 			label.open();
 			tweenLiquefactionIN.play();
+			tweenLandmarksIN.play();
+			STATUS = "ANIMATING IN";
 		}
 		animating = 1;
+	}
+	
+	public void uplandmarks()
+	{
+		animating = 0;
+		tweenLandmarksIN.play();
+	}
+	
+	public void beginAnnotations()
+	{
+		STATUS = "ON";
+		animating = 2;
+		tweenLiquefactionIN.stop();
+		tweenLandmarksIN.stop();
+	}
+	
+	public void upAnnotation()
+	{
+		timekeeper = 0;
+		animating = 3;
+		tweenAnnotationIN.play();
+		tweenAnnotationOUT.stop();
+		if(alphaMainLandmarks == 255) tweenLandmarksOUT.play();
+	}
+	
+	public void downAnnotation()
+	{	
+		timekeeper = 0;
+		animating = 4;
+		tweenAnnotationIN.stop();
+		tweenAnnotationOUT.play();
+	}
+	
+	public void finishAnnotation()
+	{	
+		annotation -= 1;
+		timekeeper = 0;
+		animating = 5;	
+		tweenAnnotationIN.stop();
+		tweenAnnotationOUT.stop();
+		tweenLandmarksOUT.stop();
+		tweenLandmarksIN.play();
+	}
+	
+	public void closeLiquefaction()
+	{
+		timekeeper = 0;
+		animating = 6;	
+		tweenLandmarksIN.stop();
+		tweenLiqueLandmarksOUT.play();
+		label.close();	
 	}
 	
 	public void update()
 	{
 		switch(animating){
+			case 0:
+			alphaMainLandmarks = tweenLandmarksIN.getPosition();
+			break;
+		
 			case 1:
 			alphaMainLiquefation = tweenLiquefactionIN.getPosition();
+			//alphaMainLandmarks = tweenLandmarksIN.getPosition();
+			if(alphaMainLiquefation == 255) this.beginAnnotations();
+			break;
+			
+			case 2:
+			timekeeper += 1;
+			if(timekeeper > 300) this.upAnnotation(); 
+			break;
+			
+			case 3: //| Annotation In
+			alphaAnnotation = tweenAnnotationIN.getPosition();
+			alphaMainLandmarks = tweenLandmarksOUT.getPosition();
+			if(alphaAnnotation == 255) timekeeper += 1;
+			if(timekeeper > annotationsPause[annotation]) this.downAnnotation();
+			break;
+			
+			case 4: //| Annotation Out
+			timekeeper += 1;
+			alphaAnnotation = tweenAnnotationOUT.getPosition();
+			if(alphaAnnotation == 0) {
+				annotation += 1;
+				if(annotation < annotationsArray.length) this.upAnnotation();
+				else this.finishAnnotation();
+			}
+			break;
+			
+			case 5:
+			alphaMainLandmarks = tweenLandmarksIN.getPosition();
+			if(alphaMainLandmarks == 255) timekeeper += 1;
+			if(timekeeper > 200) this.closeLiquefaction();
+			break;
+			
+			case 6:
+			alphaMainLiquefation = alphaMainLandmarks = tweenLiqueLandmarksOUT.getPosition();
+			if(alphaMainLiquefation == 0 && label.closed() == true) STATUS = "DONE";
 			break;
 		}
 		
@@ -111,65 +190,37 @@ public class LiquefactionAnimation {
 	
 	public void draw(Map m)
 	{
-		
 		float[] tl = m.getScreenPositionFromLocation(new Location(38.339f, -122.796f));	
-/*
-		if(loader.isFinished())  {
-			parent.image(images[0],tl[0], tl[1], 1051, 1051);
-		}else{
-			PApplet.println("loaderNOTDone"); 
-		}
-*/	
-/*	*/	parent.tint(255, alphaMainLiquefation);
-		parent.image(images[0], tl[0], tl[1], 1051, 1051);
+		int xpos = Math.round(tl[0]);
+		int ypos = Math.round(tl[0]);
 		
+		//| Main Sequence
 		parent.tint(255, alphaMainLiquefation);
-		parent.image(images[1], tl[0], tl[1], 1050, 1050);
+		parent.image(mainLiquefactionImage, xpos, ypos, 1051, 1051);
+		parent.tint(255, alphaMainLandmarks);
+		parent.image(mainLandmarksImage, xpos, ypos, 1050, 1050);
+		
+		//| Annotation
+		parent.tint(255, alphaAnnotation);
+		parent.image(annotationsArray[annotation], xpos, ypos, 1050, 1050);
 
-		parent.tint(255, alphaMainLiquefation);
-		parent.image(images[2], tl[0], tl[1], 1050, 1050);
-
-		parent.tint(255, alphaMainLiquefation);
-		parent.image(images[3], tl[0], tl[1], 1050, 1050);
-
-		parent.tint(255, alphaMainLiquefation);
-		parent.image(images[4], tl[0], tl[1], 1050, 1050);
-
+		//| Label
 		parent.tint(255);
 		label.draw(m);
-	}
-
-	
-	public void imageHelper()
-	{
-		
-		
-/*		if (listener.isMediaLoaded) {
-			// images are downloaded, now cycle through them... 
-			parent.frameRate(1);
-			parent.image(listener.images[currID],0,0);
-			currID = (currID+1)%listener.images.length;
-			
-		} else {
-			// anything in here is executed during image loading
-			parent.stroke(parent.random(255));
-			parent.line(0, 0, 100, 100);
-		}*/
-	}
-	
-	public PImage loadImageAsync(String filename) 
-	{
-		PImage vessel = parent.createImage(0, 0, PApplet.ARGB);
-		AsyncImageLoader ail = new AsyncImageLoader(parent, filename, vessel);
-		ail.start();
-		return vessel;
 	}
 	
 	public void off() 
 	{
 		STATUS = "OFF";
-		animating = 0;
+		animating = 9;
 		timekeeper = 0;
+		annotation = 0;
+
+		tweenLiqueLandmarksOUT.stop();
+		
+		alphaMainLiquefation = 0;
+		alphaMainLandmarks = 0;
+		alphaAnnotation = 0;
 	}
 
 	public String status() 

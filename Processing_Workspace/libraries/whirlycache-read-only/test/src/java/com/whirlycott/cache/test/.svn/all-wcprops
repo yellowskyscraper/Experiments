@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/8/trunk/test/src/java/com/whirlycott/cache/test
+END
+BenchmarkOscache.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/8/trunk/test/src/java/com/whirlycott/cache/test/BenchmarkOscache.java
+END
+EhcacheImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/8/trunk/test/src/java/com/whirlycott/cache/test/EhcacheImpl.java
+END
+ExpirationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/8/trunk/test/src/java/com/whirlycott/cache/test/ExpirationTest.java
+END
+DummyCacheable.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/8/trunk/test/src/java/com/whirlycott/cache/test/DummyCacheable.java
+END
+BasicFunctionalityTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/8/trunk/test/src/java/com/whirlycott/cache/test/BasicFunctionalityTest.java
+END
+BenchmarkEhcache.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/8/trunk/test/src/java/com/whirlycott/cache/test/BenchmarkEhcache.java
+END
+TestShutdown.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/8/trunk/test/src/java/com/whirlycott/cache/test/TestShutdown.java
+END
+MultiThreadedTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/8/trunk/test/src/java/com/whirlycott/cache/test/MultiThreadedTest.java
+END
+AnotherShutdownTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/8/trunk/test/src/java/com/whirlycott/cache/test/AnotherShutdownTest.java
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/8/trunk/test/src/java/com/whirlycott/cache/test/Constants.java
+END
+BenchmarkWhirlycache.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/8/trunk/test/src/java/com/whirlycott/cache/test/BenchmarkWhirlycache.java
+END
+ReferenceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/8/trunk/test/src/java/com/whirlycott/cache/test/ReferenceTest.java
+END

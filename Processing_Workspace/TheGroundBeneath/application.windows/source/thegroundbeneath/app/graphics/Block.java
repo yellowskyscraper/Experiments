@@ -17,6 +17,9 @@ public class Block
 	float magnitude;
 	int mag;
 	
+	float alphaMain = 0;
+	float alphaHalo = 0;
+	
 	public Block(PApplet p)
 	{
 		parent = p;
@@ -36,7 +39,10 @@ public class Block
 		else if(population > 100 && population < 120) scale = 7;
 		else if(population > 120 && population < 140) scale = 8;
 		else if(population > 140 && population < 160) scale = 9;
-		else if(population > 160) scale = 10;
+		else if(population > 160 && population < 180) scale = 10;
+		else if(population > 180 && population < 200) scale = 11;
+		else if(population > 200 && population < 220) scale = 12;
+		else if(population > 220 && population < 240) scale = 13;
 		
 		block = new Location(la,lo);
 	}
@@ -46,8 +52,20 @@ public class Block
 		return block;
 	}
 	
-	public void update(float x, float y)
+	public void update(float x, float y, int a)
 	{	
+		switch(a){
+			case 1:
+			//if(alphaMain < 255) alphaMain += 51;
+			//if(alphaHalo < 90) alphaHalo += 10;
+			break;
+			
+			case 2:
+			//if(alphaMain > 0) alphaMain -= 51;
+			//if(alphaHalo > 0) alphaHalo -= 10;
+			break;
+		}
+		
 		xpos = x;
 		ypos = y;
 	}
@@ -56,12 +74,9 @@ public class Block
 	{
 		//| Larger Scale to Bay Model Screen Resolution
 		float[] position = BasicUtils.scaleCoordinates(wid, hei, xpos, ypos);
-
-		parent.smooth();
-		parent.noStroke();
-		parent.fill(84,188,235);
+		parent.fill(84,188,235, 255);
 		parent.ellipse(position[0], position[1], 2, 2);
-		parent.fill(4,188,235, 90);
+		parent.fill(4,188,235, 100);
 		parent.ellipse(position[0], position[1], scale, scale);
 	}
 }

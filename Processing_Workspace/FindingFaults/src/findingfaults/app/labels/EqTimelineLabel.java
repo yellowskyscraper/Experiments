@@ -7,11 +7,11 @@ import processing.core.PConstants;
 import processing.core.PFont;
 import de.fhpotsdam.unfolding.Map;
 import de.fhpotsdam.unfolding.geo.Location;
-import findingfaults.app.graphics.Ball;
 
 public class EqTimelineLabel {
 	
 	PApplet parent;
+	boolean MODEL = false;
 
 	PFont titleText;
 	PFont secondaryTitleText;
@@ -131,10 +131,20 @@ public class EqTimelineLabel {
 		//| Backing
 		parent.pushMatrix();
 		parent.translate(xpos, ypos);
+
+		//| Labal
+		if(MODEL) this.drawLabel(1019 - 140, 34 + 306, -90);
+		else this.drawLabel(27, 1019 - 140, 0);
 		
+		parent.popMatrix();
+	}
+	
+	public void drawLabel(int x, int y, int r)
+	{
 		//| Box Location
 		parent.pushMatrix();
-		parent.translate(20, 889);
+		parent.translate(x,y);
+		parent.rotate(PApplet.radians(r));
 		
 		//| Label
 		int boxW = 306;
@@ -175,9 +185,8 @@ public class EqTimelineLabel {
 		this.drawTimeline();
 
 		parent.popMatrix();
-		parent.popMatrix();
 	}
-	
+
 	public void drawTimeline()
 	{	
 		parent.pushMatrix();
@@ -220,6 +229,7 @@ public class EqTimelineLabel {
 		parent.text("2010",  width + 1, 26);
 		parent.textAlign(PConstants.LEFT);
 		parent.text("1973",  0, 26);
+		
 		parent.popMatrix();
 	}
 	

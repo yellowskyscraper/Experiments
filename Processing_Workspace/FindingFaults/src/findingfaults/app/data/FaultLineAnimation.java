@@ -49,7 +49,6 @@ public class FaultLineAnimation {
 		images[0]  = parent.loadImage("data/images/bay_00.png");
 		images[1]  = parent.loadImage("data/images/bay_01.png");
 		images[2]  = parent.loadImage("data/images/bay_02.png");
-		
 
 		//| Tween Test
 		Motion.setup(parent);
@@ -127,7 +126,7 @@ public class FaultLineAnimation {
 			alphaPrimaryFaults = 255;
 			alphaFaultNames = tweenNamesIN.getPosition();
 			if(alphaFaultNames == 255) timekeeper += 1;
-			if(timekeeper > 200) this.dimFaults();
+			if(timekeeper > 300) this.dimFaults();
 			break;
 
 			case 3:
@@ -150,15 +149,17 @@ public class FaultLineAnimation {
 	public void draw(Map m)
 	{
 		float[] tl = m.getScreenPositionFromLocation(new Location(38.339f, -122.796f));	
-
+		int xpos = Math.round(tl[0]);
+		int ypos = Math.round(tl[0]);
+		
 		parent.tint(255, alphaSecondaryFaults);
-		parent.image(images[0], tl[0], tl[1], 1051, 1051);
+		parent.image(images[0], xpos, ypos, 1051, 1051);
 		
 		parent.tint(255, alphaPrimaryFaults);
-		parent.image(images[1], tl[0], tl[1], 1051, 1051);
+		parent.image(images[1], xpos, ypos, 1051, 1051);
 		
 		parent.tint(255, alphaFaultNames);
-		parent.image(images[2], tl[0], tl[1], 1051, 1051);
+		parent.image(images[2], xpos, ypos, 1051, 1051);
 		parent.tint(255);
 		
 		label.draw(m);

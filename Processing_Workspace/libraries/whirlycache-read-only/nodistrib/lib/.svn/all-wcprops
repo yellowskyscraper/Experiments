@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/nodistrib/lib
+END
+excalibur-store-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/nodistrib/lib/excalibur-store-1.0.jar
+END
+servlet-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/nodistrib/lib/servlet-api.jar
+END
+avalon-framework-4.1.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2/trunk/nodistrib/lib/avalon-framework-4.1.5.jar
+END
+hibernate2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/nodistrib/lib/hibernate2.jar
+END

@@ -10,8 +10,9 @@ import de.fhpotsdam.unfolding.geo.Location;
 public class IntertitleFindingFaults 
 {
 	PApplet parent;
-	int wid = 1400;
-	int hei = 1050;
+	int wid = 1051;
+	int hei = 1051;
+	boolean MODEL = false;
 	Location coordTL;
 	
 	//| Main Controle
@@ -113,11 +114,15 @@ public class IntertitleFindingFaults
 	public void draw(Map m)
 	{	
 		float[] tl = m.getScreenPositionFromLocation(coordTL);
+		int xpos = Math.round(tl[0]);
+		int ypos = Math.round(tl[0]);
 		int buffer = 25;
-		float topLeftX = tl[0] + buffer; 
-		float topLeftY = tl[1] + buffer; 
+		
+		float topLeftX = xpos + buffer; 
+		float topLeftY = ypos + buffer; 
 		float bottomLeftX = 1051 - buffer*2; 
 		float bottomLeftY = 1051 - buffer*2; 
+		
 		float flairTLX = topLeftX + 5;
 		float flairTLY = topLeftY + 5;
 		float flairTRX = bottomLeftX + 15;
@@ -128,13 +133,12 @@ public class IntertitleFindingFaults
 		float flairBLY = bottomLeftY + 15;
 		
 		parent.fill(0, alphaBackground);
-		//parent.noFill();
 		parent.noStroke();
-		parent.rect(tl[0], tl[1], wid, hei);
+		parent.rect(xpos, ypos, wid, hei);
 		parent.stroke(255, alphaForeground);
 		parent.noFill();
 		parent.strokeWeight(1);
-		//parent.rect(topLeftX, topLeftY, bottomLeftX, bottomLeftY);
+		
 		parent.line(flairTLX, topLeftY, flairTRX + 5, topLeftY);
 		parent.line(flairTRX + 10, flairTRY, flairTRX + 10, flairBRY + 5);
 		parent.line(flairBLX, bottomLeftY + 25, flairBRX + 5, bottomLeftY + 25);
@@ -154,14 +158,17 @@ public class IntertitleFindingFaults
 		parent.rect(flairBLX, flairBLY, 5, 5);
 		
 		String title = "Finding Faults";
-		//String quote = "I am a frayed and nibbled survivor in a fallen world, and I am getting along. I am aging and eaten and have done my share of eating too. I am not washed and beautiful, in control of a shining world in which everything fits, but instead am wondering awed about on a splintered wreck I've come to care for, whose gnawed trees breathe a delicate air, whose bloodied and scarred creatures are my dearest companions, and whose beauty bats and shines not in its imperfections but overwhelmingly in spite of them...";
 		String quote = "[It] is the little causes, long continued, which are considered as bringing about the greatest changes of the earth. \n- James Hutton";
 		float quoteWid = 450;
 		
-		float mainTitleX = tl[0];
-		float mainTitleY = 1050/2;
+		float mainTitleX = xpos;
+		float mainTitleY = 1050/3;
 		float mainQuoteX = 1050/2 - quoteWid/2;
-		float mainQuoteY = 1050/2 + 120;
+		float mainQuoteY = 1050/3 + 110;
+
+		if(MODEL) parent.pushMatrix();
+		if(MODEL) parent.translate(0, 1050);
+		if(MODEL) parent.rotate(PApplet.radians(-90));
 		
 		parent.fill(255, alphaForeground);
 		parent.textAlign(PApplet.CENTER);
@@ -172,6 +179,9 @@ public class IntertitleFindingFaults
 		parent.textLeading(15);
 		parent.textFont(displaySubText, 20);
 		parent.text(quote, mainQuoteX, mainQuoteY, quoteWid, 1000);
+
+		if(MODEL) parent.rotate(PApplet.radians(0));
+		if(MODEL) parent.popMatrix();
 	}
 	
 	public String status() 
