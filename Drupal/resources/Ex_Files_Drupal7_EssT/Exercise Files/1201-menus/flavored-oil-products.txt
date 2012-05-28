@@ -1,0 +1,33 @@
+---
+Pure Grade A lemon-flavored olive oil, 1 liter
+SKU = 15002
+Price = $20.00
+
+Grade-A, with a twist!
+<ul><li>No defects</li>
+<li>Free fatty acid content of not more than 1.4%</li>
+<li>Cold-pressed</li></ul>
+Delivered in two bottles.
+
+---
+Pure Grade A basil-flavored olive oil, 1 liter
+SKU = 15003
+Price = $20.00
+
+Grade-A, with a twist!
+<ul><li>No defects</li>
+<li>Free fatty acid content of not more than 1.4%</li>
+<li>Cold-pressed</li></ul>
+Delivered in two bottles.
+
+---
+Pure Grade A garlic-flavored olive oil, 1 liter
+SKU = 15004
+Price = $20.00
+
+Grade-A, with a twist!
+<ul><li>No defects</li>
+<li>Free fatty acid content of not more than 1.4%</li>
+<li>Cold-pressed</li></ul>
+Delivered in two bottles.
+
