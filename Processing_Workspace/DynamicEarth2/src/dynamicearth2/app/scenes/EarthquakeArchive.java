@@ -6,32 +6,34 @@ import processing.xml.XMLElement;
 
 import dynamicearth2.app.elements.LabelEarthquakeArchive;
 import dynamicearth2.app.elements.Quake;
-import dynamicearth2.app.utils.BasicUtils;
 
-import de.fhpotsdam.unfolding.geo.Location;
 import de.fhpotsdam.unfolding.Map;
-
 import ijeoma.motion.Motion;
 import ijeoma.motion.tween.Tween;
 
 public class EarthquakeArchive 
 {
 	PApplet parent;
-
+	
+	boolean BAYMODEL = false;
+	int wid = (BAYMODEL) ? 1500 : 1680;
+	int hei = (BAYMODEL) ? 1200 : 1050;
+	
 	//| Data
-	XMLElement xml;
-	Quake[] quakeArchive;// ArrayList<Quake> quakeArchive;
+	Quake[] quakeArchive;
 	int archiveLength;
 	
 	LabelEarthquakeArchive label;
+	PImage timedial;
 	
 	//| Scrub Variables
 	float scrubber = 0;
+	double rotaryValue = 0;
+	float rotation = 0.0f;
 	
 	//| Sequencing
 	String STATUS = "OFF";
 	int timekeeper = 0;
-	
 	
 	public EarthquakeArchive(PApplet p)
 	{
@@ -41,12 +43,13 @@ public class EarthquakeArchive
 	public void setup(Map m, float w, float h)
 	{
 		//| Earthquake Data
-		xml = new XMLElement(parent, "../data/earthquakearchive/sample50mi1973-2011.xml");
-		quakeArchive = new Quake[xml.getChildCount()];//quakeArchive = new ArrayList<Quake>();
+		XMLElement xml = new XMLElement(parent, "../data/earthquakearchive/sample50mi1973-2011.xml");
 		archiveLength = xml.getChildCount();
+		quakeArchive = new Quake[archiveLength]; //quakeArchive = new ArrayList<Quake>();
+		float[] magnitudeArchive = new float[archiveLength];
 		
 		//| Parse USGS Compiled Earthquakes
-		PApplet.println("Earthquake Timeline: PARSING " + xml.getChildCount());
+		PApplet.println("Earthquake Timeline: PARSING " + archiveLength);
 		for(int i = 0; i < archiveLength; i ++)
 		{
 			String name = xml.getChild(i).getChild(0).getContent();
@@ -56,7 +59,8 @@ public class EarthquakeArchive
 			
 			Quake b = new Quake(parent);
 			b.setup(name, description, lat, lon);
-			quakeArchive[i] = b;//quakeArchive.add(b);
+			quakeArchive[i] = b;
+			magnitudeArchive[i] = b.getMagnitude();
 /* 
 			Location coord = new Location(lon, lat);
 			float[] p = m.getScreenPositionFromLocation(coord);
@@ -71,16 +75,17 @@ public class EarthquakeArchive
 		}
 		PApplet.println("Earthquake Timeline: DONE LOADING " + quakeArchive.length);
 		
+		timedial = parent.loadImage("../data/images/timedial.png");
+		
 		//| Time Line Label
 		label = new LabelEarthquakeArchive(parent);
-//		label.setup(quakeArchive); 
+		label.setup(magnitudeArchive);
 	}
-	
-	//| UPDATE FUNCTIONS
+		
+	//| Update Sequence, Called Once
 	public void start()
 	{
 		STATUS = "ANIMATING IN";
-		label.write(quakeArchive[0].getDate());
 		label.open();
 	}
 	
@@ -93,7 +98,6 @@ public class EarthquakeArchive
 	public void close()
 	{
 		STATUS = "ANIMATING OUT"; 
-		this.batchCommandQuakeArchive();
 		timekeeper = 0;
 		scrubber = 0;
 	}
@@ -105,32 +109,23 @@ public class EarthquakeArchive
 		scrubber = 0;
 	}
 	
+	public String status()
+	{
+		return STATUS;
+	}	
+	
 	public void update()
 	{		
 		if(STATUS.equals("OFF")) {
 			
 		} else if(STATUS.equals("ANIMATING IN")) {
-//			label.update(1973,"January",1, 0);
-			timekeeper += 1;
-			if(timekeeper > 50) step1();
+			label.update(quakeArchive[Math.round(scrubber)].getDate(), quakeArchive[Math.round(scrubber)].getMagnitude());
+			if(label.isOpened()) step1();
 			
 		} else if(STATUS.equals("ON")) {
-
-			if(scrubber < archiveLength-1) {
-				scrubber += 1;
-				quakeArchive[Math.round(scrubber)].open();
-				
-//				if(count < ((metaArchive.length/3)*2)) parent.frameRate(10);
-//				else parent.frameRate(10);
-//				this.jumpThroughQuakes();
-//				count += 1;
-//				label.update(count_year,month[count_month - 1],count_day, count);
-				
-			} else {
-				for (int i = 0; i < archiveLength; i++) quakeArchive[i].close();
-				scrubber = 0;
-//				timekeeper += 1;
-			}
+			this.manageRotaryInflux();
+			label.scrubber(scrubber);
+			label.update(quakeArchive[Math.round(scrubber)].getDate(), quakeArchive[Math.round(scrubber)].getMagnitude());
 			
 		} else if(STATUS.equals("ANIMATING OUT")) {
 //			label.update(1973,"Jan",1, 0);
@@ -140,7 +135,7 @@ public class EarthquakeArchive
 	}
 	
 	//| DRAW FUNCTIONS
-	public void draw(Map m) 	
+	public void draw(Map m)
 	{	
 		//| Timeline Animation
 		if(STATUS.equals("ANIMATING IN")) this.drawAllQuakes(m);
@@ -148,10 +143,10 @@ public class EarthquakeArchive
 		else if(STATUS.equals("ANIMATING OUT")) this.drawAllQuakes(m);
 		
 		//| Legend
-//		label.draw(m);
+		label.draw(m);
 	}
 	
-	public void drawAllQuakes(Map m)
+	private void drawAllQuakes(Map m)
 	{	
 		//| Iterate Quakes & Draw
 		for (int i = 0; i < archiveLength; i++) 
@@ -160,69 +155,85 @@ public class EarthquakeArchive
 			quakeArchive[i].update(pos[0], pos[1]);
 			quakeArchive[i].draw();
 		}
-	
-//		label.writeStatic(quakeArchive.size());
 	}
 	
-	public void jumpThroughQuakes()
+	private void manageRotaryInflux()
 	{
-/*
-		count_year = Integer.parseInt(metaArchive[count][0]);	
-		count_month = Integer.parseInt(PApplet.split(metaArchive[count][5], ".")[1]);
-		count_day = Integer.parseInt(metaArchive[count][2]);
-*/
-	}
-	
-	public void incrementThroughQuakes(Map m)
-	{
-/*
-		PApplet.println(count + " " + metaArchive.length);
-		for (int i = 0; i < quakeArchive.size()-1; i++) 
-		{
-			Quake ball = (Quake) quakeArchive.get(i);			
-			String[] q = ball.getYearMonthDayMagnitude();
-			float[] pos = m.getScreenPositionFromLocation(ball.getLocation());
-			
-			if(metaArchive[count][5].equals(q[5])){
-				ball.triggerQuake();
-				label.write(ball.getYearMonthDayMagnitude());
-			}
+		//| Check Polarity
+		int polarity = 0;
+		if(rotaryValue > 0) polarity = 1;
+		if(rotaryValue < 0) polarity = -1;
+//		PApplet.println(scrubber + " - " + rotaryValue * 10 + " - " +polarity);
 
-			ball.update(pos[0], pos[1]);
-			ball.draw();
+		//| Manage Direction, Idle, and Overlooked Children
+		if(scrubber <= archiveLength - 1 && scrubber >= 0) {
+			switch (polarity) {
+				case -1: //| Negative
+					timekeeper = 0;
+					quakeArchive[Math.round(scrubber)].close();
+					scrubber += rotaryValue * 10; //| += because it's sometime negative
+					if(scrubber < 0) scrubber = 0;
+					//| Check for lost children
+					for (int i = 0; i < archiveLength; i++) if(quakeArchive[i].getStatus() == true && i > scrubber) quakeArchive[i].close();
+					rotation += rotaryValue*2;
+					break;
+				
+				case 0: //| Neutral
+					if(timekeeper > 100) {
+						quakeArchive[Math.round(scrubber)].open();
+						scrubber += 0.1f;
+						rotation += 0.01f;
+						if(scrubber > archiveLength - 1) {
+							scrubber = archiveLength - 1;
+//							for (int i = 0; i < archiveLength; i++) quakeArchive[i].close();
+						}
+					} else {
+						timekeeper += 1;
+					}
+					break;
+				
+				case 1: //| Positive
+					timekeeper = 0;
+					quakeArchive[Math.round(scrubber)].open();
+					scrubber += rotaryValue * 10;
+					if(scrubber > archiveLength - 1) scrubber = archiveLength - 1;
+					//| Check for lost children
+					for (int i = 0; i < archiveLength; i++) if(quakeArchive[i].getStatus() == false && i < scrubber) quakeArchive[i].open();
+					rotation += rotaryValue*2;
+					break;
+			}
 		}
-*/
+		
+		//| Dial Rotation
+		parent.pushMatrix();
+		parent.translate(wid/2, hei);
+		parent.rotate(rotation);
+		parent.translate(-timedial.width/2, -timedial.height/2);
+		parent.tint(255, 255);
+		parent.image(timedial, 0, 0);
+		parent.popMatrix();
 	}
 	
-	public void batchCommandQuakeArchive()
-	{	
-		for (int i = 0; i < archiveLength; i++) 
-		{
-			if(STATUS.equals("ANIMATING IN")) quakeArchive[i].kill();
-			if(STATUS.equals("ANIMATING OUT")) quakeArchive[i].close();
-		}
-	}
-	
-	public void kill() 
+	public void rotaryInterfaceEvent(float s, int c)
 	{
-		parent.frameRate(50);
+		rotaryValue = s;
+	}
+	
+	public void kill()
+	{
 		STATUS = "OFF";
 		scrubber = 0;
 		for (int i = 0; i < archiveLength; i++) quakeArchive[i].kill();
 		label.kill();
 	}
 	
-	public void off() 
+	public void off()
 	{
 		STATUS = "OFF";
 		scrubber = 0;
 		timekeeper = 0;
 	}
-
-	public String status() 
-	{
-		return STATUS;
-	}
+	
 }
 
 

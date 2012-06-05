@@ -2,9 +2,8 @@ package dynamicearth2.app.elements;
 
 import processing.core.PApplet;
 import processing.core.PFont;
-
+import dynamicearth2.app.utils.BasicUtils;
 import de.fhpotsdam.unfolding.geo.*;
-
 import ijeoma.motion.Motion;
 import ijeoma.motion.tween.Tween;
 
@@ -12,7 +11,7 @@ public class Quake
 {
 	PApplet parent;
 	float xpos, ypos;
-	boolean MODEL = false;
+	boolean status = false;
 
 	Location origin;
 	String name;
@@ -21,11 +20,11 @@ public class Quake
 	int mag;
 	
 	PFont magText;
-	
 	PFont displayText;
-	int wid = 1350;
-	int hei = 1080;
-	
+
+	Tween tweenIN;
+	Tween tweenOUT;
+	int animating = 0;
 	float alphaBackground = 0;
 	float alphaForeground = 0;
 	
@@ -36,11 +35,13 @@ public class Quake
 	
 	public void setup(String n, String d, float la, float lo)
 	{
-		wid = parent.screenWidth;
-		hei = parent.screenHeight;
-
 		origin = new Location(la,lo);
 		name = n;
+		
+		//| Animaion Tween
+		Motion.setup(parent);
+		tweenIN = new Tween(0f, 255, 5f);
+		tweenOUT = new Tween(255, 0f, 10f);
 		
 		//| Figure out the Year, Month, Day, and Code (20120101)
 		String[] sd = d.split(" "); //| d = 1974 08 04
@@ -64,7 +65,6 @@ public class Quake
 		date[1] = month;
 		date[2] = sd[2];
 		date[3] = sd[0] +""+ sd[1] +""+ sd[2];
-//		PApplet.println(date[3]+" "+date[1]+" "+date[2]+", "+date[0]);
 		
 		//| Figure out the Magnitude Int and Float
 		String[] a = name.split(" "); //| a = M, 0.0, Location Name
@@ -91,40 +91,59 @@ public class Quake
 	{
 		return origin;
 	}
+		
+	public float getMagnitude()
+	{
+		return magnitude;
+	}
 	
 	public void open()
 	{
-		alphaBackground = 255;
-		alphaForeground = 255;
+		if(status == true) return;
+//		alphaBackground = 255;
+//		alphaForeground = 255;
+		animating = 1;
+		tweenIN.play();
+		status = true;
 	}
 	
 	public void close()
 	{
-		alphaBackground = 0;
-		alphaForeground = 0;
+		if(status == false) return;
+//		alphaBackground = 0;
+//		alphaForeground = 150;
+		animating = 2;
+		tweenOUT.play();
+		status = false;
+	}
+	
+	public boolean getStatus()
+	{
+		return status;
 	}
 	
 	public void update(float x, float y)
 	{	
-		xpos = x;
-		ypos = y;
+		//| Larger Scale to Bay Model Screen Resolution
+		float[] reproject = BasicUtils.scaleCoordinates(985, 788, 1500, 1200, x, y);
+//		float[] reproject = {x,y};
+		xpos = reproject[0];
+		ypos = reproject[1];	
 		
-		/*
 		switch(animating){
 			case 1:
-			float v = tweenIN.getPosition();
-			alphaBackground = v - 155;
-			alphaForeground = v;
-			break;
+				float v = tweenIN.getPosition();
+				alphaBackground = v - 155;
+				alphaForeground = v;
+				break;
 			
 			case 2:
-			float j = tweenOUT.getPosition();
-			alphaBackground = j - 155;
-			alphaForeground = j;
-			if(alphaForeground == 0) animating = 0;
-			break;
+				float j = tweenOUT.getPosition();
+				alphaBackground = j - 155;
+				alphaForeground = j;
+				if(alphaForeground == 0) animating = 0;
+				break;
 		}
-		*/
 	}
 	
 	public void draw() 	
@@ -137,8 +156,8 @@ public class Quake
 		parent.translate(xpos,ypos);
 		
 		parent.smooth();
-		parent.fill(0, 255, 255, alphaBackground);
-		parent.stroke(0, 170, 170, alphaForeground);
+		parent.fill(255, 255, 255, alphaBackground);
+		parent.stroke(170, 170, 170, alphaForeground);
 		parent.strokeWeight(1);
 		parent.ellipse(0, 0, size, size);
 		
@@ -147,6 +166,8 @@ public class Quake
 	
 	public void kill()
 	{
+		tweenIN.stop();
+		tweenOUT.stop();
 		alphaBackground = 0;
 		alphaForeground = 0;
 	}

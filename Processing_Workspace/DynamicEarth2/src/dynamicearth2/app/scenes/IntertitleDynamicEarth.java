@@ -10,9 +10,11 @@ import ijeoma.motion.tween.*;
 public class IntertitleDynamicEarth 
 {
 	PApplet parent;
-	int wid = 1051;
-	int hei = 1051;
-	boolean MODEL = false;
+
+	boolean BAYMODEL = false;
+	int wid = (BAYMODEL) ? 1500 : 1680;
+	int hei = (BAYMODEL) ? 1200 : 1050;
+	
 	Location coordTL;
 	
 	//| Main Controle
@@ -37,9 +39,7 @@ public class IntertitleDynamicEarth
 	
 	public void setup(Map m, float w, float h)
 	{
-		wid = parent.screenWidth;
-		hei = parent.screenHeight;
-		coordTL = new Location(38.339f, -122.796f);
+		coordTL = new Location(38.2268534751704f,-122.917099f);
 		
 		//| Tween Test
 		Motion.setup(parent);
@@ -113,8 +113,8 @@ public class IntertitleDynamicEarth
 		
 		float topLeftX = xpos + buffer; 
 		float topLeftY = ypos + buffer; 
-		float bottomLeftX = 1680 - buffer*2; 
-		float bottomLeftY = 1050 - buffer*2; 
+		float bottomLeftX = wid - buffer*2; 
+		float bottomLeftY = hei - buffer*2; 
 		
 		float flairTLX = topLeftX + 5;
 		float flairTLY = topLeftY + 5;
@@ -151,18 +151,19 @@ public class IntertitleDynamicEarth
 		parent.rect(flairBLX, flairBLY, 5, 5);
 		
 		String title = "Finding Fault Lines";
-		String quote = "We learn geology the morning after the earthquake. \n- Ralph Waldo Emerson";
-		float quoteWid = 500;
+//		String quote = "We learn geology the morning after the earthquake. \n- Ralph Waldo Emerson";
+		String quote = "[It] is the little causes, long contributed, which are considered as bringing about the greatest changes of the earth. \n- James Hulton";
+		float quoteWid = 550;
 		
 		float mainTitleX = xpos;
-		float mainTitleY = 1050/3;
-		float mainQuoteX = 540;
-		float mainQuoteY = 1050/3 + 110;
+		float mainTitleY = hei/3;
+		float mainQuoteX = (BAYMODEL) ? 450 : 540;
+		float mainQuoteY = hei/3 + 110;
 		
 		parent.fill(255, alphaForeground);
 		parent.textAlign(PApplet.CENTER);
 		parent.textFont(displayText, 72);
-		parent.text(title, mainTitleX, mainTitleY, 1680, 200);
+		parent.text(title, mainTitleX, mainTitleY, wid, 200);
 		
 		parent.textAlign(PApplet.LEFT);
 		parent.textLeading(15);
