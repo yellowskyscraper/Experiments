@@ -89,8 +89,8 @@ public class EarthquakeFeed
 		int tracker = 0;
 		
 		//| Seven Day - 2.5 Magnitude
-		xml = new XMLElement(parent, "data/php/eqs7day-M2.5.xml");
-//		xml = new XMLElement(parent, "http://earthquake.usgs.gov/earthquakes/catalogs/eqs7day-M2.5.xml");
+//		xml = new XMLElement(parent, "data/php/eqs7day-M2.5.xml");
+		xml = new XMLElement(parent, "http://earthquake.usgs.gov/earthquakes/catalogs/eqs7day-M2.5.xml");
 		for(int i = 0; i < xml.getChild(0).getChildCount(); i ++)
 		{
 			if(xml.getChild(0).getChild(i).getName().equals("item")){
@@ -111,8 +111,8 @@ public class EarthquakeFeed
 		}
 		
 		//| 30 Day - 2.5 Magnitude
-		xml = new XMLElement(parent, "data/php/retrieve.xml");
-//		xml = new XMLElement(parent, "http://localhost/Yellowskyscraper/applications/usgs/dailyarchive/retrieve.php");
+//		xml = new XMLElement(parent, "data/php/retrieve.xml");
+		xml = new XMLElement(parent, "http://localhost/Yellowskyscraper/applications/usgs/dailyarchive/retrieve.php");
 		totalDaysArchived = xml.getInt("days");
 		
 		for(int i = 0; i < xml.getChildCount(); i ++)

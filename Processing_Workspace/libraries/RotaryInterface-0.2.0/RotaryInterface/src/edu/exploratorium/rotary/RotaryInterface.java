@@ -1,0 +1,403 @@
+package edu.exploratorium.rotary;
+
+import java.lang.reflect.Method;
+
+import processing.core.PApplet;
+
+/**
+ * <p>
+ * An interface for easily accessing data from one or more rotary encoders,
+ * using Ray Gruenig's rotary encoder Arduino program.
+ * </p><p>
+ * To use, create a RotaryInterface instance, and either 
+ * listen for rotary encoder speed updates via a <tt>onRotaryEvent()</tt> method,
+ * or request the most recent rotary encoder speed directly via {@link #getSpeed()}.
+ * </p><p>
+ * This library supports up to four rotary encoders simultaneously,
+ * though the Arduino library currently supports only one.
+ * When multiple rotary encoders are supported by the hardware,
+ * they can be accessed independently via their channel id,
+ * which is passed as a parameter to your <tt>onRotaryEvent()</tt> method.
+ * </p><p>
+ * The 'feel' of the encoders can be adjusted via the {@link #setInputCurve(float)}, 
+ * {@link #setAccel(float)}, {@link #setInertia(float)}, and {@link #setStopThold(float)} methods.
+ * </p><p>
+ * Example:
+ * <pre>
+ * 	void setup () {
+ * 		size(400, 400);
+ *		rotaryInterface = new RotaryInterface(this, true);
+ *	}
+ * 
+ * 	void draw () {
+ * 		// access speed directly, or create an onRotaryEvent method
+ *		//to receive speed updates as they're available
+ *		float spinSpeed = rotaryInterface.getSpeed();
+ * 	}
+ * 
+ * 	void onRotaryEvent (float speed, int channel) {
+ * 		println("Speed:"+speed+"; channel:"+channel);
+ * 	}
+ * </pre>
+ * 
+ * @author esocolofsky
+ */
+public class RotaryInterface {
+	private static final int MAX_NUM_ROTARY_ENCODERS = 4;	// determined by the hardware
+	private static final String ROTARY_EVENT_CALLBACK_NAME = "onRotaryEvent";
+	
+	private static final int VALUE_ROTARY_STOP = 32;
+	private static final int[] VALUE_MIN_CCW = new int[]{ 65, 0, 0, 0 };
+	private static final int[] VALUE_MAX_CCW = new int[]{ 90, 0, 0, 0 };
+	private static final int[] VALUE_MIN_CW = new int[]{ 97, 0, 0, 0 };
+	private static final int[] VALUE_MAX_CW = new int[]{ 122, 0, 0, 0 };
+	
+	private static final float DEFAULT_INPUT_CURVE = 1.5f;
+	private static final float DEFAULT_STOP_THOLD = 0.002f;
+	private static final float DEFAULT_ACCEL = 0.25f;
+	private static final float DEFAULT_INERTIA = 0.6f;
+	private static final boolean DEFAULT_DISPATCH_OUT_OF_RANGE = false;
+	
+	PApplet p;
+	private IRotaryInput rotaryInput;
+	private Method rotaryEventCallback;
+	private Object rotaryEventCallbackScope;
+	
+	private float inputCurve = DEFAULT_INPUT_CURVE;
+	private float stopThold = DEFAULT_STOP_THOLD;
+	private float accel = DEFAULT_ACCEL;
+	private float inertia = DEFAULT_INERTIA;
+	private boolean reportOutOfRange = DEFAULT_DISPATCH_OUT_OF_RANGE;
+	
+	// for each channel:
+	private int[] rawInputs;			// most recent raw value from rotaryInput
+	private Float[] prevSpeeds;			// last processed speed
+	private Float[] newSpeeds;			// most recent processed speed
+	private float[] speeds;				// current speed, eased and updated every frame
+	private int[] outOfRangeValues;		// any out-of-range values reported in the current frame
+	
+	
+	/**
+	 * This constructor signature creates a RotaryInterface with default settings.
+	 * Suitable when using rotary encoder hardware emulating keystrokes,
+	 * in a Processing IDE project.
+	 * 
+	 * @param	p		Reference to the host PApplet.
+	 */
+	public RotaryInterface (PApplet p) {
+		this(p, false, p);
+	}
+	
+	/**
+	 * This constructor signature creates a RotaryInterface with the option to
+	 * specify serial or keyboard emulator rotary encoder hardware.
+	 * 
+	 * @param	p		Reference to the host PApplet.
+	 * @param	serial	<tt>true</tt> to specify that the rotary encoder hardware
+	 * 					will transmit values via a serial port.
+	 */
+	public RotaryInterface (PApplet p, boolean serial) {
+		this(p, serial, p);
+	}
+	
+	/**
+	 * This constructor signature creates a RotaryInterface with a
+	 * serial/keyboard emulator option, and also specifies a scope for the
+	 * {@link #ROTARY_EVENT_CALLBACK_NAME} callback method.
+	 * 
+	 * @param	p		Reference to the host PApplet.
+	 * @param	serial	<tt>true</tt> to specify that the rotary encoder hardware
+	 * 					will transmit values via a serial port.
+	 * @param	eventHandlerScope	Scope for the {@link #ROTARY_EVENT_CALLBACK_NAME} callback method.
+	 */
+	public RotaryInterface (PApplet p, boolean serial, Object eventHandlerScope) {
+		this.p = p;
+		init(p, serial, eventHandlerScope);
+	}
+	
+	
+	//-----<ACCESSORS>-----------------------------------------------//
+	/**
+	 * Get the calculated speed for the default encoder
+	 * (encoder on channel 0).
+	 * 
+	 * @example		RotaryPosition
+	 */
+	public float getSpeed () {
+		return getSpeedByChannel(0);
+	}
+	
+	/**
+	 * Get the calculated speed for the encoder on the specified channel.
+	 * 
+	 * @param channel
+	 */
+	public float getSpeedByChannel (int channel) {
+		return speeds[channel];
+	}
+	
+	/**
+	 * Get the calculated speeds for all encoders.
+	 */
+	public float[] getSpeeds () {
+		return speeds;
+	}
+	
+	/**
+	 * Get the most recent raw values generated by the encoder hardware.
+	 */
+	public int[] getRawInputs () {
+		return rawInputs;
+	}
+	
+	/**
+	 * Get the out-of-range value reported in the current frame,
+	 * if it exists, for the default encoder (encoder on channel 0).
+	 */
+	public int getOutOfRangeValue () {
+		return getOutOfRangeValueByChannel(0);
+	}
+	
+	/**
+	 * Get the out-of-range value reported in the current frame,
+	 * if it exists, for the encoder on the specified channel.
+	 */
+	public int getOutOfRangeValueByChannel (int channel) {
+		return outOfRangeValues[channel];
+	}
+	
+	/**
+	 * Get any out-of-range values reported in the current frame.
+	 */
+	public int[] getOutOfRangeValues () {
+		return outOfRangeValues;
+	}
+	
+	/**
+	 * The input curve determines how much more (or less) of an effect
+	 * encoder hardware speed values have as they approach the max values.
+	 * A value of 1.0 is a linear translation from hardware values to software values;
+	 * a value of 2.0 is a strong curve flattening out lower values;
+	 * a value of 0.5 is a strong curve amplifying lower values.
+	 * Default is {@link #DEFAULT_INPUT_CURVE}.
+	 */
+	public float getInputCurve () {
+		return inputCurve;
+	}
+	public void setInputCurve (float val) {
+		inputCurve = val;
+	}
+	
+	/**
+	 * When speed falls below the stop threshold, the software speed resets to 0.
+	 * 
+	 * Default is {@link #DEFAULT_STOP_THOLD}.
+	 */
+	public float getStopThold () {
+		return stopThold;
+	}
+	public void setStopThold (float val) {
+		stopThold = val;
+	}
+	
+	/**
+	 * The acceleration determines how quickly the software speed approaches
+	 * the values reported by the encoder hardware.
+	 * In effect, this value smoothes out values reported by the encoder hardware.
+	 * 
+	 * Default is {@link #DEFAULT_ACCEL}.
+	 */
+	public float getAccel () {
+		return accel;
+	}
+	public void setAccel (float val) {
+		accel = val;
+	}
+	
+	/**
+	 * Inertia determines how quickly the software speed returns to 0.
+	 * 
+	 * A value of 1.0 will result in a speed that never decelerates;
+	 * A value of 0.0 will result in speeds that stop immediately
+	 * after they're first reported by the hardware.
+	 * Default is {@link #DEFAULT_INERTIA}.
+	 */
+	public float getInertia () {
+		return inertia;
+	}
+	public void setInertia (float val) {
+		inertia = val;
+	}
+	
+	/**
+	 * Dispatch values outside of rotary range.
+	 * Useful when values not used for rotary input are needed for other things,
+	 * e.g. when sensors/buttons are needed in addition to a rotary encoder. 
+	 * 
+	 * Default is {@link #DEFAULT_DISPATCH_OUT_OF_RANGE}.
+	 */
+	public boolean getDispatchOutOfRange () {
+		return reportOutOfRange;
+	}
+	public void setDispatchOutOfRange (boolean val) {
+		reportOutOfRange = val;
+	}
+	//-----</ACCESSORS>----------------------------------------------//
+	
+	
+	/**
+	 * Called by PApplet.
+	 * Application code should not call this method.
+	 */
+	public void pre () {
+		if (reportOutOfRange) {
+			// clear last frame's out-of-range values
+			for (int i=0; i<MAX_NUM_ROTARY_ENCODERS; i++) {
+				outOfRangeValues[i] = -1;
+			}
+		}
+		
+		updateSpeeds();
+	}
+	
+	/**
+	 * Called by PApplet.
+	 * Application code should not call this method.
+	 */
+	public void dispose () {
+		rotaryInput.dispose();
+	}
+	
+	void onRotaryInput (int value, int channel) {
+		int minCCW = VALUE_MIN_CCW[channel];
+		int maxCCW = VALUE_MAX_CCW[channel];
+		int minCW = VALUE_MIN_CW[channel];
+		int maxCW = VALUE_MAX_CW[channel];
+		int normalizedValue;
+		float speed;
+		
+		if (value >= minCCW && value <= maxCCW) {
+			normalizedValue = value - (minCCW-1);
+			speed = normalizedValue / (float)(maxCCW - minCCW);
+			speed = (float)Math.pow(speed, inputCurve);
+			speed *= -1;
+		} else if (value >= minCW && value <= maxCW) {
+			normalizedValue = value - (minCW-1);
+			speed = normalizedValue / (float)(maxCW - minCW);
+			speed = (float)Math.pow(speed, inputCurve);
+		} else if (value == VALUE_ROTARY_STOP) {
+			speed = 0;
+		} else {
+			// value is out of range for this channel...
+			if (reportOutOfRange) {
+				// if reporting out-of-range values, store the value
+				outOfRangeValues[channel] = value;
+				if (rotaryEventCallback != null) {
+					// if a callback is set up, report the value
+					RotaryEvent rotaryEvent = new RotaryEvent(RotaryEvent.OUT_OF_ROTARY_RANGE, 0, channel, value);
+					dispatchEvent(rotaryEvent);
+				}
+			} else {
+				// else just log and ignore it.
+				System.err.println("Received value ["+ value +"] is out of range for channel ["+ channel +"].\n"+
+					"Acceptable values are from ["+ minCCW +"-"+ maxCCW +"] CCW and from ["+ minCW +"-"+ maxCW +"] CW.");
+			}
+			return;
+		}
+		
+		rawInputs[channel] = value;
+		newSpeeds[channel] = new Float(speed);
+	}
+	
+	private void init (PApplet p, boolean serial, Object eventHandlerScope) {
+		// register with PApplet methods
+		p.registerPre(this);
+		p.registerDispose(this);
+		
+		// attempt to set up rotary event callback method
+		Class<?> C = eventHandlerScope.getClass();
+		String methodName = ROTARY_EVENT_CALLBACK_NAME;
+//		Class<?> paramClasses[] = new Class[] { Float.TYPE, Integer.TYPE };
+		Class<?> paramClasses[] = new Class[] { RotaryEvent.class };
+		try {
+			rotaryEventCallback = C.getMethod(methodName, paramClasses);
+			rotaryEventCallbackScope = eventHandlerScope;
+		} catch (NoSuchMethodException e) {
+			System.err.println("No public method "+ methodName +"(RotaryEvent) found in class "+ C.getName() +".\n"+
+					"Rotary encoder speed can still be accessed via RotaryInterface.getSpeed().");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		// set up rotary input
+		if (serial) {
+			rotaryInput = new RotarySerial(this);
+		} else {
+			rotaryInput = new RotaryKeyboard(this);
+		}
+		
+		// initialize fields used for translating rotary input into usable, smoothed values
+		rawInputs = new int[MAX_NUM_ROTARY_ENCODERS];
+		prevSpeeds = new Float[MAX_NUM_ROTARY_ENCODERS];
+		newSpeeds = new Float[MAX_NUM_ROTARY_ENCODERS];
+		speeds = new float[MAX_NUM_ROTARY_ENCODERS];
+		outOfRangeValues = new int[MAX_NUM_ROTARY_ENCODERS];
+		for (int i=0; i<MAX_NUM_ROTARY_ENCODERS; i++) {
+			rawInputs[i] = -1;
+			prevSpeeds[i] = null;
+			newSpeeds[i] = null;
+			speeds[i] = 0;
+			outOfRangeValues[i] = -1;
+		}
+	}
+	
+	private void updateSpeeds () {
+		Float newSpeed;
+		for (int i=0; i<MAX_NUM_ROTARY_ENCODERS; i++) {
+			newSpeed = newSpeeds[i];
+			if (newSpeed != null) {
+				// input received on this channel this frame
+				prevSpeeds[i] = newSpeed;
+				speeds[i] += (newSpeed - speeds[i]) * accel;
+				newSpeeds[i] = null;
+			} else {
+				// no input received on this channel this frame
+				if (prevSpeeds[i] == null) {
+					// already stopped, so bail.
+					continue;
+				}
+				if (prevSpeeds[i] == 0) {
+					// input is idle, so decelerate.
+					speeds[i] *= inertia;
+					if (Math.abs(speeds[i]) < stopThold) {
+						// eased to a stop.
+						speeds[i] = 0;
+						prevSpeeds[i] = null;
+					}
+				} else {
+					// input is not idle, sketch is just running faster
+					// than serial buffer is filling up.
+					// so, don't change speed this frame.
+					continue;
+				}
+			}
+			
+			if (rotaryEventCallback != null) {
+				RotaryEvent rotaryEvent = new RotaryEvent(RotaryEvent.ROTARY_CHANGE, speeds[i], i, -1);
+				dispatchEvent(rotaryEvent);
+			}
+		}
+	}
+	
+	private void dispatchEvent (RotaryEvent rotaryEvent) {
+		try {
+			rotaryEventCallback.invoke(rotaryEventCallbackScope, new Object[] { rotaryEvent });
+		} catch (Exception e) {
+			System.err.println("Error invoking rotary event handler '"+ ROTARY_EVENT_CALLBACK_NAME +".\n"+
+					"Disabling event handler; rotary encoder speed can still be accessed via RotaryInterface.getSpeed().");
+			e.printStackTrace();
+			rotaryEventCallback = null;
+			rotaryEventCallbackScope = null;
+		}
+	}
+}

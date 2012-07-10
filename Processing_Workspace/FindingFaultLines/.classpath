@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/base/core/ant-launcher.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="DynamicEarth2/lib/base/core"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/base/core/ant.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="DynamicEarth2/lib/base/core"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/base/core/core.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="DynamicEarth2/lib/base/core"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/user/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="lib/user/Unfolding.jar"/>
+	<classpathentry kind="lib" path="lib/user/glgraphics.jar"/>
+	<classpathentry kind="lib" path="lib/user/opengl.jar"/>
+	<classpathentry kind="lib" path="lib/user/ijeomacore.jar"/>
+	<classpathentry kind="lib" path="lib/user/ijeomamotion.jar"/>
+	<classpathentry kind="lib" path="lib/base/core/RXTXcomm.jar"/>
+	<classpathentry kind="lib" path="lib/base/core/serial.jar"/>
+	<classpathentry kind="lib" path="lib/user/RotaryInterface.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title>My Node Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="http://localhost:8080/socket.io/socket.io.js"></script>
+<script>
+  var socket = io.connect('http://localhost:8080');
+  
+  socket.on('hide', function(data){
+  	$(data.div).slideUp();
+  });
+
+  socket.on('show', function(data){
+  	$(data.div).show("slow");
+  });
+</script>
+<body>
+	<div id="hollowbacking">
+    A special thanks to all that made this possible<br><br> 
+    &bull; <a href="http://www.youtube.com/watch?v=LSQdEkcm6zs">Blade Runner - &ldquo;Just eyes&rdquo;</a><br>
+    &bull; <a href="http://www.tonylea.com/2012/a-simple-node-example/" target="_blank">Installing Node, NPM and Express on OSX from Scratch</a> by Dan Dean<br>
+    &bull; <a href="http://socket.io/#how-to-use">Socket.io</a><br>
+    &bull; <a href="http://nodejs.org/">Node.js</a>
+  </div>
+	<div id="mylittlediv">&ldquo;Chew, If only you could see what I've seen with your eyes.&rdquo; <br> <div class="quote">- Roy Batty</div></div>
+</body>
+</html>
+

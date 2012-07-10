@@ -1,0 +1,41 @@
+body {
+	background-color: #CCFFCC;
+	padding: 0px;
+	margin: 20px;
+}
+
+#mylittlediv {
+	position:absolute;
+	padding: 50px;
+	width:330;
+	height:150;
+	background-color: #CCFFCC;
+	font: 30px Helvetica, Arial, sans-serif;
+	color: #85A685;
+	border: 1px solid #B8E6B8;
+}
+
+#mylittlediv .quote{
+	margin-top: 30px;
+	margin-left: 5px;
+	font: 12px Helvetica, Arial, sans-serif;
+	color: #85A685;
+}
+
+#hollowbacking {
+	position:absolute;
+	padding: 50px;
+	width:330;
+	height:150;
+	background-color: #B8E6B8;
+	font: 10px Helvetica, Arial, sans-serif;
+	color: #85A685;
+	
+	box-shadow:inset 0 0 10px #85A685;
+	-moz-box-shadow:inset 0 0 10px #85A685;
+}
+
+#hollowbacking a{
+	font: 10px Helvetica, Arial, sans-serif;
+	color: #85A685;
+}

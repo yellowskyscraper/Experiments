@@ -111,8 +111,8 @@ public class EarthquakeFeed
 		}
 		
 		//| 30 Day - 2.5 Magnitude
-//		xml = new XMLElement(parent, "data/php/retrieve.xml");
-		xml = new XMLElement(parent, "http://localhost/Yellowskyscraper/applications/usgs/dailyarchive/retrieve.php");
+		xml = new XMLElement(parent, "data/php/retrieve.xml");
+//		xml = new XMLElement(parent, "http://localhost/Yellowskyscraper/applications/usgs/dailyarchive/retrieve.php");
 		totalDaysArchived = xml.getInt("days");
 		
 		for(int i = 0; i < xml.getChildCount(); i ++)

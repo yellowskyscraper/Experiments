@@ -3,6 +3,7 @@ package populationvisualization;
 import processing.core.PApplet;
 import processing.core.PFont;
 import processing.xml.XMLElement;
+import processing.pdf.*;
 
 import de.fhpotsdam.unfolding.*;
 import de.fhpotsdam.unfolding.geo.*;
@@ -35,7 +36,7 @@ public class PopulationVisualization extends PApplet
 		hei = screenHeight;
 		
 		background(0);
-		size(wid, hei);
+		size(wid, hei, PDF, "population.pdf");
 
 		//| Model Boundaries
 		coordTL = new Location(38.33357743803447f,-122.76329040527344f);
@@ -54,24 +55,25 @@ public class PopulationVisualization extends PApplet
 		xml = new XMLElement(this, "http://localhost/Experiments/Processing_Workspace/PopulationVisualization/src/data/php/occupancy_bay_all.xml");
 		
 		//| Copy
-		displayText = createFont("data/fonts/Explo/Explo-Ultra.otf", 50);
-		displaySubText = createFont("data/fonts/Explo/Explo-Medi.otf", 50);
+		//displayText = createFont("data/fonts/Explo/Explo-Ultra.otf", 50);
+		//displaySubText = createFont("data/fonts/Explo/Explo-Medi.otf", 50);
 	}
 
 	public void draw() 	
 	{
 		//| Map and Overlay
 		background(0);
-		map.draw();
-		fill(0,0,0,200);
-		rect(-1,-1,screenWidth+2,screenHeight+2);
+		//map.draw();
+		//fill(0,0,0,200);
+		//rect(-1,-1,screenWidth+2,screenHeight+2);
 		
 		//| Population Logic
 		this.totalPopulation();
 		
+		exit();
 		//| Model Bounds
 		//this.markers();
-		this.copy("No Self Is Of Itself Alone", "For it is never only about the thing itself; it \nis also about the image one obtains of a thing.");
+		//this.copy("No Self Is Of Itself Alone", "For it is never only about the thing itself; it \nis also about the image one obtains of a thing.");
 	}
 	
 	public void totalPopulation()

@@ -6,6 +6,8 @@
 	<classpathentry kind="lib" path="lib/base/core/glgraphics.jar"/>
 	<classpathentry kind="lib" path="lib/base/core/opengl.jar"/>
 	<classpathentry kind="lib" path="lib/base/core/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="lib/base/core/itext.jar"/>
+	<classpathentry kind="lib" path="lib/base/core/pdf.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

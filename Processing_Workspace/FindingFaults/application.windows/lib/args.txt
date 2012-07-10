@@ -1,3 +1,0 @@
-
-findingfaults.FindingFaults
-FindingFaults.jar

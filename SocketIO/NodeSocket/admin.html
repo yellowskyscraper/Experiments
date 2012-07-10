@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title>My Admin Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="http://localhost:8080/socket.io/socket.io.js"></script>
+<script>
+  var socket = io.connect('http://localhost:8080');
+  $('document').ready(function(){
+  	$('#hide_button').click(function(){
+  		socket.emit('hide_me', { div: '#mylittlediv' });
+  	});
+
+  	$('#show_button').click(function(){
+  		socket.emit('show_me', { div: '#mylittlediv' });
+  	});
+  });
+</script>
+<body>
+  <center> 
+  	<button id="hide_button">open the div</button>
+  	<button id="show_button">close the div</button>
+  </center>
+</body>
+</html>
