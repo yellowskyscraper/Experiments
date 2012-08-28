@@ -37,7 +37,7 @@ public class FindingFaultLines extends PApplet {
 	boolean rotarySpinBool = false;
 	
 	//| Director
-	boolean PAUSE = false;
+	boolean PAUSE = true;
 	String SCENE = "INTERTITLE";
 	
 	//| Data
@@ -58,7 +58,7 @@ public class FindingFaultLines extends PApplet {
 		rotaryInterface.setDispatchOutOfRange(true);
 
 		//| Model Boundaries & Image
-		baymodel = loadImage("data/images/bounds4_1500x1200.jpg");
+		baymodel = loadImage("data/images/bounds5_1500x1200.jpg");
 		pause = loadImage("data/images/pause.jpg");
 		coordTL = new Location(38.2268534751704f,-122.917099f);
 		coordBR = new Location(37.37179426133591f,-121.56440734863281f);
@@ -98,6 +98,8 @@ public class FindingFaultLines extends PApplet {
 				PAUSE = true;
 			}
 		});
+		
+		PApplet.println("FINDING FAULT LINES IS CHILLING, STANDIN BY IF YOU WILL");
 	}
 	
 	public void reset()
@@ -136,8 +138,11 @@ public class FindingFaultLines extends PApplet {
 	{
 		if(PAUSE)
 		{
-			tint(255, 255);
-			image(pause, 0, 0);
+//			tint(255, 255);
+//			image(pause, 0, 0);		
+			fill(0);
+			noStroke();
+			rect(0,0,wid-1,hei-1);
 			return;
 		} 
 		

@@ -133,17 +133,17 @@ public class LabelEarthquakeArchive {
 	{	
 		//| Label Starting Variables
 		int buffer = 30;
-		int boxW = Math.round((archiveLength / 3) + 50 + 1); // TASK: once i load 2012 this might go back to (archiveLength / 4)
-		int boxH = 159;
+		int boxW = Math.round((archiveLength / 3) + 50 + 1); //| TASK: Divisble
+		int boxH = 260;
 		int xpos = buffer + 25;
 		int ypos = hei - buffer - boxH;
-		
-		int timelineW = Math.round(archiveLength / 3 + 1); // TASK: once i load 2012 this might go back to (archiveLength / 4)
+
+		int timelineW = Math.round(archiveLength / 3 + 1); //| TASK: Divisble
 		float timelineStart = 0.0f; 
-		float carrotIncrement = 0.334f; // TASK: once i load 2012 this might go back to 0.25
-		float carrotPosition = Math.round(scrubber / 3); // TASK: once i load 2012 this might go back to 4
-		float tick = carrotPosition; //| Check for graphical elements
-		
+		float carrotIncrement = 0.334f; //| TASK: Divisble
+		float carrotPosition = Math.round(scrubber / 3); //| TASK: Divisble
+		float tick = carrotPosition;
+
 		//| Label Coordinates
 		parent.pushMatrix();
 		parent.translate(xpos, ypos);
@@ -167,16 +167,16 @@ public class LabelEarthquakeArchive {
 		parent.smooth();
 		parent.fill(0, alphaForeground);
 		parent.textFont(titleText, 16);
-		parent.text("Recorded Earthquakes from 1973 to Present",  25, 37);
+		parent.text("Finding Fault Lines",  25, 37);
 		
 		parent.fill(100, 100, 100, alphaForeground);
 		parent.textFont(secondaryText, 12);
 		parent.textLeading(14);
-		parent.text("Source: United States Geological Service", 25, 42, 268, 100);
+		parent.text("A history of earthquakes in the Bay Area since 1973 \n \nEach dot marks the location of an earthquake’s epicenter. The size of the dot shows the quake’s magnitude. \n \nEarthquakes tend to cluster in linear patterns called fault lines.", 25, 42, 300, 130);
 
 		//| Earthquake Current & Timeline Push Matrix
 		parent.pushMatrix();
-		parent.translate(25, 114);
+		parent.translate(25, 210);
 		
 		parent.noSmooth();
 		parent.noStroke();
@@ -185,7 +185,8 @@ public class LabelEarthquakeArchive {
 		{
 			float mag = (quakes[i] == 0) ? 1 : quakes[i] * 3;
 			//| Graph quakes to a line
-			parent.fill(158, 194, 175, alphaForeground);
+//			parent.fill(158, 194, 175, alphaForeground);
+			parent.fill(188, 214, 205, alphaForeground);
 			parent.rect(timelineStart, 15 - mag, 1, mag);
 			timelineStart += carrotIncrement;
 		}
@@ -216,6 +217,8 @@ public class LabelEarthquakeArchive {
 		
 		//| Timeline Braces and Year
 		parent.smooth();
+		parent.fill(154, 194, 185, alphaForeground);
+		parent.rect(0, 14, timelineW, 1); //| Bottom line
 		parent.fill(0, alphaForeground);
 		parent.rect(-1, 0, 1, 15); //| Left Brace
 		parent.rect(timelineW, 0, 1, 15); //| Right Brace
@@ -223,9 +226,9 @@ public class LabelEarthquakeArchive {
 		parent.fill(0, alphaForeground);
 		parent.textFont(yearText, 9);
 		parent.textAlign(PConstants.RIGHT);
-		parent.text("Present",  timelineW + 1, 26);
+		parent.text("Present",  timelineW + 1, 28);
 		parent.textAlign(PConstants.LEFT);
-		parent.text("1973",  -3, 26);
+		parent.text("1973",  -3, 28);
 		
 		parent.popMatrix(); //| Pop Timeline Matrix
 		parent.popMatrix(); //| Pop Label Matrix

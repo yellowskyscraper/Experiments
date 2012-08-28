@@ -98,8 +98,11 @@ public class Orientation extends PApplet {
 	{
 		if(PAUSE)
 		{
-			tint(255, 255);
-			image(pause, 0, 0);
+//			tint(255, 255);
+//			image(pause, 0, 0);		
+			fill(0);
+			noStroke();
+			rect(0,0,wid-1,hei-1);
 			return;
 		}
 		

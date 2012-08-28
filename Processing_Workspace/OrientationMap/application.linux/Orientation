@@ -1,0 +1,4 @@
+#!/bin/sh
+
+APPDIR=$(dirname "$0")
+java -Xmx2024M -XX:MaxPermSize=128M -Djava.library.path="$APPDIR" -cp "lib/Orientation.jar"orientation.Orientation

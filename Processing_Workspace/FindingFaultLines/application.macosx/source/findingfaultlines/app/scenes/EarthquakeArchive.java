@@ -114,7 +114,7 @@ public class EarthquakeArchive
 		citiesSecondary = parent.loadImage("data/images/cities_secondaries.png");
 		citiesPrimary = parent.loadImage("data/images/cities_primaries.png");
 		
-		timedial = parent.loadImage("data/images/dialL.png");
+//		timedial = parent.loadImage("data/images/dialL.png");
 		
 		faultlinesNames = parent.loadImage("data/images/faultlines_names.png");
 		faultlinesMajor = parent.loadImage("data/images/faultlines_major.png");

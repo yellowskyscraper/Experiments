@@ -38,7 +38,7 @@ public class LabelOrientation
 	float alphaReveal = 0;
 	
 	int currentElevation = 63;
-	String textElevation = "400 meters";
+	String textElevation = "You're 400 meters";
 	String textSecondary = "below sea level";
 	
 	public LabelOrientation(PApplet p)
@@ -73,12 +73,12 @@ public class LabelOrientation
 		
 		if(elevation < 16){
 			int txt = (convertedElevation - 47) * 25;
-			textElevation = txt + " meters";
+			textElevation = "You're " + txt + " meters";
 			textSecondary = "below sea level";
 			
 		} else if(elevation > 16) {
 			int txt = (elevation - 16) * 25;
-			textElevation = txt + " meters";
+			textElevation = "You're " + txt + " meters";
 			textSecondary = "above sea level";
 			
 		} else {
@@ -152,7 +152,7 @@ public class LabelOrientation
 	{	
 		//| Label Starting Variables
 		int buffer = 30;
-		int boxW = 305;
+		int boxW = 315;
 		int boxH = 199;
 		int xpos = buffer + 70; //| + 70 to offset from trench
 		int ypos = hei - buffer - boxH;
@@ -179,7 +179,7 @@ public class LabelOrientation
 		parent.smooth();
 		parent.fill(0, alphaForeground);
 		parent.textFont(titleText, 16);
-		parent.text("Bay Area Topographic Model",  25, 37);
+		parent.text("Bay Area Topography",  25, 37);
 		
 		parent.fill(100, 100, 100, alphaForeground);
 		parent.textFont(secondaryText, 12);
@@ -242,10 +242,10 @@ public class LabelOrientation
 
 		parent.textFont(secondaryText, 12);
 		parent.textLeading(14);
-		parent.fill(140, alphaReveal);
-		parent.text("In total the model", 148, 35, 268, 100);
-		parent.fill(140, alphaReveal);
-		parent.text("covers 1,575 meters", 148, 47, 268, 100);
+		parent.fill(100, alphaReveal);
+		parent.text("You've traveled a", 152, 23, 268, 100);
+		parent.text("total of 1,575 meters", 152, 35, 268, 100);
+		parent.text("that is 5,166 feet", 152, 47, 268, 100);
 		
 		//| Elevation Ticker & Matrix
 		float ticker = currentElevation;
@@ -254,17 +254,18 @@ public class LabelOrientation
 		parent.translate(0, ticker);
 		
 		parent.fill(0, alphaTicker);
-		parent.rect(0, 0, 136, 1);
-		if(ticker > 55) parent.rect(135, -2, 1, 3);
-		else if(ticker < 8) parent.rect(135, 0, 1, 3);
-		else parent.rect(135, -2, 1, 5);
+		parent.rect(0, 0, 145, 1);
+		if(ticker > 55) parent.rect(145, -2, 1, 3);
+		else if(ticker < 8) parent.rect(145, 0, 1, 3);
+		else parent.rect(145, -2, 1, 5);
 
 		parent.textFont(secondaryText, 12);
 		parent.textLeading(14);
+//		parent.fill(0, 0);
 		parent.fill(0, alphaTicker);
-		parent.text(textElevation, 143, -11, 268, 100);
+		parent.text(textElevation, 152, -11, 268, 100);
 		parent.fill(100, alphaTicker);
-		parent.text(textSecondary, 143, 1, 268, 100);
+		parent.text(textSecondary, 152, 1, 268, 100);
 
 		parent.popMatrix();
 		parent.popMatrix();
@@ -280,7 +281,7 @@ public class LabelOrientation
 		alphaReveal = 0;
 		
 		currentElevation = 63;
-		textElevation = "400 meters";
+		textElevation = "You're 400 meters";
 		textSecondary = "below sea level";
 		
 		tweenBackgroundIN.seek(0);

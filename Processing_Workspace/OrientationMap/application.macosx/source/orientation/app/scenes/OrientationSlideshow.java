@@ -159,7 +159,7 @@ public class OrientationSlideshow {
 	public void setup()
 	{
 		//| Main Graphics	
-		bayModel = parent.loadImage("data/images/bounds4_1500x1200.jpg");
+		bayModel = parent.loadImage("data/images/bounds5_1500x1200.jpg");
 
 		elevationCurrentArray = new PImage[65];
 		elevationPastArray = new PImage[28];
@@ -205,9 +205,9 @@ public class OrientationSlideshow {
 		
 		tweenBayModelIN = new Tween(0f, 255f, 80f);
 		
-		tweenElevationIN = new Tween(0f, 255f, 17f); //| 30
-		tweenElevationOUT = new Tween(255f, 0f, 50f, Tween.LINEAR_EASE_OUT); //| 15, Tween.LINEAR_EASE_OUT
-		tweenPastElevationDIM = new Tween(180f, 100f, 30f, Tween.LINEAR_EASE_OUT);
+		tweenElevationIN = new Tween(0f, 255f, 10f); //| 30
+		tweenElevationOUT = new Tween(255f, 0f, 25f, Tween.LINEAR_EASE_OUT); //| 15, Tween.LINEAR_EASE_OUT
+		tweenPastElevationDIM = new Tween(200f, 100f, 30f, Tween.LINEAR_EASE_OUT);
 
 		tweenResidue1IN = new Tween(0f, 255f, 20f);
 		tweenResidue2IN = new Tween(0f, 255f, 20f);
@@ -400,7 +400,7 @@ public class OrientationSlideshow {
 						if(alphaCurrentElevation == 255 && stepkeeper == 0) {
 							tweenElevationIN.play();
 							
-							alphaPastElevation = 180;
+							alphaPastElevation = 200;
 							elevationCountForLabel += 1;
 			
 							alphaPreviousElevation = 255;
@@ -573,7 +573,7 @@ public class OrientationSlideshow {
 						if(alphaCurrentElevation == 255 && stepkeeper == 0) {
 							tweenElevationIN.play();
 
-							alphaPastElevation = 180;
+							alphaPastElevation = 200;
 							elevationCountForLabel += 1;
 			
 							alphaPreviousElevation = 255;
