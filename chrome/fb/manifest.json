@@ -1,14 +1,18 @@
 {
-  "manifest_version": 2,
   "name": "Re-Distraction",
-  "version": "0.1",
+  "version": "0.2",
+  "manifest_version": 2,
+
   "description": "The world is filled with spectacular and wondrous things, and the internet brings such inspiring things right to your very door. Facebook however limits your consumption of such awesome things by dominating your attention. This extension aims to re-direct your idle curiosities onward to more fruitful pastures. ",
   "icons": { 
     "16": "icon16.png",
     "48": "icon48.png",
     "128": "icon128.png" 
   },
-  "background": "background.html",
+  "background": { 
+    "scripts":["eventBackground.js"],
+    "persistent": false
+  },
   "content_scripts": [{
      "matches": ["http://*.facebook.com/*"],
      "js": ["content.js"]

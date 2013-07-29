@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/75/trunk/unfolding-r57/src/de/fhpotsdam/unfolding/geo
+END
+AbstractProjection.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/75/trunk/unfolding-r57/src/de/fhpotsdam/unfolding/geo/AbstractProjection.java
+END
+Transformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/75/trunk/unfolding-r57/src/de/fhpotsdam/unfolding/geo/Transformation.java
+END
+LinearProjection.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/75/trunk/unfolding-r57/src/de/fhpotsdam/unfolding/geo/LinearProjection.java
+END
+Location.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/75/trunk/unfolding-r57/src/de/fhpotsdam/unfolding/geo/Location.java
+END
+MercatorProjection.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/75/trunk/unfolding-r57/src/de/fhpotsdam/unfolding/geo/MercatorProjection.java
+END

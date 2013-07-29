@@ -1,0 +1,67 @@
+2009/07/09
+- menu on device does not work to open PP
+- play buttons turn to stop when playing, but not back to play when end of stream happens.
+-  when you hit record, it skips over the actual recording and goes right to the submit/listen page - surprisingly, no error on client or server is thrown that I can see. (actually, when I hit play I  get this error:  File "/usr/lib/python2.5/site-packages/roundclient/gui_helper.py", line 76, in release
+
+ERRORS
+
+- when PT Exhibit Overview artwork selected for listening:   File "./client.py", line 453, in on_demographics_okay_clicked
+   self.goto_listen_page()
+ File "./client.py", line 363, in goto_listen_page
+   self.wTree.get_widget("educators_checkbutton").get_active(),
+ File "./client.py", line 582, in listen_selections_text
+   if artwork: str += "<b>" + artwork["artist_name"] + ":</b> <i>" + artwork["name"] + "</i>"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+
+- when Aldrich is supposed to playback:
+
+- when selecting CO or Aldrich for speaking, it gives wrong questions and has error:  Traceback (most recent call last):
+ File "./client.py", line 353, in on_category_clicked
+   self.goto_page_after_artwork()
+ File "./client.py", line 384, in goto_page_after_artwork
+   self.initialize_question_page(self.current_artwork["id"])
+TypeError: 'NoneType' object is unsubscriptable
+
+PRIORITY LIST:
+* icon to start the program
+* it would ideally start at a randomized location each time, fading in of
+  course! – whole stream stops at end of mp3 now.
+* Mp3 of music doesn't loop…not sure if it ever did, but it should if possible
+* Ensure that hardware devices are consistent.
+* remove space between ‘contributors’ and ‘answer’ – I think this only happens
+  when All contributors are selected…or actually, only when there is no age
+  group selected
+* There is a space at the beginning of the line indicating the type of people
+  speaking “_male doctors…” – please remove – I think it’s only when the line
+  begins with the gender.
+* That same line should begin with a capital – right now, it does so only when
+  “All” is indicated
+
+
+OTHER LIST:
+* Add an option to see a certain log level in the logging. Default to INFO
+* Clean up what is printed to the logs. Make sure all events are recorded
+  to the info that should be.
+* create a log for the client so we can replay any errors that may occur.
+* Create an install script for the server which installs all dependancies
+  and sets up the database.
+* Speaking of fading in, the whole stream should fade in and fade
+  out for each session
+* We probably should implement the check box functionality for
+  Type (like in pauseplay) so people can check nurses AND patients, for
+  example
+* Eventually, it would still be nice to add the individual
+  recording volume adjustment capability…you haven't done this yet,
+  right?
+* Panning seems to be funky.  I have it set for 0,0, so there should be no
+  panning, correct?  But there is panning anyway.
+* Create a web admin for the categories, questions, compositions, etc.
+  This will be specific to roundware so things like maxdeadair can be
+  displayed in second instead of nanoseconds.
+
+DONE?:
+* There are definitely still some pops and clicks in the
+  playback…is icecast buffering properly?  It does start playing right
+  away which suggests little or no buffering.  Perhaps it is having
+  trouble keeping up because it has no buffer?  Usually if I stop the
+  stream and start again, it will be better.
